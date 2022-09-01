@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "logoResellerImg": {
+        "mutation": {
+          "transition": {
+            "collapsed": {
+              "value": "opacity {alias.mutation.transitionDuration.opacity.md.value} ease-out"
+            },
+            "expanded": {
+              "value": "opacity {alias.mutation.transitionDuration.opacity.xxxl.value} ease"
+            }
+          }
+        }
+      }
+    }
+  }
+}

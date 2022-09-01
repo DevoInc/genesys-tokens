@@ -1,0 +1,34 @@
+{
+  "cmp": {
+    "select": {
+      "valueIcon": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            }
+          }
+        },
+        "space": {
+          "marginRight": {
+            "sm": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

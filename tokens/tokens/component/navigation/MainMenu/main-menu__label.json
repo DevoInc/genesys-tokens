@@ -1,0 +1,29 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "label": {
+        "mutation": {
+          "transitionDuration": {
+            "value": "opacity {alias.mutation.transitionDuration.translation.hor.md.value} ease .3s"
+          }
+        },
+        "space": {
+          "value": "{alias.space.layout.md.value}"
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.xs.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.lead.value}"
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        }
+      }
+    }
+  }
+}

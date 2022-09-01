@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "table": {
+      "filter": {
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.lg.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "hor": {
+              "value": "{alias.space.cmp.sm.value}"
+            },
+            "ver": {
+              "value": "{alias.space.cmp.sm.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "alias": {
+    "scrollbars": {
+      "size": {
+        "square": {
+          "sm": {
+            "value": "calc({alias.size.height.track.xs.value} + 0.2rem)"
+          },
+          "md": {
+            "value": "{alias.size.height.track.sm.value}"
+          },
+          "lg": {
+            "value": "calc({alias.size.height.track.sm.value} + 0.2rem)"
+          }
+        }
+      },
+      "track": {
+        "color": {
+          "backdrop": {
+            "value": "{alias.color.background.surface.backdrop.base.base.value}"
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        }
+      },
+      "thumb": {
+        "color": {
+          "backdrop": {
+            "base": {
+              "value": "{alias.color.background.surface.backdrop.base.strong.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.surface.backdrop.base.stronger.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        },
+        "mutation": {
+          "transition": {
+            "value": "background-color ease-in-out {alias.mutation.transitionDuration.action.value}"
+          }
+        }
+      }
+    }
+  }
+}

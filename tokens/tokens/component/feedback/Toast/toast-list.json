@@ -1,0 +1,9 @@
+{
+  "cmp": {
+    "toastList": {
+      "space": {
+        "value": "{alias.space.layout.xs.value}"
+      }
+    }
+  }
+}

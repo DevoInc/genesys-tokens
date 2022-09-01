@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "tabs": {
+      "aside": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "shape": {
+          "borderSize": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cmp": {
+    "link": {
+      "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.link.enabled.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          },
+          "error": {
+            "value": "{alias.color.text.surface.error.base.value}"
+          },
+          "success": {
+            "value": "{alias.color.text.surface.success.base.value}"
+          },
+          "warning": {
+            "value": "{alias.color.text.surface.warning.base.value}"
+          },
+          "help": {
+            "value": "{alias.color.text.surface.help.base.value}"
+          },
+          "info": {
+            "value": "{alias.color.text.surface.info.base.value}"
+          }
+        }
+      },
+      "shape": {
+        "opacity": {
+          "disabled": {
+            "value": "{alias.shape.opacity.disabled.value}"
+          }
+        }
+      },
+      "elevation": {
+        "boxShadow": {
+          "focused": {
+            "value": "{alias.elevation.boxShadow.base.focused.value}"
+          }
+        }
+      },
+      "mutation": {
+        "transition": {
+          "value": "color {alias.mutation.transitionDuration.action.value} ease"
+        }
+      }
+    }
+  }
+}

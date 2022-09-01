@@ -1,0 +1,159 @@
+{
+  "cmp": {
+    "tagGroup": {
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.sm.value}"
+        }
+      },
+      "space": {
+        "padding": {
+          "hor": {
+            "sm": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xs.value}"
+            }
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.size.height.tag.sm.value}"
+          },
+          "md": {
+            "value": "{alias.size.height.tag.md.value}"
+          },
+          "lg": {
+            "value": "{alias.size.height.tag.lg.value}"
+          }
+        }
+      },
+      "color": {
+        "background": {
+          "primary": {
+            "value": "{alias.color.background.feedback.primary.base.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.background.feedback.secondary.base.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.background.feedback.neutral.weak.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.weak.value}"
+          },
+          "success": {
+            "value": "{alias.color.background.feedback.success.weak.value}"
+          },
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.weak.value}"
+          },
+          "help": {
+            "value": "{alias.color.background.feedback.help.weak.value}"
+          },
+          "info": {
+            "value": "{alias.color.background.feedback.info.weak.value}"
+          },
+          "data_dataBlue": {
+            "value": "{alias.color.background.feedback.dataBlue.base.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.background.feedback.dataBronze.base.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.background.feedback.dataDusk.base.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.background.feedback.dataGreen.base.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.background.feedback.dataIndigo.base.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.background.feedback.dataMagenta.base.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.background.feedback.dataPurple.base.value}"
+          },
+          "red": {
+            "value": "{alias.color.background.feedback.dataRed.base.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.background.feedback.dataSky.base.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.background.feedback.dataSlate.base.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.background.feedback.dataTeal.base.value}"
+          }
+        },
+        "text": {
+          "primary": {
+            "value": "{alias.color.text.feedback.primary.base.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.text.feedback.secondary.base.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.text.feedback.neutral.base.value}"
+          },
+          "error": {
+            "value": "{alias.color.text.feedback.error.base.value}"
+          },
+          "success": {
+            "value": "{alias.color.text.feedback.success.base.value}"
+          },
+          "warning": {
+            "value": "{alias.color.text.feedback.warning.base.value}"
+          },
+          "help": {
+            "value": "{alias.color.text.feedback.help.base.value}"
+          },
+          "info": {
+            "value": "{alias.color.text.feedback.info.base.value}"
+          },
+          "dataBlue": {
+            "value": "{alias.color.text.feedback.dataBlue.base.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.text.feedback.dataBronze.base.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.text.feedback.dataDusk.base.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.text.feedback.dataGreen.base.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.text.feedback.dataIndigo.base.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.text.feedback.dataMagenta.base.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.text.feedback.dataPurple.base.value}"
+          },
+          "red": {
+            "value": "{alias.color.text.feedback.dataRed.base.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.text.feedback.dataSky.base.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.text.feedback.dataSlate.base.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.text.feedback.dataTeal.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

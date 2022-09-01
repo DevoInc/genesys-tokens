@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "checkbox": {
+      "control": {
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "field": {
+        "color": {
+          "background": {
+            "value": "{theme.mainMenu.field.color.background.value}"
+          },
+          "border": {
+            "enabled": {
+              "value": "{theme.mainMenu.field.color.border.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.mainMenu.field.color.border.hovered.value}"
+            }
+          },
+          "text": {
+            "placeholder": {
+              "value": "{theme.mainMenu.field.color.text.placeholder.value}"
+            },
+            "enabled": {
+              "value": "{theme.mainMenu.field.color.text.enabled.value}"
+            },
+            "focused": {
+              "value": "{theme.mainMenu.field.color.text.focused.value}"
+            }
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "focused": {
+              "value": "{alias.fields.elevation.boxShadow.base.focused.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

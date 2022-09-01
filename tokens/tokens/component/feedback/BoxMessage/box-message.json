@@ -1,0 +1,42 @@
+{
+  "cmp": {
+    "boxMessage": {
+      "color": {
+        "background": {
+          "success": {
+            "value": "{alias.color.background.feedback.success.weaker.value}"
+          },
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.weaker.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.weaker.value}"
+          },
+          "help": {
+            "value": "{alias.color.background.feedback.help.weaker.value}"
+          },
+          "info": {
+            "value": "{alias.color.background.feedback.info.weaker.value}"
+          }
+        },
+        "border": {
+          "error": {
+            "value": "{alias.color.border.feedback.error.base.value}"
+          },
+          "success": {
+            "value": "{alias.color.border.feedback.success.base.value}"
+          },
+          "warning": {
+            "value": "{alias.color.border.feedback.warning.base.value}"
+          },
+          "help": {
+            "value": "{alias.color.border.feedback.help.base.value}"
+          },
+          "info": {
+            "value": "{alias.color.border.feedback.info.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

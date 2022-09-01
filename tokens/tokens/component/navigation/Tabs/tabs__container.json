@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "tabs": {
+      "container": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "sm": {
+              "value": "{alias.size.height.toolbar.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.height.toolbar.sm.value}"
+            },
+            "lg": {
+              "value": "{alias.size.height.toolbar.md.value}"
+            }
+          }
+        },
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        },
+        "shape": {
+          "borderSize": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

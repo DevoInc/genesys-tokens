@@ -1,0 +1,9 @@
+node_modules
+coverage
+*.iml
+.idea/*
+dist/
+test-report.xml
+.stryker-tmp
+reports
+.DS_Store

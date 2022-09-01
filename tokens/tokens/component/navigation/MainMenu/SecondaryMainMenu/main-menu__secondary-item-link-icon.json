@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondaryItemLinkIcon": {
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.icon.xs.value}"
+          }
+        },
+        "space": {
+          "value": "{alias.space.cmp.xs.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "priority": {
+        "mutation": {
+          "transition": {
+            "value": "padding {alias.mutation.transitionDuration.action.value} ease-out"
+          }
+        },
+        "size": {
+          "width": {
+            "value": "{cmp.mainMenu.size.width.expanded.value}",
+            "comment": "same value as main menu width expanded: {cmp.mainMenu.size.width.expanded.value}"
+          }
+        },
+        "space": {
+          "ver": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "hor": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "expanded": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        },
+        "shape": {
+          "borderBottom": {
+            "value": "solid {alias.shape.borderSize.separator.md.value} {alias.color.border.separator.inverse.weakest.value}"
+          }
+        }
+      }
+    }
+  }
+}

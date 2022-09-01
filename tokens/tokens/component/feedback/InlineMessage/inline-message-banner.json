@@ -1,0 +1,11 @@
+{
+  "cmp": {
+    "inlineMessageBanner": {
+      "color": {
+        "border": {
+          "value": "{alias.color.background.backdrop.dark.weak.value}"
+        }
+      }
+    }
+  }
+}

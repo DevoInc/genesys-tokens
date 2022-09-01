@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "modal": {
+      "headerDecoratorBar": {
+        "size": {
+          "height": {
+            "value": "3.2rem"
+          }
+        },
+        "space": {
+          "marginRight": {
+            "value": "{alias.space.cmp.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "button": {
+      "label": {
+        "typo": {
+          "fontSize": {
+            "sm": {
+              "value": "{alias.typo.fontSize.action.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.action.md.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.fontSize.action.lg.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

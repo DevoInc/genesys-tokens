@@ -1,0 +1,1034 @@
+{
+  "alias": {
+    "color": {
+      "text": {
+        "action": {
+          "accentHigh": {
+            "enabled": {
+              "value": "{brand.color.text.action.accentHigh.enabled.value}"
+            },
+            "disabled": {
+              "value": "{brand.color.text.action.accentHigh.disabled.value}",
+              "comment": "Customizable text brand color"
+            },
+            "hovered": {
+              "value": "{brand.color.text.action.accentHigh.hovered.value}",
+              "comment": "Customizable text brand color"
+            },
+            "focused": {
+              "value": "{brand.color.text.action.accentHigh.focused.value}",
+              "comment": "Customizable text brand color"
+            },
+            "pressed": {
+              "value": "{brand.color.text.action.accentHigh.pressed.value}",
+              "comment": "Customizable text brand color"
+            },
+            "expanded": {
+              "value": "{brand.color.text.action.accentHigh.expanded.value}",
+              "comment": "Customizable text brand color"
+            },
+            "selected": {
+              "value": "{brand.color.text.action.accentHigh.selected.value}",
+              "comment": "Customizable text brand color"
+            },
+            "activated": {
+              "value": "{brand.color.text.action.accentHigh.activated.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "accent": {
+            "enabled": {
+              "value": "{brand.color.text.action.accent.enabled.value}"
+            },
+            "disabled": {
+              "value": "{brand.color.text.action.accent.disabled.value}",
+              "comment": "Customizable text brand color"
+            },
+            "hovered": {
+              "value": "{brand.color.text.action.accent.hovered.value}",
+              "comment": "Customizable text brand color"
+            },
+            "focused": {
+              "value": "{brand.color.text.action.accent.focused.value}",
+              "comment": "Customizable text brand color"
+            },
+            "pressed": {
+              "value": "{brand.color.text.action.accent.pressed.value}",
+              "comment": "Customizable text brand color"
+            },
+            "expanded": {
+              "value": "{brand.color.text.action.accent.expanded.value}",
+              "comment": "Customizable text brand color"
+            },
+            "selected": {
+              "value": "{brand.color.text.action.accent.selected.value}",
+              "comment": "Customizable text brand color"
+            },
+            "activated": {
+              "value": "{brand.color.text.action.accent.activated.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "neutral": {
+            "enabled": {
+              "value": "{theme.color.text.action.neutral.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.neutral.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.neutral.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.neutral.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.neutral.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.neutral.expanded.value}"
+            },
+            "selected": {
+              "value": "{brand.color.text.action.neutral.selected.value}",
+              "comment": "Customizable text brand color"
+            },
+            "activated": {
+              "value": "{brand.color.text.action.neutral.activated.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "quiet": {
+            "enabled": {
+              "value": "{theme.color.text.action.quiet.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.quiet.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.quiet.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.quiet.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.quiet.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.quiet.expanded.value}"
+            },
+            "selected": {
+              "value": "{brand.color.text.action.quiet.selected.value}",
+              "comment": "Customizable text brand color"
+            },
+            "activated": {
+              "value": "{brand.color.text.action.quiet.activated.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{theme.color.text.action.error.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.error.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.error.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.error.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.error.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.error.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.error.activated.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{theme.color.text.action.success.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.success.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.success.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.success.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.success.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.success.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.success.activated.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{theme.color.text.action.warning.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.warning.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.warning.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.warning.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.warning.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.warning.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.warning.activated.value}"
+            }
+          },
+          "info": {
+            "enabled": {
+              "value": "{theme.color.text.action.info.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.info.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.info.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.info.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.info.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.info.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.info.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.info.activated.value}"
+            }
+          },
+          "help": {
+            "enabled": {
+              "value": "{theme.color.text.action.help.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.help.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.help.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.help.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.help.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.help.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.help.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.help.activated.value}"
+            }
+          },
+          "blendBase": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendBase.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendBase.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendBase.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendBase.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendBase.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendBase.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendBase.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendBase.activated.value}"
+            }
+          },
+          "blendInverse": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendInverse.enabled.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendInverse.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendInverse.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendInverse.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendInverse.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendInverse.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendInverse.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendInverse.activated.value}"
+            }
+          },
+          "blendError": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendError.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendError.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendError.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendError.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendError.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendError.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendError.activated.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendError.disabled.value}"
+            }
+          },
+          "blendSuccess": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendSuccess.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendSuccess.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendSuccess.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendSuccess.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendSuccess.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendSuccess.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendSuccess.activated.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendSuccess.disabled.value}"
+            }
+          },
+          "blendWarning": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendWarning.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendWarning.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendWarning.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendWarning.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendWarning.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendWarning.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendWarning.activated.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendWarning.disabled.value}"
+            }
+          },
+          "blendHelp": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendHelp.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendHelp.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendHelp.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendHelp.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendHelp.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendHelp.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendHelp.activated.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendHelp.disabled.value}"
+            }
+          },
+          "blendInfo": {
+            "enabled": {
+              "value": "{theme.color.text.action.blendInfo.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.color.text.action.blendInfo.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.color.text.action.blendInfo.focused.value}"
+            },
+            "pressed": {
+              "value": "{theme.color.text.action.blendInfo.pressed.value}"
+            },
+            "expanded": {
+              "value": "{theme.color.text.action.blendInfo.expanded.value}"
+            },
+            "selected": {
+              "value": "{theme.color.text.action.blendInfo.selected.value}"
+            },
+            "activated": {
+              "value": "{theme.color.text.action.blendInfo.activated.value}"
+            },
+            "disabled": {
+              "value": "{theme.color.text.action.blendInfo.disabled.value}"
+            }
+          }
+        },
+        "blendBase": {
+          "base": {
+            "value": "{theme.color.text.blendBase.base.value}"
+          },
+          "strong": {
+            "value": "{theme.color.text.blendBase.strong.value}"
+          },
+          "stronger": {
+            "value": "{theme.color.text.blendBase.stronger.value}"
+          },
+          "weak": {
+            "value": "{theme.color.text.blendBase.weak.value}"
+          },
+          "disabled": {
+            "value": "{theme.color.text.blendBase.disabled.value}"
+          }
+        },
+        "blendInverse": {
+          "base": {
+            "value": "{theme.color.text.blendInverse.base.value}"
+          },
+          "strong": {
+            "value": "{theme.color.text.blendInverse.strong.value}"
+          },
+          "stronger": {
+            "value": "{theme.color.text.blendInverse.stronger.value}"
+          },
+          "weak": {
+            "value": "{theme.color.text.blendInverse.weak.value}"
+          },
+          "disabled": {
+            "value": "{theme.color.text.blendInverse.disabled.value}"
+          }
+        },
+        "body": {
+          "base": {
+            "value": "{theme.color.text.body.base.value}",
+            "comment": "Default text color for the App."
+          },
+          "strong": {
+            "value": "{theme.color.text.body.strong.value}",
+            "comment": "Emphasis text color for strong content."
+          },
+          "stronger": {
+            "value": "{theme.color.text.body.stronger.value}",
+            "comment": "Emphasis text color for headings and interactive components."
+          },
+          "weak": {
+            "value": "{theme.color.text.body.weak.value}",
+            "comment": "Low emphasis text color for non essential content."
+          },
+          "weaker": {
+            "value": "{theme.color.text.body.weaker.value}",
+            "comment": "Lower emphasis text color for disabled state."
+          },
+          "weakest": {
+            "value": "{theme.color.text.body.weakest.value}",
+            "comment": "Lowest emphasis text color e.g. placeholders."
+          },
+          "inverse": {
+            "value": "{theme.color.text.body.inverse.value}",
+            "comment": "Same color as background surface color."
+          }
+        },
+        "feedback": {
+          "primary": {
+            "strong": {
+              "value": "{brand.color.text.feedback.primary.base.value}",
+              "comment": "Customizable text brand color"
+            },
+            "base": {
+              "value": "{brand.color.text.feedback.primary.weak.value}",
+              "comment": "Customizable text brand color"
+            },
+            "weak": {
+              "value": "{brand.color.text.feedback.primary.weaker.value}",
+              "comment": "Customizable text brand color"
+            },
+            "inverse": {
+              "value": "{brand.color.text.feedback.primary.inverse.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "secondary": {
+            "strong": {
+              "value": "{brand.color.text.feedback.secondary.base.value}",
+              "comment": "Customizable text brand color"
+            },
+            "base": {
+              "value": "{brand.color.text.feedback.secondary.weak.value}",
+              "comment": "Customizable text brand color"
+            },
+            "weak": {
+              "value": "{brand.color.text.feedback.secondary.weaker.value}",
+              "comment": "Customizable text brand color"
+            },
+            "inverse": {
+              "value": "{brand.color.text.feedback.secondary.inverse.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "neutral": {
+            "strong": {
+              "value": "{theme.color.text.feedback.neutral.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.neutral.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.neutral.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.neutral.inverse.value}"
+            }
+          },
+          "blendBase": {
+            "strong": {
+              "value": "{theme.color.text.feedback.blendBase.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.blendBase.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.blendBase.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.blendBase.inverse.value}"
+            }
+          },
+          "blendInverse": {
+            "strong": {
+              "value": "{theme.color.text.feedback.blendInverse.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.blendInverse.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.blendInverse.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.blendInverse.inverse.value}"
+            }
+          },
+          "rating": {
+            "strong": {
+              "value": "{theme.color.text.feedback.rating.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.rating.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.rating.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.rating.inverse.value}"
+            }
+          },
+          "error": {
+            "strong": {
+              "value": "{theme.color.text.feedback.error.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.error.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.error.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.error.inverse.value}"
+            }
+          },
+          "success": {
+            "strong": {
+              "value": "{theme.color.text.feedback.success.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.success.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.success.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.success.inverse.value}"
+            }
+          },
+          "warning": {
+            "strong": {
+              "value": "{theme.color.text.feedback.warning.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.warning.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.warning.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.warning.inverse.value}"
+            }
+          },
+          "help": {
+            "strong": {
+              "value": "{theme.color.text.feedback.help.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.help.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.help.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.help.inverse.value}"
+            }
+          },
+          "info": {
+            "strong": {
+              "value": "{theme.color.text.feedback.info.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.info.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.info.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.info.inverse.value}"
+            }
+          },
+          "dataBlue": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataBlue.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataBlue.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataBlue.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataBlue.inverse.value}"
+            }
+          },
+          "dataBronze": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataBronze.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataBronze.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataBronze.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataBronze.inverse.value}"
+            }
+          },
+          "dataGreen": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataGreen.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataGreen.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataGreen.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataGreen.inverse.value}"
+            }
+          },
+          "dataTeal": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataTeal.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataTeal.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataTeal.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataTeal.inverse.value}"
+            }
+          },
+          "dataSky": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataSky.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataSky.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataSky.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataSky.inverse.value}"
+            }
+          },
+          "dataSlate": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataSlate.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataSlate.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataSlate.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataSlate.inverse.value}"
+            }
+          },
+          "dataIndigo": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataIndigo.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataIndigo.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataIndigo.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataIndigo.inverse.value}"
+            }
+          },
+          "dataDusk": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataDusk.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataDusk.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataDusk.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataDusk.inverse.value}"
+            }
+          },
+          "dataPurple": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataPurple.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataPurple.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataPurple.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataPurple.inverse.value}"
+            }
+          },
+          "dataMagenta": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataMagenta.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataMagenta.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataMagenta.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataMagenta.inverse.value}"
+            }
+          },
+          "dataRed": {
+            "strong": {
+              "value": "{theme.color.text.feedback.dataRed.strong.value}"
+            },
+            "base": {
+              "value": "{theme.color.text.feedback.dataRed.weak.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.feedback.dataRed.weak.value}"
+            },
+            "inverse": {
+              "value": "{theme.color.text.feedback.dataRed.inverse.value}"
+            }
+          }
+        },
+        "heading": {
+          "base": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "strong": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "weak": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.text.body.weaker.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        },
+        "hero": {
+          "base": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "strong": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "weak": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.text.body.weaker.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        },
+        "lead": {
+          "base": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "strong": {
+            "value": "{alias.color.text.body.strong.value}"
+          },
+          "weak": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.text.body.weaker.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.text.body.weakest.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        },
+        "link": {
+          "enabled": {
+            "value": "{brand.color.text.link.enabled.value}",
+            "comment": "Customizable text brand color"
+          }
+        },
+        "mono": {
+          "base": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "strong": {
+            "value": "{alias.color.text.body.strong.value}"
+          },
+          "weak": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.text.body.weaker.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.text.body.weakest.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        },
+        "overline": {
+          "base": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "strong": {
+            "value": "{alias.color.text.body.strong.value}"
+          },
+          "weak": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.text.body.weaker.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.text.body.weakest.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        },
+        "social": {
+          "twitter": {
+            "value": "ffffff"
+          },
+          "linkedin": {
+            "value": "#ffffff"
+          },
+          "youtube": {
+            "value": "#ffffff"
+          },
+          "googlePlus": {
+            "value": "#ffffff"
+          }
+        },
+        "surface": {
+          "primary": {
+            "base": {
+              "value": "{brand.color.text.surface.primary.base.value}",
+              "comment": "Customizable text brand color"
+            },
+            "weak": {
+              "value": "{brand.color.text.surface.primary.weak.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "{brand.color.text.surface.secondary.base.value}",
+              "comment": "Customizable text brand color"
+            },
+            "weak": {
+              "value": "{brand.color.text.surface.secondary.weak.value}",
+              "comment": "Customizable text brand color"
+            }
+          },
+          "neutral": {
+            "base": {
+              "value": "{theme.color.text.surface.neutral.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.neutral.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.neutral.weaker.value}"
+            }
+          },
+          "error": {
+            "base": {
+              "value": "{theme.color.text.surface.error.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.error.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.error.weaker.value}"
+            }
+          },
+          "success": {
+            "base": {
+              "value": "{theme.color.text.surface.success.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.success.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.success.weaker.value}"
+            }
+          },
+          "warning": {
+            "base": {
+              "value": "{theme.color.text.surface.warning.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.warning.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.warning.weaker.value}"
+            }
+          },
+          "help": {
+            "base": {
+              "value": "{theme.color.text.surface.help.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.help.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.help.weaker.value}"
+            }
+          },
+          "info": {
+            "base": {
+              "value": "{theme.color.text.surface.info.base.value}"
+            },
+            "weak": {
+              "value": "{theme.color.text.surface.info.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.text.surface.info.weaker.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

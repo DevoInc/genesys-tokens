@@ -1,0 +1,423 @@
+{
+  "alias": {
+    "color": {
+      "border": {
+        "feedback": {
+          "primary": {
+            "base": {
+              "value": "{brand.color.border.feedback.primary.base.value}"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "{brand.color.border.feedback.secondary.base.value}"
+            }
+          },
+          "neutral": {
+            "base": {
+              "value": "{theme.color.border.feedback.neutral.base.value}"
+            }
+          },
+          "base": {
+            "weaker": {
+              "value": "{theme.color.border.feedback.base.weaker.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.feedback.base.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.base.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.base.strong.value}"
+            }
+          },
+          "inverse": {
+            "weaker": {
+              "value": "{theme.color.border.feedback.inverse.weaker.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.feedback.inverse.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.inverse.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.inverse.strong.value}"
+            }
+          },
+          "error": {
+            "weak": {
+              "value": "{theme.color.border.feedback.error.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.error.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.error.strong.value}"
+            }
+          },
+          "success": {
+            "weak": {
+              "value": "{theme.color.border.feedback.success.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.success.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.success.strong.value}"
+            }
+          },
+          "warning": {
+            "weak": {
+              "value": "{theme.color.border.feedback.warning.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.warning.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.warning.strong.value}"
+            }
+          },
+          "help": {
+            "weak": {
+              "value": "{theme.color.border.feedback.help.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.help.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.help.strong.value}"
+            }
+          },
+          "info": {
+            "weak": {
+              "value": "{theme.color.border.feedback.info.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.info.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.info.strong.value}"
+            }
+          },
+          "dataBlue": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataBlue.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataBlue.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataBlue.strong.value}"
+            }
+          },
+          "dataBronze": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataBronze.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataBronze.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataBronze.strong.value}"
+            }
+          },
+          "dataDusk": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataDusk.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataDusk.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataDusk.strong.value}"
+            }
+          },
+          "dataGreen": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataGreen.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataGreen.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataGreen.strong.value}"
+            }
+          },
+          "dataIndigo": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataIndigo.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataIndigo.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataIndigo.strong.value}"
+            }
+          },
+          "dataMagenta": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataMagenta.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataMagenta.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataMagenta.strong.value}"
+            }
+          },
+          "dataPurple": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataPurple.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataPurple.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataPurple.strong.value}"
+            }
+          },
+          "dataRed": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataRed.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataRed.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataRed.strong.value}"
+            }
+          },
+          "dataSky": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataSky.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataSky.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataSky.strong.value}"
+            }
+          },
+          "dataSlate": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataSlate.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataSlate.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataSlate.strong.value}"
+            }
+          },
+          "dataTeal": {
+            "weak": {
+              "value": "{theme.color.border.feedback.dataTeal.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.feedback.dataTeal.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.dataTeal.strong.value}"
+            }
+          }
+        },
+        "separator": {
+          "base": {
+            "weakest": {
+              "value": "{theme.color.border.separator.base.weakest.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.separator.base.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.border.separator.base.weaker.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.separator.base.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.separator.base.strong.value}"
+            },
+            "stronger": {
+              "value": "{theme.color.border.separator.base.stronger.value}"
+            },
+            "strongest": {
+              "value": "{theme.color.border.separator.base.strongest.value}"
+            }
+          },
+          "inverse": {
+            "weakest": {
+              "value": "{theme.color.border.separator.inverse.weakest.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.separator.inverse.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.border.separator.inverse.weaker.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.separator.inverse.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.separator.inverse.strong.value}"
+            },
+            "stronger": {
+              "value": "{theme.color.border.separator.inverse.stronger.value}"
+            },
+            "strongest": {
+              "value": "{theme.color.border.separator.inverse.strongest.value}"
+            }
+          },
+          "blendBase": {
+            "weakest": {
+              "value": "{theme.color.border.separator.blendBase.weakest.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.separator.blendBase.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.border.separator.blendBase.weaker.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.separator.blendBase.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.separator.blendBase.strong.value}"
+            },
+            "stronger": {
+              "value": "{theme.color.border.separator.blendBase.stronger.value}"
+            },
+            "strongest": {
+              "value": "{theme.color.border.separator.blendBase.strongest.value}"
+            }
+          },
+          "blendInverse": {
+            "weakest": {
+              "value": "{theme.color.border.separator.blendInverse.weakest.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.separator.blendInverse.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.color.border.separator.blendInverse.weaker.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.separator.blendInverse.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.separator.blendInverse.strong.value}"
+            },
+            "stronger": {
+              "value": "{theme.color.border.separator.blendInverse.stronger.value}"
+            },
+            "strongest": {
+              "value": "{theme.color.border.separator.blendInverse.strongest.value}"
+            }
+          }
+        },
+        "surface": {
+          "primary": {
+            "base": {
+              "value": "{brand.color.border.surface.primary.base.value}"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "{brand.color.border.surface.secondary.base.value}"
+            }
+          },
+          "neutral": {
+            "base": {
+              "value": "{theme.color.border.surface.neutral.base.value}"
+            }
+          },
+          "base": {
+            "weaker": {
+              "value": "{theme.color.border.surface.base.weaker.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.surface.base.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.base.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.base.strong.value}"
+            }
+          },
+          "inverse": {
+            "weaker": {
+              "value": "{theme.color.border.surface.inverse.weaker.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.surface.inverse.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.inverse.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.inverse.strong.value}"
+            }
+          },
+          "error": {
+            "weak": {
+              "value": "{theme.color.border.surface.error.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.error.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.error.strong.value}"
+            }
+          },
+          "success": {
+            "weak": {
+              "value": "{theme.color.border.surface.success.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.success.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.success.strong.value}"
+            }
+          },
+          "warning": {
+            "weak": {
+              "value": "{theme.color.border.surface.warning.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.warning.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.warning.strong.value}"
+            }
+          },
+          "help": {
+            "weak": {
+              "value": "{theme.color.border.surface.help.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.help.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.help.strong.value}"
+            }
+          },
+          "info": {
+            "weak": {
+              "value": "{theme.color.border.surface.info.weak.value}"
+            },
+            "base": {
+              "value": "{theme.color.border.surface.info.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.surface.info.strong.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

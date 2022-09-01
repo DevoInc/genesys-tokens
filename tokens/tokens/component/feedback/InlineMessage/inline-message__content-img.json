@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "inlineMessage": {
+      "contentImg": {
+        "space": {
+          "marginBottom": {
+            "value": "{alias.space.cmp.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

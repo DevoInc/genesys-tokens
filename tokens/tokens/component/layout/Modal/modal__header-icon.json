@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "modal": {
+      "headerIcon": {
+        "typo": {
+          "fontSize": {
+            "value": "{alias.size.square.icon.base.lg.value}"
+          }
+        },
+        "space": {
+          "marginRight": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        }
+      }
+    }
+  }
+}

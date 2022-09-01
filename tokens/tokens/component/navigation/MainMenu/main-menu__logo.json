@@ -1,0 +1,41 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "logo": {
+        "mutation": {
+          "transitionDuration": {
+            "value": "all {alias.mutation.transitionDuration.translation.hor.md.value} ease-out .2s"
+          }
+        },
+        "shape": {
+          "background": {
+            "sm": {
+              "value": "'../../assets/logo-sm.png'"
+            },
+            "md": {
+              "value": "'../../assets/logo.png'"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "value": "{alias.size.square.icon.base.sm.value}"
+          },
+          "width": {
+            "collapsed": {
+              "value": "{cmp.mainMenu.size.width.collapsed.value}"
+            },
+            "expanded": {
+              "value": "{cmp.mainMenu.size.width.expanded.value}"
+            }
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        }
+      }
+    }
+  }
+}

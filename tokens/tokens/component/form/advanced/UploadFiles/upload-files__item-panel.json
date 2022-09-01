@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "itemPanel": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.inverse.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

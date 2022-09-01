@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "prioritySelectIcon": {
+        "shape": {
+          "content": {
+            "value": "\\eaec"
+          }
+        },
+        "mutation": {
+          "transition": {
+            "value": "color {alias.fields.mutation.transitionDuration.value} ease, right {alias.fields.mutation.transitionDuration.value} ease, font-size {alias.fields.mutation.transitionDuration.value} ease"
+          }
+        },
+        "typo": {
+          "fontFamily": {
+            "value": "{alias.typo.fontFamily.icon.base.fontFaceName.value}"
+          },
+          "lineHeight": {
+            "value": "inherit"
+          },
+          "fontSize": {
+            "enabled": {
+              "value": "{alias.typo.fontSize.body.sm.value}"
+            },
+            "expanded": {
+              "value": "{alias.typo.fontSize.lead.md.value}"
+            }
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{cmp.mainMenu.prioritySelect.color.text.value}"
+          }
+        }
+      }
+    }
+  }
+}

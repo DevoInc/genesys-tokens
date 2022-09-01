@@ -1,0 +1,31 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navItem": {
+        "shape": {
+          "border": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          }
+        },
+        "space": {
+          "value": "{alias.space.cmp.sm.value}"
+        },
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.inverse.value}"
+            }
+          },
+          "border": {
+            "value": "{alias.color.border.separator.inverse.weakest.value}"
+          },
+          "background": {
+            "expanded": {
+              "value": "{alias.color.background.surface.backdrop.base.strong.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

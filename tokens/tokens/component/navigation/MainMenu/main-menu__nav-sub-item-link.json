@@ -1,0 +1,45 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navSubItemLink": {
+        "typo": {
+          "lineHeight": {
+            "value": "{alias.typo.lineHeight.heading.h2.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.body.value}"
+          },
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.md.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "ver": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "left": {
+              "value": "{alias.space.cmp.lg.value}"
+            },
+            "right": {
+              "value": "{alias.space.cmp.md.value}"
+            }
+          }
+        },
+        "color": {
+          "text": {
+            "enabled": {
+              "value": "{alias.color.text.body.weaker.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.body.inverse.value}"
+            },
+            "activated": {
+              "value": "{alias.color.text.body.inverse.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

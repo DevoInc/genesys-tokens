@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "panel": {
+      "color": {
+        "background": {
+          "value": "{alias.color.background.surface.base.base.value}"
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.lg.value}"
+        }
+      }
+    }
+  }
+}

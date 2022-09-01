@@ -1,0 +1,22 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "shape": {
+        "border": {
+          "value": "{alias.shape.borderSize.separator.xl.value}"
+        },
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.lg.value}"
+        }
+      },
+      "color": {
+        "background": {
+          "value": "{alias.color.background.surface.base.raised.value}"
+        },
+        "border": {
+          "value": "{alias.color.border.separator.base.weak.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "table": {
+      "cellClickableWrapper": {
+        "color": {
+          "background": {
+            "hovered": {
+              "value": "{alias.color.background.backdrop.secondary.weakest.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.action.value}"
+          }
+        }
+      }
+    }
+  }
+}

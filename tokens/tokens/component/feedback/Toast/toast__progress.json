@@ -1,0 +1,51 @@
+{
+  "cmp": {
+    "toast": {
+      "progressBar": {
+        "color": {
+          "background": {
+            "error": {
+              "value": "{alias.color.background.feedback.error.strong.value}"
+            },
+            "help": {
+              "value": "{alias.color.background.feedback.help.strong.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.feedback.info.strong.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.strong.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.feedback.warning.strong.value}"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "value": "0.6rem"
+          }
+        }
+      },
+      "progressBarTrack": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.backdrop.base.base.value}"
+          }
+        }
+      },
+      "progressTrack": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.backdrop.base.base.value}"
+            },
+            "weak": {
+              "value": "{alias.color.background.surface.backdrop.base.weak.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

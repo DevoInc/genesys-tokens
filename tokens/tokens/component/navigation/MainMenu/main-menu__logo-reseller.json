@@ -1,0 +1,41 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "logoReseller": {
+        "mutation": {
+          "transitionDuration": {
+            "value": "width {alias.mutation.transitionDuration.translation.hor.sm.value} ease-out"
+          }
+        },
+        "shape": {
+          "background": {
+            "sm": {
+              "value": "'../../assets/logo-sm.png'"
+            },
+            "md": {
+              "value": "'../../assets/logo.png'"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "value": "{alias.size.height.toolbar.xl.value}"
+          },
+          "width": {
+            "collapsed": {
+              "value": "{cmp.mainMenu.size.width.collapsed.value}"
+            },
+            "expanded": {
+              "value": "{cmp.mainMenu.size.width.expanded.value}"
+            }
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        }
+      }
+    }
+  }
+}

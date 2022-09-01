@@ -1,0 +1,26 @@
+{
+  "alias": {
+    "shape": {
+      "borderRadius": {
+        "sm": {
+          "value": "{global.shape.borderRadius.sm.value}"
+        },
+        "md": {
+          "value": "{global.shape.borderRadius.md.value}"
+        },
+        "lg": {
+          "value": "{global.shape.borderRadius.lg.value}"
+        },
+        "elevated": {
+          "value": "{alias.shape.borderRadius.lg.value}"
+        },
+        "pill": {
+          "value": "{global.shape.borderRadius.half.value}"
+        },
+        "full": {
+          "value": "{global.shape.borderRadius.circle.value}"
+        }
+      }
+    }
+  }
+}

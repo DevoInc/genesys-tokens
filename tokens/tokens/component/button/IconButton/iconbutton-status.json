@@ -1,0 +1,215 @@
+{
+  "cmp": {
+    "iconButtonStatus": {
+      "color": {
+        "background": {
+          "error": {
+            "enabled": {
+              "value": "{alias.color.background.action.blendError.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.background.action.blendError.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.blendError.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.background.action.blendError.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.action.blendError.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.background.action.blendError.pressed.value}"
+            }
+          },
+          "help": {
+            "enabled": {
+              "value": "{alias.color.background.action.blendHelp.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.background.action.blendHelp.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.blendHelp.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.background.action.blendHelp.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.action.blendHelp.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.background.action.blendHelp.pressed.value}"
+            }
+          },
+          "info": {
+            "enabled": {
+              "value": "{alias.color.background.action.blendInfo.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.background.action.blendInfo.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.blendInfo.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.background.action.blendInfo.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.action.blendInfo.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.background.action.blendInfo.pressed.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{alias.color.background.action.blendSuccess.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.background.action.blendSuccess.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.blendSuccess.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.background.action.blendSuccess.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.action.blendSuccess.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.background.action.blendSuccess.pressed.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{alias.color.background.action.blendWarning.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.background.action.blendWarning.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.blendWarning.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.background.action.blendWarning.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.background.action.blendWarning.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.background.action.blendWarning.pressed.value}"
+            }
+          }
+        },
+        "text": {
+          "error": {
+            "enabled": {
+              "value": "{alias.color.text.action.blendError.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.blendError.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.blendError.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.blendError.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.blendError.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.blendError.pressed.value}"
+            }
+          },
+          "help": {
+            "enabled": {
+              "value": "{alias.color.text.action.blendHelp.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.blendHelp.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.blendHelp.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.blendHelp.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.blendHelp.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.blendHelp.pressed.value}"
+            }
+          },
+          "info": {
+            "enabled": {
+              "value": "{alias.color.text.action.blendInfo.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.blendInfo.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.blendInfo.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.blendInfo.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.blendInfo.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.blendInfo.pressed.value}"
+            },
+            "selected": {
+              "value": "{alias.color.text.action.blendInfo.selected.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{alias.color.text.action.blendSuccess.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.blendSuccess.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.blendSuccess.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.blendSuccess.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.blendSuccess.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.blendSuccess.pressed.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{alias.color.text.action.blendWarning.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.blendWarning.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.blendWarning.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.blendWarning.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.blendWarning.hovered.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.blendWarning.pressed.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

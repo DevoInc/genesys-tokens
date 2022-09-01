@@ -1,0 +1,24 @@
+{
+  "cmp": {
+    "button": {
+      "loader": {
+        "size": {
+          "width": {
+            "xs": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "sm": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

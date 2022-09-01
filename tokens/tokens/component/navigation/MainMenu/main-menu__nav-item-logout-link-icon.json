@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navItemLogoutLinkIcon": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.surface.error.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

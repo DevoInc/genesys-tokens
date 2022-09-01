@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "logoWrapper": {
+        "size": {
+          "height": {
+            "value": "{alias.size.height.toolbar.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

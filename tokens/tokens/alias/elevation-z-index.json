@@ -1,0 +1,40 @@
+{
+  "alias": {
+    "elevation": {
+      "zIndex": {
+        "depth": {
+          "ground": {
+            "value": 0
+          },
+          "raised": {
+            "value": 0
+          },
+          "stickyTop": {
+            "value": 100
+          },
+          "stickyRight": {
+            "value": 100
+          },
+          "stickyBottom": {
+            "value": 100
+          },
+          "stickyLeft": {
+            "value": 100
+          },
+          "draggable": {
+            "value": 200
+          },
+          "overlay": {
+            "value": 1010
+          },
+          "activated": {
+            "value": 1020
+          },
+          "popOut": {
+            "value": 1030
+          }
+        }
+      }
+    }
+  }
+}

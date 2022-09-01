@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "loader": {
+      "spinnerAnimatedStrokeTemp": {
+        "color": {
+          "background": {
+            "light": {
+              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.background.light.value}"
+            },
+            "dark": {
+              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.background.dark.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

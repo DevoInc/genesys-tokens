@@ -1,0 +1,42 @@
+{
+  "theme": {
+    "color": {
+      "shadow": {
+        "base": {
+          "enabled": {
+            "value": "{global.color.info.10.value}",
+            "rgbValues": "{global.color.info.10.alt.rgbValues}"
+          },
+          "focused": {
+            "value": "{global.color.info.04.value}"
+          }
+        },
+        "error": {
+          "focused": {
+            "value": "{global.color.error.02.value}"
+          }
+        },
+        "success": {
+          "focused": {
+            "value": "{global.color.success.02.value}"
+          }
+        },
+        "warning": {
+          "focused": {
+            "value": "{global.color.warning.02.value}"
+          }
+        },
+        "info": {
+          "focused": {
+            "value": "{global.color.info.02.value}"
+          }
+        },
+        "help": {
+          "focused": {
+            "value": "{global.color.help.02.value}"
+          }
+        }
+      }
+    }
+  }
+}

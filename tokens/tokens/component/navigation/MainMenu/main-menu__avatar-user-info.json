@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "avatarUserInfo": {
+        "space": {
+          "left": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "right": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "value": "{cmp.mainMenu.avatarUserThumb.size.square.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.md.value}"
+          },
+          "lineHeight": {
+            "value": "{alias.typo.lineHeight.body.relative.value}"
+          }
+        },
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.inverse.value}"
+            },
+            "weak": {
+              "value": "{alias.color.text.blendInverse.weak.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

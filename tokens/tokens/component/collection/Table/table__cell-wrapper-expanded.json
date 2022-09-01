@@ -1,0 +1,44 @@
+{
+  "cmp": {
+    "table": {
+      "cellExpandedWrapper": {
+        "elevation": {
+          "zIndex": {
+            "value": "calc({cmp.table.row.elevation.zIndex.isAfterRow.value} + 1)"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "sm": {
+              "value": "{alias.typo.fontSize.body.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.body.md.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.fontSize.body.lg.value}"
+            }
+          }
+        },
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          }
+        },
+        "size": {
+          "width": {
+            "sm": {
+              "value": "{alias.size.width.popover.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.width.popover.sm.value}"
+            },
+            "lg": {
+              "value": "{alias.size.width.popover.lg.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

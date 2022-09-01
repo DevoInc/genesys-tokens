@@ -1,0 +1,10 @@
+{
+  "extends": "ts-node/node14/tsconfig.json",
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.test.ts"],
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "declaration": true,
+    "declarationDir": "dist"
+  }
+}

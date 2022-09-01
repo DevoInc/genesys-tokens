@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navSubItemAppNewTab": {
+        "mutation": {
+          "transition": {
+            "value": "color {alias.mutation.transitionDuration.action.value} ease"
+          }
+        },
+        "space": {
+          "value": "0 {alias.space.cmp.sm.value}"
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.action.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

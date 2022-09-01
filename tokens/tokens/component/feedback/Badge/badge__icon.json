@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "badge": {
+      "icon": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{alias.size.square.icon.base.xxxxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xxxs.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

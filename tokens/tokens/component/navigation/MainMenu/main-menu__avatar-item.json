@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "avatarItem": {
+        "size": {
+          "height": {
+            "value": "{alias.size.height.toolbar.xl.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "hovered": {
+              "value": "{alias.color.background.surface.backdrop.base.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

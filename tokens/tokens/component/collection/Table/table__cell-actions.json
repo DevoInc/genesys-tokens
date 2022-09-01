@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "table": {
+      "cellActions": {
+        "size": {
+          "width": {
+            "value": "{alias.size.height.action.xs.value}"
+          }
+        },
+        "space": {
+          "marginHor": {
+            "value": "{alias.space.cmp.xxs.value}"
+          }
+        }
+      }
+    }
+  }
+}

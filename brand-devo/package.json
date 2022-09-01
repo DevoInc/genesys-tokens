@@ -1,0 +1,27 @@
+{
+  "name": "@devoinc/dali-brand-devo",
+  "version": "1.0.0",
+  "author": "Devo Dev Team",
+  "license": "MIT",
+  "description": "Devo brand tokens",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "clean": "rm -rf dist/light dist/dark",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags",
+    "build": "npm run build:light && npm run build:dark",
+    "build:light": "dit build -i \"schemes/light/*.json\" -o dist/light",
+    "build:dark": "dit build -i \"schemes/dark/*.json\" -o dist/dark",
+    "validate": "npm run validate:light && npm run validate:dark",
+    "validate:light": "dit validate dist/light/",
+    "validate:dark": "dit validate dist/dark/",
+    "dist": "npm run clean && npm run build && npm run validate"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@devoinc/dali-tokens-cli": "^1.0.0"
+  }
+}

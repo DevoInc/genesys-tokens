@@ -1,0 +1,22 @@
+{
+  "cmp": {
+    "panel": {
+      "headerTitle": {
+        "size": {
+          "maxWidth": {
+            "value": "{global.size.width.17.value}"
+          }
+        }
+      },
+      "headerTitleSelector": {
+        "size": {
+          "height": {
+            "base": {
+              "value": "{alias.typo.lineHeight.heading.h4.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

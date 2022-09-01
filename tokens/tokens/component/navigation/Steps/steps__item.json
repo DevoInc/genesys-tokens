@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "steps": {
+      "item": {
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.base.value}"
+            },
+            "current": {
+              "value": "{alias.color.text.body.stronger.value}"
+            }
+          }
+        },
+        "space": {
+          "gap": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        }
+      }
+    }
+  }
+}

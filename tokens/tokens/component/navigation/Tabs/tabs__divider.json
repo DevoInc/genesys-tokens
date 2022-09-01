@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "tabs": {
+      "divider": {
+        "space": {
+          "margin": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

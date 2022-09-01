@@ -1,0 +1,34 @@
+{
+  "cmp": {
+    "tag": {
+      "icon": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{alias.size.square.icon.base.xxxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            }
+          }
+        },
+        "space": {
+          "marginRight": {
+            "sm": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

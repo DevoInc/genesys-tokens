@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondarySearch": {
+        "size": {
+          "width": {
+            "value": "auto"
+          }
+        },
+        "space": {
+          "value": "{alias.space.layout.xxs.value} {alias.space.layout.xs.value} 0 {alias.space.layout.xs.value}"
+        }
+      }
+    }
+  }
+}

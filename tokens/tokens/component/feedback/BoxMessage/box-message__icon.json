@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "boxMessage": {
+      "icon": {
+        "color": {
+          "text": {
+            "error": {
+              "value": "{alias.color.background.feedback.error.strong.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.strong.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.feedback.warning.strong.value}"
+            },
+            "help": {
+              "value": "{alias.color.background.feedback.help.strong.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.feedback.info.strong.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

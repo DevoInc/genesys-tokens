@@ -1,0 +1,44 @@
+{
+  "brand": {
+    "color": {
+      "border": {
+        "surface": {
+          "primary": {
+            "base": {
+              "value": "{global.color.primary.06.value}"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "{global.color.secondary.06.value}"
+            }
+          }
+        },
+        "feedback": {
+          "primary": {
+            "base": {
+              "value": "{global.color.primary.06.value}"
+            }
+          },
+          "secondary": {
+            "base": {
+              "value": "{global.color.secondary.07.value}"
+            }
+          }
+        },
+        "field": {
+          "base": {
+            "checked": {
+              "value": "{global.color.secondary.06.value}"
+            }
+          },
+          "inverse": {
+            "checked": {
+              "value": "{global.color.secondary.06.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondaryMsgResults": {
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.md.value}"
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

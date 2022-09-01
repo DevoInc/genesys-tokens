@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "externalSearch": {
+        "size": {
+          "width": {
+            "value": "{alias.size.width.popover.xs.value}"
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.depth.sticky.right.value}"
+          }
+        }
+      }
+    }
+  }
+}

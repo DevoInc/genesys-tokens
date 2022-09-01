@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondaryItemLinkSecurity": {
+        "mutation": {
+          "transition": {
+            "value": "{alias.mutation.transitionDuration.action.value} right ease"
+          }
+        }
+      }
+    }
+  }
+}

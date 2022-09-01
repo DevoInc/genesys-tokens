@@ -1,0 +1,35 @@
+{
+  "global": {
+    "mutation": {
+      "transitionDuration": {
+        "xxs": {
+          "value": ".075s"
+        },
+        "xs": {
+          "value": ".1s"
+        },
+        "sm": {
+          "value": ".125s"
+        },
+        "md": {
+          "value": ".15s"
+        },
+        "lg": {
+          "value": ".2s"
+        },
+        "xl": {
+          "value": ".4s"
+        },
+        "xxl": {
+          "value": ".5s"
+        },
+        "xxxl": {
+          "value": "1s"
+        },
+        "xxxxl": {
+          "value": "3s"
+        }
+      }
+    }
+  }
+}

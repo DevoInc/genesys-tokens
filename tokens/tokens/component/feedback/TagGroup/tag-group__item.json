@@ -1,0 +1,34 @@
+{
+  "cmp": {
+    "tagGroup": {
+      "item": {
+        "space": {
+          "margin": {
+            "hor": {
+              "sm": {
+                "value": "{alias.space.cmp.sm.value}"
+              },
+              "md": {
+                "value": "{alias.space.cmp.md.value}"
+              },
+              "lg": {
+                "value": "{alias.space.cmp.md.value}"
+              }
+            },
+            "ver": {
+              "sm": {
+                "value": "{alias.space.cmp.xxs.value}"
+              },
+              "md": {
+                "value": "{alias.space.cmp.xs.value}"
+              },
+              "lg": {
+                "value": "{alias.space.cmp.xs.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
