@@ -1,7 +1,7 @@
-import { Brand as light } from './light/js';
-import { Brand as dark } from './dark/js';
+import { Brand as light } from "./light/js";
+import { Brand as dark } from "./dark/js";
 
 export declare const Brands: {
-  light;
-  dark;
+  light: light;
+  dark: dark;
 };
