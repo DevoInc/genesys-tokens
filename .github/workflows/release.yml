@@ -1,0 +1,58 @@
+name: release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        type: choice
+        description: Select version to release
+        options:
+          - major
+          - minor
+          - patch
+          - auto
+        default: auto
+        required: true
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Set node v16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "npm"
+
+      - name: Check versions
+        run: npm -v
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Run linter
+        run: npm run lint
+
+      - name: Build source code
+        run: npm run dist
+
+      - name: Publish major
+        if: ${{ github.event.inputs.version == 'major' }}
+        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+
+      - name: Publish minor
+        if: ${{ github.event.inputs.version == 'minor' }}
+        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+
+      - name: Publish patch
+        if: ${{ github.event.inputs.version == 'patch' }}
+        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+
+      - name: Publish auto
+        if: ${{ github.event.inputs.version == 'auto' }}
+        run: npm run release:ci -- --dry-run
