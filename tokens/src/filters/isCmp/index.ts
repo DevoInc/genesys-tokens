@@ -1,9 +1,9 @@
 // Stryker disable all
 import type { Filter, Named } from 'style-dictionary';
 
-import { TOKENS_TIER } from '../../constants';
+import { matcher } from './matcher';
 
 export const isCmp: Named<Filter> = {
   name: 'isCmp',
-  matcher: (token) => token?.attributes?.tier === TOKENS_TIER.CMP,
+  matcher: matcher,
 };
