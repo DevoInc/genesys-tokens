@@ -1,11 +1,21 @@
 {
   "plugins": {
-    "@release-it-plugins/workspaces": {}
-  },
-  "hooks": {
-    "before:init": ["npm test", "npm run lint"]
+    "@release-it-plugins/workspaces": true,
+    "@release-it/conventional-changelog": {
+      "preset": "conventionalcommits",
+      "infile": "CHANGELOG.md",
+      "header": "# Changelog"
+    }
   },
   "github": {
     "release": true
+  },
+  "git": {
+    "tagName": "v${version}",
+    "tagAnnotation": "Release v${version}",
+    "commitMessage": "Release: v${version}"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
