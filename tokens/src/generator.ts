@@ -36,6 +36,7 @@ StyleDictionary.registerFilter(filters.isBrand);
 StyleDictionary.registerFilter(filters.isCmp);
 StyleDictionary.registerFilter(filters.isGroup);
 StyleDictionary.registerFilter(filters.isNotFigma);
+StyleDictionary.registerFilter(filters.isCmpAlias);
 
 StyleDictionary.registerTransformGroup(transformGroups.figma);
 StyleDictionary.registerTransformGroup(transformGroups.styleguide);

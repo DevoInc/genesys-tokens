@@ -86,7 +86,7 @@ export const getStyleDictionaryConfig = (
         {
           destination: 'js/index.d.ts',
           format: 'typescript/module-reduced-declarations',
-          filter: 'isCmp',
+          filter: 'isCmpAlias',
         },
       ],
     },
