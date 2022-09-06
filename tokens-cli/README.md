@@ -32,7 +32,7 @@ $ dit
 Generates a brand from a given schema.
 
 ```bash
-dit build [flags]
+$ dit build [flags]
 ```
 
 #### **Options**
