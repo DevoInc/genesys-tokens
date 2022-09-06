@@ -6,12 +6,12 @@ This package contains the schemes as `json` files, required to generate Devo's *
 
 ## Usage
 
-To access the generated brands one just need to import the package and access the `Brands` object.
+To access the generated brands one just needs to import the package and access the `Brands` object.
 
 ```typescript
-import { Brands } from "@devoinc/dali-brand-devo";
+import * as brands from "@devoinc/dali-brand-devo";
 
-console.log(Brands.light.cmp.appBar);
+console.log(brands.light.cmp.appBar);
 ```
 
 ## Quick start
