@@ -23,7 +23,7 @@
     "dist"
   ],
   "dependencies": {
-    "json-to-ts": "^1.7.0",
+    "quicktype-core": "^6.0.71",
     "style-dictionary": "^3.7.1"
   }
 }

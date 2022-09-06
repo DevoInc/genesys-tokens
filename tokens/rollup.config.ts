@@ -16,5 +16,5 @@ export default {
     },
   ],
   plugins: [typescript(), terser()],
-  external: ['style-dictionary', 'path', 'json-to-ts'],
+  external: ['style-dictionary', 'path', 'quicktype-core'],
 };
