@@ -9,14 +9,14 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: Set Node v16
+      - name: Set Node v14
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 14
           cache: "npm"
 
-      - name: Check npm version
-        run: npm -v
+      - name: Set npm version
+        run: npm i -g npm@7
 
       - name: Install dependencies
         run: npm ci
