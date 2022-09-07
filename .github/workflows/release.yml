@@ -49,8 +49,8 @@ jobs:
 
       - name: Setup Git config
         run: |
-          git config user.name "GitHub Release Action Bot"
-          git config user.email "<>"
+          git config --global user.name 'Devo GitHub Action'
+          git config --global user.email 'desa@devo.com'
 
       - name: Publish major
         if: ${{ github.event.inputs.version == 'major' }}
