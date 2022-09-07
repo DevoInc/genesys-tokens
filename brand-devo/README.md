@@ -4,6 +4,16 @@ Devo's main brand schemes for Dali's design system.
 
 This package contains the schemes as `json` files, required to generate Devo's **light** and **dark** brands.
 
+## Usage
+
+To access the generated brands one just needs to import the package and access the `Brands` object.
+
+```typescript
+import * as brands from "@devoinc/dali-brand-devo";
+
+console.log(brands.light.cmp.appBar);
+```
+
 ## Quick start
 
 To generate the brands from the available schemas, this project uses the `dit` CLI from [tokens-cli](../tokens-cli/). Please refer to the `dit` package [documentation](../tokens-cli/README.md) for further information.
@@ -14,4 +24,5 @@ cd brand-devo
 ## Generate tokens for Devo's brand
 npm run dist
 ```
+
 The brands are now available in the `dist/` folder.

@@ -10,11 +10,13 @@ This project includes both Devo's tokens definition for Dali's design system and
 
 Given an input schema, we can generate the corresponding tokens. Tokens are generated in the following formats: `css`, `figma`, `js`, `json` and `scss`.
 
-```js
+```typescript
+import { generate, Scheme } from '@devoinc/dali-tokens';
+
 generate({
-  source: './schemes/light',
+  source: './schemes/light/*.json',
   scheme: Scheme.light,
-  output: `dist/`,
+  output: `dist/light/`,
 });
 ```
 

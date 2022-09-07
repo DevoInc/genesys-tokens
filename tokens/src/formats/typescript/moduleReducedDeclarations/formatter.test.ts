@@ -35,9 +35,10 @@ describe('formats', () => {
               getReferences: () => [],
             },
             `export interface Brand {
-  t1: string;
-  t2: string;
-}`,
+    t1: string;
+    t2: string;
+}
+`,
           ],
         ];
 

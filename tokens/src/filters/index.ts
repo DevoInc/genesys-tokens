@@ -7,3 +7,4 @@ export * from './isFigmaScheme';
 export * from './isGlobal';
 export * from './isGroup';
 export * from './isNotFigma';
+export * from './isCmpAlias';
