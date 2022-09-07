@@ -55,4 +55,4 @@ jobs:
 
       - name: Publish auto
         if: ${{ github.event.inputs.version == 'auto' }}
-        run: npm run release:ci -- --dry-run
+        run: npm run release:ci
