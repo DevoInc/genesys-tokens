@@ -47,6 +47,11 @@ jobs:
       - name: Build source code
         run: npm run dist
 
+      - name: Setup Git config
+        run: |
+          git config user.name "GitHub Release Action Bot"
+          git config user.email "<>"
+
       - name: Publish major
         if: ${{ github.event.inputs.version == 'major' }}
         run: npm run release:ci -- ${{ github.event.inputs.version }}
