@@ -20,7 +20,7 @@
     "dist"
   ],
   "dependencies": {
-    "quicktype-core": "^6.0.71",
+    "quicktype-core": "^6.0.62",
     "style-dictionary": "^3.7.1"
   }
 }
