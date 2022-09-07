@@ -19,11 +19,13 @@
     "test": "npm run test -ws --if-present",
     "lint": "npm run lint -ws --if-present",
     "sonar-scanner": "npm run sonar-scanner -ws --if-present",
-    "release": "release-it --ci",
+    "release": "release-it --dry-run",
+    "release:ci": "release-it --ci",
     "stryker": "npm run stryker -ws --if-present"
   },
   "devDependencies": {
     "@release-it-plugins/workspaces": "^3.2.0",
+    "@release-it/conventional-changelog": "^5.1.0",
     "@rollup/plugin-typescript": "^8.4.0",
     "@stryker-mutator/core": "^6.1.2",
     "@stryker-mutator/jest-runner": "^6.1.2",

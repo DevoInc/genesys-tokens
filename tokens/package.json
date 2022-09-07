@@ -14,9 +14,6 @@
     "test": "jest --coverage --verbose",
     "lint": "eslint 'src/**/*.ts'",
     "sonar-scanner": "sonar-scanner",
-    "prerelease": "npm run test && npm run lint",
-    "release": "standard-version",
-    "postrelease": "git push --follow-tags",
     "stryker": "stryker run"
   },
   "files": [
