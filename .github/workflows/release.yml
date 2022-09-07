@@ -43,15 +43,15 @@ jobs:
 
       - name: Publish major
         if: ${{ github.event.inputs.version == 'major' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+        run: npm run release:ci -- ${{ github.event.inputs.version }}
 
       - name: Publish minor
         if: ${{ github.event.inputs.version == 'minor' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+        run: npm run release:ci -- ${{ github.event.inputs.version }}
 
       - name: Publish patch
         if: ${{ github.event.inputs.version == 'patch' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }} --dry-run
+        run: npm run release:ci -- ${{ github.event.inputs.version }}
 
       - name: Publish auto
         if: ${{ github.event.inputs.version == 'auto' }}
