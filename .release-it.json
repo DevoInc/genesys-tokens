@@ -15,6 +15,9 @@
     "tagAnnotation": "Release v${version}",
     "commitMessage": "Release: v${version}"
   },
+  "npm": {
+    "allowSameVersion": true
+  },
   "publishConfig": {
     "access": "public"
   }
