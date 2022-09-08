@@ -22,5 +22,8 @@
   "dependencies": {
     "quicktype-core": "^6.0.62",
     "style-dictionary": "^3.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

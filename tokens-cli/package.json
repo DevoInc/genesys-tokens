@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "@types/yargs": "^17.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
