@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/dali-brand-devo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Devo brand tokens",
@@ -20,6 +20,6 @@
     "dist"
   ],
   "dependencies": {
-    "@devoinc/dali-tokens-cli": "^1.0.0"
+    "@devoinc/dali-tokens-cli": "^1.0.1"
   }
 }
