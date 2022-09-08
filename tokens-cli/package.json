@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/dali-tokens-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to generate Dali tokens",
   "main": "src/cli.js",
   "bin": {
@@ -19,7 +19,7 @@
   "author": "Devo Dev Team",
   "license": "MIT",
   "dependencies": {
-    "@devoinc/dali-tokens": "^1.0.1",
+    "@devoinc/dali-tokens": "^1.0.2",
     "chalk": "^4.1.2",
     "yargs": "^17.5.1"
   },
