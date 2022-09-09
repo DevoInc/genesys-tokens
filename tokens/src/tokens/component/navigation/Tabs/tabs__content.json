@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "tabs": {
+      "content": {
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.xxs.value}"
+          }
+        }
+      }
+    }
+  }
+}

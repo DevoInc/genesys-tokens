@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navSubItemLinkIcon": {
+        "space": {
+          "value": "{alias.space.cmp.md.value}"
+        },
+        "typo": {
+          "lineHeight": {
+            "value": "0"
+          }
+        }
+      }
+    }
+  }
+}

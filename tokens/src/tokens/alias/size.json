@@ -1,0 +1,279 @@
+{
+  "alias": {
+    "size": {
+      "width": {
+        "popover": {
+          "xxxs": {
+            "value": "{global.size.width.08.value}"
+          },
+          "xxs": {
+            "value": "{global.size.width.10.value}"
+          },
+          "xs": {
+            "value": "{global.size.width.11.value}"
+          },
+          "sm": {
+            "value": "{global.size.width.12.value}"
+          },
+          "md": {
+            "value": "{global.size.width.13.value}"
+          },
+          "lg": {
+            "value": "{global.size.width.14.value}"
+          },
+          "xl": {
+            "value": "{global.size.width.15.value}"
+          }
+        },
+        "sidebar": {
+          "xs": {
+            "value": "{global.size.width.06.value}"
+          },
+          "sm": {
+            "value": "{global.size.width.07.value}"
+          },
+          "md": {
+            "value": "{global.size.width.11.value}"
+          },
+          "lg": {
+            "value": "{global.size.width.13.value}"
+          },
+          "xl": {
+            "value": "{global.size.width.14.value}"
+          }
+        }
+      },
+      "minWidth": {
+        "action": {
+          "xxs": {
+            "value": "{global.size.width.02.value}"
+          },
+          "xs": {
+            "value": "{global.size.width.03.value}"
+          },
+          "sm": {
+            "value": "{global.size.width.04.value}"
+          },
+          "md": {
+            "value": "{global.size.width.05.value}"
+          },
+          "lg": {
+            "value": "{global.size.width.06.value}"
+          }
+        }
+      },
+      "height": {
+        "surface": {
+          "xxs": {
+            "value": "{global.size.height.08.value}"
+          },
+          "xs": {
+            "value": "{global.size.height.09.value}"
+          },
+          "sm": {
+            "value": "{global.size.height.10.value}"
+          },
+          "md": {
+            "value": "{global.size.height.11.value}"
+          },
+          "lg": {
+            "value": "{global.size.height.12.value}"
+          },
+          "xl": {
+            "value": "{global.size.height.13.value}"
+          },
+          "xxl": {
+            "value": "{global.size.height.14.value}"
+          }
+        },
+        "toolbar": {
+          "xxs": {
+            "value": "{global.size.height.08.value}"
+          },
+          "xs": {
+            "value": "{global.size.height.09.value}"
+          },
+          "sm": {
+            "value": "{global.size.height.10.value}"
+          },
+          "md": {
+            "value": "{global.size.height.11.value}"
+          },
+          "lg": {
+            "value": "{global.size.height.13.value}"
+          },
+          "xl": {
+            "value": "{global.size.height.14.value}"
+          }
+        },
+        "action": {
+          "xxs": {
+            "value": "{global.size.height.04.value}"
+          },
+          "xs": {
+            "value": "{global.size.height.05.value}"
+          },
+          "sm": {
+            "value": "{global.size.height.06.value}"
+          },
+          "md": {
+            "value": "{global.size.height.07.value}"
+          },
+          "lg": {
+            "value": "{global.size.height.08.value}"
+          }
+        },
+        "tag": {
+          "sm": {
+            "value": "{global.size.height.05.value}"
+          },
+          "md": {
+            "value": "{global.size.height.06.value}"
+          },
+          "lg": {
+            "value": "{global.size.height.07.value}"
+          }
+        },
+        "track": {
+          "xs": {
+            "value": "{global.size.height.01.value}"
+          },
+          "sm": {
+            "value": "{global.size.height.02.value}"
+          },
+          "md": {
+            "value": "{global.size.height.03.value}"
+          },
+          "lg": {
+            "value": "{global.size.height.04.value}"
+          }
+        }
+      },
+      "square": {
+        "icon": {
+          "base": {
+            "xxxxs": {
+              "value": "{global.size.square.02.value}"
+            },
+            "xxxs": {
+              "value": "{global.size.square.03.value}"
+            },
+            "xxs": {
+              "value": "{global.size.square.04.value}"
+            },
+            "xs": {
+              "value": "{global.size.square.05.value}"
+            },
+            "sm": {
+              "value": "{global.size.square.06.value}"
+            },
+            "md": {
+              "value": "{global.size.square.07.value}"
+            },
+            "lg": {
+              "value": "{global.size.square.09.value}"
+            },
+            "xl": {
+              "value": "{global.size.square.10.value}"
+            },
+            "xxl": {
+              "value": "{global.size.square.11.value}"
+            },
+            "xxxl": {
+              "value": "{global.size.square.13.value}"
+            },
+            "xxxxl": {
+              "value": "{global.size.square.15.value}"
+            }
+          },
+          "inAction": {
+            "sm": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            }
+          },
+          "isAction": {
+            "xs": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "sm": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.md.value}"
+            },
+            "xl": {
+              "value": "{alias.size.square.icon.base.lg.value}"
+            },
+            "xxl": {
+              "value": "{alias.size.square.icon.base.xl.value}"
+            }
+          }
+        },
+        "thumb": {
+          "xxs": {
+            "value": "{global.size.square.11.value}"
+          },
+          "xs": {
+            "value": "{global.size.square.12.value}"
+          },
+          "sm": {
+            "value": "{global.size.square.13.value}"
+          },
+          "md": {
+            "value": "{global.size.square.14.value}"
+          },
+          "lg": {
+            "value": "{global.size.square.15.value}"
+          }
+        },
+        "badge": {
+          "hasContent": {
+            "sm": {
+              "value": "{global.size.square.05.value}"
+            },
+            "md": {
+              "value": "{global.size.square.06.value}"
+            },
+            "lg": {
+              "value": "{global.size.square.07.value}"
+            }
+          },
+          "empty": {
+            "sm": {
+              "value": "{global.size.square.02.value}"
+            },
+            "md": {
+              "value": "{global.size.square.03.value}"
+            },
+            "lg": {
+              "value": "{global.size.square.04.value}"
+            }
+          }
+        },
+        "bullet": {
+          "xs": {
+            "value": "{global.size.square.01.value}"
+          },
+          "sm": {
+            "value": "{global.size.square.02.value}"
+          },
+          "md": {
+            "value": "{global.size.square.03.value}"
+          },
+          "lg": {
+            "value": "{global.size.square.04.value}"
+          }
+        }
+      }
+    }
+  }
+}

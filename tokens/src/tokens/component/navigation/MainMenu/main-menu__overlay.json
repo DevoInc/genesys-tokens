@@ -1,0 +1,26 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "overlay": {
+        "size": {
+          "width": {
+            "value": "100%"
+          },
+          "height": {
+            "value": "100vh"
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "value": "{alias.elevation.zIndex.depth.overlay.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "value": "{alias.color.background.backdrop.dark.strongest.value}"
+          }
+        }
+      }
+    }
+  }
+}

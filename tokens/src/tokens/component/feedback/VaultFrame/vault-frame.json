@@ -1,0 +1,24 @@
+{
+  "cmp": {
+    "vaultFrame": {
+      "color": {
+        "background": {
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.base.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.base.value}"
+          }
+        },
+        "text": {
+          "warning": {
+            "value": "{alias.color.text.feedback.warning.base.value}"
+          },
+          "error": {
+            "value": "{alias.color.text.feedback.error.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

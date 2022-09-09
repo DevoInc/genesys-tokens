@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondaryHeadingIcon": {
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.icon.xl.value}"
+          }
+        },
+        "space": {
+          "value": "{alias.space.cmp.sm.value}"
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navItemBadge": {
+        "space": {
+          "value": "0 {alias.space.cmp.xxs.value}"
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "value": "{alias.size.square.badge.hasContent.sm.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.action.xxs.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.action.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "value": "{alias.color.background.feedback.success.base.value}"
+          },
+          "text": {
+            "value": "{alias.color.text.feedback.success.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

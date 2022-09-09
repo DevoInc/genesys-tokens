@@ -1,0 +1,40 @@
+{
+  "cmp": {
+    "toast": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.weaker.value}"
+          },
+          "help": {
+            "value": "{alias.color.background.feedback.help.weaker.value}"
+          },
+          "info": {
+            "value": "{alias.color.background.feedback.info.weaker.value}"
+          },
+          "success": {
+            "value": "{alias.color.background.feedback.success.weaker.value}"
+          },
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.weaker.value}"
+          }
+        }
+      },
+      "space": {
+        "gap": {
+          "value": "{alias.space.layout.xs.value}"
+        }
+      },
+      "size": {
+        "width": {
+          "default": {
+            "value": "48rem"
+          }
+        }
+      }
+    }
+  }
+}

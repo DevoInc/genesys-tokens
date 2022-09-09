@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "switchControl": {
+      "shape": {
+        "opacity": {
+          "disabled": {
+            "value": "{alias.shape.opacity.disabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "logoCustom": {
+        "shape": {
+          "backgroundSize": {
+            "value": "{brand.mainMenu.logoCustom.shape.backgroundSize.value}"
+          }
+        }
+      }
+    }
+  }
+}

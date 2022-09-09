@@ -1,0 +1,58 @@
+{
+  "alias": {
+    "space": {
+      "cmp": {
+        "xxs": {
+          "value": "{global.space.01.value}"
+        },
+        "xs": {
+          "value": "{global.space.02.value}"
+        },
+        "sm": {
+          "value": "{global.space.03.value}"
+        },
+        "md": {
+          "value": "{global.space.04.value}"
+        },
+        "lg": {
+          "value": "{global.space.05.value}"
+        },
+        "xl": {
+          "value": "{global.space.06.value}"
+        },
+        "xxl": {
+          "value": "{global.space.07.value}"
+        },
+        "xxxl": {
+          "value": "{global.space.08.value}"
+        }
+      },
+      "layout": {
+        "xxs": {
+          "value": "{global.space.04.value}"
+        },
+        "xs": {
+          "value": "{global.space.05.value}"
+        },
+        "sm": {
+          "value": "{global.space.06.value}"
+        },
+        "md": {
+          "value": "{global.space.08.value}"
+        },
+        "lg": {
+          "value": "{global.space.09.value}"
+        },
+        "xl": {
+          "value": "{global.space.10.value}"
+        },
+        "xxl": {
+          "value": "{global.space.11.value}"
+        },
+        "xxxl": {
+          "value": "{global.space.12.value}"
+        }
+      }
+    }
+  }
+}

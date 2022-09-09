@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "widget": {
+      "icon": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

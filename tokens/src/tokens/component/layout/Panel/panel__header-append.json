@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "panel": {
+      "headerAppend": {
+        "space": {
+          "marginLeft": {
+            "xs": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.space.cmp.sm.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.sm.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

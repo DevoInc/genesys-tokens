@@ -1,0 +1,14 @@
+{
+  "cmp": {
+    "dialog": {
+      "size": {
+        "minHeight": {
+          "value": "unset"
+        },
+        "maxWidth": {
+          "value": "52rem"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cmp": {
+    "panel": {
+      "footer": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.depth.sticky.top.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "xs": {
+              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
+            },
+            "sm": {
+              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.sm.value} {alias.space.cmp.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "alias": {
+    "shape": {
+      "opacity": {
+        "disabled": {
+          "value": "{global.shape.opacity.low.value}"
+        },
+        "blocked": {
+          "value": "{global.shape.opacity.high.value}"
+        }
+      }
+    }
+  }
+}

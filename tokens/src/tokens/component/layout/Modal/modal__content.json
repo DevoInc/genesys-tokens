@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "modal": {
+      "content": {
+        "space": {
+          "padding": {
+            "ver": {
+              "value": "{alias.space.cmp.md.value}"
+            },
+            "hor": {
+              "value": "{alias.space.cmp.lg.value}"
+            }
+          },
+          "margin": {
+            "value": "{alias.space.cmp.md.value} {alias.space.cmp.md.value} {alias.space.cmp.md.value} 0"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "loader": {
+      "spinner": {
+        "color": {
+          "background": {
+            "light": {
+              "value": "{alias.color.background.surface.base.base.value}"
+            },
+            "dark": {
+              "value": "{alias.color.background.track.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

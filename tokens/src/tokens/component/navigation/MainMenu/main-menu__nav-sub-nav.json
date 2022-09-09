@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navSubNav": {
+        "size": {
+          "width": {
+            "value": "{cmp.mainMenu.size.width.expanded.value}"
+          }
+        }
+      }
+    }
+  }
+}

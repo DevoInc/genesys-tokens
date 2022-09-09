@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "tag": {
+      "badge": {
+        "space": {
+          "marginRight": {
+            "sm": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

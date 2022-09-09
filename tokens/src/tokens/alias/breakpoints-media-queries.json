@@ -1,0 +1,23 @@
+{
+  "alias": {
+    "breakpoints": {
+      "mediaQuery": {
+        "xs": {
+          "value": "575px"
+        },
+        "sm": {
+          "value": "576px"
+        },
+        "md": {
+          "value": "768px"
+        },
+        "lg": {
+          "value": "992px"
+        },
+        "xl": {
+          "value": "1200px"
+        }
+      }
+    }
+  }
+}

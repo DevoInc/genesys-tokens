@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "searchItemWrapper": {
+        "size": {
+          "width": {
+            "value": "{cmp.mainMenu.searchItem.size.width.value}"
+          }
+        }
+      }
+    }
+  }
+}

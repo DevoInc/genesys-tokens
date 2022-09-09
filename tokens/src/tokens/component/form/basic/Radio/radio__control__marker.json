@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "radio": {
+      "controlMarker": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "calc({alias.fields.size.square.sm.value} - 0.9rem)"
+            },
+            "md": {
+              "value": "calc({alias.fields.size.square.md.value} - 0.9rem)"
+            },
+            "lg": {
+              "value": "calc({alias.fields.size.square.lg.value} - 0.9rem)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

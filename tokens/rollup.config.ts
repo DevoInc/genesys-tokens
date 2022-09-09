@@ -1,5 +1,6 @@
 import typescript from '@rollup/plugin-typescript';
 import { terser } from 'rollup-plugin-terser';
+import copy from 'rollup-plugin-copy-assets';
 
 export default {
   input: 'src/index.ts',
@@ -15,6 +16,12 @@ export default {
       sourcemap: true,
     },
   ],
-  plugins: [typescript(), terser()],
+  plugins: [
+    typescript(),
+    terser(),
+    copy({
+      assets: ['src/tokens'],
+    }),
+  ],
   external: ['style-dictionary', 'path', 'quicktype-core'],
 };

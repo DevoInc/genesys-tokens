@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "avatarTimeZoneRight": {
+        "space": {
+          "value": "{alias.space.cmp.xxs.value}"
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.lead.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

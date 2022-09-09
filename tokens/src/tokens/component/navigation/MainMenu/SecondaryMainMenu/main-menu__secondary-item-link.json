@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "secondaryItemLink": {
+        "transition": {
+          "value": "{alias.mutation.transitionDuration.action.value} all ease"
+        },
+        "size": {
+          "width": {
+            "value": "100%"
+          },
+          "space": {
+            "value": "0 {alias.space.cmp.xl.value} 0 {alias.space.cmp.xxs.value}"
+          }
+        },
+        "typo": {
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.lead.value}"
+          },
+          "fontSize": {
+            "value": "{alias.typo.fontSize.lead.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

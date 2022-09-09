@@ -1,0 +1,29 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "fixer": {
+        "size": {
+          "width": {
+            "value": "{alias.size.square.icon.isAction.md.value}"
+          },
+          "height": {
+            "value": "{alias.size.square.icon.isAction.md.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.icon.xs.value}"
+          },
+          "lineHeight": {
+            "value": "{alias.typo.lineHeight.body.relative.value}"
+          }
+        },
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        }
+      }
+    }
+  }
+}

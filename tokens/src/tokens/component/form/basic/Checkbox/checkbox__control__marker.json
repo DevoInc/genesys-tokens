@@ -1,0 +1,26 @@
+{
+  "cmp": {
+    "checkbox": {
+      "controlMarker": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "calc({alias.fields.size.square.sm.value} - 0.6rem)"
+            },
+            "md": {
+              "value": "calc({alias.fields.size.square.md.value} - 0.6rem)"
+            },
+            "lg": {
+              "value": "calc({alias.fields.size.square.lg.value} - 0.6rem)"
+            }
+          },
+          "height": {
+            "mixed": {
+              "value": "0.2rem"
+            }
+          }
+        }
+      }
+    }
+  }
+}

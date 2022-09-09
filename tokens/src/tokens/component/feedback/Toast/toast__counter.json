@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "toast": {
+      "counter": {
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.handler.base.enabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

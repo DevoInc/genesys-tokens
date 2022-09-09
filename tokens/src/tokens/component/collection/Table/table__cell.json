@@ -1,0 +1,83 @@
+{
+  "cmp": {
+    "table": {
+      "cell": {
+        "color": {
+          "background": {
+            "backdrop": {
+              "hovered": {
+                "base": {
+                  "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+                },
+                "strong": {
+                  "value": "{alias.color.background.surface.backdrop.base.weak.value}"
+                }
+              }
+            }
+          },
+          "border": {
+            "value": "{alias.color.border.surface.base.weak.value}"
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "columnHighlight": {
+              "value": "calc({cmp.table.cellExpandedWrapper.elevation.zIndex.value} + 1)"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.action.value}"
+          }
+        },
+        "shape": {
+          "borderSize": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "hor": {
+              "compact": {
+                "value": "{alias.space.cmp.sm.value}"
+              },
+              "default": {
+                "value": "{alias.space.cmp.sm.value}"
+              },
+              "comfortable": {
+                "value": "{alias.space.cmp.md.value}"
+              }
+            },
+            "ver": {
+              "compact": {
+                "base": {
+                  "value": "{alias.space.cmp.xxs.value}"
+                },
+                "tall": {
+                  "value": "{alias.space.cmp.xs.value}"
+                }
+              },
+              "default": {
+                "base": {
+                  "value": "{alias.space.cmp.xs.value}"
+                },
+                "tall": {
+                  "value": "{alias.space.cmp.sm.value}"
+                }
+              },
+              "comfortable": {
+                "base": {
+                  "value": "{alias.space.cmp.sm.value}"
+                },
+                "tall": {
+                  "value": "{alias.space.cmp.sm.value}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

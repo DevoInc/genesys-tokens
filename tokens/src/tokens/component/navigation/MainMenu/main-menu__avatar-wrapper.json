@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "avatarWrapper": {
+        "size": {
+          "height": {
+            "value": "100%"
+          },
+          "width": {
+            "value": "{cmp.mainMenu.size.width.expanded.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1021 @@
+{
+  "theme": {
+    "fields": {
+      "color": {
+        "background": {
+          "base": {
+            "enabled": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "hovered": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "focused": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "readonly": {
+              "value": "{global.color.blend.white.06.value}"
+            },
+            "disabled": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "unchecked": {
+              "value": "rgba(0,0,0,0)"
+            }
+          },
+          "inverse": {
+            "enabled": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "hovered": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "focused": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "readonly": {
+              "value": "{global.color.blend.white.06.value}"
+            },
+            "disabled": {
+              "value": "{global.color.blend.white.03.value}"
+            },
+            "unchecked": {
+              "value": "{global.color.blend.white.03.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "hovered": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "focused": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "readonly": {
+              "value": "{global.color.error.09.value}"
+            },
+            "disabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "checked": {
+              "value": "{global.color.error.05.value}"
+            },
+            "unchecked": {
+              "value": "rgba(0,0,0,0)"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "hovered": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "focused": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "readonly": {
+              "value": "{global.color.success.09.value}"
+            },
+            "disabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "checked": {
+              "value": "{global.color.success.05.value}"
+            },
+            "unchecked": {
+              "value": "rgba(0,0,0,0)"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "hovered": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "focused": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "readonly": {
+              "value": "{global.color.warning.09.value}"
+            },
+            "disabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "checked": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "unchecked": {
+              "value": "rgba(0,0,0,0)"
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "background": {
+        "app": {
+          "value": "{global.color.neutral.16.value}"
+        },
+        "surface": {
+          "base": {
+            "base": {
+              "value": "{global.color.neutral.14.value}"
+            },
+            "raised": {
+              "value": "{global.color.neutral.12.value}"
+            },
+            "featured": {
+              "value": "{global.color.neutral.11.value}"
+            },
+            "expanded": {
+              "value": "{global.color.neutral.11.value}"
+            },
+            "readonly": {
+              "value": "{global.color.blend.white.01.value}"
+            },
+            "created": {
+              "value": "{global.color.success.08.value}"
+            },
+            "deleted": {
+              "value": "{global.color.error.08.value}"
+            }
+          },
+          "inverse": {
+            "base": {
+              "value": "{global.color.blend.white.25.value}"
+            },
+            "readonly": {
+              "value": "{global.color.blend.black.01.value}"
+            },
+            "created": {
+              "value": "{global.color.success.01.value}"
+            },
+            "deleted": {
+              "value": "{global.color.error.01.value}"
+            }
+          },
+          "neutral": {
+            "base": {
+              "value": "{global.color.neutral.13.value}"
+            },
+            "weak": {
+              "value": "{global.color.neutral.06.value}"
+            }
+          },
+          "error": {
+            "base": {
+              "value": "{global.color.error.06.value}"
+            },
+            "weak": {
+              "value": "{global.color.error.03.value}"
+            }
+          },
+          "success": {
+            "base": {
+              "value": "{global.color.success.04.value}"
+            },
+            "weak": {
+              "value": "{global.color.success.02.value}"
+            }
+          },
+          "warning": {
+            "base": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "weak": {
+              "value": "{global.color.warning.01.value}"
+            }
+          },
+          "help": {
+            "base": {
+              "value": "{global.color.help.04.value}"
+            },
+            "weak": {
+              "value": "{global.color.help.01.value}"
+            }
+          },
+          "info": {
+            "base": {
+              "value": "{global.color.info.04.value}"
+            },
+            "weak": {
+              "value": "{global.color.info.01.value}"
+            }
+          },
+          "backdrop": {
+            "base": {
+              "hovered": {
+                "value": "{global.color.blend.white.01.value}"
+              },
+              "focused": {
+                "value": "rgba(0,0,0,0)"
+              },
+              "pressed": {
+                "value": "{global.color.blend.white.05.value}"
+              },
+              "expanded": {
+                "value": "{global.color.blend.white.03.value}"
+              },
+              "weakest": {
+                "value": "rgba({global.color.blend.white.alt.rgbValues}, 0.02)"
+              },
+              "weaker": {
+                "value": "{global.color.blend.white.01.value}"
+              },
+              "weak": {
+                "value": "{global.color.blend.white.02.value}"
+              },
+              "base": {
+                "value": "{global.color.blend.white.04.value}"
+              },
+              "strong": {
+                "value": "{global.color.blend.white.06.value}"
+              },
+              "stronger": {
+                "value": "{global.color.blend.white.09.value}"
+              },
+              "strongest": {
+                "value": "{global.color.blend.white.12.value}"
+              }
+            },
+            "inverse": {
+              "hovered": {
+                "value": "{global.color.blend.black.01.value}"
+              },
+              "focused": {
+                "value": "rgba(0,0,0,0)"
+              },
+              "pressed": {
+                "value": "{global.color.blend.black.05.value}"
+              },
+              "expanded": {
+                "value": "{global.color.blend.black.03.value}"
+              },
+              "weakest": {
+                "value": "rgba({global.color.blend.black.alt.rgbValues}, 0.02)"
+              },
+              "weaker": {
+                "value": "{global.color.blend.black.01.value}"
+              },
+              "weak": {
+                "value": "{global.color.blend.black.02.value}"
+              },
+              "base": {
+                "value": "{global.color.blend.black.04.value}"
+              },
+              "strong": {
+                "value": "{global.color.blend.black.06.value}"
+              },
+              "stronger": {
+                "value": "{global.color.blend.black.09.value}"
+              },
+              "strongest": {
+                "value": "{global.color.blend.black.12.value}"
+              }
+            }
+          }
+        },
+        "handler": {
+          "value": "{global.color.blend.white.22.value}"
+        },
+        "track": {
+          "base": {
+            "value": "{global.color.neutral.10.value}"
+          },
+          "blend": {
+            "value": "{global.color.blend.white.02.value}"
+          },
+          "error": {
+            "value": "{global.color.error.08.value}"
+          },
+          "success": {
+            "value": "{global.color.success.08.value}"
+          },
+          "warning": {
+            "value": "{global.color.warning.08.value}"
+          }
+        },
+        "feedback": {
+          "rating": {
+            "weak": {
+              "value": "{global.color.rating.03.value}"
+            },
+            "base": {
+              "value": "{global.color.rating.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.rating.01.value}"
+            }
+          },
+          "neutral": {
+            "weaker": {
+              "value": "{global.color.neutral.00.value}"
+            },
+            "weak": {
+              "value": "{global.color.neutral.01.value}"
+            },
+            "base": {
+              "value": "{global.color.neutral.03.value}"
+            },
+            "strong": {
+              "value": "{global.color.neutral.07.value}"
+            },
+            "stronger": {
+              "value": "{global.color.neutral.12.value}"
+            }
+          },
+          "blendBase": {
+            "weaker": {
+              "value": "{global.color.blend.white.02.value}"
+            },
+            "weak": {
+              "value": "{global.color.blend.white.04.value}"
+            },
+            "base": {
+              "value": "{global.color.blend.white.06.value}"
+            },
+            "strong": {
+              "value": "{global.color.blend.white.12.value}"
+            },
+            "stronger": {
+              "value": "{global.color.blend.white.15.value}"
+            }
+          },
+          "blendInverse": {
+            "weaker": {
+              "value": "{global.color.blend.black.01.value}"
+            },
+            "weak": {
+              "value": "{global.color.blend.black.02.value}"
+            },
+            "base": {
+              "value": "{global.color.blend.black.03.value}"
+            },
+            "strong": {
+              "value": "{global.color.blend.black.08.value}"
+            },
+            "stronger": {
+              "value": "{global.color.blend.black.10.value}"
+            }
+          },
+          "error": {
+            "weak": {
+              "value": "{global.color.error.03.value}"
+            },
+            "weaker": {
+              "value": "{global.color.error.01.value}"
+            },
+            "base": {
+              "value": "{global.color.error.04.value}"
+            },
+            "strong": {
+              "value": "{global.color.error.06.value}"
+            },
+            "stronger": {
+              "value": "{global.color.error.05.value}"
+            }
+          },
+          "success": {
+            "weaker": {
+              "value": "{global.color.success.01.value}"
+            },
+            "weak": {
+              "value": "{global.color.success.02.value}"
+            },
+            "base": {
+              "value": "{global.color.success.03.value}"
+            },
+            "strong": {
+              "value": "{global.color.success.06.value}"
+            },
+            "stronger": {
+              "value": "{global.color.success.04.value}"
+            }
+          },
+          "warning": {
+            "weaker": {
+              "value": "{global.color.warning.01.value}"
+            },
+            "weak": {
+              "value": "{global.color.warning.03.value}"
+            },
+            "base": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "strong": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.warning.06.value}"
+            }
+          },
+          "help": {
+            "weaker": {
+              "value": "{global.color.help.00.value}"
+            },
+            "weak": {
+              "value": "{global.color.help.02.value}"
+            },
+            "base": {
+              "value": "{global.color.help.03.value}"
+            },
+            "strong": {
+              "value": "{global.color.help.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.help.06.value}"
+            }
+          },
+          "info": {
+            "weaker": {
+              "value": "{global.color.info.01.value}"
+            },
+            "weak": {
+              "value": "{global.color.info.02.value}"
+            },
+            "base": {
+              "value": "{global.color.info.03.value}"
+            },
+            "strong": {
+              "value": "{global.color.info.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.info.06.value}"
+            }
+          },
+          "dataBlue": {
+            "weak": {
+              "value": "{global.color.visualization.blue.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.blue.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.blue.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.blue.06.value}"
+            }
+          },
+          "dataBronze": {
+            "weak": {
+              "value": "{global.color.visualization.bronze.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.bronze.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.bronze.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.bronze.06.value}"
+            }
+          },
+          "dataGreen": {
+            "weak": {
+              "value": "{global.color.visualization.green.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.green.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.green.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.green.06.value}"
+            }
+          },
+          "dataTeal": {
+            "weak": {
+              "value": "{global.color.visualization.teal.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.teal.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.teal.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.teal.06.value}"
+            }
+          },
+          "dataSky": {
+            "weak": {
+              "value": "{global.color.visualization.sky.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.sky.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.sky.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.sky.06.value}"
+            }
+          },
+          "dataSlate": {
+            "weak": {
+              "value": "{global.color.visualization.slate.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.slate.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.slate.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.slate.06.value}"
+            }
+          },
+          "dataIndigo": {
+            "weak": {
+              "value": "{global.color.visualization.indigo.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.indigo.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.indigo.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.indigo.06.value}"
+            }
+          },
+          "dataDusk": {
+            "weak": {
+              "value": "{global.color.visualization.dusk.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.dusk.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.dusk.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.dusk.06.value}"
+            }
+          },
+          "dataPurple": {
+            "weak": {
+              "value": "{global.color.visualization.purple.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.purple.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.purple.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.purple.06.value}"
+            }
+          },
+          "dataMagenta": {
+            "weak": {
+              "value": "{global.color.visualization.magenta.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.magenta.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.magenta.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.magenta.06.value}"
+            }
+          },
+          "dataRed": {
+            "weak": {
+              "value": "{global.color.visualization.red.01.value}"
+            },
+            "base": {
+              "value": "{global.color.visualization.red.02.value}"
+            },
+            "strong": {
+              "value": "{global.color.visualization.red.04.value}"
+            },
+            "stronger": {
+              "value": "{global.color.visualization.red.06.value}"
+            }
+          }
+        },
+        "action": {
+          "neutral": {
+            "enabled": {
+              "value": "{global.color.neutral.10.value}"
+            },
+            "disabled": {
+              "value": "{global.color.neutral.10.value}"
+            },
+            "hovered": {
+              "value": "{global.color.neutral.10.value}"
+            },
+            "focused": {
+              "value": "{global.color.neutral.10.value}"
+            },
+            "pressed": {
+              "value": "{global.color.neutral.10.value}"
+            },
+            "expanded": {
+              "value": "{global.color.neutral.08.value}"
+            }
+          },
+          "quiet": {
+            "enabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "disabled": {
+              "value": "rgba(0,0,0,0)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.neutral.04.alt.rgbValues}, 0.44)"
+            },
+            "focused": {
+              "value": "rgba({global.color.neutral.04.alt.rgbValues}, 0.44)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.neutral.04.alt.rgbValues}, 0.44)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.neutral.04.alt.rgbValues}, 0.84)"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{global.color.error.04.value}"
+            },
+            "disabled": {
+              "value": "{global.color.error.04.value}"
+            },
+            "hovered": {
+              "value": "{global.color.error.04.value}"
+            },
+            "focused": {
+              "value": "{global.color.error.04.value}"
+            },
+            "pressed": {
+              "value": "{global.color.error.04.value}"
+            },
+            "expanded": {
+              "value": "{global.color.error.05.value}"
+            },
+            "selected": {
+              "value": "{global.color.error.05.value}"
+            },
+            "activated": {
+              "value": "{global.color.error.06.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{global.color.success.03.value}"
+            },
+            "disabled": {
+              "value": "{global.color.success.03.value}"
+            },
+            "hovered": {
+              "value": "{global.color.success.03.value}"
+            },
+            "focused": {
+              "value": "{global.color.success.03.value}"
+            },
+            "pressed": {
+              "value": "{global.color.success.03.value}"
+            },
+            "expanded": {
+              "value": "{global.color.success.04.value}"
+            },
+            "selected": {
+              "value": "{global.color.success.05.value}"
+            },
+            "activated": {
+              "value": "{global.color.success.05.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "disabled": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "hovered": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "focused": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "pressed": {
+              "value": "{global.color.warning.04.value}"
+            },
+            "expanded": {
+              "value": "{global.color.warning.05.value}"
+            },
+            "selected": {
+              "value": "{global.color.warning.06.value}"
+            },
+            "activated": {
+              "value": "{global.color.warning.06.value}"
+            }
+          },
+          "help": {
+            "enabled": {
+              "value": "{global.color.help.03.value}"
+            },
+            "disabled": {
+              "value": "{global.color.help.03.value}"
+            },
+            "hovered": {
+              "value": "{global.color.help.03.value}"
+            },
+            "focused": {
+              "value": "{global.color.help.03.value}"
+            },
+            "pressed": {
+              "value": "{global.color.help.03.value}"
+            },
+            "expanded": {
+              "value": "{global.color.help.04.value}"
+            },
+            "selected": {
+              "value": "{global.color.help.05.value}"
+            },
+            "activated": {
+              "value": "{global.color.help.05.value}"
+            }
+          },
+          "info": {
+            "enabled": {
+              "value": "{global.color.info.03.value}"
+            },
+            "disabled": {
+              "value": "{global.color.info.03.value}"
+            },
+            "hovered": {
+              "value": "{global.color.info.03.value}"
+            },
+            "focused": {
+              "value": "{global.color.info.03.value}"
+            },
+            "pressed": {
+              "value": "{global.color.info.03.value}"
+            },
+            "expanded": {
+              "value": "{global.color.info.04.value}"
+            },
+            "selected": {
+              "value": "{global.color.info.05.value}"
+            },
+            "activated": {
+              "value": "{global.color.info.05.value}"
+            }
+          },
+          "blendBase": {
+            "enabled": {
+              "value": "{global.color.blend.white.05.value}"
+            },
+            "disabled": {
+              "value": "{global.color.blend.white.05.value}"
+            },
+            "hovered": {
+              "value": "{global.color.blend.white.05.value}"
+            },
+            "focused": {
+              "value": "{global.color.blend.white.05.value}"
+            },
+            "pressed": {
+              "value": "{global.color.blend.white.05.value}"
+            },
+            "expanded": {
+              "value": "{global.color.blend.white.08.value}"
+            },
+            "selected": {
+              "value": "{global.color.blend.white.10.value}"
+            },
+            "activated": {
+              "value": "{global.color.blend.white.13.value}"
+            }
+          },
+          "blendInverse": {
+            "enabled": {
+              "value": "{global.color.blend.black.02.value}"
+            },
+            "disabled": {
+              "value": "{global.color.blend.black.02.value}"
+            },
+            "hovered": {
+              "value": "{global.color.blend.black.05.value}"
+            },
+            "focused": {
+              "value": "{global.color.blend.black.02.value}"
+            },
+            "pressed": {
+              "value": "{global.color.blend.black.02.value}"
+            },
+            "expanded": {
+              "value": "{global.color.blend.black.04.value}"
+            },
+            "selected": {
+              "value": "{global.color.blend.black.06.value}"
+            },
+            "activated": {
+              "value": "{global.color.blend.black.09.value}"
+            }
+          },
+          "blendError": {
+            "enabled": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.1)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.1)"
+            },
+            "focused": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.1)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.1)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.2)"
+            },
+            "selected": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.3)"
+            },
+            "activated": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.3)"
+            },
+            "disabled": {
+              "value": "rgba({global.color.error.06.alt.rgbValues}, 0.1)"
+            }
+          },
+          "blendSuccess": {
+            "enabled": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.1)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.1)"
+            },
+            "focused": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.1)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.1)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.2)"
+            },
+            "selected": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.3)"
+            },
+            "activated": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.3)"
+            },
+            "disabled": {
+              "value": "rgba({global.color.success.05.alt.rgbValues}, 0.1)"
+            }
+          },
+          "blendWarning": {
+            "enabled": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+            },
+            "focused": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.3)"
+            },
+            "selected": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.4)"
+            },
+            "activated": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.4)"
+            },
+            "disabled": {
+              "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+            }
+          },
+          "blendHelp": {
+            "enabled": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.1)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.1)"
+            },
+            "focused": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.1)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.1)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.2)"
+            },
+            "selected": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.3)"
+            },
+            "activated": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.3)"
+            },
+            "disabled": {
+              "value": "rgba({global.color.help.06.alt.rgbValues}, 0.1)"
+            }
+          },
+          "blendInfo": {
+            "enabled": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.1)"
+            },
+            "hovered": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.1)"
+            },
+            "focused": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.1)"
+            },
+            "pressed": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.1)"
+            },
+            "expanded": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.2)"
+            },
+            "selected": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.3)"
+            },
+            "activated": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.3)"
+            },
+            "disabled": {
+              "value": "rgba({global.color.info.06.alt.rgbValues}, 0.1)"
+            }
+          },
+          "backdrop": {
+            "base": {
+              "highlighted": {
+                "value": "{global.color.blend.white.06.value}"
+              },
+              "expanded": {
+                "value": "{global.color.blend.white.08.value}"
+              },
+              "hovered": {
+                "value": "{global.color.blend.white.07.value}"
+              },
+              "focused": {
+                "value": "rgba(0,0,0,0)"
+              },
+              "pressed": {
+                "value": "{global.color.blend.black.04.value}"
+              }
+            },
+            "inverse": {
+              "highlighted": {
+                "value": "{global.color.blend.black.05.value}"
+              },
+              "expanded": {
+                "value": "{global.color.blend.black.07.value}"
+              },
+              "hovered": {
+                "value": "{global.color.blend.black.05.value}"
+              },
+              "focused": {
+                "value": "rgba(0,0,0,0)"
+              },
+              "pressed": {
+                "value": "{global.color.blend.white.07.value}"
+              }
+            }
+          }
+        },
+        "backdrop": {
+          "dark": {
+            "value": "{global.color.neutral.16.alt.rgbValues}"
+          },
+          "light": {
+            "value": "{global.color.blend.white.alt.rgbValues}"
+          },
+          "error": {
+            "value": "{global.color.error.06.alt.rgbValues}"
+          },
+          "success": {
+            "value": "{global.color.success.06.alt.rgbValues}"
+          },
+          "warning": {
+            "value": "{global.color.warning.06.alt.rgbValues}"
+          },
+          "help": {
+            "value": "{global.color.help.06.alt.rgbValues}"
+          },
+          "info": {
+            "value": "{global.color.info.06.alt.rgbValues}"
+          }
+        }
+      }
+    }
+  }
+}

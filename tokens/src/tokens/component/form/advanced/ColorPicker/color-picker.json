@@ -1,0 +1,43 @@
+{
+  "cmp": {
+    "colorPicker": {
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.fields.size.height.xs.value}"
+          },
+          "md": {
+            "value": "{alias.fields.size.height.sm.value}"
+          },
+          "lg": {
+            "value": "{alias.fields.size.height.md.value}"
+          }
+        },
+        "width": {
+          "sm": {
+            "value": "calc({cmp.colorPicker.size.height.sm.value} * 2)"
+          },
+          "md": {
+            "value": "calc({cmp.colorPicker.size.height.md.value} * 2)"
+          },
+          "lg": {
+            "value": "calc({cmp.colorPicker.size.height.lg.value} * 2)"
+          }
+        }
+      },
+      "space": {
+        "value": "calc({alias.space.cmp.xxs.value} - 0.1rem)"
+      },
+      "shape": {
+        "borderRadius": {
+          "base": {
+            "value": "{alias.fields.shape.borderRadius.value}"
+          },
+          "isCircle": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          }
+        }
+      }
+    }
+  }
+}

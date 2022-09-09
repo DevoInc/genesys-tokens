@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "table": {
+      "headCellSeparator": {
+        "color": {
+          "background": {
+            "after": {
+              "value": "{alias.color.background.backdrop.dark.weak.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

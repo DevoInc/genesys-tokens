@@ -2,7 +2,7 @@
 import path from 'path';
 import type { Scheme } from './Scheme';
 
-const tokensPath = path.resolve(__dirname, '..', 'tokens');
+const tokensPath = path.resolve(__dirname, 'tokens');
 
 export const getStyleDictionaryConfig = (
   scheme: Scheme,

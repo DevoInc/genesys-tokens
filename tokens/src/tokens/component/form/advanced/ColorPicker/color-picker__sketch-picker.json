@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "colorPicker": {
+      "sketchPicker": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          },
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

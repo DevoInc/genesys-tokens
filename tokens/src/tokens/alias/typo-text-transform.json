@@ -1,0 +1,41 @@
+{
+  "alias": {
+    "typo": {
+      "textTransform": {
+        "action": {
+          "value": "none"
+        },
+        "body": {
+          "value": "none"
+        },
+        "overline": {
+          "value": "uppercase"
+        },
+        "heading": {
+          "value": "none"
+        },
+        "hero": {
+          "value": "none"
+        },
+        "lead": {
+          "value": "none"
+        },
+        "link": {
+          "value": "none"
+        },
+        "markers": {
+          "value": "none"
+        },
+        "mono": {
+          "value": "none"
+        },
+        "shortText": {
+          "value": "none"
+        },
+        "bolder": {
+          "value": "none"
+        }
+      }
+    }
+  }
+}

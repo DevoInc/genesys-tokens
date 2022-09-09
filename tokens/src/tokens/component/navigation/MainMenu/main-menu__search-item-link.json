@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "searchItemLink": {
+        "size": {
+          "width": {
+            "value": "{cmp.mainMenu.size.width.expanded.value}"
+          },
+          "height": {
+            "value": "100%"
+          }
+        },
+        "space": {
+          "value": "0 {alias.space.cmp.xxxl.value} 0 {alias.space.cmp.sm.value}"
+        }
+      }
+    }
+  }
+}

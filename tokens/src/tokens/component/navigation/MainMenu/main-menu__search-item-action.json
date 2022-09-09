@@ -1,0 +1,29 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "searchItemAction": {
+        "size": {
+          "height": {
+            "value": "{cmp.mainMenu.searchItem.size.height.value}"
+          },
+          "width": {
+            "value": "{alias.size.square.icon.isAction.md.value}"
+          }
+        },
+        "typo": {
+          "lineHeight": {
+            "value": "{cmp.mainMenu.searchItem.size.height.value}"
+          },
+          "fontSize": {
+            "value": "{alias.typo.fontSize.icon.xxxs.value}"
+          }
+        },
+        "shape": {
+          "border": {
+            "value": "solid {alias.shape.borderSize.separator.md.value} {alias.color.border.separator.base.strong.value}"
+          }
+        }
+      }
+    }
+  }
+}

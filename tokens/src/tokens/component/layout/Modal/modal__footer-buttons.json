@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "modal": {
+      "footerButtons": {
+        "space": {
+          "gap": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "marginLeft": {
+            "value": "auto"
+          }
+        }
+      }
+    }
+  }
+}

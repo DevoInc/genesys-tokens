@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "radio": {
+      "control": {
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          }
+        }
+      }
+    }
+  }
+}

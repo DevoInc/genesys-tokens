@@ -1,0 +1,58 @@
+{
+  "alias": {
+    "mutation": {
+      "transitionDuration": {
+        "action": {
+          "value": "{global.mutation.transitionDuration.md.value}"
+        },
+        "quick": {
+          "value": "{global.mutation.transitionDuration.xs.value}"
+        },
+        "blink": {
+          "value": "{global.mutation.transitionDuration.xxxxl.value}"
+        },
+        "opacity": {
+          "sm": {
+            "value": "{global.mutation.transitionDuration.xs.value}"
+          },
+          "md": {
+            "value": "{global.mutation.transitionDuration.sm.value}"
+          },
+          "lg": {
+            "value": "{global.mutation.transitionDuration.md.value}"
+          },
+          "xl": {
+            "value": "{global.mutation.transitionDuration.lg.value}"
+          },
+          "xxl": {
+            "value": "{global.mutation.transitionDuration.xl.value}"
+          },
+          "xxxl": {
+            "value": "{global.mutation.transitionDuration.xxl.value}"
+          }
+        },
+        "translation": {
+          "hor": {
+            "sm": {
+              "value": "{global.mutation.transitionDuration.lg.value}"
+            },
+            "md": {
+              "value": "{global.mutation.transitionDuration.xl.value}"
+            },
+            "lg": {
+              "value": "{global.mutation.transitionDuration.xxl.value}"
+            }
+          }
+        },
+        "rotation": {
+          "90": {
+            "value": "{global.mutation.transitionDuration.lg.value}"
+          },
+          "180": {
+            "value": "{global.mutation.transitionDuration.xl.value}"
+          }
+        }
+      }
+    }
+  }
+}

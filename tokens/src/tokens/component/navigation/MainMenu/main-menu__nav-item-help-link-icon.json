@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "mainMenu": {
+      "navItemHelpLinkIcon": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.surface.help.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

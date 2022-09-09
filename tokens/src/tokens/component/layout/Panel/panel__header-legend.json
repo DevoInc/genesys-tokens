@@ -1,0 +1,34 @@
+{
+  "cmp": {
+    "panel": {
+      "headerLegend": {
+        "size": {
+          "height": {
+            "xs": {
+              "value": "{alias.typo.lineHeight.heading.h5.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.lineHeight.heading.h5.value}"
+            },
+            "md": {
+              "value": "{alias.typo.lineHeight.heading.h4.value}"
+            }
+          }
+        },
+        "space": {
+          "marginLeft": {
+            "xs": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

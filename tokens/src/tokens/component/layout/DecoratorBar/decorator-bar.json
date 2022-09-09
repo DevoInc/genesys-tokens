@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "decoratorBar": {
+      "color": {
+        "background": {
+          "value": "{brand.decoratorBar.color.background.value}"
+        }
+      },
+      "shape": {
+        "stroke": {
+          "value": "0.4rem"
+        }
+      }
+    }
+  }
+}

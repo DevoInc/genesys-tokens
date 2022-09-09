@@ -1,0 +1,52 @@
+{
+  "cmp": {
+    "panel": {
+      "headerIcon": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "xs": {
+              "value": "{alias.typo.lineHeight.heading.h5.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.lineHeight.heading.h5.value}"
+            },
+            "md": {
+              "value": "{alias.typo.lineHeight.heading.h4.value}"
+            }
+          }
+        },
+        "space": {
+          "marginRight": {
+            "xs": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.space.cmp.xs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xs.value}"
+            }
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "xs": {
+              "value": "{alias.typo.fontSize.icon.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.fontSize.icon.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.icon.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

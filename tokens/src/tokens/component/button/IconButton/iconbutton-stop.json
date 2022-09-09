@@ -1,0 +1,36 @@
+{
+  "cmp": {
+    "iconButtonStop": {
+      "icon": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.action.blendError.enabled.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "xs": {
+              "value": "{alias.typo.fontSize.icon.xxxxs.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.fontSize.icon.xxxs.value}"
+            },
+            "md": {
+              "value": "0.8rem"
+            },
+            "lg": {
+              "value": "1rem"
+            }
+          }
+        }
+      },
+      "circle": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.surface.neutral.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "select": {
+      "chip": {
+        "space": {
+          "margin": {
+            "value": "calc({alias.space.cmp.xxs.value} / 2) {alias.space.cmp.xxs.value} calc({alias.space.cmp.xxs.value} / 2) 0"
+          }
+        }
+      }
+    }
+  }
+}

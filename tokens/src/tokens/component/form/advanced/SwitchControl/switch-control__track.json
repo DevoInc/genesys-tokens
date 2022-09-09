@@ -1,0 +1,74 @@
+{
+  "cmp": {
+    "switchControl": {
+      "track": {
+        "size": {
+          "height": {
+            "sm": {
+              "value": "{alias.fields.size.height.sm.value}"
+            },
+            "md": {
+              "value": "{alias.fields.size.height.md.value}"
+            },
+            "lg": {
+              "value": "{alias.fields.size.height.lg.value}"
+            }
+          },
+          "width": {
+            "sm": {
+              "value": "4.4rem"
+            },
+            "md": {
+              "value": "5.2rem"
+            },
+            "lg": {
+              "value": "6rem"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.translation.hor.sm.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "unchecked": {
+              "base": {
+                "value": "{alias.color.background.track.base.value}"
+              },
+              "error": {
+                "value": "{alias.color.background.track.error.value}"
+              },
+              "success": {
+                "value": "{alias.color.background.track.success.value}"
+              },
+              "warning": {
+                "value": "{alias.color.background.track.warning.value}"
+              }
+            },
+            "checked": {
+              "base": {
+                "value": "{alias.fields.color.background.base.checked.value}"
+              },
+              "error": {
+                "value": "{alias.fields.color.background.error.checked.value}"
+              },
+              "success": {
+                "value": "{alias.fields.color.background.success.checked.value}"
+              },
+              "warning": {
+                "value": "{alias.fields.color.background.warning.checked.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "table": {
+      "filterColumnsCell": {
+        "space": {
+          "padding": {
+            "hor": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

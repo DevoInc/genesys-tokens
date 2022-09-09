@@ -1,0 +1,167 @@
+{
+  "alias": {
+    "typo": {
+      "fontSize": {
+        "action": {
+          "xxs": {
+            "value": "{global.typo.fontSize.01.value}"
+          },
+          "xs": {
+            "value": "{global.typo.fontSize.02.value}"
+          },
+          "sm": {
+            "value": "{global.typo.fontSize.03.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "xl": {
+            "value": "{global.typo.fontSize.06.value}"
+          }
+        },
+        "body": {
+          "xxs": {
+            "value": "{global.typo.fontSize.01.value}"
+          },
+          "xs": {
+            "value": "{global.typo.fontSize.02.value}"
+          },
+          "sm": {
+            "value": "{global.typo.fontSize.03.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "xl": {
+            "value": "{global.typo.fontSize.06.value}"
+          }
+        },
+        "heading": {
+          "h6": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "h5": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "h4": {
+            "value": "{global.typo.fontSize.06.value}"
+          },
+          "h3": {
+            "value": "{global.typo.fontSize.07.value}"
+          },
+          "h2": {
+            "value": "{global.typo.fontSize.08.value}"
+          },
+          "h1": {
+            "value": "{global.typo.fontSize.09.value}"
+          }
+        },
+        "hero": {
+          "sm": {
+            "value": "{global.typo.fontSize.12.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.13.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.14.value}"
+          }
+        },
+        "icon": {
+          "xxxxs": {
+            "value": "{global.typo.fontSize.01.value}"
+          },
+          "xxxs": {
+            "value": "{global.typo.fontSize.03.value}"
+          },
+          "xxs": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "xs": {
+            "value": "{global.typo.fontSize.06.value}"
+          },
+          "sm": {
+            "value": "{global.typo.fontSize.07.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.08.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.09.value}"
+          },
+          "xl": {
+            "value": "{global.typo.fontSize.10.value}"
+          },
+          "xxl": {
+            "value": "{global.typo.fontSize.11.value}"
+          },
+          "xxxl": {
+            "value": "{global.typo.fontSize.14.value}"
+          },
+          "xxxxl": {
+            "value": "{global.typo.fontSize.16.value}"
+          }
+        },
+        "lead": {
+          "sm": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.06.value}"
+          }
+        },
+        "link": {
+          "xxs": {
+            "value": "{global.typo.fontSize.01.value}"
+          },
+          "xs": {
+            "value": "{global.typo.fontSize.02.value}"
+          },
+          "sm": {
+            "value": "{global.typo.fontSize.03.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.05.value}"
+          },
+          "xl": {
+            "value": "{global.typo.fontSize.06.value}"
+          }
+        },
+        "mono": {
+          "sm": {
+            "value": "{global.typo.fontSize.02.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.04.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.06.value}"
+          }
+        },
+        "overline": {
+          "sm": {
+            "value": "{global.typo.fontSize.01.value}"
+          },
+          "md": {
+            "value": "{global.typo.fontSize.02.value}"
+          },
+          "lg": {
+            "value": "{global.typo.fontSize.03.value}"
+          }
+        }
+      }
+    }
+  }
+}

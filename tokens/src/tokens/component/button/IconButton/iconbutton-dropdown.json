@@ -1,0 +1,22 @@
+{
+  "cmp": {
+    "iconButtonDropdown": {
+      "size": {
+        "width": {
+          "xs": {
+            "value": "3.6rem"
+          },
+          "sm": {
+            "value": "4.4rem"
+          },
+          "md": {
+            "value": "5.2rem"
+          },
+          "lg": {
+            "value": "6rem"
+          }
+        }
+      }
+    }
+  }
+}

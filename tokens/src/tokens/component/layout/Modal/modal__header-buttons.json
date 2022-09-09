@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "modal": {
+      "headerButtons": {
+        "space": {
+          "gap": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

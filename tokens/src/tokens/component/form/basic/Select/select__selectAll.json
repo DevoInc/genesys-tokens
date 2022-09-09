@@ -1,0 +1,26 @@
+{
+  "cmp": {
+    "select": {
+      "selectAll": {
+        "space": {
+          "margin": {
+            "sm": {
+              "value": "calc({alias.space.cmp.xxs.value} / 2) 0 {alias.space.cmp.xxs.value} 0"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xxs.value} 0 {alias.space.cmp.xs.value} 0"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xs.value} 0 {alias.space.cmp.sm.value} 0"
+            }
+          }
+        },
+        "shape": {
+          "border": {
+            "value": "solid {alias.shape.borderSize.separator.md.value} {alias.color.border.separator.base.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}

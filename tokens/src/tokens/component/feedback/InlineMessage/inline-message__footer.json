@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "inlineMessage": {
+      "footer": {
+        "space": {
+          "padding": {
+            "hasScroll": {
+              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.lg.value}"
+            },
+            "noHasScroll": {
+              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.lg.value} {alias.space.cmp.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

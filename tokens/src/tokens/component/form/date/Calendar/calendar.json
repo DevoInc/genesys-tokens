@@ -1,0 +1,64 @@
+{
+  "cmp": {
+    "calendar": {
+      "week": {
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.weak.value}"
+            }
+          }
+        }
+      },
+      "day": {
+        "color": {
+          "background": {
+            "selected": {
+              "value": "{alias.fields.color.background.base.checked.value}"
+            },
+            "activated": {
+              "value": "{alias.color.background.feedback.neutral.base.value}"
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.color.text.feedback.neutral.base.value}"
+            },
+            "selected": {
+              "value": "{alias.fields.color.text.base.checked.value}"
+            },
+            "activated": {
+              "value": "{alias.color.text.feedback.neutral.base.value}"
+            }
+          }
+        }
+      },
+      "interval": {
+        "color": {
+          "background": {
+            "selected": {
+              "value": "{alias.color.background.feedback.secondary.base.value}"
+            },
+            "activated": {
+              "value": "{alias.color.background.feedback.neutral.weak.value}"
+            },
+            "mixed": {
+              "value": "{alias.color.background.feedback.secondary.strong.value}"
+            }
+          },
+          "text": {
+            "selected": {
+              "value": "{alias.color.text.feedback.secondary.base.value}"
+            },
+            "activated": {
+              "value": "{alias.color.text.feedback.neutral.base.value}"
+            },
+            "mixed": {
+              "value": "{alias.color.text.feedback.secondary.inverse.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
