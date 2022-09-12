@@ -24,7 +24,7 @@
     "url": "git@github.com:DevoInc/dali-tokens.git"
   },
   "dependencies": {
-    "quicktype-core": "^6.0.62",
+    "quicktype-core": "6.0.62",
     "style-dictionary": "^3.7.1"
   },
   "publishConfig": {
