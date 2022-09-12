@@ -26,6 +26,10 @@
   "devDependencies": {
     "@types/yargs": "^17.0.10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DevoInc/dali-tokens.git"
+  },
   "publishConfig": {
     "access": "public"
   }
