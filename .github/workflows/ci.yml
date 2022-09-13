@@ -27,5 +27,8 @@ jobs:
       - name: Run linter
         run: npm run test
 
+      - name: Run Stryker
+        run: npm run stryker
+
       - name: Build source code
         run: npm run dist
