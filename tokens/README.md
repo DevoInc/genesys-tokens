@@ -27,7 +27,3 @@ Once a set of tokens has been generated, the output can be validated using:
 ```js
 validate(pathToFolder);
 ```
-
-## Quick start
-
-Follow the steps in [dali-icons/README.md](../README.md) for a quick overview of the resulting output.

@@ -52,18 +52,18 @@ jobs:
           git config --global user.name 'Devo GitHub Action'
           git config --global user.email 'desa@devo.com'
 
-      - name: Publish major
+      - name: Publish major (if applicable)
         if: ${{ github.event.inputs.version == 'major' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
+        run: npm run release:ci -- major
 
-      - name: Publish minor
+      - name: Publish minor (if applicable)
         if: ${{ github.event.inputs.version == 'minor' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
+        run: npm run release:ci -- minor
 
-      - name: Publish patch
+      - name: Publish patch (if applicable)
         if: ${{ github.event.inputs.version == 'patch' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
+        run: npm run release:ci -- patch
 
-      - name: Publish auto
+      - name: Publish auto (if applicable)
         if: ${{ github.event.inputs.version == 'auto' }}
         run: npm run release:ci

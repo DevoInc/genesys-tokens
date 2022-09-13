@@ -1,6 +1,6 @@
 # Dali Tokens CLI
 
-dali-tokens-cli or `dit`, is a command-line interface that handles brand styles generation from a set of schemas. `dit` provides a CLI to the scripts available in the [tokens](../tokens/) package.
+dali-tokens-cli or `dit`, is a command-line interface that handles brand styles generation from a set of schemas. `dit` provides a CLI to the scripts available in [@devoinc/dali-tokens](https://github.com/DevoInc/dali-tokens/tree/master/tokens).
 
 ## Installation
 
@@ -22,7 +22,7 @@ You can install `dit` via npm by running:
 Once installed, it can be used on any repository by running:
 
 ```bash
-$ dit
+dit
 ```
 
 ## Available commands
@@ -32,7 +32,7 @@ $ dit
 Generates a brand from a given schema.
 
 ```bash
-$ dit build [flags]
+dit build [flags]
 ```
 
 #### **Options**
@@ -44,7 +44,7 @@ $ dit build [flags]
 #### **Example**
 
 ```bash
-$ dit build -i "schemes/light/*.json" -o dist/light/
+dit build -i "schemes/light/*.json" -o dist/light/
 #=> Build a brand from the schemas localed in `schemes/light` and stores the generated files under `dist/light`.
 ```
 
@@ -53,12 +53,12 @@ $ dit build -i "schemes/light/*.json" -o dist/light/
 Validates generated brand. It requires the `path` to the target folder containing the brand's files.
 
 ```bash
-$ dit validate <path>
+dit validate <path>
 ```
 
 **Example**
 
 ```bash
-$ dit validate ./dist/
+dit validate ./dist/
 #=> Validates generated brands stored in `./dist` folder.
 ```

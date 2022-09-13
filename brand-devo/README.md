@@ -16,7 +16,7 @@ console.log(brands.light.cmp.appBar);
 
 ## Quick start
 
-To generate the brands from the available schemas, this project uses the `dit` CLI from [tokens-cli](../tokens-cli/). Please refer to the `dit` package [documentation](../tokens-cli/README.md) for further information.
+To generate the brands from the available schemas, this project uses the `dit` CLI from [@devoinc/dali-tokens-cli](https://github.com/DevoInc/dali-tokens/tree/master/tokens-cli). Please refer to the `dit` package [documentation](https://github.com/DevoInc/dali-tokens/blob/master/tokens-cli/README.md) for further information.
 
 ```sh
 ## Go to package directory
