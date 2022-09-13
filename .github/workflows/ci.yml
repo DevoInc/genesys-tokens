@@ -33,17 +33,17 @@ jobs:
       - name: Run Stryker
         run: npm run stryker
 
-      - name: Build source code
-        run: npm run dist
-
-      - name: Save artifacts
+      - name: Post Stryker
         run: |
           cd artifacts
           cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html stryker-report.html
           cd ..
 
+      - name: Build source code
+        run: npm run dist
+
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: artifacts
           path: artifacts
