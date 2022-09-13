@@ -18,32 +18,32 @@ jobs:
       - name: Set npm version
         run: npm i -g npm@7
 
+      - name: Setup temp folder
+        run: mkdir artifacts
+
       - name: Install dependencies
         run: npm ci
-
-      - name: Pre-tests
-        run: mkdir artifacts
 
       - name: Run tests
         run: npm run test
 
       - name: Run linter
-        run: npm run test
+        run: npm run lint
 
       - name: Run Stryker
         run: npm run stryker
 
-      - name: Pos-tests
-        run: |
-          cd artifacts
-          cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html > mutation.html
-          cd ..
-
       - name: Build source code
         run: npm run dist
 
+      - name: Save artifacts
+        run: |
+          cd artifacts
+          cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html mutation.html
+          cd ..
+
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
-        with: 
+        with:
           name: artifacts
           path: artifacts
