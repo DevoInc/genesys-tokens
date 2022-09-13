@@ -39,7 +39,7 @@ jobs:
       - name: Save artifacts
         run: |
           cd artifacts
-          cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html mutation.html
+          cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html stryker-report.html
           cd ..
 
       - name: Upload Artifacts
