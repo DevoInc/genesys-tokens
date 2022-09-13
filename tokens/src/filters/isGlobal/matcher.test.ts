@@ -37,6 +37,31 @@ describe('filters', () => {
           },
           false,
         ],
+        [
+          'false',
+          {
+            original: { value: '' },
+            filePath: '',
+            isSource: false,
+            path: [],
+            name: '',
+            value: '',
+            attributes: {},
+          },
+          false,
+        ],
+        [
+          'false',
+          {
+            original: { value: '' },
+            filePath: '',
+            isSource: false,
+            path: [],
+            name: '',
+            value: '',
+          },
+          false,
+        ],
       ];
 
       it.each(cases)('%s', (_title, token, expected) => {

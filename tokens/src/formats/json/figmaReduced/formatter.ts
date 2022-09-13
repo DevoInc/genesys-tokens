@@ -8,7 +8,7 @@ export const formatter: Formatter = ({ dictionary }) => {
     dictionary.properties,
     (node) => ({
       value: node.value,
-      type: node?.attributes?.figmaType,
+      type: node.attributes?.figmaType,
     })
   );
 

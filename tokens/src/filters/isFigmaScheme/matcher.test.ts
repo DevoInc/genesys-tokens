@@ -43,6 +43,21 @@ describe('filters', () => {
           },
           false,
         ],
+        [
+          'false',
+          {
+            original: { value: '' },
+            filePath: '',
+            isSource: false,
+            path: [],
+            name: '',
+            value: '',
+            attributes: {
+              tier: TOKENS_TIER.FIGMA,
+            },
+          },
+          false,
+        ],
       ];
 
       it.each(cases)('%s', (_title, token, expected) => {

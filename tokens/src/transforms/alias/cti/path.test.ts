@@ -1,6 +1,6 @@
 import type { TransformedToken } from 'style-dictionary';
 
-import { TOKENS_TIER } from '../../../constants';
+import { TOKENS_CAT_PROP, TOKENS_TIER } from '../../../constants';
 import { getPaths, parsePath } from './path';
 
 describe('path', () => {
@@ -22,6 +22,27 @@ describe('path', () => {
           'element',
           'category',
           'property',
+          'variant',
+          'modifier',
+        ],
+      ],
+      [
+        'alias & hasElement',
+        {
+          name: '',
+          path: [TOKENS_TIER.ALIAS],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier',
+          'group',
+          'element',
+          'category',
+          'property',
+          'concept',
           'variant',
           'modifier',
         ],
@@ -63,6 +84,69 @@ describe('path', () => {
           modifier: undefined,
           property: undefined,
           tier: 'cmp',
+          variant: undefined,
+        },
+      ],
+      [
+        'Case 2',
+        {
+          name: '',
+          path: [TOKENS_CAT_PROP.SHAPE.NAME],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier',
+          'component',
+          'element',
+          'category',
+          'property',
+          'variant',
+          'modifier',
+        ],
+        {
+          category: undefined,
+          component: undefined,
+          element: undefined,
+          figmatType: 'other',
+          modifier: undefined,
+          property: undefined,
+          tier: 'shape',
+          variant: undefined,
+        },
+      ],
+      [
+        'Case 3',
+        {
+          name: '',
+          path: [
+            TOKENS_CAT_PROP.SHAPE.NAME,
+            TOKENS_CAT_PROP.SHAPE.PROPS.OPACITY,
+          ],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier',
+          'component',
+          'element',
+          'category',
+          'property',
+          'variant',
+          'modifier',
+        ],
+        {
+          category: undefined,
+          component: 'opacity',
+          element: undefined,
+          figmatType: 'opacity',
+          modifier: undefined,
+          property: undefined,
+          tier: 'shape',
           variant: undefined,
         },
       ],

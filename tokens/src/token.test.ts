@@ -86,6 +86,31 @@ describe('token', () => {
         },
         false,
       ],
+      [
+        'no attributes',
+        {
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+          path: [],
+          name: '',
+          value: '',
+          attributes: {},
+        },
+        false,
+      ],
+      [
+        'missing attributes property',
+        {
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+          path: [],
+          name: '',
+          value: '',
+        },
+        false,
+      ],
     ];
 
     it.each(cases)('%s', (_title, token, expected) => {
@@ -169,6 +194,31 @@ describe('token', () => {
             category: TOKENS_CAT_PROP.ELEVATION.NAME,
             property: TOKENS_CAT_PROP.ELEVATION.PROPS.Z_INDEX,
           },
+        },
+        false,
+      ],
+      [
+        'no attributes',
+        {
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+          path: [],
+          name: '',
+          value: '',
+          attributes: {},
+        },
+        false,
+      ],
+      [
+        'missing attributes property',
+        {
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+          path: [],
+          name: '',
+          value: '',
         },
         false,
       ],
