@@ -1,6 +1,6 @@
 # Dali Tokens
 
-![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens)
+[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens)](https://www.npmjs.com/search?q=devoinc/dali-tokens)
 ![license](https://img.shields.io/github/license/devoinc/dali-tokens)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/dali-tokens/ci)](https://github.com/devoinc/dali-tokens/actions/workflows/ci.yml)
 
