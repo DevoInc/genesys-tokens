@@ -1,8 +1,8 @@
 # Dali Brand Devo
 
-Devo's main brand schemes for Dali's design system.
+*Devo*'s main brand schemes of design tokens defined by *Dalí Design System*.
 
-This package contains the schemes as `json` files, required to generate Devo's **light** and **dark** brands.
+This package contains the brand schemes as `json` files, required to generate Devo's **light** and **dark** brands.
 
 ## Usage
 

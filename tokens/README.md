@@ -1,14 +1,15 @@
 # Dali tokens
 
-Token's definitions and generation tools.
+Tokens' definition and generation tools.
 
-This project includes both Devo's tokens definition for Dali's design system and tools to generate design brands from a given schema. It uses [style-dictionary](https://amzn.github.io/style-dictionary/) under the hood.
+This project provides the tools to generate *Devo*'s brand design tokens and its customizations.
+It includes the agnostic source for the generation of the tokens, as described in *Dali Design System*. It uses [style-dictionary](https://amzn.github.io/style-dictionary/) under the hood.
 
 ## Tokens generation tools
 
 ### Generator
 
-Given an input schema, we can generate the corresponding tokens. Tokens are generated in the following formats: `css`, `figma`, `js`, `json` and `scss`.
+Given an input schema, we can generate the corresponding tokens. Tokens are generated in the following formats: `css`, `figma tokens plugin`, `js`, `json` and `scss`.
 
 ```typescript
 import { generate, Scheme } from '@devoinc/dali-tokens';

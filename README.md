@@ -6,13 +6,13 @@
 [![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens-cli?label=%40devoinc%2Fdali-tokens-cli)](https://www.npmjs.com/package/@devoinc/dali-tokens-cli)
 [![npm version](https://img.shields.io/npm/v/@devoinc/dali-brand-devo?label=%40devoinc%2Fdali-brand-devo)](https://www.npmjs.com/package/@devoinc/dali-brand-devo)
 
-Monorepo containing a set of packages devoted to the generation of design tokens associated to Devo's **Dali** design system.
+Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's *Dalí Design System*.
 
 The project is built using `npm workspaces` and contains the following packages:
 
-- **brand-devo:** Base design system schemes (light and dark).
-- **tokens:** Token's definitions and generation tools.
+- **tokens:** Tokens definition and generation tools.
 - **tokens-cli:** Command-line interface for the token generation tools.
+- **brand-devo:** *Brand Devo* design tokens to be consumed in different formats. 
 
 The packages have the following interdependencies:
 

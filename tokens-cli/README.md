@@ -1,6 +1,6 @@
 # Dali Tokens CLI
 
-dali-tokens-cli or `dit`, is a command-line interface that handles brand styles generation from a set of schemas. `dit` provides a CLI to the scripts available in [@devoinc/dali-tokens](https://github.com/DevoInc/dali-tokens/tree/master/tokens).
+dali-tokens-cli or `dit`, is a command-line interface that handles generation of style tokens from a set of schemas. `dit` provides a CLI to the scripts available in [@devoinc/dali-tokens](https://github.com/DevoInc/dali-tokens/tree/master/tokens).
 
 ## Installation
 
