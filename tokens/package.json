@@ -19,6 +19,11 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "dali",
+    "design",
+    "tokens"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:DevoInc/dali-tokens.git"
