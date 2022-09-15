@@ -2,13 +2,15 @@
 
 ![license](https://img.shields.io/github/license/devoinc/dali-tokens)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/dali-tokens/ci)](https://github.com/devoinc/dali-tokens/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens?label=%40devoinc%2Fdali-tokens)](https://www.npmjs.com/package/@devoinc/dali-tokens)
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens-cli?label=%40devoinc%2Fdali-tokens-cli)](https://www.npmjs.com/package/@devoinc/dali-tokens-cli)
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-brand-devo?label=%40devoinc%2Fdali-brand-devo)](https://www.npmjs.com/package/@devoinc/dali-brand-devo)
+
 
 Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's *Dalí Design System*.
 
 The project is built using `npm workspaces` and contains the following packages:
+
+[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens?label=%40devoinc%2Fdali-tokens)](https://www.npmjs.com/package/@devoinc/dali-tokens)
+[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens-cli?label=%40devoinc%2Fdali-tokens-cli)](https://www.npmjs.com/package/@devoinc/dali-tokens-cli)
+[![npm version](https://img.shields.io/npm/v/@devoinc/dali-brand-devo?label=%40devoinc%2Fdali-brand-devo)](https://www.npmjs.com/package/@devoinc/dali-brand-devo)
 
 - **tokens:** Tokens definition and generation tools.
 - **tokens-cli:** Command-line interface for the token generation tools.
