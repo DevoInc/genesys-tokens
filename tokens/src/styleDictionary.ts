@@ -90,6 +90,27 @@ export const getStyleDictionaryConfig = (
         },
       ],
     },
+    'web/html': {
+      transformGroup: 'tokens-js',
+      buildPath: output,
+      files: [
+        {
+          destination: 'html/preview/tokens.alias.html',
+          format: 'html/preview',
+          filter: 'isAlias',
+        },
+        {
+          destination: 'html/preview/tokens.cmp.html',
+          format: 'html/preview',
+          filter: 'isCmp',
+        },
+        {
+          destination: 'html/preview/tokens.all.html',
+          format: 'html/preview',
+          filter: 'isCmpAlias',
+        },
+      ],
+    },
     'web/json': {
       transformGroup: 'tokens-json',
       buildPath: output,

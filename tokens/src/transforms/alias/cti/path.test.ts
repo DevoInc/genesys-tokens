@@ -17,13 +17,13 @@ describe('path', () => {
           isSource: false,
         },
         [
-          'tier',
-          'component',
-          'element',
-          'category',
-          'property',
-          'variant',
-          'modifier',
+          'tier', //cmp
+          'component', //button
+          'element', // icon
+          'category', // color
+          'property', // background
+          'variant', // accent
+          'modifier', // hovered
         ],
       ],
       [

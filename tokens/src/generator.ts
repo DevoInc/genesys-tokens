@@ -17,6 +17,7 @@ StyleDictionary.registerFormat(formats.javascript.moduleReducedMin);
 StyleDictionary.registerFormat(formats.scss.variablesMin);
 StyleDictionary.registerFormat(formats.css.variablesMin);
 StyleDictionary.registerFormat(formats.typescript.moduleReducedDeclarations);
+StyleDictionary.registerFormat(formats.html.preview);
 
 StyleDictionary.registerTransform(transforms.size.pxToPt);
 
@@ -63,6 +64,7 @@ export const generate: (params: GenerateParams) => boolean = ({
 
   styleDictionary.buildPlatform('web/js');
   styleDictionary.buildPlatform('web/json');
+  styleDictionary.buildPlatform('web/html');
   styleDictionary.buildPlatform('web/scss');
   styleDictionary.buildPlatform('web/css');
   styleDictionary.buildPlatform('figma');
