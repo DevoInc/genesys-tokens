@@ -118,7 +118,8 @@ describe('formats', () => {
     .borderSizePreview {
       height: 20px;
       width: 60px;
-      border-color: solid black;
+      border-style: solid;
+      border-color: black;
     }
 
     .textColorPreview {
@@ -147,7 +148,7 @@ describe('formats', () => {
   <h2>alias & cmp</h2>
 
   <div class="container">
-    <input class="search" type="text" name="search query" val="" placeholder="Search by token name" />
+    <input class="search" type="text" name="search query" value="" placeholder="Search by token name" />
 
     <p class="count">
       <!-- To be filled dinamically -->
@@ -239,6 +240,7 @@ describe('formats', () => {
 
     setListContent();
   </script>
+
 </body>
 
 </html>`,
