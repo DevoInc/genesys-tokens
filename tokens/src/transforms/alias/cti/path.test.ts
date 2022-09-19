@@ -47,6 +47,25 @@ describe('path', () => {
           'modifier',
         ],
       ],
+      [
+        'no alias or cmp',
+        {
+          name: '',
+          path: [TOKENS_TIER.FIGMA],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //cmp
+          'category', // color
+          'property', // background
+          'concept', // background
+          'variant', // accent
+          'modifier', // hovered
+        ],
+      ],
     ];
 
     it.each(cases)('%s', (_title, args, expected) => {
