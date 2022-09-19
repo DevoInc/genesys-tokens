@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/dali-tokens",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Design tokens generator",
