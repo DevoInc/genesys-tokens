@@ -247,12 +247,12 @@ export const getStyleDictionaryConfig = (
         // https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens
         {
           destination: 'figma/figma_base.json',
-          format: 'json/figma-reduced',
+          format: 'figma/figmatokens',
           filter: 'isFigmaBase',
         },
         {
           destination: 'figma/figma_scheme.json',
-          format: 'json/figma-reduced',
+          format: 'figma/figmatokens',
           filter: 'isFigmaScheme',
         },
       ],

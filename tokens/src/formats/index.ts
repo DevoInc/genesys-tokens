@@ -6,3 +6,4 @@ export * from './javascript';
 export * from './text';
 export * from './typescript';
 export * from './html';
+export * from './figma';

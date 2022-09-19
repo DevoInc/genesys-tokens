@@ -10,7 +10,7 @@ import * as transformGroups from './transformGroups';
 import { getStyleDictionaryConfig } from './styleDictionary';
 
 StyleDictionary.registerFormat(formats.json.flat);
-StyleDictionary.registerFormat(formats.json.figmaReduced);
+StyleDictionary.registerFormat(formats.figma.figmatokens);
 StyleDictionary.registerFormat(formats.text.flat);
 StyleDictionary.registerFormat(formats.javascript.moduleReduced);
 StyleDictionary.registerFormat(formats.javascript.moduleReducedMin);
