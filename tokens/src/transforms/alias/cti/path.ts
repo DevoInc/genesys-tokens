@@ -52,9 +52,10 @@ export const parsePath = (token: TransformedToken, paths: string[]) =>
 export const getPaths = (token: TransformedToken) => {
   const isCmp = token.path[0] === TOKENS_TIER.CMP;
   const isAlias = token.path[0] === TOKENS_TIER.ALIAS;
-  const hasElement =
-    (isCmp || isAlias) && !TOKENS_CAT_VALUES.includes(token.path[2]);
+  const isExportable = isCmp || isAlias;
+  const hasElement = isExportable && TOKENS_CAT_VALUES.includes(token.path[3]);
   const hasGroup = isAlias && !TOKENS_CAT_VALUES.includes(token.path[1]);
+
   return [
     'tier',
     ...(isCmp ? ['component'] : []),
@@ -62,7 +63,7 @@ export const getPaths = (token: TransformedToken) => {
     ...(hasElement ? ['element'] : []),
     'category',
     'property',
-    ...(!isCmp ? ['concept'] : []),
+    ...(isAlias && !hasGroup ? ['concept'] : []),
     'variant',
     'modifier',
   ];
