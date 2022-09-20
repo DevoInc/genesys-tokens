@@ -1,12 +1,11 @@
 import type { TransformedToken } from 'style-dictionary';
-import { TOKENS_CAT_PROP, TOKENS_TIER } from '../../../constants';
 import { getPaths, parsePath } from './path';
 
 describe('path', () => {
   describe('getPaths', () => {
     const cases: [string, TransformedToken, string[]][] = [
       [
-        'with element',
+        'cmp with element',
         {
           name: '',
           path: ['cmp', 'button', 'icon', 'typo', 'fontSize', 'xxs'],
@@ -26,7 +25,7 @@ describe('path', () => {
         ],
       ],
       [
-        'without element',
+        'cmp without element',
         {
           name: '',
           path: ['cmp', 'button', 'typo', 'fontSize', 'xxs'],
@@ -41,6 +40,125 @@ describe('path', () => {
           'category', // typo
           'property', // fontSize
           'variant', // xxs
+          'modifier',
+        ],
+      ],
+      [
+        'alias with element',
+        {
+          name: '',
+          path: ['alias', 'fields', 'icon', 'color', 'text', 'base'],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //alias
+          'group', //fields
+          'element', //icon
+          'category', // color
+          'property', // text
+          'variant', // base
+          'modifier',
+        ],
+      ],
+      [
+        'alias without element',
+        {
+          name: '',
+          path: [
+            'alias',
+            'color',
+            'background',
+            'action',
+            'accentHigh',
+            'enabled',
+          ],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //alias
+          'category', // color
+          'property', // background
+          'concept', // action
+          'variant', // accentHigh
+          'modifier', // enabled
+        ],
+      ],
+      [
+        'brand',
+        {
+          name: '',
+          path: ['brand', 'color', 'background', 'surface', 'base', 'modifier'],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //brand
+          'category', // color
+          'property', // background
+          'variant', // surface
+          'modifier', // base
+        ],
+      ],
+      [
+        'brand mainMenu',
+        {
+          name: '',
+          path: ['brand', 'mainMenu', 'logoCustom', 'shape', 'backgroundSize'],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //brand
+          'category', // mainMenu
+          'property', // logoCustom
+          'variant', // shape
+          'modifier', // backgroundSize
+        ],
+      ],
+      [
+        'global shape opacity',
+        {
+          name: '',
+          path: ['global', 'shape', 'opacity', 'low'],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', //global
+          'category', // shape
+          'property', // opacity
+          'variant', // low
+          'modifier',
+        ],
+      ],
+      [
+        'alias opacity',
+        {
+          name: '',
+          path: ['alias', 'mutation', 'transitionDuration', 'opacity', 'sm'],
+          value: '',
+          original: { value: '' },
+          filePath: '',
+          isSource: false,
+        },
+        [
+          'tier', // alias
+          'category', // mutation
+          'property', // transitionDuration
+          'concept', // opacity
+          'variant', // sm
           'modifier',
         ],
       ],
