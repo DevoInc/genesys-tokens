@@ -11,5 +11,5 @@ const helpers_1 = require("yargs/helpers");
     .commandDir('commands')
     // Enable strict mode.
     .strict()
-    // Useful aliases.
+    // Useful aliases
     .alias({ h: 'help' }).argv;
