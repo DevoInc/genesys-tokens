@@ -1287,6 +1287,9 @@
           },
           "warning": {
             "value": "{theme.color.background.track.warning.value}"
+          },
+          "info": {
+            "value": "{theme.color.background.track.info.value}"
           }
         }
       }

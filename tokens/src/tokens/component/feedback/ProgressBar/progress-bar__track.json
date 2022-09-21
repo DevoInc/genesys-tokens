@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "progressBar": {
+      "track": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.track.base.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.track.success.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.track.warning.value}"
+            },
+            "error": {
+              "value": "{alias.color.background.track.error.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.track.info.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

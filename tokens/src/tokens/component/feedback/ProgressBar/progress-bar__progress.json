@@ -1,0 +1,32 @@
+{
+  "cmp": {
+    "progressBar": {
+      "progress": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.feedback.secondary.strong.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.stronger.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.feedback.warning.strong.value}"
+            },
+            "error": {
+              "value": "{alias.color.background.feedback.error.strong.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.feedback.info.strong.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        }
+      }
+    }
+  }
+}

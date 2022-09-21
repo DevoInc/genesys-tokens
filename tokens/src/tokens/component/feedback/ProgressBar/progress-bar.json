@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "progressBar": {
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.size.height.track.xs.value}"
+          },
+          "md": {
+            "value": "calc({alias.size.height.track.xs.value} + 0.2rem)"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.pill.value}"
+        }
+      }
+    }
+  }
+}
