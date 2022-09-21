@@ -1,6 +1,6 @@
 {
   "cmp": {
-    "steps": {
+    "stepper": {
       "separator": {
         "color": {
           "background": {

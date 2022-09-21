@@ -1,6 +1,6 @@
 {
   "cmp": {
-    "steps": {
+    "stepper": {
       "container": {
         "color": {
           "background": {
