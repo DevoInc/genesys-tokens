@@ -31,7 +31,7 @@ export const getStyleDictionaryConfig = (
 
     /* --------------- BASE BRAND SCHEME TOKENS --------------- */
     // brand.x
-    source,
+    `${source}/*.json`,
   ],
   platforms: {
     'web/js': {
