@@ -34,7 +34,8 @@ describe('formats', () => {
     body {
       font-family: 'Poppins';
       font-size: 22px;
-      margin: 50px 300px;
+      margin: 50px auto;
+      max-width: 992px;
     }
 
     h2 {
