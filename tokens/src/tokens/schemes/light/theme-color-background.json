@@ -293,10 +293,13 @@
             "value": "{global.color.error.02.value}"
           },
           "success": {
-            "value": "{global.color.success.02.value}"
+            "value": "{global.color.neutral.02.value}"
+          },
+          "info": {
+            "value": "{global.color.neutral.02.value}"
           },
           "warning": {
-            "value": "{global.color.warning.02.value}"
+            "value": "{global.color.neutral.02.value}"
           }
         },
         "feedback": {
