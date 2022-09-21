@@ -32,68 +32,6 @@
           }
         }
       }
-    },
-    "mainMenu": {
-      "color": {
-        "background": {
-          "value": "{alias.color.background.surface.inverse.base.value}"
-        },
-        "text": {
-          "base": {
-            "value": "{alias.color.text.body.weaker.value}"
-          },
-          "featured": {
-            "value": "{alias.color.text.body.inverse.value}"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "text": {
-            "enabled": {
-              "value": "{alias.color.text.body.weaker.value}"
-            },
-            "hovered": {
-              "value": "{alias.color.text.body.inverse.value}"
-            },
-            "activated": {
-              "value": "{alias.color.text.body.inverse.value}"
-            }
-          }
-        }
-      },
-      "linkSecondary": {
-        "color": {
-          "text": {
-            "activated": {
-              "value": "{alias.color.text.body.inverse.value}"
-            }
-          }
-        }
-      },
-      "linkIcon": {
-        "color": {
-          "text": {
-            "activated": {
-              "value": "{alias.color.text.surface.primary.base.value}"
-            }
-          }
-        }
-      },
-      "logoCustom": {
-        "shape": {
-          "backgroundSize": {
-            "value": "100%"
-          }
-        }
-      },
-      "overlay": {
-        "color": {
-          "background": {
-            "value": "{alias.color.background.backdrop.primary.weaker.value}"
-          }
-        }
-      }
     }
   }
 }

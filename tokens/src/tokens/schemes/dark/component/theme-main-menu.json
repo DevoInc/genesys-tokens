@@ -3,6 +3,9 @@
     "mainMenu": {
       "color": {
         "background": {
+          "base": {
+            "value": "{global.color.neutral.14.value}"
+          },
           "backdrop": {
             "base": {
               "value": "{global.color.blend.black.06.value}"
@@ -18,8 +21,51 @@
           }
         },
         "text": {
+          "base": {
+            "value": "{global.color.neutral.06.value}"
+          },
           "featured": {
             "value": "{global.color.blend.white.25.value}"
+          }
+        }
+      },
+      "link": {
+        "color": {
+          "text": {
+            "enabled": {
+              "value": "{global.color.neutral.06.value}"
+            },
+            "hovered": {
+              "value": "{global.color.neutral.16.value}"
+            },
+            "activated": {
+              "value": "{global.color.neutral.16.value}"
+            }
+          }
+        }
+      },
+      "linkSecondary": {
+        "color": {
+          "text": {
+            "activated": {
+              "value": "{global.color.neutral.16.value}"
+            }
+          }
+        }
+      },
+      "linkIcon": {
+        "color": {
+          "text": {
+            "activated": {
+              "value": "{global.color.primary.05.value}"
+            }
+          }
+        }
+      },
+      "overlay": {
+        "color": {
+          "background": {
+            "value": "{global.color.primary.06.alt.rgbValues}"
           }
         }
       },

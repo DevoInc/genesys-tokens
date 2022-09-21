@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
     "build": "npx tsc",
+    "dist": "rm -rf build && npx tsc",
     "build:watch": "npx tsc --watch"
   },
   "keywords": [
