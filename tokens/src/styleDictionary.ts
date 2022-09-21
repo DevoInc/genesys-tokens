@@ -6,32 +6,17 @@ const tokensPath = path.resolve(__dirname, 'tokens');
 
 export const getStyleDictionaryConfig = (
   scheme: Scheme,
-  menuScheme: Scheme,
   source: string,
   output: string
 ) => ({
   source: [
-    /* --------------------- COMMON TOKENS -------------------- */
-    // global.x
-    `${tokensPath}/global/**/*.json`, // end values
-    // theme.x
-    `${tokensPath}/schemes/${scheme}/*.json`, // uses global.x, alias.x, brand.x, theme.x
-    // alias.x
-    `${tokensPath}/alias/**/*.json`, // uses global.x, theme.x, brand.x
-    // figma.x
-    `${tokensPath}/figma/**/*.json`, // uses alias.x
-
-    /* --------------- COMMON COMPONENTS TOKENS --------------- */
-    // cmp.x
-    `${tokensPath}/component/**/*.json`, // uses alias.x
-
-    /* --------------- COMMON MENU SCHEME TOKENS -------------- */
-    // theme.mainMenu.x
-    `${tokensPath}/schemes/${menuScheme}/component/theme-main-menu.json`, // uses global.x
-
-    /* --------------- BASE BRAND SCHEME TOKENS --------------- */
-    // brand.x
-    `${source}/*.json`, // uses global.x, alias.x
+    `${tokensPath}/global/**/*.json`,
+    `${tokensPath}/schemes/${scheme}/*.json`,
+    `${tokensPath}/alias/**/*.json`,
+    `${tokensPath}/component/**/*.json`,
+    `${tokensPath}/schemes/${scheme}/component/*.json`,
+    `${tokensPath}/figma/**/*.json`,
+    source,
   ],
   platforms: {
     'web/js': {

@@ -27,21 +27,14 @@ const builder = (yargs) => yargs.options({
         desc: 'light or dark',
         default: 'light',
     },
-    menuScheme: {
-        type: 'string',
-        alias: 'm',
-        desc: 'light or dark',
-        default: 'light',
-    },
 });
 exports.builder = builder;
 // dit build -i "schemes/light/*.json" -o dist/light/
 const handler = (argv) => {
-    const { scheme, menuScheme, output, input } = argv;
+    const { scheme, output, input } = argv;
     (0, dali_tokens_1.generate)({
         source: input,
         scheme: scheme,
-        menuScheme: menuScheme,
         output: `${path_1.default.normalize(path_1.default.format(path_1.default.parse(output)))}/`,
     });
     process.exit(0);

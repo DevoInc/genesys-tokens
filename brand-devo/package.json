@@ -9,8 +9,8 @@
   "scripts": {
     "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
-    "build:light": "dit build -i schemes/light -o dist/light -m dark",
-    "build:dark": "dit build -i schemes/dark -o dist/dark -s dark -m dark",
+    "build:light": "dit build -i \"schemes/light/*.json\" -o dist/light",
+    "build:dark": "dit build -i \"schemes/dark/*.json\" -o dist/dark -s dark",
     "validate": "npm run validate:light && npm run validate:dark",
     "validate:light": "dit validate dist/light/",
     "validate:dark": "dit validate dist/dark/",
