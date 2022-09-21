@@ -49,17 +49,19 @@ StyleDictionary.registerTransformGroup(transformGroups.tokensCss);
 StyleDictionary.registerTransformGroup(transformGroups.tokensAndroid);
 
 export interface GenerateParams {
-  scheme: Scheme;
+  scheme?: Scheme;
+  menuScheme?: Scheme;
   source: string;
   output: string;
 }
 
 export const generate: (params: GenerateParams) => boolean = ({
   scheme = Scheme.Light,
+  menuScheme = Scheme.Light,
   source,
   output,
 }) => {
-  const config = getStyleDictionaryConfig(scheme, source, output);
+  const config = getStyleDictionaryConfig(scheme, menuScheme, source, output);
   const styleDictionary = StyleDictionary.extend(config);
 
   styleDictionary.buildPlatform('web/js');

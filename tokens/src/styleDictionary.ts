@@ -6,16 +6,31 @@ const tokensPath = path.resolve(__dirname, 'tokens');
 
 export const getStyleDictionaryConfig = (
   scheme: Scheme,
+  menuScheme: Scheme,
   source: string,
   output: string
 ) => ({
   source: [
+    /* --------------------- COMMON TOKENS -------------------- */
+    // global.x
     `${tokensPath}/global/**/*.json`,
+    // theme.x
     `${tokensPath}/schemes/${scheme}/*.json`,
+    // alias.x
     `${tokensPath}/alias/**/*.json`,
-    `${tokensPath}/component/**/*.json`,
-    `${tokensPath}/schemes/${scheme}/component/*.json`,
+    // figma.x
     `${tokensPath}/figma/**/*.json`,
+
+    /* --------------- COMMON COMPONENTS TOKENS --------------- */
+    // cmp.x
+    `${tokensPath}/component/**/*.json`,
+
+    /* --------------- COMMON MENU SCHEME TOKENS -------------- */
+    // theme.mainMenu.x
+    `${tokensPath}/schemes/${menuScheme}/component/theme-main-menu.json`,
+
+    /* --------------- BASE BRAND SCHEME TOKENS --------------- */
+    // brand.x
     source,
   ],
   platforms: {
