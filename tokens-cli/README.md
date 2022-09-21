@@ -40,11 +40,11 @@ dit build [flags]
 - `-i`, `--input <path>` [REQUIRED] Select schema path
 - `-o`, `--output <path>` [REQUIRED] Select brand's output dir
 - `-s`, `--scheme <string>` [optional] Schema type (`'light'` or `'dark'`). Default value is `'light'`.
-
+- `-m`, `--m <string>` [optional] `mainMenu` Schema type (`'light'` or `'dark'`). Default value is `'light'`.
 #### **Example**
 
 ```bash
-dit build -i "schemes/light/*.json" -o dist/light/
+dit build -i "schemes/light" -o dist/light
 #=> Build a brand from the schemas localed in `schemes/light` and stores the generated files under `dist/light`.
 ```
 

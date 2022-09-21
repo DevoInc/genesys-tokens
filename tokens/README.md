@@ -9,14 +9,15 @@ It includes the agnostic source for the generation of the tokens, as described i
 
 ### Generator
 
-Given an input schema, we can generate the corresponding tokens. Tokens are generated in the following formats: `css`, `figma tokens plugin`, `js`, `json` and `scss`.
+Given an input schema, we can generate the corresponding tokens. Tokens are generated in the following formats: `css`, `figma tokens plugin`, `js`, `json` and `scss`. An extra `html` format provides an interactive visualization of the output.
 
 ```typescript
 import { generate, Scheme } from '@devoinc/dali-tokens';
 
 generate({
-  source: './schemes/light/*.json',
+  source: './schemes/light',
   scheme: Scheme.light,
+  menuScheme: Scheme.light,
   output: `dist/light/`,
 });
 ```
