@@ -36,10 +36,10 @@
               "value": "{global.color.neutral.06.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.16.value}"
+              "value": "{global.color.blend.white.25.value}"
             },
             "activated": {
-              "value": "{global.color.neutral.16.value}"
+              "value": "{global.color.blend.white.25.value}"
             }
           }
         }
