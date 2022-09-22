@@ -46,7 +46,7 @@ export const getFigmaTokenType = (path: string[]) =>
 
 export const parsePath = (token: TransformedToken, paths: string[]) =>
   paths.reduce((acc, cur, idx) => ({ ...acc, [cur]: token.path[idx] }), {
-    figmatType: getFigmaTokenType(token.path),
+    figmaType: getFigmaTokenType(token.path),
   });
 
 export const getPaths = (token: TransformedToken) => {

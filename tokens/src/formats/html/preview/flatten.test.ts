@@ -22,7 +22,7 @@ describe('formats', () => {
                     original: { value: '575px' },
                     name: 'ALIAS_BREAKPOINTS_MEDIA_QUERY_XS',
                     attributes: {
-                      figmatType: 'other',
+                      figmaType: 'other',
                       tier: 'alias',
                       element: 'breakpoints',
                       category: 'mediaQuery',
@@ -37,7 +37,7 @@ describe('formats', () => {
                     original: { value: '576px' },
                     name: 'ALIAS_BREAKPOINTS_MEDIA_QUERY_SM',
                     attributes: {
-                      figmatType: 'other',
+                      figmaType: 'other',
                       tier: 'alias',
                       element: 'breakpoints',
                       category: 'mediaQuery',

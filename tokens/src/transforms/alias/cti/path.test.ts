@@ -195,7 +195,7 @@ describe('path', () => {
           tier: 'cmp',
           component: 'button',
           element: 'icon',
-          figmatType: 'fontSizes',
+          figmaType: 'fontSizes',
           category: 'typo',
           property: 'fontSize',
           variant: 'xxs',
@@ -223,7 +223,7 @@ describe('path', () => {
         {
           tier: 'cmp',
           component: 'button',
-          figmatType: 'color',
+          figmaType: 'color',
           category: 'color',
           property: 'background',
           variant: 'accent',
