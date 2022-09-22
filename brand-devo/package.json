@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/dali-brand-devo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Devo brand tokens",
@@ -31,7 +31,7 @@
     "url": "git@github.com:DevoInc/dali-tokens.git"
   },
   "dependencies": {
-    "@devoinc/dali-tokens-cli": "^2.0.0"
+    "@devoinc/dali-tokens-cli": "^2.0.1"
   },
   "publishConfig": {
     "access": "public"

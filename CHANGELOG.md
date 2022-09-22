@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.1](https://github.com/DevoInc/dali-tokens/compare/v2.0.0...v2.0.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* **tokens:** solve `figmaType` bug ([e5a440d](https://github.com/DevoInc/dali-tokens/commit/e5a440d65ac40fa0da6d5a198ad9e6a0ebb15271))
+
 ## [2.0.0](https://github.com/DevoInc/dali-tokens/compare/v1.1.0...v2.0.0) (2022-09-22)
 
 
