@@ -7,6 +7,11 @@ on:
   push:
     branches:
       - master
+
+permissions:
+  contents: read
+  id-token: write
+  pages: write
   
 
 jobs:
@@ -58,7 +63,7 @@ jobs:
       - name: Setup Github Pages
         uses: actions/configure-pages@v2
 
-      - name: Upload artifact
+      - name: Upload Github Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: "./brand-devo/dist"
