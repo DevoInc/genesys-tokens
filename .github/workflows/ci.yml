@@ -1,6 +1,6 @@
 name: ci
 
-on: 
+on:
   pull_request:
     branches:
       - master
@@ -12,7 +12,9 @@ permissions:
   contents: read
   id-token: write
   pages: write
-  
+
+env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 jobs:
   ci:
