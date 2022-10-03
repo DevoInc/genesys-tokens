@@ -1,16 +1,16 @@
-# Dali Tokens CLI
+# Genesys Tokens CLI
 
-dali-tokens-cli or `dit`, is a command-line interface that handles generation of style tokens from a set of schemas. `dit` provides a CLI to the scripts available in [@devoinc/dali-tokens](https://github.com/DevoInc/dali-tokens/tree/master/tokens).
+genesys-tokens-cli or `gyt`, is a command-line interface that handles generation of style tokens from a set of schemas. `gyt` provides a CLI to the scripts available in [@devoinc/genesys-tokens](https://github.com/DevoInc/genesys-tokens/tree/master/tokens).
 
 ## Installation
 
 ### npm
 
-You can install `dit` via npm by running:
+You can install `gyt` via npm by running:
 
 - using published version:
   ```bash
-  npm install @devoinc/dali-tokens-cli -g
+  npm install @devoinc/genesys-tokens-cli -g
   ```
 - usin the local codebase:
   ```bash
@@ -22,17 +22,17 @@ You can install `dit` via npm by running:
 Once installed, it can be used on any repository by running:
 
 ```bash
-dit
+gyt
 ```
 
 ## Available commands
 
-### `dit build`
+### `gyt build`
 
 Generates a brand from a given schema.
 
 ```bash
-dit build [flags]
+gyt build [flags]
 ```
 
 #### **Options**
@@ -44,21 +44,21 @@ dit build [flags]
 #### **Example**
 
 ```bash
-dit build -i schemes/light -o dist/light
+gyt build -i schemes/light -o dist/light
 #=> Build a brand from the schemas localed in `schemes/light` and stores the generated files under `dist/light`.
 ```
 
-### `dit validate`
+### `gyt validate`
 
 Validates generated brand. It requires the `path` to the target folder containing the brand's files.
 
 ```bash
-dit validate <path>
+gyt validate <path>
 ```
 
 **Example**
 
 ```bash
-dit validate ./dist/
+gyt validate ./dist/
 #=> Validates generated brands stored in `./dist` folder.
 ```

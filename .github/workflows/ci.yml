@@ -162,7 +162,7 @@ jobs:
       - name: Post Stryker
         run: |
           cd mutation-test-results
-          cp /home/runner/work/dali-tokens/dali-tokens/tokens/reports/mutation/mutation.html stryker-report.html
+          cp /home/runner/work/genesys-tokens/genesys-tokens/tokens/reports/mutation/mutation.html stryker-report.html
           cd ..
       - name: Upload artifact with results
         uses: actions/upload-artifact@v3

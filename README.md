@@ -1,16 +1,16 @@
-# Dali Tokens
+# Genesys Tokens
 
-![license](https://img.shields.io/github/license/devoinc/dali-tokens)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/dali-tokens/ci)](https://github.com/devoinc/dali-tokens/actions/workflows/ci.yml)
+![license](https://img.shields.io/github/license/devoinc/genesys-tokens)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/genesys-tokens/ci)](https://github.com/devoinc/genesys-tokens/actions/workflows/ci.yml)
 
 
 Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's *Dalí Design System*.
 
 The project is built using `npm workspaces` and contains the following packages:
 
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens?label=%40devoinc%2Fdali-tokens)](https://www.npmjs.com/package/@devoinc/dali-tokens)
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-tokens-cli?label=%40devoinc%2Fdali-tokens-cli)](https://www.npmjs.com/package/@devoinc/dali-tokens-cli)
-[![npm version](https://img.shields.io/npm/v/@devoinc/dali-brand-devo?label=%40devoinc%2Fdali-brand-devo)](https://www.npmjs.com/package/@devoinc/dali-brand-devo)
+[![npm version](https://img.shields.io/npm/v/@devoinc/genesys-tokens?label=%40devoinc%2Fgenesys-tokens)](https://www.npmjs.com/package/@devoinc/genesys-tokens)
+[![npm version](https://img.shields.io/npm/v/@devoinc/genesys-tokens-cli?label=%40devoinc%2Fgenesys-tokens-cli)](https://www.npmjs.com/package/@devoinc/genesys-tokens-cli)
+[![npm version](https://img.shields.io/npm/v/@devoinc/genesys-brand-devo?label=%40devoinc%2Fgenesys-brand-devo)](https://www.npmjs.com/package/@devoinc/genesys-brand-devo)
 
 - **tokens:** Tokens definition and generation tools.
 - **tokens-cli:** Command-line interface for the token generation tools.
@@ -19,11 +19,11 @@ The project is built using `npm workspaces` and contains the following packages:
 The packages have the following interdependencies:
 
 ```
-├─┬ @devoinc/dali-brand-devo
-│ └── @devoinc/dali-tokens-cli
-├─┬ @devoinc/dali-tokens-cli
-│ ├── @devoinc/dali-tokens
-├─┬ @devoinc/dali-tokens
+├─┬ @devoinc/genesys-brand-devo
+│ └── @devoinc/genesys-tokens-cli
+├─┬ @devoinc/genesys-tokens-cli
+│ ├── @devoinc/genesys-tokens
+├─┬ @devoinc/genesys-tokens
 ```
 
 ## Quick start
@@ -32,9 +32,9 @@ The packages have the following interdependencies:
 
 ```sh
 ## Clone the repository
-git clone https://github.com/devoinc/dali-tokens
+git clone https://github.com/devoinc/genesys-tokens
 ## Go to folder
-cd dali-tokens
+cd genesys-tokens
 ## Install dependencies
 npm ci
 ## Generate tokens for Devo's brand

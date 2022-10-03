@@ -1,10 +1,10 @@
 {
-  "name": "@devoinc/dali-tokens-cli",
+  "name": "@devoinc/genesys-tokens-cli",
   "version": "2.0.1",
-  "description": "A CLI to generate Dali tokens",
+  "description": "A CLI to generate Genesys tokens",
   "main": "src/cli.js",
   "bin": {
-    "dit": "build/cli.js"
+    "gyt": "build/cli.js"
   },
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
@@ -14,14 +14,14 @@
   },
   "keywords": [
     "cli",
-    "dali",
+    "genesys",
     "design",
     "tokens"
   ],
   "author": "Devo Dev Team",
   "license": "MIT",
   "dependencies": {
-    "@devoinc/dali-tokens": "^2.0.1",
+    "@devoinc/genesys-tokens": "^2.0.1",
     "chalk": "^4.1.2",
     "yargs": "^17.5.1"
   },
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:DevoInc/dali-tokens.git"
+    "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "publishConfig": {
     "access": "public"

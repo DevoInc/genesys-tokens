@@ -1,5 +1,5 @@
 {
-  "name": "@devoinc/dali-brand-devo",
+  "name": "@devoinc/genesys-brand-devo",
   "version": "2.0.1",
   "author": "Devo Dev Team",
   "license": "MIT",
@@ -9,18 +9,18 @@
   "scripts": {
     "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
-    "build:light": "dit build -i schemes/light -o dist/light -m dark",
-    "build:dark": "dit build -i schemes/dark -o dist/dark -s dark -m dark",
+    "build:light": "gyt build -i schemes/light -o dist/light -m dark",
+    "build:dark": "gyt build -i schemes/dark -o dist/dark -s dark -m dark",
     "validate": "npm run validate:light && npm run validate:dark",
-    "validate:light": "dit validate dist/light/",
-    "validate:dark": "dit validate dist/dark/",
+    "validate:light": "gyt validate dist/light/",
+    "validate:dark": "gyt validate dist/dark/",
     "dist": "npm run clean && npm run build && npm run validate"
   },
   "files": [
     "dist"
   ],
   "keywords": [
-    "dali",
+    "genesys",
     "design",
     "tokens",
     "brand",
@@ -28,10 +28,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:DevoInc/dali-tokens.git"
+    "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "dependencies": {
-    "@devoinc/dali-tokens-cli": "^2.0.1"
+    "@devoinc/genesys-tokens-cli": "^2.0.1"
   },
   "publishConfig": {
     "access": "public"

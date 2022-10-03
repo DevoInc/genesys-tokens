@@ -29,13 +29,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.handler = exports.builder = exports.desc = exports.command = void 0;
 const chalk_1 = __importDefault(require("chalk"));
 const path_1 = __importDefault(require("path"));
-const dali_tokens_1 = require("@devoinc/dali-tokens");
+const genesys_tokens_1 = require("@devoinc/genesys-tokens");
 exports.command = 'validate [dir]';
 exports.desc = 'Validate brand dir';
 const validate = async (brandPath) => {
     const jsonPath = path_1.default.resolve(brandPath, 'json', 'tokens.json.all.json');
     const { default: jsonTokens } = await Promise.resolve().then(() => __importStar(require(jsonPath)));
-    const errors = (0, dali_tokens_1.validateJson)(jsonTokens);
+    const errors = (0, genesys_tokens_1.validateJson)(jsonTokens);
     if (errors.length) {
         console.error(chalk_1.default.red(`❌ Wrong tokens values in "${jsonPath}":\n${errors.join('\n')}`));
         process.exit(1);
@@ -46,7 +46,7 @@ const validate = async (brandPath) => {
 };
 const builder = (yargs) => yargs.options({});
 exports.builder = builder;
-// dit validate ./dist/light
+// gyt validate ./dist/light
 const handler = async (argv) => {
     const { dir } = argv;
     await validate(dir);

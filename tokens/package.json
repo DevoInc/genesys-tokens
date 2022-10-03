@@ -1,5 +1,5 @@
 {
-  "name": "@devoinc/dali-tokens",
+  "name": "@devoinc/genesys-tokens",
   "version": "2.0.1",
   "author": "Devo Dev Team",
   "license": "MIT",
@@ -20,13 +20,13 @@
     "dist"
   ],
   "keywords": [
-    "dali",
+    "genesys",
     "design",
     "tokens"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:DevoInc/dali-tokens.git"
+    "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "dependencies": {
     "quicktype-core": "6.0.62",

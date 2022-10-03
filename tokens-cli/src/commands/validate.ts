@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 import path from 'path';
 import type { Arguments, CommandBuilder } from 'yargs';
-import { validateJson } from '@devoinc/dali-tokens';
+import { validateJson } from '@devoinc/genesys-tokens';
 
 export const command = 'validate [dir]';
 export const desc = 'Validate brand dir';
@@ -24,7 +24,7 @@ const validate = async (brandPath: string) => {
 
 export const builder: CommandBuilder = (yargs) => yargs.options({});
 
-// dit validate ./dist/light
+// gyt validate ./dist/light
 export const handler = async (argv: Arguments) => {
   const { dir } = argv;
 

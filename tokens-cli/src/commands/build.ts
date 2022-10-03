@@ -1,6 +1,6 @@
 import path from 'path';
 import type { Arguments, CommandBuilder } from 'yargs';
-import { generate, Scheme } from '@devoinc/dali-tokens';
+import { generate, Scheme } from '@devoinc/genesys-tokens';
 
 interface Options {
   input?: string;
@@ -40,7 +40,7 @@ export const builder: CommandBuilder<Options, Options> = (yargs) =>
     },
   });
 
-// dit build -i "schemes/light/*.json" -o dist/light/
+// gyt build -i "schemes/light/*.json" -o dist/light/
 export const handler = (argv: Arguments<Options>): void => {
   const { scheme, menuScheme, output, input } = argv;
 

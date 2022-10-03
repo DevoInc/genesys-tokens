@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.handler = exports.builder = exports.desc = exports.command = void 0;
 const path_1 = __importDefault(require("path"));
-const dali_tokens_1 = require("@devoinc/dali-tokens");
+const genesys_tokens_1 = require("@devoinc/genesys-tokens");
 exports.command = 'build';
 exports.desc = 'Generate brands';
 const builder = (yargs) => yargs.options({
@@ -35,10 +35,10 @@ const builder = (yargs) => yargs.options({
     },
 });
 exports.builder = builder;
-// dit build -i "schemes/light/*.json" -o dist/light/
+// gyt build -i "schemes/light/*.json" -o dist/light/
 const handler = (argv) => {
     const { scheme, menuScheme, output, input } = argv;
-    (0, dali_tokens_1.generate)({
+    (0, genesys_tokens_1.generate)({
         source: input,
         scheme: scheme,
         menuScheme: menuScheme,
