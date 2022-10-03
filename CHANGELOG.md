@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/DevoInc/genesys-tokens/compare/v2.0.1...v3.0.0) (2022-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* universal rename `dali`-> `genesys`
+
+### Features
+
+* universal rename `dali`-> `genesys` ([f7a4a4d](https://github.com/DevoInc/genesys-tokens/commit/f7a4a4def27afde3dcf7a3efd0a3fb36da162e31))
+
 ### [2.0.1](https://github.com/DevoInc/dali-tokens/compare/v2.0.0...v2.0.1) (2022-09-22)
 
 
