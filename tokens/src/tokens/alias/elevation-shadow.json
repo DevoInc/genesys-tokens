@@ -87,7 +87,7 @@
         "action": {
           "secondary": {
             "selected": {
-              "value": "{theme.elevation.textShadow.action.secondary.selected.value}"
+              "value": "0 0 0.05em"
             }
           }
         }

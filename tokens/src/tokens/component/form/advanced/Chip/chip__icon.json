@@ -1,0 +1,63 @@
+{
+  "cmp": {
+    "chip": {
+      "icon": {
+        "typo": {
+          "fontSize": {
+            "xxs": {
+              "value": "{alias.typo.fontSize.icon.xxxxs.value}"
+            },
+            "xs": {
+              "value": "{alias.typo.fontSize.icon.xxxs.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.fontSize.icon.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.icon.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.fontSize.icon.sm.value}"
+            }
+          }
+        },
+        "space": {
+          "margin": {
+            "xxs": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "sm": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
+            "lg": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          },
+          "offset": {
+            "xxs": {
+              "value": "calc(({alias.size.height.action.xxs.value} / 8) * -1)"
+            },
+            "xs": {
+              "value": "calc(({alias.size.height.action.xs.value} / 8) * -1)"
+            },
+            "sm": {
+              "value": "calc(({alias.size.height.action.sm.value} / 8) * -1)"
+            },
+            "md": {
+              "value": "calc(({alias.size.height.action.md.value} / 8) * -1)"
+            },
+            "lg": {
+              "value": "calc(({alias.size.height.action.lg.value} / 8) * -1)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

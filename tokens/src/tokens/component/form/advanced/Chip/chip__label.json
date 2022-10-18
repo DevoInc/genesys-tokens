@@ -1,0 +1,53 @@
+{
+  "cmp": {
+    "chip": {
+      "label": {
+        "typo": {
+          "fontSize": {
+            "xxs": {
+              "value": "{alias.typo.fontSize.action.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.typo.fontSize.action.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.fontSize.action.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.action.md.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.fontSize.action.lg.value}"
+            }
+          },
+          "lineHeight": {
+            "xxs": {
+              "value": "{alias.typo.lineHeight.action.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.typo.lineHeight.action.xs.value}"
+            },
+            "sm": {
+              "value": "{alias.typo.lineHeight.action.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.lineHeight.action.md.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.lineHeight.action.lg.value}"
+            }
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.body.value}"
+          },
+          "letterSpacing": {
+            "value": "{alias.typo.letterSpacing.action.em.value}"
+          },
+          "textTransform": {
+            "value": "{alias.typo.textTransform.action.value}"
+          }
+        }
+      }
+    }
+  }
+}
