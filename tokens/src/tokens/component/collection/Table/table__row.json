@@ -21,7 +21,7 @@
                 "value": "{alias.color.background.surface.backdrop.base.weak.value}"
               },
               "selected": {
-                "value": "{alias.color.background.backdrop.secondary.weaker.value}"
+                "value": "{alias.color.background.surface.base.activated.value}"
               }
             },
             "odd": {
@@ -38,7 +38,7 @@
                 "value": "{alias.color.background.surface.backdrop.base.weak.value}"
               },
               "selected": {
-                "value": "{alias.color.background.backdrop.secondary.weaker.value}"
+                "value": "{alias.color.background.surface.base.activated.value}"
               }
             },
             "after": {
