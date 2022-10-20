@@ -173,6 +173,7 @@ jobs:
   # --------------DEPLOY TO PAGES--------------
   deploy:
     needs: [lint, unit-test, dist]
+    if: github.ref == 'refs/heads/master'
 
     environment:
       name: github-pages
