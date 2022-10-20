@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/DevoInc/genesys-tokens/compare/v3.1.0...v3.2.0) (2022-10-20)
+
+
+### Features
+
+* **tokens:** selected table row has been changed to alias.color.background.surface.base.activated.value ([#5](https://github.com/DevoInc/genesys-tokens/issues/5)) ([f29b055](https://github.com/DevoInc/genesys-tokens/commit/f29b0552b202a440b42595c057fdc7a2ad263b46))
+
 ## [3.1.0](https://github.com/DevoInc/genesys-tokens/compare/v3.0.0...v3.1.0) (2022-10-18)
 
 
