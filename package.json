@@ -11,7 +11,8 @@
     "brand-devo"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18",
+    "npm": ">=8"
   },
   "scripts": {
     "clean": "npm run clean -ws --if-present",
