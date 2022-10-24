@@ -27,7 +27,7 @@ The packages have the following interdependencies:
 
 ## Quick start
 
-\* Ensure you are using `npm` version 8 or higher and `Node.js` version 18 or higher.
+\* Ensure you are using `npm` version 8 or higher and `Node.js` version 18 or higher
 
 ```sh
 ## Clone the repository
