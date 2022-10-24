@@ -35,7 +35,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Set npm version
-        run: npm i -g npm@7
+        run: npm i -g npm@8
 
       - name: Install dependencies
         run: npm ci
