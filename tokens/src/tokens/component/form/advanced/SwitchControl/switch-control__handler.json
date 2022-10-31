@@ -5,55 +5,55 @@
         "elevation": {
           "boxShadow": {
             "enabled": {
-              "value": "{alias.elevation.boxShadow.handler.base.enabled.value}"
+              "value": "{alias.handlers.elevation.boxShadow.enabled.value}"
             },
             "hovered": {
-              "value": "{alias.elevation.boxShadow.handler.base.hovered.value}"
+              "value": "{alias.handlers.elevation.boxShadow.hovered.value}"
             },
             "pressed": {
-              "value": "{alias.elevation.boxShadow.handler.base.pressed.value}"
+              "value": "{alias.handlers.elevation.boxShadow.pressed.value}"
             }
           }
         },
         "size": {
           "square": {
             "sm": {
-              "value": "1.6rem"
+              "value": "${alias.handlers.size.square.md.value}"
             },
             "md": {
-              "value": "2rem"
+              "value": "${alias.handlers.size.square.md.value}"
             },
             "lg": {
-              "value": "2.4rem"
+              "value": "${alias.handlers.size.square.md.value}"
             }
           }
         },
         "shape": {
           "borderRadius": {
-            "value": "{alias.shape.borderRadius.full.value}"
+            "value": "{alias.handlers.shape.borderRadius.value}"
           }
         },
         "mutation": {
           "transitionDuration": {
-            "value": "{alias.mutation.transitionDuration.translation.hor.sm.value}"
+            "value": "{alias.handlers.mutation.transitionDuration.value}"
           }
         },
         "color": {
           "background": {
-            "value": "{alias.color.background.handler.value}"
+            "value": "{alias.handlers.color.background.value}"
           },
           "text": {
             "base": {
-              "value": "{alias.fields.color.text.base.weaker.value}"
+              "value": "{alias.handlers.color.text.base.value}"
             },
             "error": {
-              "value": "{alias.fields.color.text.error.weaker.value}"
+              "value": "{alias.handlers.color.text.error.value}"
             },
             "warning": {
-              "value": "{alias.fields.color.text.warning.weaker.value}"
+              "value": "{alias.handlers.color.text.warning.value}"
             },
             "success": {
-              "value": "{alias.fields.color.text.success.weaker.value}"
+              "value": "{alias.handlers.color.text.success.value}"
             }
           }
         }

@@ -150,6 +150,17 @@
         }
       },
       "square": {
+        "handler": {
+          "sm": {
+            "value": "{global.size.square.05.value}"
+          },
+          "md": {
+            "value": "{global.size.square.07.value}"
+          },
+          "lg": {
+            "value": "{global.size.square.09.value}"
+          }
+        },
         "icon": {
           "base": {
             "xxxxs": {

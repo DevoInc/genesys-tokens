@@ -34,7 +34,7 @@
               "value": "{global.color.blend.white.03.value}"
             },
             "readonly": {
-              "value": "{global.color.blend.white.06.value}"
+              "value": "{global.color.blend.white.12.value}"
             },
             "disabled": {
               "value": "{global.color.blend.white.03.value}"
@@ -54,7 +54,7 @@
               "value": "rgba(0,0,0,0)"
             },
             "readonly": {
-              "value": "{global.color.error.09.value}"
+              "value": "{global.color.blend.white.06.value}"
             },
             "disabled": {
               "value": "rgba(0,0,0,0)"
@@ -77,7 +77,7 @@
               "value": "rgba(0,0,0,0)"
             },
             "readonly": {
-              "value": "{global.color.success.09.value}"
+              "value": "{global.color.blend.white.06.value}"
             },
             "disabled": {
               "value": "rgba(0,0,0,0)"
@@ -100,7 +100,7 @@
               "value": "rgba(0,0,0,0)"
             },
             "readonly": {
-              "value": "{global.color.warning.09.value}"
+              "value": "{global.color.blend.white.06.value}"
             },
             "disabled": {
               "value": "rgba(0,0,0,0)"
@@ -293,13 +293,13 @@
             "value": "{global.color.error.08.value}"
           },
           "success": {
-            "value": "{global.color.neutral.10.value}"
+            "value": "{global.color.success.08.value}"
           },
           "warning": {
-            "value": "{global.color.neutral.10.value}"
+            "value": "{global.color.warning.08.value}"
           },
           "info": {
-            "value": "{global.color.neutral.10.value}"
+            "value": "{global.color.info.08.value}"
           }
         },
         "feedback": {
