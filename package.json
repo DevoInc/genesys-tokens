@@ -1,6 +1,6 @@
 {
   "name": "genesys-tokens",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "author": "Devo Dev Team",
   "license": "MIT",
   "private": true,
@@ -10,6 +10,10 @@
     "tokens-cli",
     "brand-devo"
   ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
   "scripts": {
     "clean": "npm run clean -ws --if-present",
     "build": "npm run build -ws --if-present",

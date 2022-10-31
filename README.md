@@ -3,8 +3,7 @@
 ![license](https://img.shields.io/github/license/devoinc/genesys-tokens)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/genesys-tokens/ci)](https://github.com/devoinc/genesys-tokens/actions/workflows/ci.yml)
 
-
-Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's *Dalí Design System*.
+Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's _Dalí Design System_.
 
 The project is built using `npm workspaces` and contains the following packages:
 
@@ -14,7 +13,7 @@ The project is built using `npm workspaces` and contains the following packages:
 
 - **tokens:** Tokens definition and generation tools.
 - **tokens-cli:** Command-line interface for the token generation tools.
-- **brand-devo:** *Brand Devo* design tokens to be consumed in different formats. 
+- **brand-devo:** _Brand Devo_ design tokens to be consumed in different formats.
 
 The packages have the following interdependencies:
 
@@ -28,7 +27,7 @@ The packages have the following interdependencies:
 
 ## Quick start
 
-\* Ensure you are using `npm` version 7 or higher.
+\* Ensure you are using `npm` version 8 or higher and `Node.js` version 18 or higher
 
 ```sh
 ## Clone the repository
