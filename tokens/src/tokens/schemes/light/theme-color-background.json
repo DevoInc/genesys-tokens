@@ -54,7 +54,7 @@
               "value": "{global.color.blend.white.25.value}"
             },
             "readonly": {
-              "value": "{global.color.error.09.value}"
+              "value": "{global.color.neutral.00.value}"
             },
             "disabled": {
               "value": "{global.color.blend.white.25.value}"
@@ -77,7 +77,7 @@
               "value": "{global.color.blend.white.25.value}"
             },
             "readonly": {
-              "value": "{global.color.success.09.value}"
+              "value": "{global.color.neutral.00.value}"
             },
             "disabled": {
               "value": "{global.color.blend.white.25.value}"
@@ -100,7 +100,7 @@
               "value": "{global.color.blend.white.25.value}"
             },
             "readonly": {
-              "value": "{global.color.warning.09.value}"
+              "value": "{global.color.neutral.00.value}"
             },
             "disabled": {
               "value": "{global.color.blend.white.25.value}"
@@ -293,13 +293,13 @@
             "value": "{global.color.error.02.value}"
           },
           "success": {
-            "value": "{global.color.neutral.02.value}"
+            "value": "{global.color.success.02.value}"
           },
           "info": {
-            "value": "{global.color.neutral.02.value}"
+            "value": "{global.color.info.02.value}"
           },
           "warning": {
-            "value": "{global.color.neutral.02.value}"
+            "value": "{global.color.warning.02.value}"
           }
         },
         "feedback": {

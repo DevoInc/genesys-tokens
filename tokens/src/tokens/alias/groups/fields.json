@@ -587,13 +587,13 @@
         "size": {
           "square": {
             "sm": {
-              "value": "calc({alias.fields.size.height.sm.value} / 2)"
+              "value": "calc(({alias.fields.size.height.sm.value} / 2) + 0.2rem)"
             },
             "md": {
-              "value": "calc({alias.fields.size.height.md.value} / 2)"
+              "value": "calc(({alias.fields.size.height.md.value} / 2) + 0.2rem)"
             },
             "lg": {
-              "value": "calc({alias.fields.size.height.lg.value} / 2)"
+              "value": "calc(({alias.fields.size.height.lg.value} / 2) + 0.2rem)"
             }
           }
         },
