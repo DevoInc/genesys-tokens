@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/DevoInc/genesys-tokens/compare/v3.2.0...v3.3.0) (2022-11-02)
+
+
+### Features
+
+* **tokens:** QUV-116 Adjustments for form field tokens ([#8](https://github.com/DevoInc/genesys-tokens/issues/8)) ([84809ca](https://github.com/DevoInc/genesys-tokens/commit/84809cab4415038e77b037d584d8203683183f0a))
+
 ## [3.2.0](https://github.com/DevoInc/genesys-tokens/compare/v3.1.0...v3.2.0) (2022-10-20)
 
 
