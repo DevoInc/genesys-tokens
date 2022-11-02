@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.2](https://github.com/DevoInc/genesys-tokens/compare/v3.3.1...v3.3.2) (2022-11-02)
+
+
+### Bug Fixes
+
+* **tokens:** fixed incorrect character at the beginning of the token name ([fd8a2ae](https://github.com/DevoInc/genesys-tokens/commit/fd8a2aeb30717d33743b51718c8c04e778c4e740))
+
 ### [3.3.1](https://github.com/DevoInc/genesys-tokens/compare/v3.3.0...v3.3.1) (2022-11-02)
 
 
