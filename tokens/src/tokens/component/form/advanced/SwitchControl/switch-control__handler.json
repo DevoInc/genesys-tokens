@@ -18,13 +18,13 @@
         "size": {
           "square": {
             "sm": {
-              "value": "${alias.handlers.size.square.md.value}"
+              "value": "{alias.handlers.size.square.sm.value}"
             },
             "md": {
-              "value": "${alias.handlers.size.square.md.value}"
+              "value": "{alias.handlers.size.square.md.value}"
             },
             "lg": {
-              "value": "${alias.handlers.size.square.md.value}"
+              "value": "{alias.handlers.size.square.lg.value}"
             }
           }
         },
