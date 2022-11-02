@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.1](https://github.com/DevoInc/genesys-tokens/compare/v3.3.0...v3.3.1) (2022-11-02)
+
+
+### Bug Fixes
+
+* **tokens:** WD-12150 Fixed incorrect token for main menu secondary active item ([88a9697](https://github.com/DevoInc/genesys-tokens/commit/88a96970441e5a7284f56a89380fc4a81f762b7d))
+
 ## [3.3.0](https://github.com/DevoInc/genesys-tokens/compare/v3.2.0...v3.3.0) (2022-11-02)
 
 
