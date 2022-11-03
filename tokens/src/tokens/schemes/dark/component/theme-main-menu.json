@@ -4,7 +4,7 @@
       "color": {
         "background": {
           "base": {
-            "value": "{global.color.neutral.14.value}"
+            "value": "{global.color.neutral.16.value}"
           },
           "backdrop": {
             "base": {
