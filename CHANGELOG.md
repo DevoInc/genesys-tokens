@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/DevoInc/genesys-tokens/compare/v3.4.0...v3.5.0) (2022-11-11)
+
+
+### Features
+
+* **brand-devo:** export `Brand` type ([cf405de](https://github.com/DevoInc/genesys-tokens/commit/cf405de2e9d76de3fae94bcb4755987100e2fd1e))
+
 ## [3.4.0](https://github.com/DevoInc/genesys-tokens/compare/v3.3.2...v3.4.0) (2022-11-03)
 
 
