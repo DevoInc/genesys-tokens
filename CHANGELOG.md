@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/DevoInc/genesys-tokens/compare/v3.5.0...v3.6.0) (2022-11-15)
+
+
+### Features
+
+* **tokens:** not so dark background color token for dark scheme main menu. ([43b468f](https://github.com/DevoInc/genesys-tokens/commit/43b468f0c455b325bfa6420bcf6c1e3bdff7cf73))
+
 ## [3.5.0](https://github.com/DevoInc/genesys-tokens/compare/v3.4.0...v3.5.0) (2022-11-11)
 
 
