@@ -26,7 +26,7 @@
           },
           "padding": {
             "noHasScroll": {
-              "value": "{alias.space.cmp.sm.value} {alias.space.cmp.lg.value}"
+              "value": "calc({alias.space.cmp.md.value} + 0.4rem) {alias.space.cmp.lg.value}"
             },
             "hasScroll": {
               "value": "{alias.space.cmp.sm.value} {alias.space.cmp.md.value}"
