@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.0](https://github.com/DevoInc/genesys-tokens/compare/v3.6.0...v3.7.0) (2022-11-25)
+
+
+### Features
+
+* **tokens:** UXW-770 New value for PanelSection component space token. ([d18be9d](https://github.com/DevoInc/genesys-tokens/commit/d18be9d923ff21b0dbe1827e12432f48c774507a))
+
 ## [3.6.0](https://github.com/DevoInc/genesys-tokens/compare/v3.5.0...v3.6.0) (2022-11-15)
 
 
