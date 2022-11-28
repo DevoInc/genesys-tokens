@@ -5,22 +5,22 @@
         "background": {
           "base": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
-            },
-            "hovered": {
-              "value": "{global.color.neutral.14.value}"
-            },
-            "focused": {
-              "value": "{global.color.neutral.14.value}"
-            },
-            "readonly": {
               "value": "{global.color.neutral.15.value}"
             },
+            "hovered": {
+              "value": "{global.color.neutral.15.value}"
+            },
+            "focused": {
+              "value": "{global.color.neutral.15.value}"
+            },
+            "readonly": {
+              "value": "{global.color.neutral.13.value}"
+            },
             "disabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "unchecked": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             }
           },
           "inverse": {
@@ -45,71 +45,71 @@
           },
           "error": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "readonly": {
               "value": "{global.color.neutral.15.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "checked": {
               "value": "{global.color.error.05.value}"
             },
             "unchecked": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             }
           },
           "success": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "readonly": {
               "value": "{global.color.neutral.15.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "checked": {
               "value": "{global.color.success.05.value}"
             },
             "unchecked": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             }
           },
           "warning": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "readonly": {
               "value": "{global.color.neutral.15.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "checked": {
               "value": "{global.color.warning.06.value}"
             },
             "unchecked": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             }
           }
         }
@@ -123,7 +123,7 @@
         "surface": {
           "base": {
             "base": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "raised": {
               "value": "{global.color.neutral.12.value}"
@@ -280,7 +280,7 @@
           }
         },
         "handler": {
-          "value": "{global.color.neutral.14.value}"
+          "value": "{global.color.neutral.15.value}"
         },
         "track": {
           "base": {
@@ -608,22 +608,22 @@
         "action": {
           "neutral": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "pressed": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "expanded": {
-              "value": "{global.color.neutral.13.value}"
+              "value": "{global.color.neutral.12.value}"
             }
           },
           "quiet": {

@@ -5,89 +5,89 @@
         "border": {
           "base": {
             "enabled": {
-              "value": "{global.color.neutral.04.value}"
+              "value": "{global.color.neutral.11.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.07.value}"
+              "value": "{global.color.neutral.08.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.07.value}"
+              "value": "{global.color.neutral.08.value}"
             },
             "readonly": {
-              "value": "{global.color.neutral.00.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.02.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "checked": {
               "value": "{alias.fields.color.background.base.checked.value}"
             },
             "weak": {
-              "value": "{global.color.neutral.03.value}"
+              "value": "{global.color.neutral.12.value}"
             },
             "weaker": {
-              "value": "{global.color.neutral.02.value}"
+              "value": "{global.color.neutral.13.value}"
             },
             "weakest": {
-              "value": "{global.color.neutral.01.value}"
+              "value": "{global.color.neutral.14.value}"
             }
           },
           "inverse": {
             "enabled": {
-              "value": "{global.color.blend.white.04.value}"
+              "value": "{global.color.blend.black.04.value}"
             },
             "hovered": {
-              "value": "{global.color.blend.white.11.value}"
+              "value": "{global.color.blend.black.11.value}"
             },
             "focused": {
-              "value": "{global.color.blend.white.11.value}"
+              "value": "{global.color.blend.black.11.value}"
             },
             "readonly": {
-              "value": "{global.color.blend.white.02.value}"
+              "value": "{global.color.blend.black.02.value}"
             },
             "disabled": {
-              "value": "{global.color.blend.white.02.value}"
+              "value": "{global.color.blend.black.02.value}"
             },
             "checked": {
               "value": "{theme.fields.color.background.error.checked.value}"
             },
             "weak": {
-              "value": "{global.color.blend.white.03.value}"
+              "value": "{global.color.blend.black.03.value}"
             },
             "weaker": {
-              "value": "{global.color.blend.white.02.value}"
+              "value": "{global.color.blend.black.02.value}"
             },
             "weakest": {
-              "value": "{global.color.blend.white.01.value}"
+              "value": "{global.color.blend.black.01.value}"
             }
           },
           "error": {
             "enabled": {
-              "value": "{global.color.error.06.value}"
+              "value": "{global.color.error.05.value}"
             },
             "hovered": {
-              "value": "{global.color.error.08.value}"
+              "value": "{global.color.error.03.value}"
             },
             "focused": {
-              "value": "{global.color.error.06.value}"
+              "value": "{global.color.error.05.value}"
             },
             "readonly": {
-              "value": "{global.color.error.00.value}"
+              "value": "{global.color.error.10.value}"
             },
             "disabled": {
-              "value": "{global.color.error.06.value}"
+              "value": "{global.color.error.05.value}"
             },
             "checked": {
               "value": "{theme.fields.color.background.error.checked.value}"
             },
             "weak": {
-              "value": "{global.color.error.03.value}"
+              "value": "{global.color.error.07.value}"
             },
             "weaker": {
-              "value": "{global.color.error.02.value}"
+              "value": "{global.color.error.08.value}"
             },
             "weakest": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.09.value}"
             }
           },
           "success": {
@@ -95,13 +95,13 @@
               "value": "{global.color.success.05.value}"
             },
             "hovered": {
-              "value": "{global.color.success.07.value}"
+              "value": "{global.color.success.03.value}"
             },
             "focused": {
               "value": "{global.color.success.05.value}"
             },
             "readonly": {
-              "value": "{global.color.success.00.value}"
+              "value": "{global.color.success.10.value}"
             },
             "disabled": {
               "value": "{global.color.success.05.value}"
@@ -110,42 +110,42 @@
               "value": "{theme.fields.color.background.success.checked.value}"
             },
             "weak": {
-              "value": "{global.color.success.02.value}"
+              "value": "{global.color.success.08.value}"
             },
             "weaker": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.09.value}"
             },
             "weakest": {
-              "value": "{global.color.success.00.value}"
+              "value": "{global.color.success.10.value}"
             }
           },
           "warning": {
             "enabled": {
-              "value": "{global.color.warning.04.value}"
+              "value": "{global.color.warning.05.value}"
             },
             "hovered": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.03.value}"
             },
             "focused": {
-              "value": "{global.color.warning.04.value}"
+              "value": "{global.color.warning.05.value}"
             },
             "readonly": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.09.value}"
             },
             "disabled": {
-              "value": "{global.color.warning.04.value}"
+              "value": "{global.color.warning.05.value}"
             },
             "checked": {
               "value": "{theme.fields.color.background.warning.checked.value}"
             },
             "weak": {
-              "value": "{global.color.warning.02.value}"
+              "value": "{global.color.warning.07.value}"
             },
             "weaker": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.08.value}"
             },
             "weakest": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.09.value}"
             }
           }
         }
