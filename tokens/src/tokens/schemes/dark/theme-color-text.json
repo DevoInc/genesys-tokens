@@ -5,7 +5,7 @@
         "text": {
           "base": {
             "enabled": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.02.value}"
             },
             "hovered": {
               "value": "{global.color.neutral.14.value}"
