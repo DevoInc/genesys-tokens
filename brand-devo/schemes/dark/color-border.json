@@ -5,24 +5,24 @@
         "surface": {
           "primary": {
             "base": {
-              "value": "{global.color.primary.06.value}"
+              "value": "{global.color.primary.04.value}"
             }
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.06.value}"
+              "value": "{global.color.secondary.04.value}"
             }
           }
         },
         "feedback": {
           "primary": {
             "base": {
-              "value": "{global.color.primary.06.value}"
+              "value": "{global.color.primary.04.value}"
             }
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.07.value}"
+              "value": "{global.color.secondary.03.value}"
             }
           }
         },

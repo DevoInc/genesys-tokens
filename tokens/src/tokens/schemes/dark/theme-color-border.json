@@ -63,31 +63,31 @@
           },
           "error": {
             "enabled": {
-              "value": "{global.color.error.05.value}"
+              "value": "{global.color.error.06.value}"
             },
             "hovered": {
-              "value": "{global.color.error.03.value}"
+              "value": "{global.color.error.04.value}"
             },
             "focused": {
-              "value": "{global.color.error.05.value}"
+              "value": "{global.color.error.06.value}"
             },
             "readonly": {
               "value": "{global.color.error.10.value}"
             },
             "disabled": {
-              "value": "{global.color.error.05.value}"
+              "value": "{global.color.error.06.value}"
             },
             "checked": {
               "value": "{theme.fields.color.background.error.checked.value}"
             },
             "weak": {
-              "value": "{global.color.error.07.value}"
-            },
-            "weaker": {
               "value": "{global.color.error.08.value}"
             },
-            "weakest": {
+            "weaker": {
               "value": "{global.color.error.09.value}"
+            },
+            "weakest": {
+              "value": "{global.color.error.10.value}"
             }
           },
           "success": {
@@ -184,193 +184,193 @@
           },
           "primary": {
             "base": {
-              "value": "{global.color.primary.06.value}"
+              "value": "{global.color.primary.04.value}"
             }
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.06.value}"
+              "value": "{global.color.secondary.04.value}"
             }
           },
           "neutral": {
             "base": {
-              "value": "{global.color.neutral.09.value}"
+              "value": "{global.color.neutral.01.value}"
             }
           },
           "error": {
             "weak": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.09.value}"
             },
             "base": {
-              "value": "{global.color.error.02.value}"
+              "value": "{global.color.error.08.value}"
             },
             "strong": {
-              "value": "{global.color.error.03.value}"
+              "value": "{global.color.error.07.value}"
             }
           },
           "success": {
             "weak": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.09.value}"
             },
             "base": {
-              "value": "{global.color.success.02.value}"
+              "value": "{global.color.success.08.value}"
             },
             "strong": {
-              "value": "{global.color.success.03.value}"
+              "value": "{global.color.success.07.value}"
             }
           },
           "warning": {
             "weak": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.09.value}"
             },
             "base": {
-              "value": "{global.color.warning.02.value}"
+              "value": "{global.color.warning.08.value}"
             },
             "strong": {
-              "value": "{global.color.warning.03.value}"
+              "value": "{global.color.warning.07.value}"
             }
           },
           "help": {
             "weak": {
-              "value": "{global.color.help.01.value}"
+              "value": "{global.color.help.09.value}"
             },
             "base": {
-              "value": "{global.color.help.02.value}"
+              "value": "{global.color.help.08.value}"
             },
             "strong": {
-              "value": "{global.color.help.03.value}"
+              "value": "{global.color.help.07.value}"
             }
           },
           "info": {
             "weak": {
-              "value": "{global.color.info.01.value}"
+              "value": "{global.color.info.09.value}"
             },
             "base": {
-              "value": "{global.color.info.02.value}"
+              "value": "{global.color.info.08.value}"
             },
             "strong": {
-              "value": "{global.color.info.03.value}"
+              "value": "{global.color.info.07.value}"
             }
           },
           "dataBlue": {
             "weak": {
-              "value": "{global.color.visualization.blue.01.value}"
+              "value": "{global.color.visualization.blue.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.blue.02.value}"
+              "value": "{global.color.visualization.blue.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.blue.03.value}"
+              "value": "{global.color.visualization.blue.07.value}"
             }
           },
           "dataBronze": {
             "weak": {
-              "value": "{global.color.visualization.bronze.01.value}"
+              "value": "{global.color.visualization.bronze.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.bronze.02.value}"
+              "value": "{global.color.visualization.bronze.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.bronze.03.value}"
+              "value": "{global.color.visualization.bronze.07.value}"
             }
           },
           "dataDusk": {
             "weak": {
-              "value": "{global.color.visualization.dusk.01.value}"
+              "value": "{global.color.visualization.dusk.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.dusk.02.value}"
+              "value": "{global.color.visualization.dusk.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.dusk.03.value}"
+              "value": "{global.color.visualization.dusk.07.value}"
             }
           },
           "dataGreen": {
             "weak": {
-              "value": "{global.color.visualization.green.01.value}"
+              "value": "{global.color.visualization.green.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.green.02.value}"
+              "value": "{global.color.visualization.green.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.green.03.value}"
+              "value": "{global.color.visualization.green.07.value}"
             }
           },
           "dataIndigo": {
             "weak": {
-              "value": "{global.color.visualization.indigo.01.value}"
+              "value": "{global.color.visualization.indigo.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.indigo.02.value}"
+              "value": "{global.color.visualization.indigo.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.indigo.03.value}"
+              "value": "{global.color.visualization.indigo.07.value}"
             }
           },
           "dataMagenta": {
             "weak": {
-              "value": "{global.color.visualization.magenta.01.value}"
+              "value": "{global.color.visualization.magenta.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.magenta.02.value}"
+              "value": "{global.color.visualization.magenta.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.magenta.03.value}"
+              "value": "{global.color.visualization.magenta.07.value}"
             }
           },
           "dataPurple": {
             "weak": {
-              "value": "{global.color.visualization.purple.01.value}"
+              "value": "{global.color.visualization.purple.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.purple.02.value}"
+              "value": "{global.color.visualization.purple.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.purple.03.value}"
+              "value": "{global.color.visualization.purple.07.value}"
             }
           },
           "dataRed": {
             "weak": {
-              "value": "{global.color.visualization.red.01.value}"
+              "value": "{global.color.visualization.red.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.red.02.value}"
+              "value": "{global.color.visualization.red.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.red.03.value}"
+              "value": "{global.color.visualization.red.07.value}"
             }
           },
           "dataSky": {
             "weak": {
-              "value": "{global.color.visualization.sky.01.value}"
+              "value": "{global.color.visualization.sky.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.sky.02.value}"
+              "value": "{global.color.visualization.sky.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.sky.03.value}"
+              "value": "{global.color.visualization.sky.07.value}"
             }
           },
           "dataSlate": {
             "weak": {
-              "value": "{global.color.visualization.slate.01.value}"
+              "value": "{global.color.visualization.slate.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.slate.02.value}"
+              "value": "{global.color.visualization.slate.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.slate.03.value}"
+              "value": "{global.color.visualization.slate.07.value}"
             }
           },
           "dataTeal": {
             "weak": {
-              "value": "{global.color.visualization.teal.01.value}"
+              "value": "{global.color.visualization.teal.09.value}"
             },
             "base": {
-              "value": "{global.color.visualization.teal.02.value}"
+              "value": "{global.color.visualization.teal.08.value}"
             },
             "strong": {
-              "value": "{global.color.visualization.teal.03.value}"
+              "value": "{global.color.visualization.teal.07.value}"
             }
           }
         },
@@ -405,72 +405,72 @@
           },
           "primary": {
             "base": {
-              "value": "{global.color.primary.06.value}"
+              "value": "{global.color.primary.04.value}"
             }
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.06.value}"
+              "value": "{global.color.secondary.04.value}"
             }
           },
           "neutral": {
             "base": {
-              "value": "{global.color.neutral.09.value}"
+              "value": "{global.color.neutral.01.value}"
             }
           },
           "error": {
             "weak": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.09.value}"
             },
             "base": {
-              "value": "{global.color.error.02.value}"
+              "value": "{global.color.error.08.value}"
             },
             "strong": {
-              "value": "{global.color.error.03.value}"
+              "value": "{global.color.error.07.value}"
             }
           },
           "success": {
             "weak": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.09.value}"
             },
             "base": {
-              "value": "{global.color.success.02.value}"
+              "value": "{global.color.success.08.value}"
             },
             "strong": {
-              "value": "{global.color.success.03.value}"
+              "value": "{global.color.success.07.value}"
             }
           },
           "warning": {
             "weak": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.09.value}"
             },
             "base": {
-              "value": "{global.color.warning.02.value}"
+              "value": "{global.color.warning.08.value}"
             },
             "strong": {
-              "value": "{global.color.warning.03.value}"
+              "value": "{global.color.warning.07.value}"
             }
           },
           "help": {
             "weak": {
-              "value": "{global.color.help.01.value}"
+              "value": "{global.color.help.09.value}"
             },
             "base": {
-              "value": "{global.color.help.02.value}"
+              "value": "{global.color.help.08.value}"
             },
             "strong": {
-              "value": "{global.color.help.03.value}"
+              "value": "{global.color.help.07.value}"
             }
           },
           "info": {
             "weak": {
-              "value": "{global.color.info.01.value}"
+              "value": "{global.color.info.09.value}"
             },
             "base": {
-              "value": "{global.color.info.02.value}"
+              "value": "{global.color.info.08.value}"
             },
             "strong": {
-              "value": "{global.color.info.03.value}"
+              "value": "{global.color.info.07.value}"
             }
           }
         },

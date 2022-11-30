@@ -75,7 +75,7 @@
           },
           "error": {
             "enabled": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.error.05.value}"
             },
             "hovered": {
               "value": "{global.color.error.04.value}"
@@ -84,7 +84,7 @@
               "value": "{global.color.error.02.value}"
             },
             "placeholder": {
-              "value": "{global.color.error.08.value}"
+              "value": "{global.color.neutral.09.value}"
             },
             "filled": {
               "value": "{global.color.error.02.value}"
@@ -185,7 +185,7 @@
       "text": {
         "body": {
           "base": {
-            "value": "{global.color.neutral.07.value}",
+            "value": "{global.color.neutral.06.value}",
             "comment": "Default text color for the App."
           },
           "strong": {
@@ -197,15 +197,15 @@
             "comment": "Emphasis text color for headings and interactive components."
           },
           "weak": {
-            "value": "{global.color.neutral.08.value}",
+            "value": "{global.color.neutral.07.value}",
             "comment": "Low emphasis text color for non essential content."
           },
           "weaker": {
-            "value": "{global.color.neutral.09.value}",
+            "value": "{global.color.neutral.08.value}",
             "comment": "Low emphasis text color for form field placeholders."
           },
           "weakest": {
-            "value": "{global.color.neutral.10.value}",
+            "value": "{global.color.neutral.09.value}",
             "comment": "Lowest emphasis text color for disabled state."
           },
           "inverse": {
@@ -358,28 +358,28 @@
           },
           "warning": {
             "enabled": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "disabled": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "hovered": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "focused": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "pressed": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "expanded": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "selected": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "activated": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             }
           },
           "info": {
@@ -488,28 +488,28 @@
           },
           "blendError": {
             "enabled": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.error.05.value}"
             },
             "hovered": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.04.value}"
             },
             "focused": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.error.05.value}"
             },
             "pressed": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.02.value}"
             },
             "expanded": {
-              "value": "{global.color.error.01.value}"
+              "value": "{global.color.error.02.value}"
             },
             "selected": {
-              "value": "{global.color.error.00.value}"
+              "value": "{global.color.error.01.value}"
             },
             "activated": {
-              "value": "{global.color.error.00.value}"
+              "value": "{global.color.error.01.value}"
             },
             "disabled": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.error.05.value}"
             }
           },
           "blendSuccess": {
@@ -517,22 +517,22 @@
               "value": "{global.color.success.05.value}"
             },
             "hovered": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.02.value}"
             },
             "focused": {
               "value": "{global.color.success.05.value}"
             },
             "pressed": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.02.value}"
             },
             "expanded": {
-              "value": "{global.color.success.01.value}"
+              "value": "{global.color.success.02.value}"
             },
             "selected": {
-              "value": "{global.color.success.00.value}"
+              "value": "{global.color.success.01.value}"
             },
             "activated": {
-              "value": "{global.color.success.00.value}"
+              "value": "{global.color.success.01.value}"
             },
             "disabled": {
               "value": "{global.color.success.05.value}"
@@ -540,28 +540,28 @@
           },
           "blendWarning": {
             "enabled": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.05.value}"
             },
             "hovered": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.02.value}"
             },
             "focused": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.05.value}"
             },
             "pressed": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.02.value}"
             },
             "expanded": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.02.value}"
             },
             "selected": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.01.value}"
             },
             "activated": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.01.value}"
             },
             "disabled": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.05.value}"
             }
           },
           "blendHelp": {
@@ -569,22 +569,22 @@
               "value": "{global.color.help.04.value}"
             },
             "hovered": {
-              "value": "{global.color.help.01.value}"
+              "value": "{global.color.help.02.value}"
             },
             "focused": {
               "value": "{global.color.help.04.value}"
             },
             "pressed": {
-              "value": "{global.color.help.01.value}"
+              "value": "{global.color.help.02.value}"
             },
             "expanded": {
-              "value": "{global.color.help.01.value}"
+              "value": "{global.color.help.02.value}"
             },
             "selected": {
-              "value": "{global.color.help.00.value}"
+              "value": "{global.color.help.01.value}"
             },
             "activated": {
-              "value": "{global.color.help.00.value}"
+              "value": "{global.color.help.01.value}"
             },
             "disabled": {
               "value": "{global.color.help.04.value}"
@@ -730,10 +730,10 @@
           },
           "error": {
             "strong": {
-              "value": "{global.color.error.00.value}"
+              "value": "{global.color.error.01.value}"
             },
             "base": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.error.05.value}"
             },
             "weak": {
               "value": "{global.color.error.06.value}"
@@ -758,16 +758,16 @@
           },
           "warning": {
             "strong": {
-              "value": "{global.color.warning.00.value}"
+              "value": "{global.color.warning.10.value}"
             },
             "base": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.04.value}"
             },
             "weak": {
-              "value": "{global.color.warning.06.value}"
+              "value": "{global.color.warning.04.value}"
             },
             "inverse": {
-              "value": "{global.color.warning.09.value}"
+              "value": "{global.color.warning.01.value}"
             }
           },
           "help": {
