@@ -5,10 +5,10 @@
         "color": {
           "background": {
             "light": {
-              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.background.light.value}"
+              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.light.value}"
             },
             "dark": {
-              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.background.dark.value}"
+              "value": "{brand.loader.spinnerAnimatedStrokeTemp.color.dark.value}"
             }
           }
         }

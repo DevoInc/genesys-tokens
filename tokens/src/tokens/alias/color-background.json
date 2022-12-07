@@ -1270,6 +1270,169 @@
                 "value": "{theme.color.background.surface.backdrop.inverse.strongest.value}"
               }
             }
+          },
+          "blend": {
+            "light": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.light.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.light.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.light.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.light.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.light.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.light.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.light.strongest.value}"
+              }
+            },
+            "dark": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.dark.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.dark.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.dark.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.dark.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.dark.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.dark.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.dark.strongest.value}"
+              }
+            },
+            "error": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.error.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.error.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.error.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.error.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.error.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.error.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.error.strongest.value}"
+              }
+            },
+            "success": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.success.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.success.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.success.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.success.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.success.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.success.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.success.strongest.value}"
+              }
+            },
+            "warning": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.warning.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.warning.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.warning.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.warning.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.warning.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.warning.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.warning.strongest.value}"
+              }
+            },
+            "info": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.info.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.info.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.info.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.info.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.info.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.info.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.info.strongest.value}"
+              }
+            },
+            "help": {
+              "weakest": {
+                "value": "{theme.color.background.surface.blend.help.weakest.value}"
+              },
+              "weaker": {
+                "value": "{theme.color.background.surface.blend.help.weaker.value}"
+              },
+              "weak": {
+                "value": "{theme.color.background.surface.blend.help.weak.value}"
+              },
+              "base": {
+                "value": "{theme.color.background.surface.blend.help.base.value}"
+              },
+              "strong": {
+                "value": "{theme.color.background.surface.blend.help.strong.value}"
+              },
+              "stronger": {
+                "value": "{theme.color.background.surface.blend.help.stronger.value}"
+              },
+              "strongest": {
+                "value": "{theme.color.background.surface.blend.help.strongest.value}"
+              }
+            }
           }
         },
         "track": {

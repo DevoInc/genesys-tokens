@@ -5,7 +5,7 @@
         "color": {
           "background": {
             "after": {
-              "value": "{alias.color.background.backdrop.dark.weak.value}"
+              "value": "{alias.color.border.separator.base.weak.value}"
             }
           }
         }

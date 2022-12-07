@@ -4,11 +4,41 @@
       "spinner": {
         "color": {
           "background": {
+            "brand": {
+              "value": "{brand.loader.spinnerCircle.color.background.brand.value}"
+            },
+            "brandDark": {
+              "value": "{brand.loader.spinnerCircle.color.background.brandDark.value}"
+            },
+            "brandLight": {
+              "value": "{brand.loader.spinnerCircle.color.background.brandLight.value}"
+            },
             "light": {
-              "value": "{alias.color.background.surface.base.base.value}"
+              "value": "{brand.loader.spinnerCircle.color.background.light.value}"
             },
             "dark": {
-              "value": "{alias.color.background.track.base.value}"
+              "value": "{brand.loader.spinnerCircle.color.background.dark.value}"
+            },
+            "lightTrans": {
+              "value": "{alias.color.background.surface.blend.light.strong.value}"
+            },
+            "darkTrans": {
+              "value": "{alias.color.background.surface.blend.dark.weak.value}"
+            },
+            "error": {
+              "value": "{brand.loader.spinnerCircle.color.background.error.value}"
+            },
+            "success": {
+              "value": "{brand.loader.spinnerCircle.color.background.success.value}"
+            },
+            "warning": {
+              "value": "{brand.loader.spinnerCircle.color.background.warning.value}"
+            },
+            "help": {
+              "value": "{brand.loader.spinnerCircle.color.background.help.value}"
+            },
+            "info": {
+              "value": "{brand.loader.spinnerCircle.color.background.info.value}"
             }
           }
         }

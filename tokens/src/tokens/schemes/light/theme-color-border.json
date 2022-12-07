@@ -193,8 +193,17 @@
             }
           },
           "neutral": {
+            "weaker": {
+              "value": "{global.color.neutral.01.value}"
+            },
+            "weak": {
+              "value": "{global.color.neutral.05.value}"
+            },
             "base": {
               "value": "{global.color.neutral.09.value}"
+            },
+            "strong": {
+              "value": "{global.color.neutral.13.value}"
             }
           },
           "error": {

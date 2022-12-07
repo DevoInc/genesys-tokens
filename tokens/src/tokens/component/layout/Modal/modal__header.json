@@ -4,7 +4,7 @@
       "header": {
         "shape": {
           "border": {
-            "value": "{alias.shape.borderSize.separator.md.value} solid {alias.color.border.separator.base.base.value}"
+            "value": "{alias.shape.borderSize.separator.md.value} solid {alias.color.border.separator.base.weak.value}"
           }
         },
         "elevation": {

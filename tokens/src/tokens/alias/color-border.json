@@ -14,8 +14,17 @@
             }
           },
           "neutral": {
+            "weaker": {
+              "value": "{theme.color.border.feedback.neutral.weaker.value}"
+            },
+            "weak": {
+              "value": "{theme.color.border.feedback.neutral.weak.value}"
+            },
             "base": {
               "value": "{theme.color.border.feedback.neutral.base.value}"
+            },
+            "strong": {
+              "value": "{theme.color.border.feedback.neutral.strong.value}"
             }
           },
           "base": {

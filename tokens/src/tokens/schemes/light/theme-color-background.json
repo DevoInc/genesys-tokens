@@ -277,6 +277,169 @@
                 "value": "{global.color.blend.white.12.value}"
               }
             }
+          },
+          "blend": {
+            "light": {
+              "weakest": {
+                "value": "{global.color.blend.white.04.value}"
+              },
+              "weaker": {
+                "value": "{global.color.blend.white.07.value}"
+              },
+              "weak": {
+                "value": "{global.color.blend.white.10.value}"
+              },
+              "base": {
+                "value": "{global.color.blend.white.13.value}"
+              },
+              "strong": {
+                "value": "{global.color.blend.white.16.value}"
+              },
+              "stronger": {
+                "value": "{global.color.blend.white.19.value}"
+              },
+              "strongest": {
+                "value": "{global.color.blend.white.22.value}"
+              }
+            },
+            "dark": {
+              "weakest": {
+                "value": "{global.color.blend.black.04.value}"
+              },
+              "weaker": {
+                "value": "{global.color.blend.black.07.value}"
+              },
+              "weak": {
+                "value": "{global.color.blend.black.10.value}"
+              },
+              "base": {
+                "value": "{global.color.blend.black.13.value}"
+              },
+              "strong": {
+                "value": "{global.color.blend.black.16.value}"
+              },
+              "stronger": {
+                "value": "{global.color.blend.black.19.value}"
+              },
+              "strongest": {
+                "value": "{global.color.blend.black.22.value}"
+              }
+            },
+            "error": {
+              "weakest": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.12)"
+              },
+              "weaker": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.2)"
+              },
+              "weak": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.28)"
+              },
+              "base": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.36)"
+              },
+              "strong": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.44)"
+              },
+              "stronger": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.52)"
+              },
+              "strongest": {
+                "value": "rgba({global.color.error.05.alt.rgbValues}, 0.6)"
+              }
+            },
+            "success": {
+              "weakest": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.12)"
+              },
+              "weaker": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.2)"
+              },
+              "weak": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.28)"
+              },
+              "base": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.36)"
+              },
+              "strong": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.44)"
+              },
+              "stronger": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.52)"
+              },
+              "strongest": {
+                "value": "rgba({global.color.success.04.alt.rgbValues}, 0.6)"
+              }
+            },
+            "warning": {
+              "weakest": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.12)"
+              },
+              "weaker": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.2)"
+              },
+              "weak": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.28)"
+              },
+              "base": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.36)"
+              },
+              "strong": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.44)"
+              },
+              "stronger": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.52)"
+              },
+              "strongest": {
+                "value": "rgba({global.color.warning.04.alt.rgbValues}, 0.6)"
+              }
+            },
+            "info": {
+              "weakest": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.12)"
+              },
+              "weaker": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.2)"
+              },
+              "weak": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.28)"
+              },
+              "base": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.36)"
+              },
+              "strong": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.44)"
+              },
+              "stronger": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.52)"
+              },
+              "strongest": {
+                "value": "rgba({global.color.info.05.alt.rgbValues}, 0.6)"
+              }
+            },
+            "help": {
+              "weakest": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.12)"
+              },
+              "weaker": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.2)"
+              },
+              "weak": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.28)"
+              },
+              "base": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.36)"
+              },
+              "strong": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.44)"
+              },
+              "stronger": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.52)"
+              },
+              "strongest": {
+                "value": "rgba({global.color.help.05.alt.rgbValues}, 0.6)"
+              }
+            }
           }
         },
         "handler": {

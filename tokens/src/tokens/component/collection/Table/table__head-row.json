@@ -6,10 +6,10 @@
           "background": {
             "after": {
               "base": {
-                "value": "{alias.color.background.backdrop.dark.weaker.value}"
+                "value": "{alias.color.border.separator.base.base.value}"
               },
               "scrolled": {
-                "value": "{alias.color.background.backdrop.dark.weakest.value}"
+                "value": "{alias.color.border.separator.base.weaker.value}"
               }
             }
           }

@@ -193,8 +193,17 @@
             }
           },
           "neutral": {
+            "weaker": {
+              "value": "{global.color.neutral.13.value}"
+            },
+            "weak": {
+              "value": "{global.color.neutral.09.value}"
+            },
             "base": {
-              "value": "{global.color.neutral.01.value}"
+              "value": "{global.color.neutral.05.value}"
+            },
+            "strong": {
+              "value": "{global.color.neutral.02.value}"
             }
           },
           "error": {
@@ -210,46 +219,46 @@
           },
           "success": {
             "weak": {
-              "value": "{global.color.success.09.value}"
+              "value": "{global.color.success.07.value}"
             },
             "base": {
-              "value": "{global.color.success.08.value}"
+              "value": "{global.color.success.06.value}"
             },
             "strong": {
-              "value": "{global.color.success.07.value}"
+              "value": "{global.color.success.05.value}"
             }
           },
           "warning": {
             "weak": {
-              "value": "{global.color.warning.09.value}"
+              "value": "{global.color.warning.07.value}"
             },
             "base": {
-              "value": "{global.color.warning.08.value}"
+              "value": "{global.color.warning.06.value}"
             },
             "strong": {
-              "value": "{global.color.warning.07.value}"
+              "value": "{global.color.warning.05.value}"
             }
           },
           "help": {
             "weak": {
-              "value": "{global.color.help.09.value}"
+              "value": "{global.color.help.07.value}"
             },
             "base": {
-              "value": "{global.color.help.08.value}"
+              "value": "{global.color.help.06.value}"
             },
             "strong": {
-              "value": "{global.color.help.07.value}"
+              "value": "{global.color.help.05.value}"
             }
           },
           "info": {
             "weak": {
-              "value": "{global.color.info.09.value}"
+              "value": "{global.color.info.07.value}"
             },
             "base": {
-              "value": "{global.color.info.08.value}"
+              "value": "{global.color.info.06.value}"
             },
             "strong": {
-              "value": "{global.color.info.07.value}"
+              "value": "{global.color.info.05.value}"
             }
           },
           "dataBlue": {
@@ -477,25 +486,25 @@
         "separator": {
           "base": {
             "weakest": {
-              "value": "{global.color.neutral.13.value}"
+              "value": "rgba({global.color.neutral.14.alt.rgbValues}, 0.56)"
             },
             "weaker": {
-              "value": "{global.color.neutral.12.value}"
+              "value": "rgba({global.color.neutral.13.alt.rgbValues}, 0.56)"
             },
             "weak": {
-              "value": "{global.color.neutral.11.value}"
+              "value": "rgba({global.color.neutral.12.alt.rgbValues}, 0.56)"
             },
             "base": {
-              "value": "{global.color.neutral.10.value}"
+              "value": "rgba({global.color.neutral.11.alt.rgbValues}, 0.56)"
             },
             "strong": {
-              "value": "{global.color.neutral.09.value}"
+              "value": "rgba({global.color.neutral.10.alt.rgbValues}, 0.56)"
             },
             "stronger": {
-              "value": "{global.color.neutral.08.value}"
+              "value": "rgba({global.color.neutral.09.alt.rgbValues}, 0.56)"
             },
             "strongest": {
-              "value": "{global.color.neutral.07.value}"
+              "value": "rgba({global.color.neutral.08.alt.rgbValues}, 0.56)"
             }
           },
           "inverse": {
