@@ -1,7 +1,7 @@
 {
   "alias": {
     "mutation": {
-      "transitionDuration": {
+      "1": {
         "action": {
           "value": "{global.mutation.transitionDuration.md.value}"
         },

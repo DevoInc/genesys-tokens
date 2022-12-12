@@ -5,7 +5,7 @@
         "color": {
           "text": {
             "base": {
-              "value": "{alias.color.text.body.weak.value}"
+              "value": "{alias.color.text.body.base.value}"
             }
           }
         }
@@ -17,18 +17,18 @@
               "value": "{alias.fields.color.background.base.checked.value}"
             },
             "activated": {
-              "value": "{alias.color.background.feedback.neutral.base.value}"
+              "value": "{alias.fields.color.background.base.checked.value}"
             }
           },
           "text": {
             "base": {
-              "value": "{alias.color.text.feedback.neutral.base.value}"
+              "value": "{alias.color.text.body.base.value}"
             },
             "selected": {
               "value": "{alias.fields.color.text.base.checked.value}"
             },
             "activated": {
-              "value": "{alias.color.text.feedback.neutral.base.value}"
+              "value": "{alias.fields.color.text.base.checked.value}"
             }
           }
         }
@@ -40,21 +40,21 @@
               "value": "{alias.color.background.feedback.secondary.base.value}"
             },
             "activated": {
-              "value": "{alias.color.background.feedback.neutral.weak.value}"
+              "value": "{alias.color.background.feedback.secondary.weak.value}"
             },
             "mixed": {
-              "value": "{alias.color.background.feedback.secondary.strong.value}"
+              "value": "{alias.color.background.feedback.secondary.weak.value}"
             }
           },
           "text": {
             "selected": {
-              "value": "{alias.color.text.feedback.secondary.base.value}"
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
             },
             "activated": {
-              "value": "{alias.color.text.feedback.neutral.base.value}"
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
             },
             "mixed": {
-              "value": "{alias.color.text.feedback.secondary.inverse.value}"
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
             }
           }
         }
