@@ -447,7 +447,7 @@
         },
         "track": {
           "base": {
-            "value": "{global.color.neutral.08.value}"
+            "value": "{global.color.neutral.13.value}"
           },
           "blend": {
             "value": "{global.color.blend.white.02.value}"

@@ -28,7 +28,7 @@
             "value": "{alias.color.background.feedback.success.base.value}"
           },
           "text": {
-            "value": "{alias.color.text.feedback.success.base.value}"
+            "value": "{alias.color.text.feedback.success.strong.value}"
           }
         }
       }
