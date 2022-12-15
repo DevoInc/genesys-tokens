@@ -47,9 +47,9 @@ export const getStyleDictionaryConfig = (
           destination: 'js/tokens.module.reduced.meta.js',
           format: 'javascript/module-reduced',
           filter: {
-            "attributes": {
-              "tier": "meta"
-            }
+            attributes: {
+              tier: 'meta',
+            },
           },
         },
         {
