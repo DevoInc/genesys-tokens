@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.8.0](https://github.com/DevoInc/genesys-tokens/compare/v3.7.0...v3.8.0) (2022-12-21)
+
+
+### Features
+
+* **tokens:** UXW-708 Added dark scheme ([#10](https://github.com/DevoInc/genesys-tokens/issues/10)) ([a14177a](https://github.com/DevoInc/genesys-tokens/commit/a14177ab1235efe4d4c99b6dd373a9455148d209))
+
 ## [3.7.0](https://github.com/DevoInc/genesys-tokens/compare/v3.6.0...v3.7.0) (2022-11-25)
 
 
