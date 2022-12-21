@@ -4,36 +4,36 @@
       "shadow": {
         "base": {
           "enabled": {
-            "value": "{global.color.info.10.value}",
-            "rgbValues": "{global.color.info.10.alt.rgbValues}"
+            "value": "{global.color.blend.black.25.value}",
+            "rgbValues": "{global.color.blend.black.alt.rgbValues}"
           },
           "focused": {
-            "value": "{global.color.info.03.value}"
+            "value": "{global.color.info.06.value}"
           }
         },
         "error": {
           "focused": {
-            "value": "{global.color.error.03.value}"
+            "value": "{global.color.error.08.value}"
           }
         },
         "success": {
           "focused": {
-            "value": "{global.color.success.03.value}"
+            "value": "{global.color.success.08.value}"
           }
         },
         "warning": {
           "focused": {
-            "value": "{global.color.warning.03.value}"
+            "value": "{global.color.warning.08.value}"
           }
         },
         "info": {
           "focused": {
-            "value": "{global.color.info.03.value}"
+            "value": "{global.color.info.08.value}"
           }
         },
         "help": {
           "focused": {
-            "value": "{global.color.help.03.value}"
+            "value": "{global.color.help.08.value}"
           }
         }
       }

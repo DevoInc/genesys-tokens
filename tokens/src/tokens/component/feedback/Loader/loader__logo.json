@@ -5,10 +5,13 @@
         "color": {
           "background": {
             "light": {
-              "value": "{alias.color.background.feedback.primary.strong.value}"
+              "value": "{brand.loader.logoEvenPath.color.background.light.value}"
             },
             "dark": {
-              "value": "{alias.color.background.feedback.primary.strong.value}"
+              "value": "{brand.loader.logoEvenPath.color.background.dark.value}"
+            },
+            "brand": {
+              "value": "{brand.loader.logoEvenPath.color.background.brand.value}"
             }
           }
         }
@@ -17,10 +20,13 @@
         "color": {
           "background": {
             "light": {
-              "value": "{alias.color.background.surface.base.base.value}"
+              "value": "{brand.loader.logoOddPath.color.background.light.value}"
             },
             "dark": {
-              "value": "{alias.color.background.feedback.primary.base.value}"
+              "value": "{brand.loader.logoOddPath.color.background.dark.value}"
+            },
+            "brand": {
+              "value": "{brand.loader.logoOddPath.color.background.brand.value}"
             }
           }
         }

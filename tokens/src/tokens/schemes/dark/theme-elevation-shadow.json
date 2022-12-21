@@ -7,33 +7,33 @@
             "value": "none"
           },
           "raised": {
-            "value": "0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.15), 0 0.1rem 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.1)"
+            "value": "0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.3), 0 0.1rem 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.2)"
           },
           "sticky": {
             "bottom": {
-              "value": "0 0.4rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08), 0 0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.04)"
+              "value": "0 0.4rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08)"
             },
             "top": {
-              "value": "0 -0.4rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08), 0 -0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.04)"
+              "value": "0 -0.4rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 -0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08)"
             },
             "right": {
-              "value": "0.4rem 0 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08), 0 0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.04)"
+              "value": "0.4rem 0 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08)"
             },
             "left": {
-              "value": "-0.4rem 0 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08), 0.2rem 0 0.2rem -1.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.04)"
+              "value": "-0.4rem 0 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0.2rem 0 0.2rem -1.1rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08)"
             }
           },
           "activated": {
-            "value": "0 0.4rem 0.8rem -0.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.25), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.31)"
+            "value": "0 0.4rem 0.8rem -0.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.5), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.62)"
           },
           "draggable": {
-            "value": "0 0.8rem 1.6rem -0.4rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.25), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.31)"
+            "value": "0 0.8rem 1.6rem -0.4rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.5), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.62)"
           },
           "overlay": {
-            "value": "0 1.2rem 2.4rem -0.6rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.25), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.31)"
+            "value": "0 1.2rem 2.4rem -0.6rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.5), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.62)"
           },
           "popOut": {
-            "value": "0 2rem 3.2rem -0.8rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.25), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.31)"
+            "value": "0 2rem 3.2rem -0.8rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.5), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.62)"
           }
         },
         "base": {
@@ -69,16 +69,16 @@
         "handler": {
           "base": {
             "enabled": {
-              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.12)"
+              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.32), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.24)"
             },
             "hovered": {
-              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.12), 0 0 0 1.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.08)"
+              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.32), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.24), 0 0 0 1.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16)"
             },
             "focused": {
-              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.12)"
+              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.32), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.24)"
             },
             "pressed": {
-              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.12), 0 0 0 1.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.16)"
+              "value": "0 0.2rem 0.6rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.32), 0 0.2rem 0.2rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.24), 0 0 0 1.2rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.32)"
             }
           }
         }

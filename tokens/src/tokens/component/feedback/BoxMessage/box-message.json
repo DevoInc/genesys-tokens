@@ -4,19 +4,19 @@
       "color": {
         "background": {
           "success": {
-            "value": "{alias.color.background.feedback.success.weaker.value}"
+            "value": "{brand.boxMessage.color.background.success.value}"
           },
           "warning": {
-            "value": "{alias.color.background.feedback.warning.weaker.value}"
+            "value": "{brand.boxMessage.color.background.warning.value}"
           },
           "error": {
-            "value": "{alias.color.background.feedback.error.weaker.value}"
+            "value": "{brand.boxMessage.color.background.error.value}"
           },
           "help": {
-            "value": "{alias.color.background.feedback.help.weaker.value}"
+            "value": "{brand.boxMessage.color.background.help.value}"
           },
           "info": {
-            "value": "{alias.color.background.feedback.info.weaker.value}"
+            "value": "{brand.boxMessage.color.background.info.value}"
           }
         },
         "border": {

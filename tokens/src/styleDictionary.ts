@@ -44,6 +44,15 @@ export const getStyleDictionaryConfig = (
           filter: 'isNotFigma',
         },
         {
+          destination: 'js/tokens.module.reduced.meta.js',
+          format: 'javascript/module-reduced',
+          filter: {
+            attributes: {
+              tier: 'meta',
+            },
+          },
+        },
+        {
           destination: 'js/dev/tokens.module.reduced.global.js',
           format: 'javascript/module-reduced',
           filter: 'isGlobal',

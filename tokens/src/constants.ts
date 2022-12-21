@@ -5,6 +5,7 @@ export enum TOKENS_TIER {
   CMP = 'cmp',
   FIGMA = 'figma',
   GLOBAL = 'global',
+  META = 'meta',
 }
 
 export enum TOKENS_CAT {

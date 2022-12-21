@@ -8,15 +8,15 @@
               "value": "{global.color.primary.05.value}"
             },
             "weak": {
-              "value": "{global.color.primary.01.value}"
+              "value": "{global.color.primary.09.value}"
             }
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.06.value}"
+              "value": "{global.color.secondary.04.value}"
             },
             "weak": {
-              "value": "{global.color.secondary.01.value}"
+              "value": "{global.color.secondary.09.value}"
             }
           }
         },
@@ -37,16 +37,16 @@
           },
           "secondary": {
             "base": {
-              "value": "{global.color.secondary.07.value}"
-            },
-            "weak": {
-              "value": "{global.color.secondary.04.value}"
-            },
-            "weaker": {
               "value": "{global.color.secondary.03.value}"
             },
+            "weak": {
+              "value": "{global.color.secondary.06.value}"
+            },
+            "weaker": {
+              "value": "{global.color.secondary.07.value}"
+            },
             "inverse": {
-              "value": "{global.color.secondary.02.value}"
+              "value": "{global.color.secondary.08.value}"
             }
           }
         },
@@ -105,18 +105,18 @@
           },
           "neutral": {
             "selected": {
-              "value": "{global.color.secondary.02.value}"
+              "value": "{global.color.secondary.00.value}"
             },
             "activated": {
-              "value": "{global.color.secondary.01.value}"
+              "value": "{global.color.secondary.00.value}"
             }
           },
           "quiet": {
             "selected": {
-              "value": "{global.color.secondary.02.value}"
+              "value": "{global.color.secondary.00.value}"
             },
             "activated": {
-              "value": "{global.color.secondary.01.value}"
+              "value": "{global.color.secondary.00.value}"
             }
           }
         },

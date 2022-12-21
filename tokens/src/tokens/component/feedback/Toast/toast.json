@@ -4,22 +4,42 @@
       "color": {
         "background": {
           "default": {
-            "value": "{alias.color.background.surface.base.base.value}"
-          },
-          "error": {
-            "value": "{alias.color.background.feedback.error.weaker.value}"
-          },
-          "help": {
-            "value": "{alias.color.background.feedback.help.weaker.value}"
-          },
-          "info": {
-            "value": "{alias.color.background.feedback.info.weaker.value}"
+            "value": "{brand.toast.color.background.default.value}"
           },
           "success": {
-            "value": "{alias.color.background.feedback.success.weaker.value}"
+            "value": "{brand.toast.color.background.success.value}"
           },
           "warning": {
-            "value": "{alias.color.background.feedback.warning.weaker.value}"
+            "value": "{brand.toast.color.background.warning.value}"
+          },
+          "error": {
+            "value": "{brand.toast.color.background.error.value}"
+          },
+          "help": {
+            "value": "{brand.toast.color.background.help.value}"
+          },
+          "info": {
+            "value": "{brand.toast.color.background.info.value}"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{brand.toast.color.border.default.value}"
+          },
+          "success": {
+            "value": "{brand.toast.color.border.success.value}"
+          },
+          "warning": {
+            "value": "{brand.toast.color.border.warning.value}"
+          },
+          "error": {
+            "value": "{brand.toast.color.border.error.value}"
+          },
+          "help": {
+            "value": "{brand.toast.color.border.help.value}"
+          },
+          "info": {
+            "value": "{brand.toast.color.border.info.value}"
           }
         }
       },

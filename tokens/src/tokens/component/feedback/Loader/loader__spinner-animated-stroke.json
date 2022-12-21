@@ -4,11 +4,41 @@
       "spinnerAnimatedStroke": {
         "color": {
           "background": {
+            "brand": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.brand.value}"
+            },
+            "brandLight": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.brandLight.value}"
+            },
+            "brandDark": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.brandDark.value}"
+            },
             "light": {
               "value": "{brand.loader.spinnerAnimatedStroke.color.background.light.value}"
             },
             "dark": {
               "value": "{brand.loader.spinnerAnimatedStroke.color.background.dark.value}"
+            },
+            "lightTrans": {
+              "value": "{alias.color.background.surface.blend.light.strongest.value}"
+            },
+            "darkTrans": {
+              "value": "{alias.color.background.surface.blend.dark.strong.value}"
+            },
+            "error": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.error.value}"
+            },
+            "success": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.success.value}"
+            },
+            "warning": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.warning.value}"
+            },
+            "help": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.help.value}"
+            },
+            "info": {
+              "value": "{brand.loader.spinnerAnimatedStroke.color.background.info.value}"
             }
           }
         }
