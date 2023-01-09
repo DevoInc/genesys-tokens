@@ -16,6 +16,7 @@
       font-family: 'Poppins';
       font-size: 22px;
       margin: 50px 300px;
+      overflow: hidden;
     }
 
     h2 {
@@ -58,11 +59,6 @@
       border-collapse: collapse;
     }
 
-    tbody {
-      overflow: scroll;
-      overflow-x: hidden;
-      height: 100%
-    }
 
     table tr th {
       padding: .5rem;
@@ -95,6 +91,11 @@
     .count {
       text-align: right;
       margin: 10px 0 20px 0;
+    }
+
+    .tableBodyContainer {
+      height: 40vh;
+      overflow: auto;
     }
 
     .rowItem {
@@ -162,8 +163,11 @@
 </head>
 
 <body>
-  <h1>Genesys Design Tokens</h1>
-  <p><b>Note:</b> The different token formats available in this preview are generated on the fly from the internal JSON
+  <h1>
+    <!-- To be filled dinamically -->
+  </h1>
+  <p><b>Note:</b> The different token formats available in this preview are generated on the fly from the internal
+    JSON
     output.
     This preview should not be used to visually validate anything other than tokens in JSON format.</p>
   <div>
@@ -184,8 +188,7 @@
       <div>
         <label for="schema">Schema:</label>
         <select name="schema" id="schemaSelector">
-          <option value="light">light</option>
-          <option value="dark">dark</option>
+          <!-- To be filled dinamically -->
         </select>
       </div>
     </div>
@@ -214,9 +217,6 @@
         </div>
       </div>
     </div>
-    <p class="count">
-      <!-- To be filled dinamically -->
-    </p>
     <table>
       <thead>
         <tr>
@@ -225,10 +225,17 @@
           <th>Preview</th>
         </tr>
       </thead>
-      <tbody>
-        <!-- To be filled dinamically -->
-      </tbody>
     </table>
+    <div class="tableBodyContainer">
+      <table>
+        <tbody>
+          <!-- To be filled dinamically -->
+        </tbody>
+      </table>
+    </div>
+    <p class="count">
+      <!-- To be filled dinamically -->
+    </p>
   </div>
 </body>
 
@@ -237,9 +244,8 @@
   // -------------------------------------------------------------
   // -------------------------------------------------------------
   // -- Variables ------------------------------------------------
-  window.scheme = ["light", "dark"];
+  window.defaultAllOption = "all";
   window.advancedAttrs = ["tier", "category", "property"];
-  window.defaultAllOption = "all (default)";
 
   window.datasets = [];
   window.filteredTokens = [];
@@ -247,33 +253,62 @@
   // -------------------------------------------------------------
   // -------------------------------------------------------------
   // -- Fill categories in selects -------------------------------
+  const setTitle = () => {
+    document.getElementsByTagName('h1')[0].innerText = window.config.title || 'Design Tokens';
+  }
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Fill categories in selects -------------------------------
   const buildFilterOps = (datasets) => {
-    const p = datasets.light.reduce((acc, { path }) => {
-      if (!acc[path[0]]) acc[path[0]] = {};
-      if (!acc[path[0]][path[1]]) acc[path[0]][path[1]] = [];
-      if (acc[path[0]][path[1]].indexOf(path[2]) === -1)
-        acc[path[0]][path[1]].push(path[2]);
-      return acc;
-    }, {});
+    const p = datasets[window.config.scheme.options[0]].reduce(
+      (acc, { attributes, path }) => {
+        const buildObj = (attrPath, obj) => {
+          const attrVal = attributes[attrPath[0]];
+          if (
+            attrPath.length === 1 &&
+            Array.isArray(obj) &&
+            !obj.includes(attrVal)
+          ) {
+            obj.push(attrVal);
+          } else {
+            const options = window.config?.advancedAttrs?.[attrPath[0]]?.options;
+            if (
+              obj &&
+              !obj[attrVal] &&
+              (!options || options?.includes(attrVal))
+            ) {
+              obj[attrVal] = attrPath.length > 2 ? {} : [];
+            }
+          }
+          if (obj && attrPath.length >= 2) {
+            buildObj(attrPath.slice(1), obj[attributes[attrPath[0]]]);
+          }
+        };
+        buildObj(window.advancedAttrs, acc);
+        return acc;
+      },
+      {}
+    );
     return p;
+  };
+
+  const appendOptions = (elId, value, attrs) => {
+    const el = document.querySelector(elId);
+    const optEl = document.createElement("option");
+    optEl.value = value;
+    optEl.innerHTML = value;
+    Object.entries(attrs || []).forEach(([attr, value]) =>
+      optEl.setAttribute(attr, value)
+    );
+    el.appendChild(optEl);
   };
 
   const fillAdvancedSelectsOptions = () => {
     const filterOptions = buildFilterOps(window.datasets);
-    const appendOptions = (elId, value, attrs) => {
-      const el = document.querySelector(elId);
-      const optEl = document.createElement("option");
-      optEl.value = value;
-      optEl.innerHTML = value;
-      Object.entries(attrs || []).forEach(([attr, value]) =>
-        optEl.setAttribute(attr, value)
-      );
-      el.appendChild(optEl);
-    };
-
     // Append defaultAllOption option
     window.advancedAttrs.forEach((key) =>
-      appendOptions(`#${key}Selector`, "all (default)")
+      appendOptions(`#${key}Selector`, window.defaultAllOption)
     );
 
     Object.keys(filterOptions).forEach((tier) => {
@@ -290,19 +325,54 @@
     });
   };
 
+  fillSchemaSelector = () => {
+    window.config.scheme.options.forEach((schema) =>
+      appendOptions("#schemaSelector", schema)
+    );
+  };
+
   // -------------------------------------------------------------
   // -------------------------------------------------------------
-  // -- Fetch datasets --------------------------------------------
+  // -- Fetch config ---------------------------------------------
+  const fetchConfig = () => {
+    return new Promise((resolve, reject) => {
+      const xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = () => {
+        if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+          if (xmlhttp.status == 200) {
+            const config = JSON.parse(xmlhttp.responseText);
+            resolve(config);
+          } else if (xmlhttp.status == 404) {
+            reject("Invalid path to config file");
+          } else {
+            reject("Ups, something unexpected happened");
+          }
+        }
+      };
+
+      const path = `./preview-config.json`;
+
+      xmlhttp.open("GET", path, true);
+      xmlhttp.send();
+    });
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Fetch datasets -------------------------------------------
   const fetchDatasets = () => {
-    const datasetsPromises = window.scheme.map(
+    const datasetsPromises = window.config.scheme.options.map(
       (schema) =>
         new Promise((resolve, reject) => {
           const xmlhttp = new XMLHttpRequest();
           xmlhttp.onreadystatechange = () => {
             if (xmlhttp.readyState == XMLHttpRequest.DONE) {
               if (xmlhttp.status == 200) {
-                const tokens = JSON.parse(xmlhttp.responseText);
-                resolve({ schema: schema, tokens });
+                const ds = JSON.parse(xmlhttp.responseText);
+                resolve({
+                  schema,
+                  tokens: ds.sort((a, b) => a.name.localeCompare(b.name)),
+                });
               } else if (xmlhttp.status == 404) {
                 reject("Invalid path to tokens");
               } else {
@@ -399,7 +469,10 @@
     const rows = window.filteredTokens.map((el) => createRow(el));
     list.innerHTML = rows.join("");
     count.innerHTML =
-      "Showing " + rows.length + "/" + window.datasets.light.length;
+      "Showing " +
+      rows.length +
+      "/" +
+      window.datasets[window.config.scheme.options[0]].length;
   };
 
   // -------------------------------------------------------------
@@ -501,7 +574,7 @@
     document.querySelector("#formatSelector").value =
       urlParams.get("format") || "js";
     document.querySelector("#schemaSelector").value =
-      urlParams.get("schema") || "light";
+      urlParams.get("schema") || window.config.scheme.options[0];
     document.querySelector("#tierSelector").value =
       urlParams.get("tier") || window.defaultAllOption;
     document.querySelector("#categorySelector").value =
@@ -517,32 +590,50 @@
     Object.entries({
       // Order matters;
       schema: (schema) => (datasets) => {
-        if (!schema) return datasets.light;
+        if (!schema) return datasets[window.config.scheme.options[0]];
         return datasets[schema];
       },
       tier: (tier) => (tokens) => {
-        if (!tier || tier == window.defaultAllOption) return tokens;
+        const tierOpts = window.config?.advancedAttrs?.tier?.options;
+        if ((!tier || tier === window.defaultAllOption) && !tierOpts)
+          return tokens;
+
+        if ((!tier || tier == window.defaultAllOption) && tierOpts)
+          return tokens.filter((token) =>
+            tierOpts.includes(token.attributes.tier)
+          );
         return tokens.filter((token) => token.attributes.tier === tier);
       },
       category: (category) => (tokens) => {
-        if (!category || category == window.defaultAllOption) return tokens;
+        const categoryOpts = window.config?.advancedAttrs?.category?.options;
+        if ((!category || category === window.defaultAllOption) && !categoryOpts)
+          return tokens;
+        if (category == window.defaultAllOption && categoryOpts)
+          return tokens.filter((token) =>
+            categoryOpts.includes(token.attributes.category)
+          );
         return tokens.filter((token) => token.attributes.category === category);
       },
       property: (property) => (tokens) => {
-        if (!property || property == window.defaultAllOption) return tokens;
+        const propertyOpts = window.config?.advancedAttrs?.property?.options;
+        if ((!property || property === window.defaultAllOption) && !propertyOpts)
+          return tokens;
+        if (property == window.defaultAllOption && propertyOpts)
+          return tokens.filter((token) =>
+            propertyOpts.includes(token.attributes.property)
+          );
         return tokens.filter((token) => token.attributes.property === property);
       },
       format: (format) => (tokens) => {
         // if (!format) return tokens;
         return tokens.map((token) => {
-          if (format === "js")
+          if (!format || format === "js")
             return { ...token, _formatted: token.name.replaceAll("-", ".") };
           if (format === "scss")
             return { ...token, _formatted: `$${camelToKebabCase(token.name)}` };
           if (format === "css")
             return { ...token, _formatted: `--${camelToKebabCase(token.name)}` };
           if (format === "json") return { ...token, _formatted: token.name };
-          return { ...token, _formatted: token.name };
         });
       },
       query: (query) => (tokens) => {
@@ -565,24 +656,25 @@
   // -------------------------------------------------------------
   // -------------------------------------------------------------
   // -- entrypoint -----------------------------------------------
-  fetchDatasets().then((data) => {
-    // Store datasets in global object.
-    window.datasets = data.reduce(
-      (acc, ds) => ({
-        ...acc,
-        [ds.schema]: ds.tokens.sort((a, b) => a.name.localeCompare(b.name)),
-      }),
+  (async () => {
+    window.config = await fetchConfig();
+    const rawDatasets = await fetchDatasets();
+    window.datasets = rawDatasets.reduce(
+      (acc, { schema, tokens }) => ({ ...acc, [schema]: tokens }),
       {}
     );
-    // Fill form elements with custom options
-    fillAdvancedSelectsOptions();
+    // Set title
+    setTitle();
     // Set initial values to form elements
     initializeFormElementsValues();
+    // Fill form elements with custom options
+    fillAdvancedSelectsOptions();
+    fillSchemaSelector();
     // Apply data filters
     applyFilters();
     // Render tokens list
     renderContent();
-  });
+  })();
 
 </script>
 
