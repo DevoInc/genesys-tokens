@@ -1,0 +1,11 @@
+{
+  "title": "Genesys Design Tokens",
+  "scheme": {
+    "options": ["light", "dark"]
+  },
+  "advancedAttrs": {
+    "tier": {
+      "options": ["alias", "cmp"]
+    }
+  }
+}

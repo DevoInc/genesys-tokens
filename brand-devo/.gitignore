@@ -4,3 +4,5 @@ dist/*
 !dist/index.js
 !dist/index.d.ts
 !dist/index.html
+!dist/preview.html
+!dist/preview-config.json
