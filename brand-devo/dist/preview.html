@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Design Tokens</title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet'>
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      height: 100%;
+      font-family: 'Poppins';
+      font-size: 22px;
+      margin: 50px 300px;
+    }
+
+    h2 {
+      color: rgb(91, 104, 112);
+    }
+
+    p {
+      box-sizing: inherit;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+      font-family: Poppins, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      font-size: 14px;
+      line-height: 24px;
+      color: rgb(91, 104, 112);
+      margin: 0;
+    }
+
+    label {
+      font-size: 14px;
+      color: rgb(91, 104, 112);
+    }
+
+    table {
+      box-sizing: inherit;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+      border-spacing: 0;
+      table-layout: fixed;
+      color: rgb(91, 104, 112);
+      width: 100%;
+      margin: 16px 0px;
+      font-size: 13px;
+      line-height: 20px;
+      padding: 0px;
+      border-collapse: collapse;
+    }
+
+    tbody {
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 100%
+    }
+
+    table tr th {
+      padding: .5rem;
+      white-space: nowrap;
+      text-align: left;
+      color: black;
+      font-weight: 600;
+      background-color: rgb(243, 243, 243);
+
+    }
+
+    table tr td {
+      padding: .5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      overflow-wrap: break-word;
+    }
+
+    input,
+    select {
+      width: 100%;
+      height: 2rem;
+      padding: 0px 0.8rem;
+      border-width: 0.1rem;
+      border-style: solid;
+      border-radius: 0.2rem;
+      box-sizing: border-box;
+      border-color: rgb(195, 211, 222);
+    }
+
+    .count {
+      text-align: right;
+      margin: 10px 0 20px 0;
+    }
+
+    .rowItem {
+      flex-grow: 1;
+    }
+
+    .colorPreview {
+      height: 20px;
+      width: 60px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .borderRadiusPreview {
+      height: 20px;
+      width: 60px;
+      background-color: rgb(249, 234, 252);
+    }
+
+    .borderSizePreview {
+      height: 20px;
+      width: 60px;
+      border-color: solid black;
+    }
+
+    .textColorPreview {
+      font-weight: 600;
+    }
+
+    .sizePreview {
+      max-height: 4rem;
+      max-width: 4rem;
+      background-color: rgb(225, 250, 242);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+    }
+
+    .lineSizePreview {
+      background-color: rgb(225, 250, 242);
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 10px;
+    }
+
+    .rowItem {
+      flex-grow: 1;
+    }
+
+    .advancedFilters {
+      margin-top: 25px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Genesys Design Tokens</h1>
+  <p><b>Note:</b> The different token formats available in this preview are generated on the fly from the internal JSON
+    output.
+    This preview should not be used to visually validate anything other than tokens in JSON format.</p>
+  <div>
+    <div class="row">
+      <div class="rowItem">
+        <label for="searchSelector">Free search:</label>
+        <input type="text" id="searchSelector" name="search query" val="" placeholder="Search by token name" />
+      </div>
+      <div>
+        <label for="format">Format:</label>
+        <select name="format" id="formatSelector">
+          <option value="js">JavaScript</option>
+          <option value="scss">SCSS</option>
+          <option value="css">CSS</option>
+          <option value="json">JSON (internal)</option>
+        </select>
+      </div>
+      <div>
+        <label for="schema">Schema:</label>
+        <select name="schema" id="schemaSelector">
+          <option value="light">light</option>
+          <option value="dark">dark</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <div class="row">
+        <p class="advancedFilters">Advanced filters </p>
+      </div>
+      <div class="row">
+        <div class="rowItem">
+          <label for="tier">Tier:</label>
+          <select name="tier" id="tierSelector">
+            <!-- To be filled dinamically -->
+          </select>
+        </div>
+        <div class="rowItem">
+          <label for="category">Category:</label>
+          <select name="category" id="categorySelector">
+            <!-- To be filled dinamically -->
+          </select>
+        </div>
+        <div class="rowItem">
+          <label for="property">Property:</label>
+          <select name="property" id="propertySelector">
+            <!-- To be filled dinamically -->
+          </select>
+        </div>
+      </div>
+    </div>
+    <p class="count">
+      <!-- To be filled dinamically -->
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Token</th>
+          <th>Raw Value</th>
+          <th>Preview</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- To be filled dinamically -->
+      </tbody>
+    </table>
+  </div>
+</body>
+
+<!-- List Entry -->
+<script>
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Variables ------------------------------------------------
+  window.scheme = ["light", "dark"];
+  window.advancedAttrs = ["tier", "category", "property"];
+  window.defaultAllOption = "all (default)";
+
+  window.datasets = [];
+  window.filteredTokens = [];
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Fill categories in selects -------------------------------
+  const buildFilterOps = (datasets) => {
+    const p = datasets.light.reduce((acc, { path }) => {
+      if (!acc[path[0]]) acc[path[0]] = {};
+      if (!acc[path[0]][path[1]]) acc[path[0]][path[1]] = [];
+      if (acc[path[0]][path[1]].indexOf(path[2]) === -1)
+        acc[path[0]][path[1]].push(path[2]);
+      return acc;
+    }, {});
+    return p;
+  };
+
+  const fillAdvancedSelectsOptions = () => {
+    const filterOptions = buildFilterOps(window.datasets);
+    const appendOptions = (elId, value, attrs) => {
+      const el = document.querySelector(elId);
+      const optEl = document.createElement("option");
+      optEl.value = value;
+      optEl.innerHTML = value;
+      Object.entries(attrs || []).forEach(([attr, value]) =>
+        optEl.setAttribute(attr, value)
+      );
+      el.appendChild(optEl);
+    };
+
+    // Append defaultAllOption option
+    window.advancedAttrs.forEach((key) =>
+      appendOptions(`#${key}Selector`, "all (default)")
+    );
+
+    Object.keys(filterOptions).forEach((tier) => {
+      Object.keys(filterOptions[tier]).forEach((category) => {
+        filterOptions[tier][category].forEach((property) => {
+          appendOptions("#propertySelector", property, {
+            "data-tier": tier,
+            "data-category": category,
+          });
+        });
+        appendOptions("#categorySelector", category, { "data-tier": tier });
+      });
+      appendOptions("#tierSelector", tier);
+    });
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Fetch datasets --------------------------------------------
+  const fetchDatasets = () => {
+    const datasetsPromises = window.scheme.map(
+      (schema) =>
+        new Promise((resolve, reject) => {
+          const xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = () => {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+              if (xmlhttp.status == 200) {
+                const tokens = JSON.parse(xmlhttp.responseText);
+                resolve({ schema: schema, tokens });
+              } else if (xmlhttp.status == 404) {
+                reject("Invalid path to tokens");
+              } else {
+                reject("Ups, something unexpected happened");
+              }
+            }
+          };
+
+          const path = `${schema}/json/tokens.json.all.json`;
+
+          xmlhttp.open("GET", path, true);
+          xmlhttp.send();
+        })
+    );
+    return Promise.all(datasetsPromises);
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Render content -------------------------------------------
+  const camelToKebabCase = (str) =>
+    str.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`);
+
+  const name = (el) => "<td>" + el + "</td>";
+  const rawValue = (el) => "<td>" + el + "</td>";
+  const colorPreview = (color) =>
+    '<div class="colorPreview" style="background-color:' + color + ';"></div>';
+  const borderRadiusPreview = (radius) =>
+    '<div class="borderRadiusPreview" style="border-radius:' +
+    radius +
+    ';"></div>';
+  const borderSizePreview = (size) =>
+    '<div class="borderSizePreview" style="border:' + size + ';"></div>';
+  const textColorPreview = (color) =>
+    '<div class="textColorPreview" style="color:' + color + ';">TOKEN</div>';
+  const fontSizePreview = (size) =>
+    '<div style="font-size:' + size + ';">TOKEN</div>';
+  const lineSizePreview = (size) =>
+    '<div class="lineSizePreview" style="height:' + size + ';"></div>';
+  const sizePreview = (size) => {
+    const sizeNumber = parseFloat(size?.substring(0, size.length - 3));
+    const result = sizeNumber < 6 ? size : "6rem";
+    return (
+      '<div class="sizePreview" style="height:' +
+      result +
+      "; width:" +
+      result +
+      ';">' +
+      (sizeNumber < 6 ? "" : "bigger") +
+      "</div>"
+    );
+  };
+
+  const preview = ({ path, name, value }) => {
+    const container = (content = "") => "<td>" + content + "</td>";
+    if (path.includes("color")) {
+      if (path.includes("text")) {
+        return container(textColorPreview(value));
+      } else {
+        return container(colorPreview(value));
+      }
+    }
+    if (path.includes("size")) {
+      return container(sizePreview(value));
+    }
+    if (path.includes("fontSize")) {
+      return container(fontSizePreview(value));
+    }
+    if (path.includes("lineHeight")) {
+      return container(lineSizePreview(value));
+    }
+    if (path.includes("shape")) {
+      if (path.includes("borderSize")) {
+        return container(borderSizePreview(value));
+      }
+      if (path.includes("borderRadius")) {
+        return container(borderRadiusPreview(value));
+      }
+      return container("n/a");
+    }
+    return container("n/a");
+  };
+
+  const createRow = (el) => {
+    return `<tr> ${name(el._formatted)} ${rawValue(el.value)} ${preview(
+      el
+    )} </tr>`;
+  };
+
+  const renderContent = () => {
+    const list = document.querySelector("table tbody");
+    const count = document.querySelector(".count");
+    const query = document.querySelector("#searchSelector").value;
+    const rows = window.filteredTokens.map((el) => createRow(el));
+    list.innerHTML = rows.join("");
+    count.innerHTML =
+      "Showing " + rows.length + "/" + window.datasets.light.length;
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Reactive Form elements -----------------------------------
+  const updateUrl = (param, value) => {
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+    if (value === "") {
+      searchParams.delete(param);
+    } else {
+      searchParams.set(param, value);
+    }
+    window.history.pushState({}, null, url.toString());
+  };
+
+  const handleParamChange = (param, value) => {
+    updateUrl(param, value);
+    applyFilters();
+    renderContent();
+  };
+
+  const updateAdvancedSearchOptions = (parent, targetId, value) => {
+    const parentEl = document.getElementById(`${targetId}Selector`);
+    parentEl
+      .querySelectorAll(`option`)
+      .forEach((el) => el.classList.add("hidden"));
+    if (value !== window.defaultAllOption) {
+      parentEl
+        .querySelectorAll(`option[data-${parent}=${value}]`)
+        .forEach((el) => el.classList.remove("hidden"));
+    } else {
+      parentEl
+        .querySelectorAll(`option`)
+        .forEach((el) => el.classList.remove("hidden"));
+    }
+  };
+
+  // Search
+  const searchSelector = document.querySelector("#searchSelector");
+  searchSelector.addEventListener("change", (ev) =>
+    handleParamChange("query", ev.target.value)
+  );
+  // Format
+  const formatSelector = document.querySelector("#formatSelector");
+  formatSelector.addEventListener("change", (ev) =>
+    handleParamChange("format", ev.target.value)
+  );
+  // Schema
+  const schemaSelector = document.querySelector("#schemaSelector");
+  schemaSelector.addEventListener("change", (ev) =>
+    handleParamChange("schema", ev.target.value)
+  );
+  // Tier
+  const tierSelector = document.querySelector("#tierSelector");
+  tierSelector.addEventListener("change", (ev) => {
+    // Update self
+    updateUrl("tier", ev.target.value);
+    // Update category selector
+    document.getElementById("categorySelector").value = window.defaultAllOption;
+    updateAdvancedSearchOptions("tier", "category", ev.target.value);
+    updateUrl("category", window.defaultAllOption);
+    // Update property selector
+    document.getElementById("propertySelector").value = window.defaultAllOption;
+    updateAdvancedSearchOptions("tier", "property", ev.target.value);
+    updateUrl("property", window.defaultAllOption);
+    // Update preview
+    applyFilters();
+    renderContent();
+  });
+  // Category
+  const categorySelector = document.querySelector("#categorySelector");
+  categorySelector.addEventListener("change", (ev) => {
+    // Update self
+    updateUrl("category", ev.target.value);
+    // Update property selector
+    document.getElementById("propertySelector").value = window.defaultAllOption;
+    updateAdvancedSearchOptions("category", "property", ev.target.value);
+    updateUrl("property", window.defaultAllOption);
+    // Update preview
+    applyFilters();
+    renderContent();
+  });
+  // Property
+  const propertySelector = document.querySelector("#propertySelector");
+  propertySelector.addEventListener("change", (ev) =>
+    handleParamChange("property", ev.target.value)
+  );
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Initialize form elements ---------------------------------
+  const initializeFormElementsValues = () => {
+    const search = window.location.search;
+    const urlParams = new URLSearchParams(search);
+
+    document.querySelector("#searchSelector").value =
+      urlParams.get("query") || "";
+    document.querySelector("#formatSelector").value =
+      urlParams.get("format") || "js";
+    document.querySelector("#schemaSelector").value =
+      urlParams.get("schema") || "light";
+    document.querySelector("#tierSelector").value =
+      urlParams.get("tier") || window.defaultAllOption;
+    document.querySelector("#categorySelector").value =
+      urlParams.get("category") || window.defaultAllOption;
+    document.querySelector("#propertySelector").value =
+      urlParams.get("property") || window.defaultAllOption;
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- Filtering tasks ------------------------------------------
+  const filtersFns = new Map(
+    Object.entries({
+      // Order matters;
+      schema: (schema) => (datasets) => {
+        if (!schema) return datasets.light;
+        return datasets[schema];
+      },
+      tier: (tier) => (tokens) => {
+        if (!tier || tier == window.defaultAllOption) return tokens;
+        return tokens.filter((token) => token.attributes.tier === tier);
+      },
+      category: (category) => (tokens) => {
+        if (!category || category == window.defaultAllOption) return tokens;
+        return tokens.filter((token) => token.attributes.category === category);
+      },
+      property: (property) => (tokens) => {
+        if (!property || property == window.defaultAllOption) return tokens;
+        return tokens.filter((token) => token.attributes.property === property);
+      },
+      format: (format) => (tokens) => {
+        // if (!format) return tokens;
+        return tokens.map((token) => {
+          if (format === "js")
+            return { ...token, _formatted: token.name.replaceAll("-", ".") };
+          if (format === "scss")
+            return { ...token, _formatted: `$${camelToKebabCase(token.name)}` };
+          if (format === "css")
+            return { ...token, _formatted: `--${camelToKebabCase(token.name)}` };
+          if (format === "json") return { ...token, _formatted: token.name };
+          return { ...token, _formatted: token.name };
+        });
+      },
+      query: (query) => (tokens) => {
+        if (!query) return tokens;
+        return tokens.filter((token) => token._formatted.includes(query));
+      },
+    })
+  );
+
+  const applyFilters = () => {
+    const search = window.location.search;
+    const urlParams = new URLSearchParams(search);
+
+    window.filteredTokens = [...filtersFns.entries()].reduce(
+      (acc, [filterId, filterFn]) => filterFn(urlParams.get(filterId))(acc),
+      window.datasets
+    );
+  };
+
+  // -------------------------------------------------------------
+  // -------------------------------------------------------------
+  // -- entrypoint -----------------------------------------------
+  fetchDatasets().then((data) => {
+    // Store datasets in global object.
+    window.datasets = data.reduce(
+      (acc, ds) => ({
+        ...acc,
+        [ds.schema]: ds.tokens.sort((a, b) => a.name.localeCompare(b.name)),
+      }),
+      {}
+    );
+    // Fill form elements with custom options
+    fillAdvancedSelectsOptions();
+    // Set initial values to form elements
+    initializeFormElementsValues();
+    // Apply data filters
+    applyFilters();
+    // Render tokens list
+    renderContent();
+  });
+
+</script>
+
+</html>
