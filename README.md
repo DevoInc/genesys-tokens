@@ -1,7 +1,7 @@
 # Genesys Tokens
 
 ![license](https://img.shields.io/github/license/devoinc/genesys-tokens)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/devoinc/genesys-tokens/ci)](https://github.com/devoinc/genesys-tokens/actions/workflows/ci.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devoinc/genesys-tokens/ci.yml)
 
 Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's _Dalí Design System_.
 
