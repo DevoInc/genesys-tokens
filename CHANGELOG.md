@@ -1,5 +1,7 @@
 # Changelog
 
+### [3.8.2](https://github.com/DevoInc/genesys-tokens/compare/v3.8.1...v3.8.2) (2023-01-10)
+
 ### [3.8.1](https://github.com/DevoInc/genesys-tokens/compare/v3.8.0...v3.8.1) (2023-01-09)
 
 ## [3.8.0](https://github.com/DevoInc/genesys-tokens/compare/v3.7.0...v3.8.0) (2022-12-21)
