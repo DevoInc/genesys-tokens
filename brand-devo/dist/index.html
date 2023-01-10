@@ -418,19 +418,9 @@
     '<div class="lineSizePreview" style="height:' + size + ';"></div>';
   const sizePreview = (size) => {
     const sizeNumber = parseFloat(size?.substring(0, size.length - 3));
-    const result = sizeNumber < 6 ? size : "6rem";
-    return (
-      '<div class="sizePreview" style="height:' +
-      result +
-      "; width:" +
-      result +
-      ';">' +
-      (sizeNumber < 6 ? "" : "bigger") +
-      "</div>"
-    );
-  };
-
-  const preview = ({ path, name, value }) => {
+    const result = sizeNumber < 6 ? size : "6rem"; return ('<div class="sizePreview" style="height:' + result + "; width:"
+      + result + ';">' + (sizeNumber < 6 ? "" : "bigger") + "</div>");
+  }; const preview = ({ path, name, value }) => {
     const container = (content = "") => "<td>" + content + "</td>";
     if (path.includes("color")) {
       if (path.includes("text")) {
@@ -654,17 +644,19 @@
       },
       query: (query) => (tokens) => {
         if (!query) return { query, tokens };
-        return { query, tokens: tokens.filter((token) => token._formatted.includes(query)) };
+        const cleanQuery = query.trim().toLowerCase();
+        return { query, tokens: tokens.filter((token) => token._formatted.toLowerCase().includes(cleanQuery)) };
       },
       highlight: () => ({ query, tokens }) => {
         if (!query) return tokens;
         return tokens.map(token => {
-          const matchIdx = token._formatted.indexOf(query);
+          const matchIdx = token._formatted.indexOf(query) + 1;
           const pre = token._formatted.substring(0, matchIdx);
+          const match = token._formatted.substring(matchIdx, matchIdx + query.length);
           const pos = token._formatted.substring(matchIdx + query.length);
           return {
             ...token,
-            _formatted: `${pre}<mark>${query}</mark>${pos}`
+            _formatted: `${pre}<mark>${match}</mark>${pos}`
           }
         });
       },
@@ -703,7 +695,6 @@
     // Render tokens list
     renderContent();
   })();
-
 </script>
 
 </html>
