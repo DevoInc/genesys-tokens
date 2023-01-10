@@ -88,6 +88,10 @@
       border-color: rgb(195, 211, 222);
     }
 
+    mark {
+      background-color: rgb(206, 222, 228);
+    }
+
     .count {
       text-align: right;
       margin: 10px 0 20px 0;
@@ -649,8 +653,20 @@
         });
       },
       query: (query) => (tokens) => {
+        if (!query) return { query, tokens };
+        return { query, tokens: tokens.filter((token) => token._formatted.includes(query)) };
+      },
+      highlight: () => ({ query, tokens }) => {
         if (!query) return tokens;
-        return tokens.filter((token) => token._formatted.includes(query));
+        return tokens.map(token => {
+          const matchIdx = token._formatted.indexOf(query);
+          const pre = token._formatted.substring(0, matchIdx);
+          const pos = token._formatted.substring(matchIdx + query.length);
+          return {
+            ...token,
+            _formatted: `${pre}<mark>${query}</mark>${pos}`
+          }
+        });
       },
     })
   );
