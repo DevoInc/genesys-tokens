@@ -239,7 +239,6 @@
   </div>
 </body>
 
-<!-- List Entry -->
 <script>
   // -------------------------------------------------------------
   // -------------------------------------------------------------
@@ -479,6 +478,16 @@
   // -------------------------------------------------------------
   // -------------------------------------------------------------
   // -- Reactive Form elements -----------------------------------
+  const debounce = (cb, ms) => {
+    let timerId;
+    return (...args) => {
+      clearTimeout(timerId);
+      timerId = setTimeout(() => {
+        cb(...args);
+      }, ms);
+    };
+  }
+
   const updateUrl = (param, value) => {
     const url = new URL(window.location.href);
     const searchParams = url.searchParams;
@@ -490,7 +499,7 @@
     window.history.pushState({}, null, url.toString());
   };
 
-  const handleParamChange = (param, value) => {
+  const handleBaseParamChange = (param, value) => {
     updateUrl(param, value);
     applyFilters();
     renderContent();
@@ -502,6 +511,7 @@
       .querySelectorAll(`option`)
       .forEach((el) => el.classList.add("hidden"));
     if (value !== window.defaultAllOption) {
+      parentEl[0].classList.remove("hidden");
       parentEl
         .querySelectorAll(`option[data-${parent}=${value}]`)
         .forEach((el) => el.classList.remove("hidden"));
@@ -514,18 +524,19 @@
 
   // Search
   const searchSelector = document.querySelector("#searchSelector");
-  searchSelector.addEventListener("change", (ev) =>
-    handleParamChange("query", ev.target.value)
+
+  searchSelector.addEventListener("input",
+    debounce((ev) => handleBaseParamChange("query", ev.target.value), 200)
   );
   // Format
   const formatSelector = document.querySelector("#formatSelector");
   formatSelector.addEventListener("change", (ev) =>
-    handleParamChange("format", ev.target.value)
+    handleBaseParamChange("format", ev.target.value)
   );
   // Schema
   const schemaSelector = document.querySelector("#schemaSelector");
   schemaSelector.addEventListener("change", (ev) =>
-    handleParamChange("schema", ev.target.value)
+    handleBaseParamChange("schema", ev.target.value)
   );
   // Tier
   const tierSelector = document.querySelector("#tierSelector");
@@ -560,7 +571,7 @@
   // Property
   const propertySelector = document.querySelector("#propertySelector");
   propertySelector.addEventListener("change", (ev) =>
-    handleParamChange("property", ev.target.value)
+    handleBaseParamChange("property", ev.target.value)
   );
 
   // -------------------------------------------------------------
@@ -666,10 +677,10 @@
     );
     // Set title
     setTitle();
-    // Set initial values to form elements
-    initializeFormElementsValues();
     // Fill form elements with custom options
     fillAdvancedSelectsOptions();
+    // Set initial values to form elements
+    initializeFormElementsValues();
     fillSchemaSelector();
     // Apply data filters
     applyFilters();
