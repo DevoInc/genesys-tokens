@@ -645,12 +645,16 @@
       query: (query) => (tokens) => {
         if (!query) return { query, tokens };
         const cleanQuery = query.trim().toLowerCase();
-        return { query, tokens: tokens.filter((token) => token._formatted.toLowerCase().includes(cleanQuery)) };
+        return {
+          query: cleanQuery,
+          tokens: tokens.filter((token) =>
+            token._formatted.toLowerCase().includes(cleanQuery))
+        };
       },
       highlight: () => ({ query, tokens }) => {
         if (!query) return tokens;
         return tokens.map(token => {
-          const matchIdx = token._formatted.indexOf(query) + 1;
+          const matchIdx = token._formatted.toLowerCase().indexOf(query);
           const pre = token._formatted.substring(0, matchIdx);
           const match = token._formatted.substring(matchIdx, matchIdx + query.length);
           const pos = token._formatted.substring(matchIdx + query.length);
