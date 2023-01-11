@@ -2,8 +2,10 @@
   "cmp": {
     "mainMenu": {
       "secondaryItemLink": {
-        "transition": {
-          "value": "{alias.mutation.transitionDuration.action.value} all ease"
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.action.value} all ease"
+          }
         },
         "size": {
           "width": {

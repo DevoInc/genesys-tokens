@@ -7,41 +7,106 @@
   <title>Design Tokens</title>
   <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet'>
   <style>
+    :root {
+      --box-shadow-size: 6px;
+      --color-heading: #1f282e;
+      --color-body: #5b6870;
+      --color-strong: #3c4952;
+      --fs-base: 1.4rem;
+      --fs-sm: 1.3rem;
+      --lh-base: 2.4rem;
+      --lh-sm: 2rem;
+      --preview-width: 6rem;
+      --preview-height: 2rem;
+    }
+
+    /* GLOBAL ----------------------------------------------------------------*/
+
     html {
-      height: 100%;
+      font-size: 0.625rem;
+    }
+
+    h1 {
+      color: var(--color-heading);
+      margin: 3.6rem 0 1.2rem 0;
     }
 
     body {
-      height: 100%;
-      font-family: 'Poppins';
-      font-size: 22px;
-      margin: 50px 300px;
-      overflow: hidden;
-    }
-
-    h2 {
-      color: rgb(91, 104, 112);
+      margin: 0;
+      padding: 0 4.8rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: var(--fs-base);
+      color: var(--color-body);
     }
 
     p {
-      box-sizing: inherit;
       padding: 0;
       border: 0;
-      font: inherit;
-      vertical-align: baseline;
-      font-family: Poppins, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-      font-size: 14px;
-      line-height: 24px;
-      color: rgb(91, 104, 112);
       margin: 0;
+      max-width: 99.2rem;
+      -webkit-font-smoothing: antialiased;
     }
 
     label {
-      font-size: 14px;
-      color: rgb(91, 104, 112);
+      color: var(--color-strong);
     }
+
+    mark {
+      background-color: #c6dbf5;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+    }
+
+    .count {
+      text-align: right;
+      margin: 2.4rem 0;
+      font-size: var(--fs-sm);
+    }
+
+    .wrapper {
+      display: flex;
+      gap: 4.8rem;
+      margin-top: 3.6rem;
+      font-size: 1.4rem;
+      line-height: var(--lh-base);
+    }
+
+    .wrapper__aside {
+      flex: 0 0 30rem;
+      position: sticky;
+      top: 0;
+    }
+
+    .wrapper__main {
+      flex: 1 1 auto;
+    }
+
+
+    /* FILTER ----------------------------------------------------------------*/
+
+    .filter {
+      padding-top: 1rem;
+      position: sticky;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .filter__heading {
+      margin: 2.4rem 0 0.8rem 0;
+      color: var(--color-strong);
+    }
+
+
+    /* TABLE -----------------------------------------------------------------*/
 
     table {
       box-sizing: inherit;
@@ -50,78 +115,142 @@
       vertical-align: baseline;
       border-spacing: 0;
       table-layout: fixed;
-      color: rgb(91, 104, 112);
       width: 100%;
-      margin: 16px 0px;
-      font-size: 13px;
-      line-height: 20px;
-      padding: 0px;
+      padding: 0;
       border-collapse: collapse;
     }
 
+    table tbody {
+      font-size: var(--fs-sm);
+      line-height: 1.5;
+    }
 
     table tr th {
-      padding: .5rem;
+      padding: 1rem 1.2rem;
       white-space: nowrap;
       text-align: left;
-      color: black;
-      font-weight: 600;
-      background-color: rgb(243, 243, 243);
-
+      color: var(--color-heading);
+      font-weight: bold;
     }
 
     table tr td {
-      padding: .5rem;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 0.8rem 1.2rem;
+      border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
       overflow-wrap: break-word;
+    }
+    table tr th,
+    table tr td {
+      width: 25%;
+    }
+
+    table tr th:first-child,
+    table tr td:first-child {
+      width: 50%;
+    }
+
+    table tr td:first-child {
+      color: var(--color-heading);
+    }
+
+    table tr th:last-child,
+    table tr td:last-child {
+      width: 20%;
+    }
+
+    .table__sticky {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+    }
+
+    .table__sticky::after,
+    .table__sticky::before,
+    .table__header::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      background-color: #fff;
+    }
+
+    .table__header::after {
+      top: calc(var(--box-shadow-size) * -1);
+      z-index: 1;
+      height: var(--box-shadow-size);
+      width: 100%;
+      background-color: #fff;
+    }
+
+    .table__sticky::before,
+    .table__sticky::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      width: var(--box-shadow-size);
+      height: calc(100% + (var(--box-shadow-size) * 2));
+      background-color: #fff;
+    }
+
+    .table__sticky::after {
+      right: calc(var(--box-shadow-size) * -1);
+    }
+
+    .table__sticky::before {
+      left: calc(var(--box-shadow-size) * -1);
+    }
+
+    .table__header {
+      box-shadow: 0 4px var(--box-shadow-size) 0 rgba(12,41,56, 0.08), 0 2px 2px 1px rgba(12,41,56, 0.04);
+    }
+
+
+    /* FIELDS ----------------------------------------------------------------*/
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      gap: 0.4rem;
+    }
+
+    .field + .field {
+      margin-top: 1.2rem
     }
 
     input,
     select {
       width: 100%;
-      height: 2rem;
-      padding: 0px 0.8rem;
+      height: 3.2rem;
+      padding: 0 1.2rem;
       border-width: 0.1rem;
       border-style: solid;
-      border-radius: 0.2rem;
+      border-radius: 0.4rem;
       box-sizing: border-box;
-      border-color: rgb(195, 211, 222);
+      border-color: #c3d3de;
     }
 
-    mark {
-      background-color: rgb(206, 222, 228);
-    }
 
-    .count {
-      text-align: right;
-      margin: 10px 0 20px 0;
-    }
+    /* PREVIEW ---------------------------------------------------------------*/
 
-    .tableBodyContainer {
-      height: 40vh;
-      overflow: auto;
-    }
-
-    .rowItem {
-      flex-grow: 1;
+    .borderSizePreview,
+    .borderRadiusPreview,
+    .colorPreview {
+      width: var(--preview-width);
+      height: var(--preview-height);
     }
 
     .colorPreview {
-      height: 20px;
-      width: 60px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0.4rem;
+      border: 0.2rem solid #fff;
+      outline: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
 
     .borderRadiusPreview {
-      height: 20px;
-      width: 60px;
       background-color: rgb(249, 234, 252);
     }
 
     .borderSizePreview {
-      height: 20px;
-      width: 60px;
-      border-color: solid black;
+      border: solid 0.1rem;
     }
 
     .textColorPreview {
@@ -129,8 +258,8 @@
     }
 
     .sizePreview {
-      max-height: 4rem;
-      max-width: 4rem;
+      max-height: 6.4rem;
+      max-width: 6.4rem;
       background-color: rgb(225, 250, 242);
       display: flex;
       justify-content: center;
@@ -141,28 +270,6 @@
     .lineSizePreview {
       background-color: rgb(225, 250, 242);
     }
-
-    .row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-      gap: 10px;
-    }
-
-    .rowItem {
-      flex-grow: 1;
-    }
-
-    .advancedFilters {
-      margin-top: 25px;
-      font-size: 16px;
-      font-weight: 600;
-    }
-
-    .hidden {
-      display: none;
-    }
   </style>
 </head>
 
@@ -170,18 +277,20 @@
   <h1>
     <!-- To be filled dinamically -->
   </h1>
-  <p><b>Note:</b> The different token formats available in this preview are generated on the fly from the internal
-    JSON
-    output.
-    This preview should not be used to visually validate anything other than tokens in JSON format.</p>
-  <div>
-    <div class="row">
-      <div class="rowItem">
-        <label for="searchSelector">Free search:</label>
+  <p><strong>Note:</strong> The different token formats available in this preview
+    are generated on the fly from the internal JSON output.
+    This preview should not be used to visually validate anything other than
+    tokens in JSON format.
+  </p>
+  <div class="wrapper">
+  <div class="column wrapper__aside">
+    <div class="filter">
+      <div class="field">
+        <label for="searchSelector">Free search</label>
         <input type="text" id="searchSelector" name="search query" val="" placeholder="Search by token name" />
       </div>
-      <div>
-        <label for="format">Format:</label>
+      <div class="field">
+        <label for="formatSelector">Format</label>
         <select name="format" id="formatSelector">
           <option value="js">JavaScript</option>
           <option value="scss">SCSS</option>
@@ -189,57 +298,58 @@
           <option value="json">JSON (internal)</option>
         </select>
       </div>
-      <div>
-        <label for="schema">Schema:</label>
+      <div class="field">
+        <label for="schemaSelector">Schema</label>
         <select name="schema" id="schemaSelector">
           <!-- To be filled dinamically -->
         </select>
       </div>
-    </div>
-    <div>
-      <div class="row">
-        <p class="advancedFilters">Advanced filters </p>
+      <div class="filter__heading">Advanced filters </div>
+      <div class="field">
+        <label for="tierSelector">Tier</label>
+        <select name="tier" id="tierSelector">
+          <!-- To be filled dinamically -->
+        </select>
       </div>
-      <div class="row">
-        <div class="rowItem">
-          <label for="tier">Tier:</label>
-          <select name="tier" id="tierSelector">
-            <!-- To be filled dinamically -->
-          </select>
-        </div>
-        <div class="rowItem">
-          <label for="category">Category:</label>
-          <select name="category" id="categorySelector">
-            <!-- To be filled dinamically -->
-          </select>
-        </div>
-        <div class="rowItem">
-          <label for="property">Property:</label>
-          <select name="property" id="propertySelector">
-            <!-- To be filled dinamically -->
-          </select>
-        </div>
+      <div class="field">
+        <label for="categorySelector">Category</label>
+        <select name="category" id="categorySelector">
+          <!-- To be filled dinamically -->
+        </select>
       </div>
+      <div class="field">
+        <label for="propertySelector">Property</label>
+        <select name="property" id="propertySelector">
+          <!-- To be filled dinamically -->
+        </select>
+      </div>
+      <p class="count">
+        <!-- To be filled dinamically -->
+      </p>
     </div>
-    <table>
-      <thead>
+  </div>
+  <div class="wrapper__main">
+    <div class="column table__sticky">
+      <div class="table__header">
+      <table>
+        <thead>
         <tr>
           <th>Token</th>
           <th>Raw Value</th>
           <th>Preview</th>
         </tr>
-      </thead>
-    </table>
-    <div class="tableBodyContainer">
+        </thead>
+      </table>
+    </div>
+    </div>
+    <div class="table__body">
       <table>
         <tbody>
           <!-- To be filled dinamically -->
         </tbody>
       </table>
     </div>
-    <p class="count">
-      <!-- To be filled dinamically -->
-    </p>
+  </div>
   </div>
 </body>
 

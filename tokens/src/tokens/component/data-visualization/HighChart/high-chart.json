@@ -2,7 +2,7 @@
   "cmp": {
     "highChart": {
       "color": {
-        "colorsList": {
+        "fill": {
           "01": {
             "value": "{global.color.visualization.teal.06.value}"
           },
@@ -39,132 +39,48 @@
           "12": {
             "value": "{global.color.visualization.purple.04.value}"
           }
-        },
-        "chart": {
-          "backgroundColor": {
-            "value": "{alias.color.background.surface.base.base.value}"
-          },
-          "plotBorderColor": {
-            "value": "{global.color.blend.white.25.value}"
-          }
-        },
-        "title": {
-          "style": {
-            "color": {
-              "value": "{alias.color.text.body.stronger.value}"
-            }
-          }
-        },
-        "subtitle": {
-          "style": {
-            "color": {
-              "value": "{alias.color.text.body.base.value}"
-            }
-          }
-        },
-        "xAxis": {
-          "lineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "gridLineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "minorGridLineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "tickColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "labels": {
-            "style": {
-              "color": {
-                "value": "{alias.color.text.body.base.value}"
-              }
-            }
-          },
-          "crosshair": {
-            "color": {
-              "value": "{alias.color.border.separator.base.strong.value}"
-            }
-          },
-          "title": {
-            "style": {
-              "color": {
-                "value": "{alias.color.text.body.strong.value}"
-              }
-            }
-          }
-        },
-        "yAxis": {
-          "lineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "gridLineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "minorGridLineColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "tickColor": {
-            "value": "{alias.color.border.separator.base.base.value}"
-          },
-          "labels": {
-            "style": {
-              "color": {
-                "value": "{alias.color.text.body.base.value}"
-              }
-            }
-          },
-          "crosshair": {
-            "color": {
-              "value": "{alias.color.border.separator.base.strong.value}"
-            }
-          },
-          "title": {
-            "style": {
-              "color": {
-                "value": "{alias.color.text.body.strong.value}"
-              }
-            }
-          }
-        },
-        "tooltip": {
-          "backgroundColor": {
-            "value": "{alias.color.background.backdrop.dark.strongest.value}"
-          },
-          "style": {
-            "color": {
-              "value": "{alias.color.text.body.stronger.value}"
-            }
-          }
-        },
-        "plotOptions": {
-          "pie": {
-            "borderColor": {
-              "value": "{alias.color.background.surface.base.base.value}"
-            }
-          }
         }
       },
       "chart": {
-        "spacingBottom": {
-          "value": "{alias.space.cmp.md.value}"
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          }
         },
-        "spacingTop": {
-          "value": "{alias.space.cmp.sm.value}"
-        },
-        "spacingLeft": {
-          "value": "{alias.space.cmp.sm.value}"
-        },
-        "spacingRight": {
-          "value": "{alias.space.cmp.sm.value}"
+        "space": {
+          "paddingBottom": {
+            "value": "{alias.space.cmp.md.value}"
+          },
+          "paddingTop": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "paddingLeft": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "paddingRight": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      },
+      "plot": {
+        "color": {
+          "border": {
+            "value": "{global.color.blend.white.25.value}"
+          }
         }
       },
       "title": {
-        "height": {
-          "value": "{global.size.width.08.value}"
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.stronger.value}"
+          }
         },
-        "style": {
+        "size": {
+          "height": {
+            "value": "{global.size.width.08.value}"
+          }
+        },
+        "typo": {
           "fontSize": {
             "value": "{alias.typo.fontSize.heading.h4.value}"
           },
@@ -174,10 +90,12 @@
         }
       },
       "subtitle": {
-        "y": {
-          "value": "{global.size.width.08.value}"
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.base.value}"
+          }
         },
-        "style": {
+        "typo": {
           "fontSize": {
             "value": "{alias.typo.fontSize.body.md.value}"
           },
@@ -186,67 +104,206 @@
           }
         }
       },
+      "subtitleY": {
+        "size": {
+          "width": {
+            "value": "{global.size.width.08.value}"
+          }
+        }
+      },
       "xAxis": {
-        "margin": {
-          "value": "{alias.space.cmp.md.value}"
-        },
-        "labels": {
-          "y": {
+        "space": {
+          "margin": {
             "value": "{alias.space.cmp.md.value}"
-          },
-          "style": {
-            "fontSize": {
-              "value": "{alias.typo.fontSize.body.sm.value}"
-            },
-            "fontWeight": {
-              "value": "{alias.typo.fontWeight.body.value}"
-            }
+          }
+        }
+      },
+      "xAxisTitle": {
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.strong.value}"
           }
         },
-        "title": {
-          "style": {
-            "fontSize": {
-              "value": "{alias.typo.fontSize.body.xs.value}"
-            },
-            "fontWeight": {
-              "value": "{alias.typo.fontWeight.heading.value}"
-            }
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.xs.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.heading.value}"
+          }
+        }
+      },
+      "xAxisCrosshair": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.strong.value}"
+          }
+        }
+      },
+      "xAxisLabels": {
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.sm.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.body.value}"
+          }
+        }
+      },
+      "xAxisLabelsY": {
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.md.value}"
+          }
+        },
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        }
+      },
+      "xAxisLine": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "xAxisGridLine": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "xAxisTick": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "xAxisGridLineMinor": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
           }
         }
       },
       "yAxis": {
-        "margin": {
-          "value": "{alias.space.cmp.md.value}"
-        },
-        "labels": {
-          "style": {
-            "fontSize": {
-              "value": "{alias.typo.fontSize.body.sm.value}"
-            },
-            "fontWeight": {
-              "value": "{alias.typo.fontWeight.body.value}"
-            }
+        "space": {
+          "margin": {
+            "value": "{alias.space.cmp.md.value}"
+          }
+        }
+      },
+      "yAxisTitle": {
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.strong.value}"
           }
         },
-        "title": {
-          "style": {
-            "fontSize": {
-              "value": "{alias.typo.fontSize.body.xs.value}"
-            },
-            "fontWeight": {
-              "value": "{alias.typo.fontWeight.heading.value}"
-            }
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.xs.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.heading.value}"
+          }
+        }
+      },
+      "yAxisCrosshair": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.strong.value}"
+          }
+        }
+      },
+      "yAxisLabels": {
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.sm.value}"
+          },
+          "fontWeight": {
+            "value": "{alias.typo.fontWeight.body.value}"
+          }
+        }
+      },
+      "yAxisLabelsY": {
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.md.value}"
+          }
+        },
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        }
+      },
+      "yAxisLine": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "yAxisGridLine": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "yAxisTick": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          }
+        }
+      },
+      "yAxisGridLineMinor": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.base.value}"
           }
         }
       },
       "tooltip": {
-        "padding": {
-          "value": "{alias.space.cmp.sm.value}"
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "background": {
+            "value": "{alias.color.background.backdrop.dark.strongest.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
         }
       },
-      "plotOptions": {
-        "pie": {
-          "lineColor": {
+      "plotOptionsPie": {
+        "color": {
+          "border": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          }
+        }
+      },
+      "plotOptionsPieLine": {
+        "color": {
+          "border": {
             "value": "{alias.color.background.surface.base.base.value}"
           }
         }
