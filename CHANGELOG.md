@@ -6,7 +6,7 @@
 ### ⚠ BREAKING CHANGES
 
 * **tokens:** fixed category naming
-* **tokens:** modified the naming structure of chart and typography components (7d8ea27e68ea15f6e2d8f3b9f77689fa41bd15d6)
+* **tokens:** modified the naming structure of chart and typography components ([7d8ea27](https://github.com/DevoInc/genesys-tokens/commit/7d8ea27e68ea15f6e2d8f3b9f77689fa41bd15d6))
 
 ### Features
 
