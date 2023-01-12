@@ -162,6 +162,7 @@
     .table__sticky {
       position: sticky;
       top: 0;
+      box-shadow: 0 4px var(--box-shadow-size) 0 rgba(12, 41, 56, 0.08), 0 2px 2px 1px rgba(12, 41, 56, 0.04);
       background-color: #fff;
     }
 
@@ -199,10 +200,6 @@
 
     .table__sticky::before {
       left: calc(var(--box-shadow-size) * -1);
-    }
-
-    .table__header {
-      box-shadow: 0 4px var(--box-shadow-size) 0 rgba(12, 41, 56, 0.08), 0 2px 2px 1px rgba(12, 41, 56, 0.04);
     }
 
 
@@ -352,21 +349,15 @@
       </div>
     </div>
     <div class="wrapper__main">
-      <div class="column table__sticky">
-        <div class="table__header">
-          <table>
-            <thead>
-              <tr>
-                <th>Token</th>
-                <th>Raw Value</th>
-                <th>Preview</th>
-              </tr>
-            </thead>
-          </table>
-        </div>
-      </div>
-      <div class="table__body">
+      <div class="table">
         <table>
+          <thead class="table__sticky">
+            <tr>
+              <th>Token</th>
+              <th>Raw Value</th>
+              <th>Preview</th> 
+            </tr>
+          </thead>
           <tbody>
             <!-- To be filled dinamically -->
           </tbody>
