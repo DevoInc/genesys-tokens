@@ -283,7 +283,7 @@
   <h1>
     <!-- To be filled dinamically -->
   </h1>
-  <p><strong>Note:</strong> The different token formats available in this preview
+  <p>The different token formats available in this preview
     are generated on the fly from the internal JSON output.
     This preview should not be used to visually validate anything other than
     tokens in JSON format.
@@ -366,26 +366,26 @@
 </body>
 
 <script>
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Variables ------------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Variables -------------------------------------------------------------
   window.defaultAllOption = "all";
   window.advancedAttrs = ["tier", "component", "category", "property"];
 
   window.datasets = [];
   window.filteredTokens = [];
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Fill categories in selects -------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Fill categories in selects --------------------------------------------
   const setTitle = () => {
     document.getElementsByTagName("h1")[0].innerText =
       window.config.title || "Design Tokens";
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Fill categories in selects -------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Fill categories in selects --------------------------------------------
   const buildFilterOps = (datasets) => {
     const p = datasets[window.config.scheme.options[0]].reduce(
       (acc, { attributes, path }) => {
@@ -464,9 +464,9 @@
     );
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Fetch config ---------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Fetch config ----------------------------------------------------------
   const fetchConfig = () => {
     return new Promise((resolve, reject) => {
       const xmlhttp = new XMLHttpRequest();
@@ -490,9 +490,9 @@
     });
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Fetch datasets -------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Fetch datasets --------------------------------------------------------
   const fetchDatasets = () => {
     const datasetsPromises = window.config.scheme.options.map(
       (schema) =>
@@ -523,9 +523,9 @@
     return Promise.all(datasetsPromises);
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Render content -------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Render content --------------------------------------------------------
   const camelToKebabCase = (str) =>
     str.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`);
 
@@ -533,6 +533,8 @@
   const rawValue = (el) => "<td>" + el + "</td>";
   const colorPreview = (color) =>
     '<div class="colorPreview" style="background-color:' + color + ';"></div>';
+  const borderColorPreview = (color) =>
+    '<div class="colorPreview" style="border-color:' + color + ';"></div>';
   const boxShadowPreview = (shadow) =>
     '<div class="boxShadowPreview" style="box-shadow:' + shadow + ';"></div>';
   const borderRadiusPreview = (radius) =>
@@ -559,6 +561,8 @@
     if (path.includes("color")) {
       if (path.includes("text")) {
         return container(textColorPreview(value));
+      } else if (path.includes("border")) {
+        return container(borderColorPreview(value))
       } else {
         return container(colorPreview(value));
       }
@@ -610,13 +614,17 @@
   };
 
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Form elements handlers -----------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Form elements handlers ------------------------------------------------
   const handleTierSelectorChange = (value) => {
     // Enable/disabled next select
     if (value !== window.defaultAllOption) {
-      document.getElementById("componentSelector").disabled = false;
+      if (value === 'cmp') {
+        document.getElementById("componentSelector").disabled = false;
+      } else {
+        document.getElementById("categorySelector").disabled = false;
+      }
     } else {
       document.getElementById("componentSelector").disabled = true;
       document.getElementById("categorySelector").disabled = true;
@@ -696,9 +704,9 @@
     renderContent();
   }
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Reactive Form elements -----------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Reactive Form elements ------------------------------------------------
   const debounce = (cb, ms) => {
     let timerId;
     return (...args) => {
@@ -778,10 +786,12 @@
     handleBaseParamChange("property", ev.target.value)
   );
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Initialize form elements ---------------------------------
-  const initializeFormElementsValues = () => {
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Initialize form elements ----------------------------------------------
+  const initializeFormElements = () => {
+    // Fill form elements with custom options
+    fillAdvancedSelectsOptions();
     const search = window.location.search;
     const urlParams = new URLSearchParams(search);
     // Selectors 
@@ -811,7 +821,11 @@
 
     // Enable disable dependant selects
     if (tierSelector.value !== window.defaultAllOption) {
-      componentSelector.disabled = false;
+      if (tierSelector.value === 'cmp') {
+        componentSelector.disabled = false;
+      } else {
+        categorySelector.disabled = false;
+      }
     }
     if (componentSelector.value !== window.defaultAllOption) {
       categorySelector.disabled = false;
@@ -821,7 +835,7 @@
     }
 
     // Show conditional selects
-    if(tierSelector.value === 'cmp') {
+    if (tierSelector.value === 'cmp') {
       document.getElementById("componentSelectorContainer").classList.remove('hidden');
     }
 
@@ -838,9 +852,9 @@
     //property
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- Filtering tasks ------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- Filtering tasks -------------------------------------------------------
   const filtersFns = new Map(
     // Order matters;
     Object.entries({
@@ -987,9 +1001,9 @@
     );
   };
 
-  // -------------------------------------------------------------
-  // -------------------------------------------------------------
-  // -- entrypoint -----------------------------------------------
+  // --------------------------------------------------------------------------
+  // --------------------------------------------------------------------------
+  // -- entrypoint ------------------------------------------------------------
   (async () => {
     window.config = await fetchConfig();
     const rawDatasets = await fetchDatasets();
@@ -999,10 +1013,8 @@
     );
     // Set H1 title
     setTitle();
-    // Fill form elements with custom options
-    fillAdvancedSelectsOptions();
     // Set initial values to form elements
-    initializeFormElementsValues();
+    initializeFormElements();
     // Fill schema selector options
     fillSchemaSelector();
     // Apply data filters
