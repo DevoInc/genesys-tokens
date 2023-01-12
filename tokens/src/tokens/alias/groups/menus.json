@@ -41,7 +41,7 @@
             "value": "{alias.shape.borderRadius.md.value}"
           }
         },
-        "space": {
+        "spacing": {
           "marginHor": {
             "value": "{alias.space.cmp.xs.value}"
           }
