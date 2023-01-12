@@ -12,6 +12,7 @@
       --color-heading: #1f282e;
       --color-body: #5b6870;
       --color-strong: #3c4952;
+      --color-weak: #81919c;
       --fs-base: 1.4rem;
       --fs-sm: 1.3rem;
       --lh-base: 2.4rem;
@@ -233,37 +234,47 @@
 
     /* PREVIEW ---------------------------------------------------------------*/
 
-    .borderSizePreview,
-    .borderRadiusPreview,
-    .colorPreview {
+    .preview--border,
+    .preview--border-size,
+    .preview--border-radius,
+    .preview--border-color,
+    .preview--box-shadow,
+    .preview--color {
       width: var(--preview-width);
       height: var(--preview-height);
     }
 
-    .colorPreview {
+    .preview--color,
+    .preview--border,
+    .preview--border-size,
+    .preview--box-shadow,
+    .preview--border-color {
       border-radius: 0.4rem;
+    }
+
+    .preview--color {
       border: 0.2rem solid #fff;
       outline: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
 
-    .boxShadowPreview {
-      height: 20px;
-      width: 60px;
-    }
-
-    .borderRadiusPreview {
+    .preview--border-radius {
       background-color: rgb(249, 234, 252);
     }
 
-    .borderSizePreview {
-      border: solid 0.1rem;
+    .preview--border-color {
+      border: solid 0.2rem;
     }
 
-    .textColorPreview {
+    .preview--border-size {
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.12);
+    }
+
+    .preview--text-color {
       font-weight: 600;
     }
 
-    .sizePreview {
+    .preview--size {
       max-height: 6.4rem;
       max-width: 6.4rem;
       background-color: rgb(225, 250, 242);
@@ -273,7 +284,7 @@
       font-weight: 700;
     }
 
-    .lineSizePreview {
+    .preview--line-height {
       background-color: rgb(225, 250, 242);
     }
   </style>
@@ -532,28 +543,30 @@
   const name = (el) => "<td>" + el + "</td>";
   const rawValue = (el) => "<td>" + el + "</td>";
   const colorPreview = (color) =>
-    '<div class="colorPreview" style="background-color:' + color + ';"></div>';
+    '<div class="preview preview--color" style="background-color:' + color + ';"></div>';
   const borderColorPreview = (color) =>
-    '<div class="colorPreview" style="border-color:' + color + ';"></div>';
+    '<div class="preview preview--border-color" style="border-color:' + color + ';"></div>';
   const boxShadowPreview = (shadow) =>
-    '<div class="boxShadowPreview" style="box-shadow:' + shadow + ';"></div>';
+    '<div class="preview preview--box-shadow" style="box-shadow:' + shadow + ';"></div>';
   const borderRadiusPreview = (radius) =>
-    '<div class="borderRadiusPreview" style="border-radius:' +
+    '<div class="preview preview--border-radius" style="border-radius:' +
     radius +
     ';"></div>';
+  const borderPreview = (border) =>
+    '<div class="preview preview--border" style="border:' + border + ';"></div>';
   const borderSizePreview = (size) =>
-    '<div class="borderSizePreview" style="border:' + size + ';"></div>';
+    '<div class="preview preview--border-size" style="border-width:' + size + ';"></div>';
   const textColorPreview = (color) =>
-    '<div class="textColorPreview" style="color:' + color + ';">TOKEN</div>';
+    '<div class="preview preview--text-color" style="color:' + color + ';">TOKEN</div>';
   const fontSizePreview = (size) =>
     '<div style="font-size:' + size + ';">TOKEN</div>';
   const fontWeightPreview = (weight) =>
     '<div style="font-weight:' + weight + ';">TOKEN</div>';
   const lineSizePreview = (size) =>
-    '<div class="lineSizePreview" style="height:' + size + ';"></div>';
+    '<div class="preview preview--line-height" style="height:' + size + ';"></div>';
   const sizePreview = (size) => {
     const sizeNumber = parseFloat(size?.substring(0, size.length - 3));
-    const result = sizeNumber < 6 ? size : "6rem"; return ('<div class="sizePreview" style="height:' + result + "; width:"
+    const result = sizeNumber < 6 ? size : "6rem"; return ('<div class="preview preview--size" style="height:' + result + "; width:"
       + result + ';">' + (sizeNumber < 6 ? "" : "bigger") + "</div>");
   };
   const preview = ({ path, name, value }) => {
@@ -583,6 +596,9 @@
       return container(lineSizePreview(value));
     }
     if (path.includes("shape")) {
+      if (path.includes("border")) {
+        return container(borderPreview(value));
+      }
       if (path.includes("borderSize")) {
         return container(borderSizePreview(value));
       }
@@ -794,7 +810,7 @@
     fillAdvancedSelectsOptions();
     const search = window.location.search;
     const urlParams = new URLSearchParams(search);
-    // Selectors 
+    // Selectors
     const searchSelector = document.querySelector("#searchSelector");
     const formatSelector = document.querySelector("#formatSelector");
     const schemaSelector = document.querySelector("#schemaSelector");
