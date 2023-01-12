@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.0.0](https://github.com/DevoInc/genesys-tokens/compare/v3.8.2...v4.0.0) (2023-01-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **tokens:** fixed category naming
+* **tokens:** modified the naming structure of chart and typography components (7d8ea27e68ea15f6e2d8f3b9f77689fa41bd15d6)
+
+### Features
+
+* **tokens:** fixed category naming ([9bed20d](https://github.com/DevoInc/genesys-tokens/commit/9bed20dc3f20e1f8cbcb7d06268ee74731a34222))
+* **tokens:** modified the naming structure of chart and typography components (7d8ea27e68ea15f6e2d8f3b9f77689fa41bd15d6) ([eff158c](https://github.com/DevoInc/genesys-tokens/commit/eff158caf22b9bb4d10d2eb2eaf8e2558a3253ae))
+* **tokens:** modified the naming structure of chart and typography components for being adapted to the correct pattern. Improved the template and styles of the generated HTML page. ([7d8ea27](https://github.com/DevoInc/genesys-tokens/commit/7d8ea27e68ea15f6e2d8f3b9f77689fa41bd15d6))
+
 ### [3.8.2](https://github.com/DevoInc/genesys-tokens/compare/v3.8.1...v3.8.2) (2023-01-10)
 
 ### [3.8.1](https://github.com/DevoInc/genesys-tokens/compare/v3.8.0...v3.8.1) (2023-01-09)
