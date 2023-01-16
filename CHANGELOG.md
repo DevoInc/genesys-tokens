@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/DevoInc/genesys-tokens/compare/v4.0.0...v4.1.0) (2023-01-16)
+
+
+### Features
+
+* **tokens:** Dialog header color background tokens with transparency for dark scheme ([cf94255](https://github.com/DevoInc/genesys-tokens/commit/cf9425570aa8d0191373898112a88130480cf533))
+
 ## [4.0.0](https://github.com/DevoInc/genesys-tokens/compare/v3.8.2...v4.0.0) (2023-01-12)
 
 
