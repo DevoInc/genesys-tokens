@@ -194,6 +194,29 @@
           }
         }
       }
+    },
+    "dialog": {
+      "header": {
+        "color": {
+          "background": {
+            "success": {
+              "value": "{alias.color.background.surface.blend.success.weakest.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.surface.blend.warning.weakest.value}"
+            },
+            "error": {
+              "value": "{alias.color.background.surface.blend.error.weakest.value}"
+            },
+            "help": {
+              "value": "{alias.color.background.surface.blend.help.weakest.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.surface.blend.info.weakest.value}"
+            }
+          }
+        }
+      }
     }
   }
 }
