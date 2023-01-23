@@ -202,7 +202,7 @@
           },
           "weaker": {
             "value": "{global.color.neutral.07.value}",
-            "comment": "Low emphasis text color for form field placeholders."
+            "comment": "Lower emphasis text color for form field placeholders."
           },
           "weakest": {
             "value": "{global.color.neutral.06.value}",
