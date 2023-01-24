@@ -185,27 +185,27 @@
       "text": {
         "body": {
           "base": {
-            "value": "{global.color.neutral.09.value}",
+            "value": "{global.color.neutral.11.value}",
             "comment": "Default text color for the App."
           },
           "strong": {
-            "value": "{global.color.neutral.12.value}",
+            "value": "{global.color.neutral.14.value}",
             "comment": "Emphasis text color for strong content."
           },
           "stronger": {
-            "value": "{global.color.neutral.15.value}",
+            "value": "{global.color.neutral.16.value}",
             "comment": "Emphasis text color for headings and interactive components."
           },
           "weak": {
-            "value": "{global.color.neutral.07.value}",
+            "value": "{global.color.neutral.08.value}",
             "comment": "Low emphasis text color for non essential content."
           },
           "weaker": {
-            "value": "{global.color.neutral.06.value}",
-            "comment": "Low emphasis text color for form field placeholders."
+            "value": "{global.color.neutral.07.value}",
+            "comment": "Lower emphasis text color for form field placeholders."
           },
           "weakest": {
-            "value": "{global.color.neutral.05.value}",
+            "value": "{global.color.neutral.06.value}",
             "comment": "Lowest emphasis text color for disabled state."
           },
           "inverse": {
