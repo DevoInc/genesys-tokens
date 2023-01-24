@@ -4,6 +4,9 @@
       "loader": {
         "size": {
           "width": {
+            "xxs": {
+              "value": "{alias.size.square.icon.base.xxxs.value}"
+            },
             "xs": {
               "value": "{alias.size.square.icon.base.xxs.value}"
             },

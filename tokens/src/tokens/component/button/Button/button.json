@@ -1090,7 +1090,7 @@
       "space": {
         "padding": {
           "xxs": {
-            "value": "{alias.space.cmp.xs.value}"
+            "value": "{alias.space.cmp.xxs.value}"
           },
           "xs": {
             "value": "{alias.space.cmp.xs.value}"

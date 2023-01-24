@@ -4,6 +4,12 @@
       "label": {
         "typo": {
           "fontSize": {
+            "xxs": {
+              "value": "{alias.typo.fontSize.action.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.typo.fontSize.action.xs.value}"
+            },
             "sm": {
               "value": "{alias.typo.fontSize.action.sm.value}"
             },
