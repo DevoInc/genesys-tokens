@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/DevoInc/genesys-tokens/compare/v4.1.0...v4.2.0) (2023-01-24)
+
+
+### Features
+
+* **tokens:** UXW-784 Higher contrast for body text token values ([#13](https://github.com/DevoInc/genesys-tokens/issues/13)) ([f7885bb](https://github.com/DevoInc/genesys-tokens/commit/f7885bb5b8c72e0a4784d53395045653dd47c371))
+
 ## [4.1.0](https://github.com/DevoInc/genesys-tokens/compare/v4.0.0...v4.1.0) (2023-01-16)
 
 
