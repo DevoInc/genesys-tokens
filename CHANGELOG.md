@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.3.0](https://github.com/DevoInc/genesys-tokens/compare/v4.2.0...v4.3.0) (2023-01-25)
+
+
+### Features
+
+* **tokens:** added the token values needed for new sizes available in Button component ([#14](https://github.com/DevoInc/genesys-tokens/issues/14)) ([3f6dc5d](https://github.com/DevoInc/genesys-tokens/commit/3f6dc5d0068ffbce857a73b8d524bf48b14ec41a))
+
 ## [4.2.0](https://github.com/DevoInc/genesys-tokens/compare/v4.1.0...v4.2.0) (2023-01-24)
 
 

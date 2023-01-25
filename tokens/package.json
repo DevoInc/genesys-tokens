@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-tokens",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Design tokens generator",

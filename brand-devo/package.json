@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-brand-devo",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Devo brand tokens",
@@ -31,7 +31,7 @@
     "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "dependencies": {
-    "@devoinc/genesys-tokens-cli": "^4.2.0"
+    "@devoinc/genesys-tokens-cli": "^4.3.0"
   },
   "publishConfig": {
     "access": "public"
