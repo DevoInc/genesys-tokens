@@ -23,6 +23,9 @@
         },
         "space": {
           "margin": {
+            "xxs": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
             "xs": {
               "value": "{alias.space.cmp.xxs.value}"
             },
@@ -37,6 +40,12 @@
             }
           },
           "offset": {
+            "xxs": {
+              "value": "calc(({alias.size.height.action.xxs.value} / 8) * -1)"
+            },
+            "xs": {
+              "value": "calc(({alias.size.height.action.xs.value} / 8) * -1)"
+            },
             "sm": {
               "value": "calc(({alias.size.height.action.sm.value} / 8) * -1)"
             },
