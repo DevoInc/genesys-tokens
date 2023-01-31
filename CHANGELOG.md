@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.3.1](https://github.com/DevoInc/genesys-tokens/compare/v4.3.0...v4.3.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* **tokens:** QUV-584 Higher contrast for vault frame text color tokens. ([25d5439](https://github.com/DevoInc/genesys-tokens/commit/25d5439d51feaf02f5bbd30d8db72ba6ae7d2acd))
+
 ## [4.3.0](https://github.com/DevoInc/genesys-tokens/compare/v4.2.0...v4.3.0) (2023-01-25)
 
 
