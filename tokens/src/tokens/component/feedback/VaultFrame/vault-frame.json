@@ -12,10 +12,10 @@
         },
         "text": {
           "warning": {
-            "value": "{alias.color.text.feedback.warning.base.value}"
+            "value": "{alias.color.text.feedback.warning.strong.value}"
           },
           "error": {
-            "value": "{alias.color.text.feedback.error.base.value}"
+            "value": "{alias.color.text.feedback.error.strong.value}"
           }
         }
       }
