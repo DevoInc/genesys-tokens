@@ -413,8 +413,6 @@
   window.datasets = [];
   window.filteredTokens = [];
 
-  window.regexMode = false;
-
   // --------------------------------------------------------------------------
   // --------------------------------------------------------------------------
   // -- Fill categories in selects --------------------------------------------
@@ -765,7 +763,7 @@
   const updateUrl = (param, value) => {
     const url = new URL(window.location.href);
     const searchParams = url.searchParams;
-    if (value === "" || value === window.defaultAllOption) {
+    if (!value || value === "" || value === window.defaultAllOption) {
       searchParams.delete(param);
     } else {
       searchParams.set(param, value);
@@ -800,8 +798,7 @@
 
   const toggleRegexMode = (element) => {
     element.classList.toggle('active');
-    window.regexMode = !window.regexMode;
-
+    updateUrl('regex', element.classList.contains("active"));
     applyFilters();
     renderContent();
   }
@@ -853,6 +850,7 @@
     const urlParams = new URLSearchParams(search);
     // Selectors
     const searchSelector = document.querySelector("#searchSelector");
+    const regexSelector = document.querySelector("#regexSelector");
     const formatSelector = document.querySelector("#formatSelector");
     const schemaSelector = document.querySelector("#schemaSelector");
     const tierSelector = document.querySelector("#tierSelector");
@@ -863,6 +861,7 @@
     // Set value of all form elements based on url params.
     searchSelector.value =
       urlParams.get("query") || "";
+    regexSelector.classList.toggle('active', !!urlParams.get("regex"));
     formatSelector.value =
       urlParams.get("format") || "js";
     schemaSelector.value =
@@ -1006,11 +1005,11 @@
           if (format === "json") return { ...token, _formatted: token.name };
         });
       },
-      query: (query) => (tokens) => {
+      query: (query, regexMode) => (tokens) => {
         const errMsgElement = document.querySelector('#regexErrorMsg');
         errMsgElement.classList.toggle('hidden', true);
         if (!query) return { query, tokens };
-        if (window.regexMode) {
+        if (regexMode) {
           try {
             return {
               query: '',
@@ -1073,9 +1072,11 @@
   const applyFilters = () => {
     const search = window.location.search;
     const urlParams = new URLSearchParams(search);
+    const isRegexMode = urlParams.get('regex');
     // Apply all filters from url
     window.filteredTokens = [...filtersFns.entries()].reduce(
-      (acc, [filterId, filterFn]) => filterFn(urlParams.get(filterId))(acc),
+      (acc, [filterId, filterFn]) =>
+        filterFn(urlParams.get(filterId), isRegexMode)(acc),
       window.datasets
     );
   };
