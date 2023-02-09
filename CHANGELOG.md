@@ -1,5 +1,19 @@
 # Changelog
 
+## [5.0.0](https://github.com/DevoInc/genesys-tokens/compare/v4.3.1...v5.0.0) (2023-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* The following tokens have been renamed:
+- `cmp.tabs.item.color.text.active` -> `[...].text.selected`
+- `cmp.tabs.item.color.text.base` -> `[...].text.enabled`
+
+### Features
+
+* **brand-devo:** allow regex search in tokens preview ([#17](https://github.com/DevoInc/genesys-tokens/issues/17)) ([5546d98](https://github.com/DevoInc/genesys-tokens/commit/5546d9867a890e90a746d06e84095144932825ff))
+* rename `Tabs Item` text color tokens ([#16](https://github.com/DevoInc/genesys-tokens/issues/16)) ([6c0b2a5](https://github.com/DevoInc/genesys-tokens/commit/6c0b2a535091f9507add1268181b20a50d13dad5))
+
 ### [4.3.1](https://github.com/DevoInc/genesys-tokens/compare/v4.3.0...v4.3.1) (2023-01-31)
 
 
