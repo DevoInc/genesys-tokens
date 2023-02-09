@@ -228,6 +228,37 @@
       border-color: #c3d3de;
     }
 
+    .button__container {
+      display: flex;
+      gap: 0.5rem;
+      cursor: pointer;
+    }
+
+    .button__container button {
+      width: 4rem;
+      border-width: 0rem;
+      border-style: solid;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, 0.08);
+      color: rgba(0, 0, 0, 0.64);
+      cursor: pointer;
+    }
+
+    .button__container button:hover {
+      background-color: #cfdce4;
+    }
+
+    .button__container button.active {
+      background-color: #C6DBF5;
+      text-shadow: 0 0 0.5px;
+    }
+
+    #regexErrorMsg {
+      color: #d62433;
+      font-size: var(--fs-sm);
+    }
+
 
     /* PREVIEW ---------------------------------------------------------------*/
 
@@ -301,7 +332,12 @@
       <div class="filter">
         <div class="field">
           <label for="searchSelector">Free search</label>
-          <input type="text" id="searchSelector" name="search query" val="" placeholder="Search by token name" />
+          <div class="button__container">
+            <input type="text" id="searchSelector" name="search query" val="" placeholder="Search by token name" />
+            <button id="regexSelector" title="Use Regular Expression">(.*)</button>
+          </div>
+          <label for="regexSelector" id="regexErrorMsg"
+            class="error__message hidden"><!-- To be filled dinamically -->nnnnn</label>
         </div>
         <div class="field">
           <label for="formatSelector">Format</label>
@@ -355,7 +391,7 @@
             <tr>
               <th>Token</th>
               <th>Raw Value</th>
-              <th>Preview</th> 
+              <th>Preview</th>
             </tr>
           </thead>
           <tbody>
@@ -376,6 +412,8 @@
 
   window.datasets = [];
   window.filteredTokens = [];
+
+  window.regexMode = false;
 
   // --------------------------------------------------------------------------
   // --------------------------------------------------------------------------
@@ -760,6 +798,14 @@
     }
   };
 
+  const toggleRegexMode = (element) => {
+    element.classList.toggle('active');
+    window.regexMode = !window.regexMode;
+
+    applyFilters();
+    renderContent();
+  }
+
   // Utils
   const dataTag = (key, val) => val !== window.defaultAllOption ? `[data-${key}=${val}]` : '';
 
@@ -767,6 +813,10 @@
   const searchSelector = document.querySelector("#searchSelector");
   searchSelector.addEventListener("input",
     debounce((ev) => handleBaseParamChange("query", ev.target.value), 200)
+  );
+  // Regex
+  const regexSelector = document.querySelector("#regexSelector");
+  regexSelector.addEventListener("click", () => toggleRegexMode(regexSelector)
   );
   // Format
   const formatSelector = document.querySelector("#formatSelector");
@@ -957,15 +1007,37 @@
         });
       },
       query: (query) => (tokens) => {
+        const errMsgElement = document.querySelector('#regexErrorMsg');
+        errMsgElement.classList.toggle('hidden', true);
         if (!query) return { query, tokens };
-        const cleanQuery = query.trim().toLowerCase();
-        return {
-          query: cleanQuery,
-          tokens: tokens.filter((token) =>
-            token._formatted.toLowerCase().includes(cleanQuery) ||
-            token.value.toString().toLowerCase().includes(cleanQuery)
-          )
-        };
+        if (window.regexMode) {
+          try {
+            return {
+              query: '',
+              tokens: tokens.filter((token) =>
+                token._formatted.match(query) ||
+                token.value.toString().match(query)
+              )
+            };
+          } catch (err) {
+            errMsgElement.classList.toggle('hidden');
+            errMsgElement.innerHTML = err.message;
+            return {
+              query: '',
+              tokens: []
+            };
+          }
+
+        } else {
+          const cleanQuery = query.trim().toLowerCase();
+          return {
+            query: cleanQuery,
+            tokens: tokens.filter((token) =>
+              token._formatted.toLowerCase().includes(cleanQuery) ||
+              token.value.toString().toLowerCase().includes(cleanQuery)
+            )
+          };
+        }
       },
       highlight: () => ({ query, tokens }) => {
         if (!query) return tokens;
