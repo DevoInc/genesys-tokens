@@ -9,10 +9,10 @@
             }
           },
           "text": {
-            "base": {
+            "enabled": {
               "value": "{alias.color.text.body.weak.value}"
             },
-            "active": {
+            "selected": {
               "value": "{alias.color.text.action.quiet.activated.value}"
             },
             "disabled": {
