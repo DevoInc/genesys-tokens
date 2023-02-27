@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.1.0](https://github.com/DevoInc/genesys-tokens/compare/v5.0.0...v5.1.0) (2023-02-27)
+
+
+### Features
+
+* improve tokens preview. ([4eee456](https://github.com/DevoInc/genesys-tokens/commit/4eee456215e7463e7febb6d668587d9adf7c9a2c))
+* **tokens:** QUV-728 modified elevation z-index value from '0' to 'unset' to avoid problems when there are elements with z-index inside other ones with those token values. ([#18](https://github.com/DevoInc/genesys-tokens/issues/18)) ([92a970f](https://github.com/DevoInc/genesys-tokens/commit/92a970f555205eb7be4556b01562a6e8d567f507))
+
 ## [5.0.0](https://github.com/DevoInc/genesys-tokens/compare/v4.3.1...v5.0.0) (2023-02-09)
 
 
