@@ -4,10 +4,10 @@
       "zIndex": {
         "depth": {
           "ground": {
-            "value": 0
+            "value": "unset"
           },
           "raised": {
-            "value": 0
+            "value": "unset"
           },
           "stickyTop": {
             "value": 100
