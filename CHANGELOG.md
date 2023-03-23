@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.2.0](https://github.com/DevoInc/genesys-tokens/compare/v5.1.0...v5.2.0) (2023-03-23)
+
+
+### Features
+
+* **brand-devo:** add support to es6 output ([9bbbd18](https://github.com/DevoInc/genesys-tokens/commit/9bbbd181d0605f057c34bee6c89561ff236cbf1d))
+* **tokens:** add es6 output ([786c4e3](https://github.com/DevoInc/genesys-tokens/commit/786c4e390edd1462188df0986ab2f40c31514496))
+
 ## [5.1.0](https://github.com/DevoInc/genesys-tokens/compare/v5.0.0...v5.1.0) (2023-02-27)
 
 
