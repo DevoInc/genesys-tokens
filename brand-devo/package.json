@@ -5,7 +5,8 @@
   "license": "MIT",
   "description": "Devo brand tokens",
   "main": "dist/index",
-  "types": "dist/index",
+  "module": "./dist/index.esm.js",
+  "types": "dist/index.d",
   "scripts": {
     "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
