@@ -1,11 +1,12 @@
 {
   "name": "@devoinc/genesys-brand-devo",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Devo brand tokens",
   "main": "dist/index",
-  "types": "dist/index",
+  "module": "./dist/index.esm.js",
+  "types": "dist/index.d",
   "scripts": {
     "clean": "rm -rf dist/light dist/dark",
     "build": "npm run build:light && npm run build:dark",
@@ -31,7 +32,7 @@
     "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "dependencies": {
-    "@devoinc/genesys-tokens-cli": "^5.1.0"
+    "@devoinc/genesys-tokens-cli": "^5.2.0"
   },
   "publishConfig": {
     "access": "public"

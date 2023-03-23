@@ -38,24 +38,11 @@ export const getStyleDictionaryConfig = (
       transformGroup: 'tokens-js',
       buildPath: output,
       files: [
+        // MODULE
         {
           destination: 'js/dev/tokens.module.all.js',
           format: 'javascript/module',
           filter: 'isNotFigma',
-        },
-        {
-          destination: 'js/tokens.module.reduced.meta.js',
-          format: 'javascript/module-reduced',
-          filter: {
-            attributes: {
-              tier: 'meta',
-            },
-          },
-        },
-        {
-          destination: 'js/dev/tokens.module.reduced.global.js',
-          format: 'javascript/module-reduced',
-          filter: 'isGlobal',
         },
         {
           destination: 'js/dev/tokens.module.alias.js',
@@ -63,38 +50,25 @@ export const getStyleDictionaryConfig = (
           filter: 'isAlias',
         },
         {
+          destination: 'js/dev/tokens.module.cmp.js',
+          format: 'javascript/module',
+          filter: 'isCmp',
+        },
+        // MODULE REDUCED
+        // dev
+        {
+          destination: 'js/dev/tokens.module.reduced.global.js',
+          format: 'javascript/module-reduced',
+          filter: 'isGlobal',
+        },
+        {
           destination: 'js/dev/tokens.module.reduced.alias.js',
           format: 'javascript/module-reduced',
           filter: 'isAlias',
         },
         {
-          destination: 'js/tokens.module.reduced.alias.js',
-          format: 'javascript/module-reduced',
-          filter: 'isAlias',
-        },
-        {
-          destination: 'js/tokens.module.reduced.alias.min.js',
-          format: 'javascript/module-reduced-min',
-          filter: 'isAlias',
-        },
-        {
-          destination: 'js/dev/tokens.module.cmp.js',
-          format: 'javascript/module',
-          filter: 'isCmp',
-        },
-        {
           destination: 'js/dev/tokens.module.reduced.cmp.js',
           format: 'javascript/module-reduced',
-          filter: 'isCmp',
-        },
-        {
-          destination: 'js/tokens.module.reduced.cmp.js',
-          format: 'javascript/module-reduced',
-          filter: 'isCmp',
-        },
-        {
-          destination: 'js/tokens.module.reduced.cmp.min.js',
-          format: 'javascript/module-reduced-min',
           filter: 'isCmp',
         },
         {
@@ -107,6 +81,59 @@ export const getStyleDictionaryConfig = (
           format: 'javascript/module-reduced',
           filter: 'isBrand',
         },
+        // root
+        {
+          destination: 'js/tokens.module.reduced.alias.js',
+          format: 'javascript/module-reduced',
+          filter: 'isAlias',
+        },
+        {
+          destination: 'js/tokens.module.reduced.meta.js',
+          format: 'javascript/module-reduced',
+          filter: {
+            attributes: {
+              tier: 'meta',
+            },
+          },
+        },
+        {
+          destination: 'js/tokens.module.reduced.cmp.js',
+          format: 'javascript/module-reduced',
+          filter: 'isCmp',
+        },
+
+        // MODULE REDUCED MIN
+        {
+          destination: 'js/tokens.module.reduced.alias.min.js',
+          format: 'javascript/module-reduced-min',
+          filter: 'isAlias',
+        },
+        {
+          destination: 'js/tokens.module.reduced.cmp.min.js',
+          format: 'javascript/module-reduced-min',
+          filter: 'isCmp',
+        },
+        // ESM
+        {
+          destination: 'js/tokens.esm.alias.js',
+          format: 'javascript/esm-reduced-min',
+          filter: 'isAlias',
+        },
+        {
+          destination: 'js/tokens.esm.meta.js',
+          format: 'javascript/esm-reduced-min',
+          filter: {
+            attributes: {
+              tier: 'meta',
+            },
+          },
+        },
+        {
+          destination: 'js/tokens.esm.cmp.js',
+          format: 'javascript/esm-reduced-min',
+          filter: 'isCmp',
+        },
+        // DECLARATION
         {
           destination: 'js/index.d.ts',
           format: 'typescript/module-reduced-declarations',

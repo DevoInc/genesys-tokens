@@ -14,6 +14,7 @@ StyleDictionary.registerFormat(formats.figma.figmatokens);
 StyleDictionary.registerFormat(formats.text.flat);
 StyleDictionary.registerFormat(formats.javascript.moduleReduced);
 StyleDictionary.registerFormat(formats.javascript.moduleReducedMin);
+StyleDictionary.registerFormat(formats.javascript.esmReducedMin);
 StyleDictionary.registerFormat(formats.scss.variablesMin);
 StyleDictionary.registerFormat(formats.css.variablesMin);
 StyleDictionary.registerFormat(formats.typescript.moduleReducedDeclarations);
