@@ -67,10 +67,16 @@
             }
           },
           "background": {
-            "enabled": {
-              "value": "red"
+            "created": {
+              "value": "{alias.color.background.surface.base.created.value}"
+            },
+            "deleted": {
+              "value": "{alias.color.background.surface.base.deleted.value}"
             },
             "disabled": {
+              "value": "{alias.color.background.surface.base.base.value}"
+            },
+            "enabled": {
               "value": "{alias.color.background.surface.base.base.value}"
             },
             "featured": {
@@ -96,10 +102,16 @@
             }
           },
           "text": {
-            "enabled": {
-              "value": "{alias.color.text.action.neutral.enabled.value}"
+            "created": {
+              "value": "{alias.color.text.action.success.enabled.value}"
+            },
+            "deleted": {
+              "value": "{alias.color.text.action.error.enabled.value}"
             },
             "disabled": {
+              "value": "{alias.color.text.action.neutral.enabled.value}"
+            },
+            "enabled": {
               "value": "{alias.color.text.action.neutral.enabled.value}"
             },
             "expanded": {
