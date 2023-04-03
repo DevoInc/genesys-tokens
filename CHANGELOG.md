@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.3.0](https://github.com/DevoInc/genesys-tokens/compare/v5.2.0...v5.3.0) (2023-04-03)
+
+
+### Features
+
+* **tokens:** QUV-537 New MenuItem tokens added ([#19](https://github.com/DevoInc/genesys-tokens/issues/19)) ([b0d8c6d](https://github.com/DevoInc/genesys-tokens/commit/b0d8c6d43cd533c3a02c006635811c1956f5faf4))
+
 ## [5.2.0](https://github.com/DevoInc/genesys-tokens/compare/v5.1.0...v5.2.0) (2023-03-23)
 
 
