@@ -2,9 +2,49 @@
   "plugins": {
     "@release-it-plugins/workspaces": true,
     "@release-it/conventional-changelog": {
-      "preset": "conventionalcommits",
       "infile": "CHANGELOG.md",
-      "header": "# Changelog"
+      "header": "# Changelog",
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "Features"
+          },
+          {
+            "type": "fix",
+            "section": "Bug Fixes"
+          },
+          {
+            "type": "vuln",
+            "section": "Vulnerabilities"
+          },
+          {
+            "type": "chore",
+            "hidden": true
+          },
+          {
+            "type": "docs",
+            "hidden": true
+          },
+          {
+            "type": "style",
+            "hidden": true
+          },
+          {
+            "type": "refactor",
+            "hidden": true
+          },
+          {
+            "type": "perf",
+            "hidden": true
+          },
+          {
+            "type": "test",
+            "hidden": true
+          }
+        ]
+      }
     }
   },
   "github": {
