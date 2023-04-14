@@ -12,10 +12,8 @@
         }
       },
       "size": {
-        "height": {
-          "full": {
-            "value": "100%"
-          }
+        "minWidth": {
+          "value": "48rem"
         },
         "width": {
           "value": "100%"
@@ -31,30 +29,30 @@
             "value": "80rem"
           },
           "xl": {
-            "value": "120rem"
+            "value": "99rem"
           },
           "full": {
-            "value": "unset"
+            "value": "calc(100% - {cmp.modal.space.padding.value} * 2)"
           }
         },
         "maxHeight": {
-          "value": "100%"
+          "value": "calc(100% - {cmp.modal.space.padding.value} * 2)"
         },
-        "minHeight": {
+        "height": {
           "sm": {
-            "value": "37rem"
+            "value": "32rem"
           },
           "md": {
-            "value": "43rem"
+            "value": "36rem"
           },
           "lg": {
-            "value": "50rem"
+            "value": "48rem"
           },
           "xl": {
-            "value": "74rem"
+            "value": "64rem"
           },
           "full": {
-            "value": "unset"
+            "value": "100%"
           }
         }
       }

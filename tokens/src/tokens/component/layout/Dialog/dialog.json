@@ -2,7 +2,7 @@
   "cmp": {
     "dialog": {
       "size": {
-        "minHeight": {
+        "height": {
           "value": "unset"
         },
         "maxWidth": {
