@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.4.0](https://github.com/DevoInc/genesys-tokens/compare/v5.3.0...v5.4.0) (2023-04-14)
+
+
+### Features
+
+* **tokens:** QUV-343 New modal size tokens ([#24](https://github.com/DevoInc/genesys-tokens/issues/24)) ([6ff6815](https://github.com/DevoInc/genesys-tokens/commit/6ff6815ddbe64522a0d24be607881f20dc5ffe66))
+
 ## [5.3.0](https://github.com/DevoInc/genesys-tokens/compare/v5.2.0...v5.3.0) (2023-04-03)
 
 
