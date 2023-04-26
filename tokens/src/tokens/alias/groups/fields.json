@@ -474,6 +474,17 @@
         }
       },
       "shape": {
+        "backgroundImage": {
+          "date": {
+            "value": "{brand.shape.backgroundImage.fields.date.value}"
+          },
+          "time": {
+            "value": "{brand.shape.backgroundImage.fields.time.value}"
+          },
+          "search": {
+            "value": "{brand.shape.backgroundImage.fields.search.value}"
+          }
+        },
         "borderRadius": {
           "value": "{global.shape.borderRadius.md.value}"
         },

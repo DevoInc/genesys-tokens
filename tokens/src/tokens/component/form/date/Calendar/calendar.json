@@ -1,6 +1,11 @@
 {
   "cmp": {
     "calendar": {
+      "size": {
+        "minWidth": {
+          "value": "23rem"
+        }
+      },
       "week": {
         "color": {
           "text": {
@@ -13,6 +18,9 @@
       "day": {
         "color": {
           "background": {
+            "hovered": {
+              "value": "{alias.color.background.surface.base.raised.value}"
+            },
             "selected": {
               "value": "{alias.fields.color.background.base.checked.value}"
             },
@@ -24,12 +32,20 @@
             "base": {
               "value": "{alias.color.text.body.base.value}"
             },
+            "hovered": {
+              "value": "{alias.color.text.body.strong.value}"
+            },
             "selected": {
               "value": "{alias.fields.color.text.base.checked.value}"
             },
             "activated": {
               "value": "{alias.fields.color.text.base.checked.value}"
             }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.button.mutation.transitionDuration.value}"
           }
         }
       },
