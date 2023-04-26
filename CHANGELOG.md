@@ -1,5 +1,18 @@
 # Changelog
 
+## [5.5.0](https://github.com/DevoInc/genesys-tokens/compare/v5.4.0...v5.5.0) (2023-04-26)
+
+
+### Features
+
+* **tokens:** QUV-575 Added tokens for DateRange components ([1a5b151](https://github.com/DevoInc/genesys-tokens/commit/1a5b1514e2992184b8e4dba066e45b1cb0e7f2db))
+
+
+### Vulnerabilities
+
+* **deps:** bump vm2 from 3.9.16 to 3.9.17 ([#25](https://github.com/DevoInc/genesys-tokens/issues/25)) ([49e2be5](https://github.com/DevoInc/genesys-tokens/commit/49e2be5f6ce86e968bac9ee159329733c100cc2a))
+* **deps:** bump yaml and release-it ([de777ef](https://github.com/DevoInc/genesys-tokens/commit/de777efb0b89dc072b12ec1bcaebd6530a1c6ced))
+
 ## [5.4.0](https://github.com/DevoInc/genesys-tokens/compare/v5.3.0...v5.4.0) (2023-04-14)
 
 
