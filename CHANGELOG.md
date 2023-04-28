@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.6.0](https://github.com/DevoInc/genesys-tokens/compare/v5.5.0...v5.6.0) (2023-04-28)
+
+
+### Features
+
+* **tokens:** QUV-704 Enhanced checked Colors in form components and new background images for inputs ([#28](https://github.com/DevoInc/genesys-tokens/issues/28)) ([284f2b2](https://github.com/DevoInc/genesys-tokens/commit/284f2b2861d2d1b1fcb01be3d35d0373f30cf58e))
+
 ## [5.5.0](https://github.com/DevoInc/genesys-tokens/compare/v5.4.0...v5.5.0) (2023-04-26)
 
 
