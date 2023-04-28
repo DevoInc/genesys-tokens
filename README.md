@@ -9,17 +9,13 @@ The project is built using `npm workspaces` and contains the following packages:
 
 [![npm version](https://img.shields.io/npm/v/@devoinc/genesys-tokens?label=%40devoinc%2Fgenesys-tokens)](https://www.npmjs.com/package/@devoinc/genesys-tokens)
 [![npm version](https://img.shields.io/npm/v/@devoinc/genesys-tokens-cli?label=%40devoinc%2Fgenesys-tokens-cli)](https://www.npmjs.com/package/@devoinc/genesys-tokens-cli)
-[![npm version](https://img.shields.io/npm/v/@devoinc/genesys-brand-devo?label=%40devoinc%2Fgenesys-brand-devo)](https://www.npmjs.com/package/@devoinc/genesys-brand-devo)
 
 - **tokens:** Tokens definition and generation tools.
 - **tokens-cli:** Command-line interface for the token generation tools.
-- **brand-devo:** _Brand Devo_ design tokens to be consumed in different formats.
 
 The packages have the following interdependencies:
 
 ```
-├─┬ @devoinc/genesys-brand-devo
-│ └── @devoinc/genesys-tokens-cli
 ├─┬ @devoinc/genesys-tokens-cli
 │ ├── @devoinc/genesys-tokens
 ├─┬ @devoinc/genesys-tokens
@@ -36,17 +32,14 @@ git clone https://github.com/devoinc/genesys-tokens
 cd genesys-tokens
 ## Install dependencies
 npm ci
-## Generate tokens for Devo's brand
+## Generate the lib and the cli
 npm run dist
 ```
-
-Once these commands are run, the generated brands are available inside [brand-devo/dist](./brand-devo/dist/).
 
 ## Documentation
 
 For detailed documentation please refer to the READMEs of the internal packages:
 
-- [brand-devo/README.md](./brand-devo/README.md)
 - [tokens/README.md](./tokens/README.md)
 - [tokens-cli/README.md](./tokens-cli/README.md)
 
