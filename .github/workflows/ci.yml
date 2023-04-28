@@ -19,11 +19,6 @@ on:
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   # --------------PREPARE REPOSITORY--------------
   prepare:
@@ -169,45 +164,3 @@ jobs:
         with:
           name: mutation-test-results
           path: mutation-test-results
-
-  # --------------DEPLOY TO PAGES--------------
-  deploy:
-    needs: [lint, unit-test, dist]
-    if: github.ref == 'refs/heads/master'
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Use node modules cache
-        id: cache-npm
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
-
-      - name: Generate dist files
-        run: npm run dist
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "./brand-devo/dist"
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
