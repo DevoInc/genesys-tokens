@@ -443,11 +443,11 @@
           }
         },
         "handler": {
-          "value": "{global.color.neutral.15.value}"
+          "value": "{global.color.neutral.03.value}"
         },
         "track": {
           "base": {
-            "value": "{global.color.neutral.13.value}"
+            "value": "{global.color.neutral.12.value}"
           },
           "blend": {
             "value": "{global.color.blend.white.02.value}"

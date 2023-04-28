@@ -483,6 +483,14 @@
           },
           "search": {
             "value": "{brand.shape.backgroundImage.fields.search.value}"
+          },
+          "searchCancel": {
+            "base": {
+              "value": "{brand.shape.backgroundImage.fields.searchCancel.base.value}"
+            },
+            "hovered": {
+              "value": "{brand.shape.backgroundImage.fields.searchCancel.hovered.value}"
+            }
           }
         },
         "borderRadius": {

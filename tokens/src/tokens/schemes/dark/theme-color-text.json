@@ -26,7 +26,7 @@
               "value": "{global.color.neutral.02.value}"
             },
             "checked": {
-              "value": "{global.color.neutral.16.value}"
+              "value": "{global.color.neutral.01.value}"
             },
             "unchecked": {
               "value": "{global.color.neutral.02.value}"

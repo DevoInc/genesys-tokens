@@ -12,6 +12,11 @@
         }
       },
       "size": {
+        "height": {
+          "full": {
+            "value": "100%"
+          }
+        },
         "minWidth": {
           "value": "48rem"
         },
