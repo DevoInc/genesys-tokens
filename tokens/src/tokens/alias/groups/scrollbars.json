@@ -17,7 +17,7 @@
       "track": {
         "color": {
           "backdrop": {
-            "value": "{alias.color.background.surface.backdrop.base.base.value}"
+            "value": "{theme.scrollbars.track.color.backdrop.value}"
           }
         },
         "shape": {
