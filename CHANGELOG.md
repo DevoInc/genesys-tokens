@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.7.0](https://github.com/DevoInc/genesys-tokens/compare/v5.6.0...v5.7.0) (2023-05-04)
+
+
+### Features
+
+* **tokens:** QUV-959 New color background for scrollbar track in each scheme ([#29](https://github.com/DevoInc/genesys-tokens/issues/29)) ([ee917ab](https://github.com/DevoInc/genesys-tokens/commit/ee917abd36380ede413f313936342548621144c3))
+
 ## [5.6.0](https://github.com/DevoInc/genesys-tokens/compare/v5.5.0...v5.6.0) (2023-04-28)
 
 
