@@ -1,0 +1,105 @@
+{
+  "alias": {
+    "charts": {
+      "color": {
+        "fill": {
+          "heatRange": {
+            "00": {
+              "value": "{global.color.temperature.00.value}"
+            },
+            "01": {
+              "value": "{global.color.temperature.01.value}"
+            },
+            "02": {
+              "value": "{global.color.temperature.02.value}"
+            },
+            "03": {
+              "value": "{global.color.temperature.03.value}"
+            },
+            "04": {
+              "value": "{global.color.temperature.04.value}"
+            },
+            "05": {
+              "value": "{global.color.temperature.05.value}"
+            },
+            "06": {
+              "value": "{global.color.temperature.06.value}"
+            },
+            "07": {
+              "value": "{global.color.temperature.07.value}"
+            },
+            "08": {
+              "value": "{global.color.temperature.08.value}"
+            },
+            "09": {
+              "value": "{global.color.temperature.09.value}"
+            },
+            "10": {
+              "value": "{global.color.temperature.10.value}"
+            },
+            "11": {
+              "value": "{global.color.temperature.11.value}"
+            },
+            "12": {
+              "value": "{global.color.temperature.12.value}"
+            },
+            "13": {
+              "value": "{global.color.temperature.13.value}"
+            },
+            "14": {
+              "value": "{global.color.temperature.14.value}"
+            },
+            "15": {
+              "value": "{global.color.temperature.15.value}"
+            },
+            "16": {
+              "value": "{global.color.temperature.16.value}"
+            },
+            "17": {
+              "value": "{global.color.temperature.17.value}"
+            },
+            "18": {
+              "value": "{global.color.temperature.18.value}"
+            },
+            "19": {
+              "value": "{global.color.temperature.19.value}"
+            },
+            "20": {
+              "value": "{global.color.temperature.20.value}"
+            },
+            "21": {
+              "value": "{global.color.temperature.21.value}"
+            },
+            "22": {
+              "value": "{global.color.temperature.22.value}"
+            },
+            "23": {
+              "value": "{global.color.temperature.23.value}"
+            },
+            "24": {
+              "value": "{global.color.temperature.24.value}"
+            },
+            "25": {
+              "value": "{global.color.temperature.25.value}"
+            },
+            "26": {
+              "value": "{global.color.temperature.26.value}"
+            },
+            "27": {
+              "value": "{global.color.temperature.27.value}"
+            },
+            "28": {
+              "value": "{global.color.temperature.28.value}"
+            },
+            "29": {
+              "value": "{global.color.temperature.29.value}"
+            },
+            "30": {
+              "value": "{global.color.temperature.30.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
