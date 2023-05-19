@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.8.0](https://github.com/DevoInc/genesys-tokens/compare/v5.7.0...v5.8.0) (2023-05-19)
+
+
+### Features
+
+* **tokens:** UXW-933 Add heat-range tokens ([#31](https://github.com/DevoInc/genesys-tokens/issues/31)) ([5e27522](https://github.com/DevoInc/genesys-tokens/commit/5e275227b62b4025c209c4c1c83f3360e322e7a4))
+
+
+### Vulnerabilities
+
+* **deps:** bump vm2 from 3.9.17 to 3.9.18 ([5ae2e4c](https://github.com/DevoInc/genesys-tokens/commit/5ae2e4c1da11b1601a0be87331ff764deab7bfd4))
+
 ## [5.7.0](https://github.com/DevoInc/genesys-tokens/compare/v5.6.0...v5.7.0) (2023-05-04)
 
 
