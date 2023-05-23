@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "contentSwitcher": {
+      "button": {
+        "color": {
+          "background": {
+            "activated": {
+              "value": "{alias.handlers.color.background.value}"
+            }
+          },
+          "text": {
+            "activated": {
+              "value": "{alias.color.text.action.blendInverse.enabled.value}"
+            }
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "activated": {
+              "value": "{alias.handlers.elevation.boxShadow.enabled.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
