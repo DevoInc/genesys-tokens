@@ -10,7 +10,7 @@
           },
           "text": {
             "activated": {
-              "value": "{alias.color.text.action.blendInverse.enabled.value}"
+              "value": "{alias.color.text.action.accentHigh.enabled.value}"
             }
           }
         },
