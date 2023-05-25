@@ -1,0 +1,42 @@
+{
+  "cmp": {
+    "contentSwitcher": {
+      "space": {
+        "gap": {
+          "value": "{alias.space.cmp.xxs.value}"
+        },
+        "padding": {
+          "value": "calc({alias.space.cmp.xxs.value} / 2)"
+        }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.size.height.action.sm.value}"
+          },
+          "md": {
+            "value": "{alias.size.height.action.md.value}"
+          },
+          "lg": {
+            "value": "{alias.size.height.action.lg.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.md.value}"
+        }
+      },
+      "color": {
+        "background": {
+          "blendBase": {
+            "value": "{alias.color.background.action.blendBase.enabled.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.background.action.neutral.enabled.value}"
+          }
+        }
+      }
+    }
+  }
+}
