@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.9.0](https://github.com/DevoInc/genesys-tokens/compare/v5.8.0...v5.9.0) (2023-05-25)
+
+
+### Features
+
+* **ContentSwitcher:** UXW-924 component tokens ([0bcae3c](https://github.com/DevoInc/genesys-tokens/commit/0bcae3c1d02e8bccfca730587b5462dae7d2da92))
+
 ## [5.8.0](https://github.com/DevoInc/genesys-tokens/compare/v5.7.0...v5.8.0) (2023-05-19)
 
 
