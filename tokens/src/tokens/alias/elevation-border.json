@@ -1,0 +1,11 @@
+{
+  "alias": {
+    "elevation": {
+      "color": {
+        "border": {
+          "value" : "{alias.color.border.separator.base.weak.value}"
+        }
+      }
+    }
+  }
+}
