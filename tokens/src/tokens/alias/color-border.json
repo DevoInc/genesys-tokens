@@ -2,6 +2,40 @@
   "alias": {
     "color": {
       "border": {
+        "elevation": {
+          "ground": {
+            "value": "unset"
+          },
+          "raised": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "sticky": {
+            "bottom": {
+              "value": "{alias.color.border.separator.base.weak.value}"
+            },
+            "top": {
+              "value": "{alias.color.border.separator.base.weak.value}"
+            },
+            "right": {
+              "value": "{alias.color.border.separator.base.weak.value}"
+            },
+            "left": {
+              "value": "{alias.color.border.separator.base.weak.value}"
+            }
+          },
+          "activated": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "draggable": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "overlay": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "popOut": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
         "feedback": {
           "primary": {
             "base": {
