@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.10.0](https://github.com/DevoInc/genesys-tokens/compare/v5.9.0...v5.10.0) (2023-06-05)
+
+
+### Features
+
+* **Panel and Elevation:** UXW-930 tokens for panel boxShadow and elevation levels ([#33](https://github.com/DevoInc/genesys-tokens/issues/33)) ([aded18a](https://github.com/DevoInc/genesys-tokens/commit/aded18ac3e121ebc4da7682855d86c42d43ab27e))
+
 ## [5.9.0](https://github.com/DevoInc/genesys-tokens/compare/v5.8.0...v5.9.0) (2023-05-25)
 
 
