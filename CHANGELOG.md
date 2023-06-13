@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.11.0](https://github.com/DevoInc/genesys-tokens/compare/v5.10.0...v5.11.0) (2023-06-13)
+
+
+### Features
+
+* **tokens:** QUV-1042 added the alias group tokens for charts ([#34](https://github.com/DevoInc/genesys-tokens/issues/34)) ([25695f6](https://github.com/DevoInc/genesys-tokens/commit/25695f647a270bb46605e558a0246e4369b87fc6))
+
 ## [5.10.0](https://github.com/DevoInc/genesys-tokens/compare/v5.9.0...v5.10.0) (2023-06-05)
 
 
