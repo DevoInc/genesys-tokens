@@ -1,5 +1,39 @@
 {
   "theme": {
+    "charts": {
+      "map": {
+        "color": {
+          "background": {
+            "landscape": {
+              "base": {
+                "value": "{global.color.neutral.15.value}"
+              },
+              "manMade": {
+                "value": "{global.color.neutral.14.value}"
+              }
+            },
+            "road": {
+              "base": {
+                "value": "{global.color.neutral.12.value}"
+              }
+            },
+            "water": {
+              "base": {
+                "value": "{global.color.neutral.10.value}"
+              }
+            },
+            "poi": {
+              "base": {
+                "value": "{global.color.neutral.13.value}"
+              },
+              "park": {
+                "value": "{global.color.visualization.green.10.value}"
+              }
+            }
+          }
+        }
+      }
+    },
     "fields": {
       "color": {
         "background": {

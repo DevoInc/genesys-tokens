@@ -300,6 +300,71 @@
               "value": "{alias.shape.borderRadius.elevated.value}"
             }
           }
+        },
+        "typo": {
+          "fontSize": {
+            "sm": {
+              "value": "{alias.typo.fontSize.body.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.typo.fontSize.body.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.fontSize.body.sm.value}"
+            }
+          },
+          "lineHeight": {
+            "sm": {
+              "value": "{alias.typo.lineHeight.body.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.lineHeight.body.sm.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.lineHeight.body.sm.value}"
+            }
+          }
+        },
+        "header": {
+          "space": {
+            "marginBottom": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
+        },
+        "item": {
+          "color": {
+            "background": {
+              "base": {
+                "value": "transparent"
+              },
+              "active": {
+                "value": "{alias.color.background.surface.base.activated.value}"
+              }
+            }
+          },
+          "shape": {
+            "borderRadius": {
+              "value": "{alias.shape.borderRadius.md.value}"
+            }
+          },
+          "space": {
+            "padding": {
+              "value": "0 {alias.space.cmp.xxs.value}"
+            }
+          },
+          "typo": {
+            "fontSize": {
+              "value": "{alias.typo.fontSize.body.sm.value}"
+            }
+          }
+        },
+        "itemValue": {
+          "space": {
+            "paddingLeft": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
         }
       },
       "legend": {
@@ -621,6 +686,64 @@
             "fill": {
               "null": {
                 "value": "{alias.color.background.surface.backdrop.base.stronger.value}"
+              }
+            }
+          }
+        }
+      },
+      "map": {
+        "color": {
+          "background": {
+            "landscape": {
+              "base": {
+                "value": "{theme.charts.map.color.background.landscape.base.value}"
+              },
+              "manMade": {
+                "value": "{theme.charts.map.color.background.landscape.manMade.value}"
+              }
+            },
+            "water": {
+              "base": {
+                "value": "{theme.charts.map.color.background.water.base.value}"
+              }
+            },
+            "road": {
+              "base": {
+                "value": "{theme.charts.map.color.background.road.base.value}"
+              }
+            },
+            "poi": {
+              "base": {
+                "value": "{theme.charts.map.color.background.poi.base.value}"
+              },
+              "park": {
+                "value": "{theme.charts.map.color.background.poi.park.value}"
+              }
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.strong.value}"
+            },
+            "road": {
+              "base": {
+                "value": "{alias.color.text.body.base.value}"
+              }
+            }
+          },
+          "border": {
+            "base": {
+              "value": "{theme.charts.map.color.border.base.value}"
+            },
+            "label": {
+              "value": "{alias.color.text.body.inverse.value}"
+            },
+            "road": {
+              "base": {
+                "value": "{alias.charts.map.color.background.road.base.value}"
+              },
+              "label": {
+                "value": "{theme.charts.map.color.border.road.label.value}"
               }
             }
           }
