@@ -151,6 +151,22 @@
         }
       }
     },
+    "charts": {
+      "map": {
+        "color": {
+          "border": {
+            "base": {
+              "value": "{global.color.neutral.06.value}"
+            },
+            "road": {
+              "label": {
+                "value": "{global.color.neutral.00.value}"
+              }
+            }
+          }
+        }
+      }
+    },
     "color": {
       "border": {
         "feedback": {
