@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.12.0](https://github.com/DevoInc/genesys-tokens/compare/v5.11.0...v5.12.0) (2023-06-27)
+
+
+### Features
+
+* **tokens:** QUV-1130: New tokens for charts ([#35](https://github.com/DevoInc/genesys-tokens/issues/35)) ([82e5e65](https://github.com/DevoInc/genesys-tokens/commit/82e5e658042089ac7863188c9591cd3c9f102b63))
+
 ## [5.11.0](https://github.com/DevoInc/genesys-tokens/compare/v5.10.0...v5.11.0) (2023-06-13)
 
 
