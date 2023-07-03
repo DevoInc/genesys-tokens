@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.13.0](https://github.com/DevoInc/genesys-tokens/compare/v5.12.0...v5.13.0) (2023-07-03)
+
+
+### Features
+
+* **tokens:** QUV-1125 New highchart tooltip tokens ([#36](https://github.com/DevoInc/genesys-tokens/issues/36)) ([b121b7a](https://github.com/DevoInc/genesys-tokens/commit/b121b7a8b24484aed3ce9f22f0a8db8ac7e7b7ca))
+
 ## [5.12.0](https://github.com/DevoInc/genesys-tokens/compare/v5.11.0...v5.12.0) (2023-06-27)
 
 
