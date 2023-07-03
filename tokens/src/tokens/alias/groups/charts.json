@@ -330,6 +330,35 @@
             "marginBottom": {
               "value": "{alias.space.cmp.xxs.value}"
             }
+          },
+          "typo": {
+            "textAlign": {
+              "value": "center"
+            },
+            "fontWeight": {
+              "value": "{alias.typo.fontWeight.heading.value}"
+            }
+          }
+        },
+        "groupTitle": {
+          "space": {
+            "padding": {
+              "value": "{alias.space.cmp.xxs.value} 0 calc({alias.space.cmp.xxs.value} / 2) 0"
+            }
+          },
+          "typo": {
+            "fontSize": {
+              "value": "calc({alias.typo.fontSize.overline.sm.value} - 0.1rem)"
+            },
+            "fontWeight": {
+              "value": "{alias.typo.fontWeight.overline.value}"
+            },
+            "textTransform": {
+              "value": "{alias.typo.textTransform.overline.value}"
+            },
+            "letterSpacing": {
+              "value": "{alias.typo.letterSpacing.overline.em.value}"
+            }
           }
         },
         "item": {
@@ -353,9 +382,33 @@
               "value": "0 {alias.space.cmp.xxs.value}"
             }
           },
+          "size": {
+            "minHeight": {
+              "value": "calc({alias.charts.tooltip.itemSymbol.size.square.value} + 0.8rem)"
+            }
+          },
           "typo": {
             "fontSize": {
               "value": "{alias.typo.fontSize.body.sm.value}"
+            }
+          }
+        },
+        "itemSymbol": {
+          "size": {
+            "square": {
+              "value": "{alias.size.square.icon.base.xxxxs.value}"
+            }
+          },
+          "space": {
+            "marginRight": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          }
+        },
+        "itemLabelLeft": {
+          "typo": {
+            "fontWeight": {
+              "value": "{alias.typo.fontWeight.heading.value}"
             }
           }
         },
@@ -363,6 +416,28 @@
           "space": {
             "paddingLeft": {
               "value": "{alias.space.cmp.xxs.value}"
+            }
+          },
+          "typo": {
+            "textAlign": {
+              "value": "right"
+            }
+          }
+        },
+        "total": {
+          "space": {
+            "margin": {
+              "value": "calc({alias.space.cmp.xxs.value} / 2) 0 0 0"
+            },
+            "padding": {
+              "value": "0 {alias.space.cmp.xxs.value}"
+            }
+          }
+        },
+        "totalLabel": {
+          "typo": {
+            "fontWeight": {
+              "value": "{alias.typo.fontWeight.heading.value}"
             }
           }
         }
