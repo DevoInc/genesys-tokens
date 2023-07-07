@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.14.0](https://github.com/DevoInc/genesys-tokens/compare/v5.13.0...v5.14.0) (2023-07-07)
+
+
+### Features
+
+* **tokens:** UXW-960 body text color has been changed in dark theme for: base, strong and stronger ([#38](https://github.com/DevoInc/genesys-tokens/issues/38)) ([2391f3e](https://github.com/DevoInc/genesys-tokens/commit/2391f3e166fde4015c3bc866f848a4626bd78f43))
+
 ## [5.13.0](https://github.com/DevoInc/genesys-tokens/compare/v5.12.0...v5.13.0) (2023-07-03)
 
 
