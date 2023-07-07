@@ -149,15 +149,6 @@
         }
       }
     },
-    "scrollbars": {
-      "track": {
-        "color": {
-          "backdrop": {
-            "value": "{alias.color.background.surface.backdrop.base.weak.value}"
-          }
-        }
-      }
-    },
     "color": {
       "background": {
         "app": {
