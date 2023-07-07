@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.15.0](https://github.com/DevoInc/genesys-tokens/compare/v5.14.0...v5.15.0) (2023-07-07)
+
+
+### Features
+
+* **Scrollbar:** UXW-931 Scrollbars track background color changed from weaker to weak ([#37](https://github.com/DevoInc/genesys-tokens/issues/37)) ([41b60fd](https://github.com/DevoInc/genesys-tokens/commit/41b60fdb91dcde450d17a033ace006b87e99a4b9))
+
 ## [5.14.0](https://github.com/DevoInc/genesys-tokens/compare/v5.13.0...v5.14.0) (2023-07-07)
 
 
