@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.16.0](https://github.com/DevoInc/genesys-tokens/compare/v5.15.0...v5.16.0) (2023-07-11)
+
+
+### Features
+
+* **tokens:** new tokens for BoxMessage component and its elements ([f6fe9b5](https://github.com/DevoInc/genesys-tokens/commit/f6fe9b5801a4135c175ea3ee6f3d8ebb9c763a96))
+
 ## [5.15.0](https://github.com/DevoInc/genesys-tokens/compare/v5.14.0...v5.15.0) (2023-07-07)
 
 
