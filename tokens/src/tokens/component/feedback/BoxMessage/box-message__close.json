@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "boxMessage": {
+      "close": {
+        "space": {
+          "offset": {
+            "top": {
+              "value": "calc({cmp.boxMessage.space.padding.value} - 0.2rem)"
+            },
+            "right": {
+              "value": "{cmp.boxMessage.space.padding.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

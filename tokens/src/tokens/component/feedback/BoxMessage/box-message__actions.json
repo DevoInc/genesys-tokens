@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "boxMessage": {
+      "actions": {
+        "space": {
+          "marginTop": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "gap": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        }
+      }
+    }
+  }
+}

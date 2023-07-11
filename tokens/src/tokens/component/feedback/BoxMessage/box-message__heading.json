@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "boxMessage": {
+      "heading": {
+        "space": {
+          "marginBottom": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,22 @@
 {
   "cmp": {
     "boxMessage": {
+      "shape": {
+        "borderSize": {
+          "value": "{alias.shape.borderSize.panel.base.value}"
+        },
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.md.value}"
+        }
+      },
+      "space": {
+        "padding": {
+          "value": "{alias.space.cmp.sm.value}"
+        },
+        "gap": {
+          "value": "{alias.space.cmp.sm.value}"
+        }
+      },
       "color": {
         "background": {
           "success": {

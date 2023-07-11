@@ -20,6 +20,11 @@
               "value": "{alias.color.background.feedback.info.strong.value}"
             }
           }
+        },
+        "size": {
+          "square":{
+            "value": "{alias.typo.fontSize.icon.xs.value}"
+          }
         }
       }
     }
