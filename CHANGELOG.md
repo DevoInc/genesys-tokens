@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.17.0](https://github.com/DevoInc/genesys-tokens/compare/v5.16.0...v5.17.0) (2023-07-13)
+
+
+### Features
+
+* **tokens:** added new chart token based in a brand customization token ([fba7470](https://github.com/DevoInc/genesys-tokens/commit/fba74707ccf221ce5962fd4b5a9001601b1f2e56))
+
 ## [5.16.0](https://github.com/DevoInc/genesys-tokens/compare/v5.15.0...v5.16.0) (2023-07-11)
 
 
