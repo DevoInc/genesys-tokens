@@ -105,27 +105,30 @@
           },
           "basic": {
             "00": {
-              "value": "{alias.color.background.feedback.dataGreen.strong.value}"
+              "value": "{brand.charts.color.fill.basic.00.value}"
             },
             "01": {
-              "value": "{alias.color.background.feedback.dataSky.strong.value}"
+              "value": "{alias.color.background.feedback.dataGreen.strong.value}"
             },
             "02": {
               "value": "{alias.color.background.feedback.dataBronze.strong.value}"
             },
             "03": {
-              "value": "{alias.color.background.feedback.dataIndigo.strong.value}"
+              "value": "{alias.color.background.feedback.dataSky.strong.value}"
             },
             "04": {
-              "value": "{alias.color.background.feedback.dataMagenta.strong.value}"
+              "value": "{alias.color.background.feedback.dataIndigo.strong.value}"
             },
             "05": {
-              "value": "{alias.color.background.feedback.dataTeal.strong.value}"
+              "value": "{alias.color.background.feedback.dataMagenta.strong.value}"
             },
             "06": {
-              "value": "{alias.color.background.feedback.dataSlate.strong.value}"
+              "value": "{alias.color.background.feedback.dataTeal.strong.value}"
             },
             "07": {
+              "value": "{alias.color.background.feedback.dataSlate.strong.value}"
+            },
+            "08": {
               "value": "{alias.color.background.feedback.dataRed.strong.value}"
             }
           }
@@ -193,6 +196,9 @@
             "border": {
               "base": {
                 "value": "{alias.color.border.separator.base.strong.value}"
+              },
+              "strong": {
+                "value": "{alias.color.border.separator.base.strongest.value}"
               }
             }
           }
