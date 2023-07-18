@@ -130,6 +130,60 @@
             },
             "08": {
               "value": "{alias.color.background.feedback.dataRed.strong.value}"
+            },
+            "09": {
+              "value": "{brand.charts.color.fill.basic.01.value}"
+            },
+            "10": {
+              "value": "{alias.color.background.feedback.dataGreen.stronger.value}"
+            },
+            "11": {
+              "value": "{alias.color.background.feedback.dataBronze.stronger.value}"
+            },
+            "12": {
+              "value": "{alias.color.background.feedback.dataSky.stronger.value}"
+            },
+            "13": {
+              "value": "{alias.color.background.feedback.dataIndigo.stronger.value}"
+            },
+            "14": {
+              "value": "{alias.color.background.feedback.dataMagenta.stronger.value}"
+            },
+            "15": {
+              "value": "{alias.color.background.feedback.dataTeal.stronger.value}"
+            },
+            "16": {
+              "value": "{alias.color.background.feedback.dataSlate.stronger.value}"
+            },
+            "17": {
+              "value": "{alias.color.background.feedback.dataRed.stronger.value}"
+            },
+            "18": {
+              "value": "{brand.charts.color.fill.basic.02.value}"
+            },
+            "19": {
+              "value": "{alias.color.background.feedback.dataGreen.base.value}"
+            },
+            "20": {
+              "value": "{alias.color.background.feedback.dataBronze.base.value}"
+            },
+            "21": {
+              "value": "{alias.color.background.feedback.dataSky.base.value}"
+            },
+            "22": {
+              "value": "{alias.color.background.feedback.dataIndigo.base.value}"
+            },
+            "23": {
+              "value": "{alias.color.background.feedback.dataMagenta.base.value}"
+            },
+            "24": {
+              "value": "{alias.color.background.feedback.dataTeal.base.value}"
+            },
+            "25": {
+              "value": "{alias.color.background.feedback.dataSlate.base.value}"
+            },
+            "26": {
+              "value": "{alias.color.background.feedback.dataRed.base.value}"
             }
           }
         }
