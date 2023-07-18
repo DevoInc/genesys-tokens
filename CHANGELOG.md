@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.18.0](https://github.com/DevoInc/genesys-tokens/compare/v5.17.0...v5.18.0) (2023-07-18)
+
+
+### Features
+
+* **tokens:** Added new chart color fill tokens. ([d7e50d2](https://github.com/DevoInc/genesys-tokens/commit/d7e50d275199ae05110780b0f6cef881e5faf040))
+
 ## [5.17.0](https://github.com/DevoInc/genesys-tokens/compare/v5.16.0...v5.17.0) (2023-07-13)
 
 
