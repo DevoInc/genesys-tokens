@@ -3,7 +3,8 @@
 ![license](https://img.shields.io/github/license/devoinc/genesys-tokens)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devoinc/genesys-tokens/ci.yml)
 
-Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's _Dalí Design System_.
+Monorepo containing a set of packages devoted to the generation of design tokens defined by Devo's _Genesys Design System_.
+The generated tokens are W3CDTCG-compliant©™. See [W3C Design Tokens Format Module](https://tr.designtokens.org/format/) for more information.
 
 The project is built using `npm workspaces` and contains the following packages:
 
