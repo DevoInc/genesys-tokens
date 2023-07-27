@@ -6,10 +6,10 @@
           "margin": {
             "hor": {
               "sm": {
-                "value": "{alias.space.cmp.sm.value}"
+                "value": "{alias.space.cmp.xs.value}"
               },
               "md": {
-                "value": "{alias.space.cmp.md.value}"
+                "value": "{alias.space.cmp.sm.value}"
               },
               "lg": {
                 "value": "{alias.space.cmp.md.value}"
