@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.19.0](https://github.com/DevoInc/genesys-tokens/compare/v5.18.0...v5.19.0) (2023-07-27)
+
+
+### Features
+
+* **tokens:** token space value reduced between TagGroup items ([b2730fe](https://github.com/DevoInc/genesys-tokens/commit/b2730fe98d4390d96b78752c3599cbcd253a1d63))
+
+
+### Vulnerabilities
+
+* **deps:** bump word-wrap from 1.2.3 to 1.2.4 ([#39](https://github.com/DevoInc/genesys-tokens/issues/39)) ([8b5a393](https://github.com/DevoInc/genesys-tokens/commit/8b5a393e7a9c62ed9451c36c379541201a79e054))
+
 ## [5.18.0](https://github.com/DevoInc/genesys-tokens/compare/v5.17.0...v5.18.0) (2023-07-18)
 
 
