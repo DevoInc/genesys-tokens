@@ -43,8 +43,14 @@
             }
           },
           "secondary": {
+            "weak": {
+              "value": "{brand.color.border.feedback.secondary.weak.value}"
+            },
             "base": {
               "value": "{brand.color.border.feedback.secondary.base.value}"
+            },
+            "strong": {
+              "value": "{brand.color.border.feedback.secondary.strong.value}"
             }
           },
           "neutral": {

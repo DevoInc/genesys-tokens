@@ -758,7 +758,7 @@
           },
           "warning": {
             "strong": {
-              "value": "{global.color.warning.10.value}"
+              "value": "{global.color.warning.03.value}"
             },
             "base": {
               "value": "{global.color.warning.04.value}"
@@ -767,7 +767,7 @@
               "value": "{global.color.warning.04.value}"
             },
             "inverse": {
-              "value": "{global.color.warning.01.value}"
+              "value": "{global.color.warning.10.value}"
             }
           },
           "help": {
