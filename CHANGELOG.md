@@ -1,5 +1,13 @@
 # Changelog
 
+## [5.20.0](https://github.com/DevoInc/genesys-tokens/compare/v5.19.0...v5.20.0) (2023-08-04)
+
+
+### Features
+
+* **QUV-1331:** Added new breakpoint ([4fe2db3](https://github.com/DevoInc/genesys-tokens/commit/4fe2db3346b970ccebbe01d6fe0b11204ae91edf))
+* **tokens:** New variants for secondary border color and improvements for warning feedback dark scheme colors. ([14347da](https://github.com/DevoInc/genesys-tokens/commit/14347dacfe11cfe0d6deb154165bc3a24e3add0d))
+
 ## [5.19.0](https://github.com/DevoInc/genesys-tokens/compare/v5.18.0...v5.19.0) (2023-07-27)
 
 
