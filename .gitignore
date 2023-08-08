@@ -3,6 +3,7 @@ coverage
 *.iml
 .idea/*
 dist/
+build/
 test-report.xml
 .stryker-tmp
 reports
