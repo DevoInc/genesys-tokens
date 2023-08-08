@@ -4,7 +4,6 @@
   "description": "Type declarations for @devoinc/genesys-tokens",
   "types": "dist/index.d.ts",
   "scripts": {
-    "lint": "eslint 'src/**/*.ts'",
     "build": "gyt types -i src/brand -o dist/",
     "dist": "rm -rf dist && npm run build"
   },
