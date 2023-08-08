@@ -133,9 +133,14 @@ export const getStyleDictionaryConfig = (
           format: 'javascript/esm-reduced-min',
           filter: 'isCmp',
         },
-        // DECLARATION
+      ],
+    },
+    'web/ts': {
+      transformGroup: 'tokens-js',
+      buildPath: output,
+      files: [
         {
-          destination: 'js/index.d.ts',
+          destination: 'index.d.ts',
           format: 'typescript/module-reduced-declarations',
           filter: 'isCmpAlias',
         },
