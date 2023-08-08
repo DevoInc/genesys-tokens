@@ -1,0 +1,27 @@
+{
+  "brand": {
+    "shape": {
+      "backgroundImage": {
+        "fields": {
+          "date": {
+            "value": ""
+          },
+          "time": {
+            "value": ""
+          },
+          "search": {
+            "value": ""
+          },
+          "searchCancel": {
+            "base": {
+              "value": ""
+            },
+            "hovered": {
+              "value": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
