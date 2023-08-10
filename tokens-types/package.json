@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "gyt types -o dist/",
-    "dist": "rm -rf dist && npm run build"
+    "dist": "npm run clean && npm run build"
   },
   "keywords": [
     "genesys",
