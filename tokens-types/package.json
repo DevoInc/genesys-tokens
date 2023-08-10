@@ -2,12 +2,19 @@
   "name": "@devoinc/genesys-tokens-types",
   "version": "5.20.0",
   "description": "Type declarations for @devoinc/genesys-tokens",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.d",
   "scripts": {
     "clean": "rm -rf dist/brand.d.ts",
     "build": "gyt types -o dist/",
     "dist": "npm run clean && npm run build"
   },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "genesys",
     "design",
