@@ -54,7 +54,11 @@ jobs:
         run: npm run lint
 
       - name: Build source code
-        run: npm run dist
+        run: |
+          npm run dist -w @devoinc/genesys-tokens
+          npm run dist -w @devoinc/genesys-tokens-cli
+          cd tokens-cli && npm link && cd ..
+          npm run dist -w @devoinc/genesys-tokens-types
 
       - name: Setup Git config
         run: |
