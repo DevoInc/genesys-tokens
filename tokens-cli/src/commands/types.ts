@@ -3,7 +3,6 @@ import type { Arguments, CommandBuilder } from 'yargs';
 import { generateTypes } from '@devoinc/genesys-tokens';
 
 interface Options {
-  input?: string;
   output?: string;
 }
 
@@ -12,12 +11,6 @@ export const desc = 'Generate type definitions';
 
 export const builder: CommandBuilder<Options, Options> = (yargs) =>
   yargs.options({
-    input: {
-      type: 'string',
-      alias: 'i',
-      desc: 'Path to schema',
-      requiresArg: true,
-    },
     output: {
       type: 'string',
       alias: 'o',
@@ -28,10 +21,9 @@ export const builder: CommandBuilder<Options, Options> = (yargs) =>
 
 // gyt build -i "schemes/light/*.json" -o dist/light/
 export const handler = (argv: Arguments<Options>): void => {
-  const { output, input } = argv;
+  const { output } = argv;
 
   generateTypes({
-    source: input as string,
     output: `${path.normalize(path.format(path.parse(output as string)))}/`,
   });
 

@@ -56,7 +56,6 @@ export interface GenerateParams {
 }
 
 export interface GenerateTypesParams {
-  source: string;
   output: string;
 }
 
@@ -80,12 +79,11 @@ export const generate: (params: GenerateParams) => boolean = ({
 
 export const generateTypes: (params: GenerateTypesParams) => boolean = ({
   output,
-  source,
 }) => {
   const config = getStyleDictionaryConfig(
     Scheme.Light,
     Scheme.Light,
-    source,
+    null,
     output
   );
   const styleDictionary = StyleDictionary.extend(config);
