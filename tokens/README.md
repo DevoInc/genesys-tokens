@@ -2,9 +2,8 @@
 
 Tokens' definition and generation tools.
 
-This project provides the tools to generate *Devo*'s brand design tokens and its customizations.
-It includes the agnostic source for the generation of the tokens, as described in *Genesys Design System*. It uses [style-dictionary](https://amzn.github.io/style-dictionary/) under the hood. The generated tokens are W3CDTCG-compliant©™. See [W3C Design Tokens Format Module](https://tr.designtokens.org/format/) for more information.
-
+This project provides the tools to generate _Devo_'s brand design tokens and its customizations.
+It includes the agnostic source for the generation of the tokens, as described in _Genesys Design System_. It uses [style-dictionary](https://amzn.github.io/style-dictionary/) under the hood. The generated tokens are W3CDTCG-compliant©™. See [W3C Design Tokens Format Module](https://tr.designtokens.org/format/) for more information.
 
 ## Tokens generation tools
 
@@ -30,3 +29,7 @@ Once a set of tokens has been generated, the output can be validated using:
 ```js
 validate(pathToFolder);
 ```
+
+### Typescript
+
+The type definitions for the brands generated using `@devoinc/genesys-tokens` are available in [@devoinc/genesys-tokens-types](https://www.npmjs.com/package/@devoinc/genesys-tokens-types).

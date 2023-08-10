@@ -41,6 +41,7 @@ gyt build [flags]
 - `-o`, `--output <path>` [REQUIRED] Select brand's output dir
 - `-s`, `--scheme <string>` [optional] Schema type (`'light'` or `'dark'`). Default value is `'light'`.
 - `-m`, `--menuScheme <string>` [optional] `mainMenu` Schema type (`'light'` or `'dark'`). Default value is `'light'`.
+
 #### **Example**
 
 ```bash
@@ -62,3 +63,7 @@ gyt validate <path>
 gyt validate ./dist/
 #=> Validates generated brands stored in `./dist` folder.
 ```
+
+### Typescript
+
+The type definitions for the brands generated using `@devoinc/genesys-tokens-cli` are available in [@devoinc/genesys-tokens-types](https://www.npmjs.com/package/@devoinc/genesys-tokens-types).
