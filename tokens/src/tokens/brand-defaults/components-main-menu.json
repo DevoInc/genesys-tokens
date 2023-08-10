@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "mainMenu": {
+      "color": {
+        "background": {
+          "value": "{theme.mainMenu.color.background.base.value}"
+        },
+        "text": {
+          "base": {
+            "value": "{theme.mainMenu.color.text.base.value}"
+          },
+          "featured": {
+            "value": "{theme.mainMenu.color.text.featured.value}"
+          }
+        }
+      },
+      "link": {
+        "color": {
+          "text": {
+            "enabled": {
+              "value": "{theme.mainMenu.link.color.text.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.mainMenu.link.color.text.hovered.value}"
+            },
+            "activated": {
+              "value": "{theme.mainMenu.link.color.text.activated.value}"
+            }
+          }
+        }
+      },
+      "linkSecondary": {
+        "color": {
+          "text": {
+            "activated": {
+              "value": "{theme.mainMenu.linkSecondary.color.text.activated.value}"
+            }
+          }
+        }
+      },
+      "linkIcon": {
+        "color": {
+          "text": {
+            "activated": {
+              "value": "{theme.mainMenu.linkIcon.color.text.activated.value}"
+            }
+          }
+        }
+      },
+      "logoCustom": {
+        "shape": {
+          "backgroundSize": {
+            "value": "100%"
+          }
+        }
+      },
+      "overlay": {
+        "color": {
+          "background": {
+            "value": "{theme.mainMenu.overlay.color.background.value}"
+          }
+        }
+      }
+    }
+  }
+}

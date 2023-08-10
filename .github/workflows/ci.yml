@@ -38,6 +38,7 @@ jobs:
             **/node_modules
             ~/.npm
             **/dist
+            **/build
           key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
 
       - name: Set Node v18
@@ -73,10 +74,15 @@ jobs:
             **/node_modules
             ~/.npm
             **/dist
+            **/build
           key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
 
       - name: Generate dist files
-        run: npm run dist
+        run: |
+          npm run dist -w @devoinc/genesys-tokens
+          npm run dist -w @devoinc/genesys-tokens-cli
+          cd tokens-cli && npm link && cd ..
+          npm run dist -w @devoinc/genesys-tokens-types
 
   # --------------RUN LINTER--------------
   lint:
@@ -98,6 +104,7 @@ jobs:
             **/node_modules
             ~/.npm
             **/dist
+            **/build
           key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
 
       - name: Run linter
@@ -122,6 +129,7 @@ jobs:
             **/node_modules
             ~/.npm
             **/dist
+            **/build
           key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
 
       - name: Run Jest
@@ -146,6 +154,7 @@ jobs:
             **/node_modules
             ~/.npm
             **/dist
+            **/build
           key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
 
       - name: Setup results folder

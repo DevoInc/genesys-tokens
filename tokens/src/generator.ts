@@ -55,6 +55,10 @@ export interface GenerateParams {
   output: string;
 }
 
+export interface GenerateTypesParams {
+  output: string;
+}
+
 export const generate: (params: GenerateParams) => boolean = ({
   scheme = Scheme.Light,
   menuScheme = Scheme.Light,
@@ -69,6 +73,22 @@ export const generate: (params: GenerateParams) => boolean = ({
   styleDictionary.buildPlatform('web/scss');
   styleDictionary.buildPlatform('web/css');
   styleDictionary.buildPlatform('figma');
+
+  return true;
+};
+
+export const generateTypes: (params: GenerateTypesParams) => boolean = ({
+  output,
+}) => {
+  const config = getStyleDictionaryConfig(
+    Scheme.Light,
+    Scheme.Light,
+    null,
+    output
+  );
+  const styleDictionary = StyleDictionary.extend(config);
+
+  styleDictionary.buildPlatform('web/ts');
 
   return true;
 };

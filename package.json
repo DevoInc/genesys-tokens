@@ -8,7 +8,7 @@
   "workspaces": [
     "tokens",
     "tokens-cli",
-    "brand-devo"
+    "tokens-types"
   ],
   "engines": {
     "node": ">=18",

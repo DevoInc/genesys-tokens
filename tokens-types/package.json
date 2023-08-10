@@ -1,0 +1,37 @@
+{
+  "name": "@devoinc/genesys-tokens-types",
+  "version": "5.20.0",
+  "description": "Type declarations for @devoinc/genesys-tokens",
+  "types": "dist/index.d",
+  "scripts": {
+    "clean": "rm -rf dist/brand.d.ts",
+    "build": "gyt types -o dist/",
+    "dist": "npm run clean && npm run build"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "genesys",
+    "design",
+    "tokens",
+    "typescript",
+    "types"
+  ],
+  "author": "Devo Dev Team",
+  "license": "MIT",
+  "dependencies": {
+    "@devoinc/genesys-tokens-cli": "^5.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DevoInc/genesys-tokens.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

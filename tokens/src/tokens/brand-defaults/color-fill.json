@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "charts": {
+      "color": {
+        "fill": {
+          "basic": {
+            "00": {
+              "value": "{alias.color.background.surface.secondary.base.value}"
+            },
+            "01": {
+              "value": "{alias.color.background.feedback.secondary.strong.value}"
+            },
+            "02": {
+              "value": "{alias.color.background.feedback.secondary.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
