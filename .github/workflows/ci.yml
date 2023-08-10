@@ -79,10 +79,10 @@ jobs:
 
       - name: Generate dist files
         run: |
-          npm run dist -w @devoinc/tokens
-          npm run dist -w @devoinc/tokens-cli
+          npm run dist -w @devoinc/genesys-tokens
+          npm run dist -w @devoinc/genesys-tokens-cli
           cd tokens-cli && npm link && cd ..
-          npm run dist -w @devoinc/tokens-types
+          npm run dist -w @devoinc/genesys-tokens-types
 
   # --------------RUN LINTER--------------
   lint:
