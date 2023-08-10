@@ -8,7 +8,6 @@
   },
   "scripts": {
     "lint": "eslint 'src/**/*.ts'",
-    "prebuild": "npm link",
     "build": "npx tsc && chmod u+rx build/cli.js",
     "dist": "rm -rf build && npm run build",
     "build:watch": "npx tsc --watch"
