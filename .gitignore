@@ -1,11 +1,16 @@
+# Exclude
 node_modules
 coverage
 *.iml
 .idea/*
-dist/
-build/
+tokens/dist/
+tokens-cli/build/
+tokens-types/dist/*
 test-report.xml
 .stryker-tmp
 reports
 .DS_Store
 .npmrc
+
+# Include
+!tokens-types/dist/index.d.ts

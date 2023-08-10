@@ -145,7 +145,7 @@ export const getStyleDictionaryConfig = (
         buildPath: output,
         files: [
           {
-            destination: 'index.d.ts',
+            destination: 'brand.d.ts',
             format: 'typescript/module-reduced-declarations',
             filter: 'isCmpAlias',
           },
