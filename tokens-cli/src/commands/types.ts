@@ -19,7 +19,7 @@ export const builder: CommandBuilder<Options, Options> = (yargs) =>
     },
   });
 
-// gyt build -i "schemes/light/*.json" -o dist/light/
+// gyt types -o dist/
 export const handler = (argv: Arguments<Options>): void => {
   const { output } = argv;
 
