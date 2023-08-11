@@ -1,5 +1,23 @@
 # Changelog
 
+## [6.0.0](https://github.com/DevoInc/genesys-tokens/compare/v5.20.0...v6.0.0) (2023-08-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **tokens:** remove type declarations in brand generation
+
+### Features
+
+* **tokens-cli:** new method `types` for types generation ([531c4f0](https://github.com/DevoInc/genesys-tokens/commit/531c4f082bd1080928a4310065ac78949bb889d5))
+* **tokens-types:** types are now in `@devoinc/genesys-tokens-types` ([02ed127](https://github.com/DevoInc/genesys-tokens/commit/02ed127ce7754252af825f3d9fb3b06aaa7d47d4))
+* **tokens:** remove type declarations in brand generation ([03ff806](https://github.com/DevoInc/genesys-tokens/commit/03ff80673f438fc7fa3e70690a7a438fde97e1f5))
+
+
+### Bug Fixes
+
+* **tokens:** fix error in meta token ([74798a8](https://github.com/DevoInc/genesys-tokens/commit/74798a8d8a5a98932b8bef5f233bffe3b1cef3c1))
+
 ## [5.20.0](https://github.com/DevoInc/genesys-tokens/compare/v5.19.0...v5.20.0) (2023-08-04)
 
 
