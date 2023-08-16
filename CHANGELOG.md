@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.0.1](https://github.com/DevoInc/genesys-tokens/compare/v6.0.0...v6.0.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* **tokens-types:** Fix error in types export ([0b7adc2](https://github.com/DevoInc/genesys-tokens/commit/0b7adc2023306cf4099367537a423320db4d6122))
+
 ## [6.0.0](https://github.com/DevoInc/genesys-tokens/compare/v5.20.0...v6.0.0) (2023-08-11)
 
 
