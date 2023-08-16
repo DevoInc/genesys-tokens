@@ -1,1 +1,1 @@
-export type * from './brand.d.ts';
+export * from './brand.d';
