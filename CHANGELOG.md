@@ -1,5 +1,7 @@
 # Changelog
 
+## [6.1.0](https://github.com/DevoInc/genesys-tokens/compare/v6.0.1...v6.1.0) (2023-08-18)
+
 ### [6.0.1](https://github.com/DevoInc/genesys-tokens/compare/v6.0.0...v6.0.1) (2023-08-16)
 
 
