@@ -72,6 +72,9 @@
             },
             "stronger": {
               "value": "{global.color.primary.09.value}"
+            },
+            "strongest": {
+              "value": "{global.color.primary.10.value}"
             }
           },
           "secondary": {
@@ -89,6 +92,9 @@
             },
             "stronger": {
               "value": "{global.color.secondary.07.value}"
+            },
+            "strongest": {
+              "value": "{global.color.secondary.10.value}"
             }
           }
         },
