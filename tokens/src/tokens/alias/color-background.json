@@ -718,6 +718,10 @@
             "stronger": {
               "value": "{brand.color.background.feedback.primary.stronger.value}",
               "comment": "Customizable background brand color"
+            },
+            "strongest": {
+              "value": "{brand.color.background.feedback.primary.strongest.value}",
+              "comment": "Customizable background brand color"
             }
           },
           "secondary": {
@@ -739,6 +743,10 @@
             },
             "stronger": {
               "value": "{brand.color.background.feedback.secondary.stronger.value}",
+              "comment": "Customizable background brand color"
+            },
+            "strongest": {
+              "value": "{brand.color.background.feedback.secondary.strongest.value}",
               "comment": "Customizable background brand color"
             }
           },
