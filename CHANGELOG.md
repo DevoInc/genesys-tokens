@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.2.0](https://github.com/DevoInc/genesys-tokens/compare/v6.1.1...v6.2.0) (2023-09-25)
+
+
+### Features
+
+* Badge and Tag now can be overwritten with the brand tokens ([8238ae9](https://github.com/DevoInc/genesys-tokens/commit/8238ae95488c70e59fe84ba244b7711cd4dec28f))
+
 ### [6.1.1](https://github.com/DevoInc/genesys-tokens/compare/v6.1.0...v6.1.1) (2023-08-21)
 
 ## [6.1.0](https://github.com/DevoInc/genesys-tokens/compare/v6.0.1...v6.1.0) (2023-08-18)
