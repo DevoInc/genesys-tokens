@@ -202,7 +202,7 @@
             "value": "{alias.color.text.feedback.success.strong.value}"
           },
           "warning": {
-            "value": "{alias.color.text.feedback.warning.strong.value}"
+            "value": "{brand.badge.color.text.warning.value}"
           },
           "help": {
             "value": "{alias.color.text.feedback.help.strong.value}"
