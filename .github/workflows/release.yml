@@ -34,15 +34,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set node v18
+      - name: Set node v20
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: "npm"
           registry-url: https://registry.npmjs.org/
-
-      - name: Set npm version
-        run: npm i -g npm@8
 
       - name: Install dependencies
         run: npm ci
