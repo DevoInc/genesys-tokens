@@ -24,7 +24,7 @@
   ],
   "author": "Devo Dev Team",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@devoinc/genesys-tokens-cli": "^6.2.0"
   },
   "repository": {
