@@ -166,7 +166,7 @@ jobs:
           cp /home/runner/work/genesys-tokens/genesys-tokens/tokens/reports/mutation/mutation.html stryker-report.html
           cd ..
       - name: Upload artifact with results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mutation-test-results
           path: mutation-test-results
