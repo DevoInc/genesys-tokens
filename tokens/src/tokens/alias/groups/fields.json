@@ -527,13 +527,13 @@
         },
         "square": {
           "sm": {
-            "value": "{global.size.square.05.value}"
+            "value": "{global.size.square.04.value}"
           },
           "md": {
-            "value": "{global.size.square.06.value}"
+            "value": "{global.size.square.05.value}"
           },
           "lg": {
-            "value": "{global.size.square.07.value}"
+            "value": "{global.size.square.06.value}"
           }
         },
         "width": {
