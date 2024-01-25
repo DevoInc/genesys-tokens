@@ -5,7 +5,7 @@
         "color": {
           "background": {
             "backdrop": {
-              "value": "{theme.mainMenu.color.background.backdrop.base.value}"
+              "value": "{brand.mainMenu.link.color.background.backdrop.value}"
             }
           },
           "text": {
@@ -34,7 +34,7 @@
         "color": {
           "background": {
             "backdrop": {
-              "value": "{theme.mainMenu.color.background.backdrop.activated.value}"
+              "value": "{brand.mainMenu.linkIcon.color.background.backdrop.value}"
             }
           },
           "text": {
