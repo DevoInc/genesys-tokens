@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.4.0](https://github.com/DevoInc/genesys-tokens/compare/v6.3.0...v6.4.0) (2024-01-25)
+
+
+### Features
+
+* **UXW-1015:** Extend brand tokens ([60e0a31](https://github.com/DevoInc/genesys-tokens/commit/60e0a3176ae02e2b4c10756e29264ee24355ebac))
+
 ## [6.3.0](https://github.com/DevoInc/genesys-tokens/compare/v6.2.0...v6.3.0) (2024-01-02)
 
 
