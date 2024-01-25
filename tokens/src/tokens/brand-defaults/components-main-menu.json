@@ -1,9 +1,29 @@
 {
   "brand": {
     "mainMenu": {
+      "button": {
+        "color": {
+          "background": {
+            "value": "{theme.mainMenu.button.color.background.value}"
+          },
+          "text": {
+            "enabled": {
+              "value": "{theme.mainMenu.button.color.text.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.mainMenu.button.color.text.hovered.value}"
+            }
+          }
+        }
+      },
       "color": {
         "background": {
           "value": "{theme.mainMenu.color.background.base.value}"
+        },
+        "border": {
+          "separator": {
+            "value": "{theme.mainMenu.color.border.separator.value}"
+          }
         },
         "text": {
           "base": {
@@ -14,8 +34,36 @@
           }
         }
       },
+      "field": {
+        "color": {
+          "border": {
+            "enabled": {
+              "value": "{theme.mainMenu.field.color.border.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.mainMenu.field.color.border.hovered.value}"
+            }
+          },
+          "text": {
+            "placeholder": {
+              "value": "{theme.mainMenu.field.color.text.placeholder.value}"
+            },
+            "enabled": {
+              "value": "{theme.mainMenu.field.color.text.enabled.value}"
+            },
+            "focused": {
+              "value": "{theme.mainMenu.field.color.text.focused.value}"
+            }
+          }
+        }
+      },
       "link": {
         "color": {
+          "background": {
+            "backdrop": {
+              "value": "{theme.mainMenu.color.background.backdrop.base.value}"
+            }
+          },
           "text": {
             "enabled": {
               "value": "{theme.mainMenu.link.color.text.enabled.value}"
@@ -40,6 +88,11 @@
       },
       "linkIcon": {
         "color": {
+          "background": {
+            "backdrop": {
+              "value": "{theme.mainMenu.color.background.backdrop.activated.value}"
+            }
+          },
           "text": {
             "activated": {
               "value": "{theme.mainMenu.linkIcon.color.text.activated.value}"

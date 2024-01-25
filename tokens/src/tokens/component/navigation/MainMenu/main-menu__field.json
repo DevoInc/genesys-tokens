@@ -8,21 +8,21 @@
           },
           "border": {
             "enabled": {
-              "value": "{theme.mainMenu.field.color.border.enabled.value}"
+              "value": "{brand.mainMenu.field.color.border.enabled.value}"
             },
             "hovered": {
-              "value": "{theme.mainMenu.field.color.border.hovered.value}"
+              "value": "{brand.mainMenu.field.color.border.hovered.value}"
             }
           },
           "text": {
             "placeholder": {
-              "value": "{theme.mainMenu.field.color.text.placeholder.value}"
+              "value": "{brand.mainMenu.field.color.text.placeholder.value}"
             },
             "enabled": {
-              "value": "{theme.mainMenu.field.color.text.enabled.value}"
+              "value": "{brand.mainMenu.field.color.text.enabled.value}"
             },
             "focused": {
-              "value": "{theme.mainMenu.field.color.text.focused.value}"
+              "value": "{brand.mainMenu.field.color.text.focused.value}"
             }
           }
         },

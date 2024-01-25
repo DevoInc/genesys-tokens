@@ -4,14 +4,14 @@
       "button": {
         "color": {
           "background": {
-            "value": "{theme.mainMenu.button.color.background.value}"
+            "value": "{brand.mainMenu.button.color.background.value}"
           },
           "text": {
             "enabled": {
-              "value": "{theme.mainMenu.button.color.text.enabled.value}"
+              "value": "{brand.mainMenu.button.color.text.enabled.value}"
             },
             "hovered": {
-              "value": "{theme.mainMenu.button.color.text.hovered.value}"
+              "value": "{brand.mainMenu.button.color.text.hovered.value}"
             }
           }
         }
