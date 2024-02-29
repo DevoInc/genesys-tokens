@@ -180,7 +180,7 @@
           },
           "inverse": {
             "base": {
-              "value": "{global.color.neutral.14.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "readonly": {
               "value": "{global.color.blend.white.01.value}"
