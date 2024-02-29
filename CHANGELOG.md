@@ -1,5 +1,17 @@
 # Changelog
 
+### [6.4.1](https://github.com/DevoInc/genesys-tokens/compare/v6.4.0...v6.4.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* **UXW-1026:** Adjust surface inverse token value ([8f468c5](https://github.com/DevoInc/genesys-tokens/commit/8f468c5a09447eb824998a3ca3ce72d71c0c1bd8))
+
+
+### Vulnerabilities
+
+* **deps-dev:** bump ip from 1.1.8 to 1.1.9 ([47f5108](https://github.com/DevoInc/genesys-tokens/commit/47f5108d4af862eb196fbd3c5d3f5ef4a9162544))
+
 ## [6.4.0](https://github.com/DevoInc/genesys-tokens/compare/v6.3.0...v6.4.0) (2024-01-25)
 
 
