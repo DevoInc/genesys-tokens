@@ -5,7 +5,7 @@
         "space": {
           "padding": {
             "xs": {
-              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
+              "value": "{alias.space.cmp.xxs.value} {alias.space.cmp.xs.value}"
             },
             "sm": {
               "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
@@ -16,7 +16,7 @@
           },
           "margin": {
             "xs": {
-              "value": "{alias.space.cmp.md.value} {alias.space.cmp.sm.value} {alias.space.cmp.md.value} 0"
+              "value": "{alias.space.cmp.sm.value} {alias.space.cmp.xs.value} {alias.space.cmp.sm.value} 0"
             },
             "sm": {
               "value": "{alias.space.cmp.md.value} {alias.space.cmp.sm.value} {alias.space.cmp.md.value} 0"

@@ -15,7 +15,7 @@
         "space": {
           "padding": {
             "xs": {
-              "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
+              "value": "{alias.space.cmp.xxs.value} {alias.space.cmp.xs.value}"
             },
             "sm": {
               "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
