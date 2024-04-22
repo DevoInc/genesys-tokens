@@ -1,5 +1,43 @@
 # Changelog
 
+### [6.4.2](https://github.com/DevoInc/genesys-tokens/compare/v6.4.1...v6.4.2) (2024-02-29)
+
+### [6.4.1](https://github.com/DevoInc/genesys-tokens/compare/v6.4.0...v6.4.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* **UXW-1026:** Adjust surface inverse token value ([8f468c5](https://github.com/DevoInc/genesys-tokens/commit/8f468c5a09447eb824998a3ca3ce72d71c0c1bd8))
+
+
+### Vulnerabilities
+
+* **deps-dev:** bump ip from 1.1.8 to 1.1.9 ([47f5108](https://github.com/DevoInc/genesys-tokens/commit/47f5108d4af862eb196fbd3c5d3f5ef4a9162544))
+
+## [6.4.0](https://github.com/DevoInc/genesys-tokens/compare/v6.3.0...v6.4.0) (2024-01-25)
+
+
+### Features
+
+* **UXW-1015:** Extend brand tokens ([60e0a31](https://github.com/DevoInc/genesys-tokens/commit/60e0a3176ae02e2b4c10756e29264ee24355ebac))
+
+## [6.3.0](https://github.com/DevoInc/genesys-tokens/compare/v6.2.0...v6.3.0) (2024-01-02)
+
+
+### Features
+
+* **tokens:** decreased the square size of the form checkboxes and radios. ([d37abfa](https://github.com/DevoInc/genesys-tokens/commit/d37abfa77c0da61cbfffbf3a7154755e30a0aac6))
+
+
+### Bug Fixes
+
+* **tokens-types:** move `tokens-cli` to devDepd ([e0c3ecb](https://github.com/DevoInc/genesys-tokens/commit/e0c3ecb232f93229a93376670ee280ee148e4e55))
+
+
+### Vulnerabilities
+
+* **deps-dev:** bump @babel/traverse from 7.21.4 to 7.23.2 ([eccc8d6](https://github.com/DevoInc/genesys-tokens/commit/eccc8d67f5f481ec028973bb6a58facb1b984e7c))
+
 ## [6.2.0](https://github.com/DevoInc/genesys-tokens/compare/v6.1.1...v6.2.0) (2023-09-25)
 
 

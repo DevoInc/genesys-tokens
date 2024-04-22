@@ -19,7 +19,7 @@
       "shape": {
         "border": {
           "separator": {
-            "value": "solid {alias.shape.borderSize.separator.md.value} {theme.mainMenu.color.border.separator.value}"
+            "value": "solid {alias.shape.borderSize.separator.md.value} {brand.mainMenu.color.border.separator.value}"
           }
         }
       },
