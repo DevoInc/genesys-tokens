@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.5.0](https://github.com/DevoInc/genesys-tokens/compare/v6.4.2...v6.5.0) (2024-04-24)
+
+
+### Features
+
+* **Panel:** specific values for size 'xs' in Panel components. ([3cab04f](https://github.com/DevoInc/genesys-tokens/commit/3cab04f5459e2950ade8dbf9f3ea214f3d48d231))
+
 ### [6.4.2](https://github.com/DevoInc/genesys-tokens/compare/v6.4.1...v6.4.2) (2024-02-29)
 
 ### [6.4.1](https://github.com/DevoInc/genesys-tokens/compare/v6.4.0...v6.4.1) (2024-02-29)
