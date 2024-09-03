@@ -20,7 +20,7 @@
         },
         "mono": {
           "fontFaceName": {
-            "value": "'Mono Font', sans-serif"
+            "value": "'Mono Font', monospace"
           },
           "originalName": {
             "value": "JetBrains Mono"
