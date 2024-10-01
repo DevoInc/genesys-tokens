@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "selectControl": {
+      "multiValueContainer": {
+        "color": {
+          "text": {
+            "hovered": {
+              "value": "{alias.color.text.body.strong.value}"
+            }
+          }
+        },
+        "space": {
+          "margin": {
+            "chip": {
+              "value": "calc({alias.space.cmp.xxs.value} / 2) {alias.space.cmp.xxs.value} calc({alias.space.cmp.xxs.value} / 2) 0"
+            }
+          },
+          "paddingRight": {
+            "chip": {
+              "value": "{alias.space.cmp.xs.value}"
+            }
+          },
+          "marginLeft": {
+            "button": {
+              "value": "{alias.space.cmp.xxs.value}"
+            }
+          },
+          "marginRight": {
+            "button": {
+              "value": "calc(({alias.space.cmp.xxs.value} + 0.2rem) * -1)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

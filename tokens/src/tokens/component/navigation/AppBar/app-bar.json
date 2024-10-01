@@ -4,6 +4,24 @@
       "color": {
         "background": {
           "value": "{alias.color.background.surface.base.base.value}"
+        },
+        "border": {
+          "value": "{alias.color.border.separator.base.weak.value}"
+        }
+      },
+      "shape": {
+        "borderSize": {
+          "value": "{alias.shape.borderSize.separator.md.value}"
+        }
+      },
+      "size": {
+        "height": {
+          "base": {
+            "value": "{cmp.tabs.container.size.height.lg.value}"
+          },
+          "compact": {
+            "value": "calc({cmp.appBar.size.height.base.value} - 2rem)"
+          }
         }
       },
       "elevation": {

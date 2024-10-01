@@ -1,0 +1,40 @@
+{
+  "cmp": {
+    "calendar": {
+      "week": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "transparent"
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.base.value}"
+            }
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "value": 1
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "value": "{alias.size.square.handler.lg.value}"
+          }
+        },
+        "space": {
+          "margin": {
+            "value": "0 auto"
+          }
+        }
+      }
+    }
+  }
+}

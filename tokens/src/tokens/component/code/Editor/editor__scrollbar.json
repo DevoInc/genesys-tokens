@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "editor": {
+      "scrollBar": {
+        "color": {
+          "background": {
+            "track": {
+              "base": {
+                "value": "{alias.scrollbars.track.color.backdrop.value}"
+              }
+            },
+            "slider": {
+              "base": {
+                "value": "{alias.scrollbars.thumb.color.backdrop.base.value}"
+              },
+              "hovered": {
+                "value": "{alias.scrollbars.thumb.color.backdrop.hovered.value}"
+              }
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "slider": {
+              "value": "{alias.scrollbars.thumb.shape.borderRadius.value}"
+            }
+          }
+        },
+        "size": {
+          "square": {
+            "value": "{alias.scrollbars.size.square.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

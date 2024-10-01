@@ -1,0 +1,25 @@
+{
+  "cmp": {
+    "selectControl": {
+      "menuList": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.base.base.value}"
+            }
+          }
+        },
+        "size": {
+          "maxHeight": {
+            "value": "{alias.menus.list.size.maxHeight.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "value": "0"
+          }
+        }
+      }
+    }
+  }
+}

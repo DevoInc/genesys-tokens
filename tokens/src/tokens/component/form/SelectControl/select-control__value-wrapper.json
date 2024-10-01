@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "selectControl": {
+      "valueWrapper": {
+        "size": {
+          "maxHeight": {
+            "base": {
+              "sm": {
+                "value": "{cmp.selectControl.size.height.sm.value}"
+              },
+              "md": {
+                "value": "{cmp.selectControl.size.height.md.value}"
+              },
+              "lg": {
+                "value": "{cmp.selectControl.size.height.lg.value}"
+              }
+            },
+            "isMultiple": {
+              "sm": {
+                "value": "{cmp.selectControl.size.maxHeight.isMultiple.sm.value}"
+              },
+              "md": {
+                "value": "{cmp.selectControl.size.maxHeight.isMultiple.md.value}"
+              },
+              "lg": {
+                "value": "{cmp.selectControl.size.maxHeight.isMultiple.lg.value}"
+              }
+            },
+            "maxWidth": {
+              "isMultipleSubtle": {
+                "value": "100%"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

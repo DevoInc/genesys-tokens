@@ -1,0 +1,57 @@
+{
+  "cmp": {
+    "inputControl": {
+      "icon": {
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.opacity.xxl.value}"
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "value": 2
+          }
+        },
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{alias.fields.icon.size.square.sm.value}"
+            },
+            "md": {
+              "value": "{alias.fields.icon.size.square.md.value}"
+            },
+            "lg": {
+              "value": "{alias.fields.icon.size.square.lg.value}"
+            }
+          }
+        },
+        "space": {
+          "offset": {
+            "base": {
+              "sm": {
+                "value": "{alias.fields.space.padding.hor.sm.value}"
+              },
+              "md": {
+                "value": "{alias.fields.space.padding.hor.md.value}"
+              },
+              "lg": {
+                "value": "{alias.fields.space.padding.hor.lg.value}"
+              }
+            },
+            "password": {
+              "sm": {
+                "value": "calc(({cmp.inputControl.icon.space.offset.base.sm.value} * 2) + {cmp.button.size.square.xxs.value})"
+              },
+              "md": {
+                "value": "calc(({cmp.inputControl.icon.space.offset.base.md.value} * 2) + {cmp.button.size.square.xs.value})"
+              },
+              "lg": {
+                "value": "calc(({cmp.inputControl.icon.space.offset.base.lg.value} * 2) + {cmp.button.size.square.sm.value})"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

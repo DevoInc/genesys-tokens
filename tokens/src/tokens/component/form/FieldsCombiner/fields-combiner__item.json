@@ -1,0 +1,54 @@
+{
+  "cmp": {
+    "fieldsCombiner": {
+      "item": {
+        "color": {
+          "background": {
+            "checkType": {
+              "value": "{alias.color.background.surface.base.raised.value}"
+            }
+          },
+          "border": {
+            "checkType": {
+              "base": {
+                "value": "{alias.fields.color.border.base.enabled.value}"
+              },
+              "error": {
+                "value": "{alias.fields.color.border.error.enabled.value}"
+              },
+              "success": {
+                "value": "{alias.fields.color.border.success.enabled.value}"
+              },
+              "warning": {
+                "value": "{alias.fields.color.border.warning.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.fields.color.border.base.hovered.value}"
+              }
+            }
+          }
+        },
+        "shape": {
+          "checkType": {
+            "borderSize": {
+              "value": "{alias.fields.shape.borderSize.base.value}"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "sm": {
+              "value": "{cmp.button.size.height.sm.value}"
+            },
+            "md": {
+              "value": "{cmp.button.size.height.md.value}"
+            },
+            "lg": {
+              "value": "{cmp.button.size.height.lg.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cmp": {
+    "collapse": {
+      "button": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "transparent"
+            },
+            "hovered": {
+              "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+            }
+          }
+        },
+        "elevation": {
+          "bosShadow": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.base.focused.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.action.value}"
+          }
+        }
+      }
+    }
+  }
+}

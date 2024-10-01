@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "diffEditor": {
+      "modified": {
+        "shape": {
+          "borderLeft": {
+            "value": "solid {alias.fields.shape.borderSize.base.value} {alias.fields.color.border.base.enabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

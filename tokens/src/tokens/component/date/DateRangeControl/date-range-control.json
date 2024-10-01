@@ -1,0 +1,188 @@
+{
+  "cmp": {
+    "dateTimeRangeControl": {
+      "color": {
+        "border": {
+          "base": {
+            "value": "{alias.fields.color.border.base.enabled.value}"
+          },
+          "active": {
+            "value": "{alias.fields.color.border.base.hovered.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.fields.shape.borderRadius.value}"
+        },
+        "borderSize": {
+          "value": "{alias.fields.shape.borderSize.base.value}"
+        }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.fields.size.height.sm.value}"
+          },
+          "md": {
+            "value": "{alias.fields.size.height.md.value}"
+          },
+          "lg": {
+            "value": "{alias.fields.size.height.lg.value}"
+          }
+        }
+      },
+      "space": {
+        "padding": {
+          "sm": {
+            "value": "0 calc({alias.fields.space.padding.hor.sm.value} - 0.2rem)"
+          },
+          "md": {
+            "value": "0 calc({alias.fields.space.padding.hor.md.value} - 0.2rem)"
+          },
+          "lg": {
+            "value": "0 calc({alias.fields.space.padding.hor.lg.value} - 0.4rem)"
+          }
+        },
+        "gap": {
+          "sm": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "md": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "lg": {
+            "value": "{alias.space.cmp.xxs.value}"
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.fields.mutation.transitionDuration.value}"
+        }
+      },
+      "input": {
+        "size": {
+          "height": {
+            "sm": {
+              "value": "calc({alias.fields.size.height.sm.value} - 0.6rem)"
+            },
+            "md": {
+              "value": "calc({alias.fields.size.height.md.value} - 0.8rem)"
+            },
+            "lg": {
+              "value": "calc({alias.fields.size.height.lg.value} - 0.8rem)"
+            }
+          },
+          "width": {
+            "base": {
+              "sm": {
+                "value": "8.4rem"
+              },
+              "md": {
+                "value": "8.8rem"
+              },
+              "lg": {
+                "value": "9.4rem"
+              }
+            },
+            "withTime": {
+              "sm": {
+                "value": "9.6rem"
+              },
+              "md": {
+                "value": "10.2rem"
+              },
+              "lg": {
+                "value": "13.2rem"
+              }
+            },
+            "withSeconds": {
+              "sm": {
+                "value": "13.6rem"
+              },
+              "md": {
+                "value": "14.2rem"
+              },
+              "lg": {
+                "value": "15.2rem"
+              }
+            },
+            "withMillis": {
+              "sm": {
+                "value": "15.4rem"
+              },
+              "md": {
+                "value": "16.8rem"
+              },
+              "lg": {
+                "value": "18.2rem"
+              }
+            }
+          }
+        },
+        "space": {
+          "padding": {
+            "sm": {
+              "value": "0 calc({alias.fields.space.padding.hor.sm.value} - 0.2rem)"
+            },
+            "md": {
+              "value": "0 calc({alias.fields.space.padding.hor.md.value} - 0.2rem)"
+            },
+            "lg": {
+              "value": "0 calc({alias.fields.space.padding.hor.lg.value} - 0.4rem)"
+            }
+          }
+        }
+      },
+      "arrow": {
+        "color": {
+          "fill": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "sm": {
+              "value": "14"
+            },
+            "md": {
+              "value": "18"
+            },
+            "lg": {
+              "value": "22"
+            }
+          }
+        }
+      },
+      "realTimeButton": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{cmp.button.size.square.xs.value}"
+            },
+            "md": {
+              "value": "{cmp.button.size.square.sm.value}"
+            },
+            "lg": {
+              "value": "{cmp.button.size.square.md.value}"
+            }
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "sm": {
+              "value": "{cmp.button.icon.typo.fontSize.xxs.value}"
+            },
+            "md": {
+              "value": "{cmp.button.icon.typo.fontSize.xs.value}"
+            },
+            "lg": {
+              "value": "{cmp.button.icon.typo.fontSize.sm.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

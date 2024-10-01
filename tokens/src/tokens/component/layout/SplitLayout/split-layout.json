@@ -1,0 +1,45 @@
+{
+  "cmp": {
+    "splitLayout": {
+      "color": {
+        "background": {
+          "base": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "hovered": {
+            "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+          },
+          "pressed": {
+            "value": "{alias.color.background.surface.backdrop.base.pressed.value}"
+          },
+          "dragging": {
+            "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+          }
+        },
+        "border": {
+          "value": "{alias.color.border.separator.base.weak.value}"
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.mutation.transitionDuration.blink.value}"
+        }
+      },
+      "size": {
+        "square": {
+          "value": 10
+        }
+      },
+      "shape": {
+        "borderSize": {
+          "horizontal": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          },
+          "vertical": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

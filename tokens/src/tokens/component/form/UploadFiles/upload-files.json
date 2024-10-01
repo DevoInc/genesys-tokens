@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "shape": {
+        "borderSize": {
+          "value": "{alias.shape.borderSize.separator.xl.value}"
+        },
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.lg.value}"
+        }
+      },
+      "size": {
+        "minHeight": {
+          "value": "{alias.size.height.surface.md.value}"
+        }
+      },
+      "color": {
+        "background": {
+          "value": "{alias.color.background.surface.base.raised.value}"
+        },
+        "border": {
+          "value": "{alias.color.border.separator.base.weak.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "popover": {
+      "arrow": {
+        "shape": {
+          "borderSize": {
+            "value": "{alias.shape.borderSize.panel.base.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "inner": {
+              "value": 10
+            },
+            "outer": {
+              "value": 11
+            }
+          }
+        }
+      }
+    }
+  }
+}

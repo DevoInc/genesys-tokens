@@ -1,0 +1,79 @@
+{
+  "cmp": {
+    "inputControl": {
+      "pseudoRange": {
+        "color": {
+          "background": {
+            "track": {
+              "base": {
+                "value": "{alias.color.background.track.base.value}"
+              },
+              "error": {
+                "value": "{alias.color.background.track.error.value}"
+              },
+              "success": {
+                "value": "{alias.color.background.track.success.value}"
+              },
+              "warning": {
+                "value": "{alias.color.background.track.warning.value}"
+              }
+            },
+            "thumb": {
+              "base": {
+                "value": "{alias.handlers.color.background.value}"
+              }
+            }
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "thumb": {
+              "value": "{alias.handlers.elevation.boxShadow.enabled.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "thumb": {
+              "value": "{alias.handlers.mutation.transitionDuration.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "track": {
+              "base": {
+                "value": "{alias.shape.borderRadius.pill.value}"
+              }
+            },
+            "thumb": {
+              "base": {
+                "value": "{alias.handlers.shape.borderRadius.value}"
+              },
+              "hovered": {
+                "value": "{alias.handlers.elevation.boxShadow.hovered.value}"
+              }
+            }
+          }
+        },
+        "size": {
+          "width": {
+            "track": {
+              "value": "100%"
+            }
+          },
+          "height": {
+            "track": {
+              "value": "{alias.size.height.track.xs.value}"
+            }
+          },
+          "square": {
+            "thumb": {
+              "value": "{alias.handlers.size.square.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

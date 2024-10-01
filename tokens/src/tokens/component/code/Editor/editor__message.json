@@ -1,0 +1,50 @@
+{
+  "cmp": {
+    "editor": {
+      "message": {
+        "elevation": {
+          "boxShadow": {
+            "base": {
+              "value": "{alias.elevation.boxShadow.depth.activated.value}"
+            }
+          }
+        },
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.stronger.value}"
+            }
+          },
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.base.base.value}"
+            }
+          },
+          "border": {
+            "base": {
+              "value": "{alias.color.border.elevation.activated.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.elevated.value}"
+          }
+        },
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.xs.value} {alias.space.cmp.sm.value}"
+          }
+        },
+        "typo": {
+          "fontFamily": {
+            "value": "{alias.typo.fontFamily.body.fontFaceName.value}"
+          },
+          "fontSize": {
+            "value": "{alias.typo.fontSize.body.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

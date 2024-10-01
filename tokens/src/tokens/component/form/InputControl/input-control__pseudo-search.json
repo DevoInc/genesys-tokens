@@ -1,0 +1,84 @@
+{
+  "cmp": {
+    "inputControl": {
+      "pseudoSearch": {
+        "color": {
+          "background": {
+            "enabled": {
+              "value": "{cmp.button.color.background.neutral.enabled.value}"
+            },
+            "hovered": {
+              "value": "{cmp.button.color.background.neutral.hovered.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.button.mutation.transitionDuration.value}"
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{cmp.button.shape.borderRadius.full.value}"
+          },
+          "backgroundSize": {
+            "sm": {
+              "value": "{cmp.button.icon.typo.fontSize.xxs.value}"
+            },
+            "md": {
+              "value": "{cmp.button.icon.typo.fontSize.xxs.value}"
+            },
+            "lg": {
+              "value": "{cmp.button.icon.typo.fontSize.xxs.value}"
+            }
+          },
+          "backgroundImage": {
+            "enabled": {
+              "value": "{alias.fields.shape.backgroundImage.searchCancel.base.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.shape.backgroundImage.searchCancel.hovered.value}"
+            }
+          }
+        },
+        "size": {
+          "square": {
+            "sm": {
+              "value": "{cmp.button.size.square.xxs.value}"
+            },
+            "md": {
+              "value": "{cmp.button.size.square.xxs.value}"
+            },
+            "lg": {
+              "value": "{cmp.button.size.square.xxs.value}"
+            }
+          }
+        },
+        "space": {
+          "padding": {
+            "sm": {
+              "value": "0"
+            },
+            "md": {
+              "value": "0"
+            },
+            "lg": {
+              "value": "0"
+            }
+          },
+          "offset": {
+            "sm": {
+              "value": "{cmp.inputControl.space.padding.hor.sm.value}"
+            },
+            "md": {
+              "value": "{cmp.inputControl.space.padding.hor.md.value}"
+            },
+            "lg": {
+              "value": "{cmp.inputControl.space.padding.hor.lg.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

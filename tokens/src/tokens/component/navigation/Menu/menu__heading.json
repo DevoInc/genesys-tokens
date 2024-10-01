@@ -1,0 +1,22 @@
+{
+  "cmp": {
+    "menu": {
+      "heading": {
+        "space": {
+          "paddingTop": {
+            "value": "{alias.space.cmp.md.value}"
+          },
+          "paddingRight": {
+            "value": "0"
+          },
+          "paddingBottom": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "paddingLeft": {
+            "value": "{cmp.menu.item.space.paddingHor.value}"
+          }
+        }
+      }
+    }
+  }
+}

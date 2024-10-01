@@ -1,0 +1,62 @@
+{
+  "cmp": {
+    "inputControl": {
+      "pseudoFile": {
+        "color": {
+          "background": {
+            "enabled": {
+              "value": "{cmp.button.color.background.neutral.enabled.value}"
+            }
+          },
+          "text": {
+            "enabled": {
+              "value": "{cmp.button.color.text.neutral.enabled.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{cmp.button.shape.borderRadius.medium.value}"
+          }
+        },
+        "space": {
+          "offset": {
+            "sm": {
+              "value": "calc(({cmp.inputControl.space.padding.hor.sm.value} - {cmp.inputControl.space.padding.top.fileType.sm.value}) * -1)"
+            },
+            "md": {
+              "value": "calc(({cmp.inputControl.space.padding.hor.md.value} - {cmp.inputControl.space.padding.top.fileType.md.value}) * -1)"
+            },
+            "lg": {
+              "value": "calc(({cmp.inputControl.space.padding.hor.lg.value} - {cmp.inputControl.space.padding.top.fileType.lg.value}) * -1)"
+            }
+          },
+          "padding": {
+            "sm": {
+              "value": "calc({cmp.button.space.padding.sm.value} - 0.2rem)"
+            },
+            "md": {
+              "value": "calc({cmp.button.space.padding.md.value} - 0.2rem)"
+            },
+            "lg": {
+              "value": "calc({cmp.button.space.padding.lg.value} - 0.2rem)"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "sm": {
+              "value": "calc({cmp.button.size.height.sm.value} - 0.6rem)"
+            },
+            "md": {
+              "value": "calc({cmp.button.size.height.md.value} - 0.6rem)"
+            },
+            "lg": {
+              "value": "calc({cmp.button.size.height.lg.value} - 0.6rem)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "editor": {
+      "line": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.feedback.neutral.weak.value}"
+            }
+          }
+        },
+        "space": {
+          "paddingLeft": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "marginLeft": {
+            "value": "calc(-1 * {cmp.editor.line.space.paddingLeft.value})"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "toolbar": {
+      "divider": {
+        "size": {
+          "width": {
+            "value": "{alias.shape.borderSize.separator.md.value}"
+          },
+          "height": {
+            "value": "{alias.size.height.action.xs.value}"
+          }
+        }
+      }
+    }
+  }
+}

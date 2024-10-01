@@ -1,0 +1,68 @@
+{
+  "cmp": {
+    "calendar": {
+      "day": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "transparent"
+            },
+            "hovered": {
+              "value": "{alias.color.background.surface.base.raised.value}"
+            },
+            "selected": {
+              "value": "{alias.fields.color.background.base.checked.value}"
+            },
+            "activated": {
+              "value": "{alias.fields.color.background.base.checked.value}"
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.base.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.body.strong.value}"
+            },
+            "selected": {
+              "value": "{alias.fields.color.text.base.checked.value}"
+            },
+            "activated": {
+              "value": "{alias.fields.color.text.base.checked.value}"
+            }
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "value": 1
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.button.mutation.transitionDuration.value}"
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          },
+          "opacity": {
+            "disabled": {
+              "value": "{alias.shape.opacity.disabled.value}"
+            }
+          }
+        },
+        "size": {
+          "square": {
+            "value": "{alias.size.square.handler.lg.value}"
+          }
+        },
+        "space": {
+          "margin": {
+            "value": "0 auto"
+          }
+        }
+      }
+    }
+  }
+}

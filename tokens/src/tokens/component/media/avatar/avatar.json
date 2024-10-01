@@ -1,0 +1,250 @@
+{
+  "cmp": {
+    "avatar": {
+      "color": {
+        "background": {
+          "primary": {
+            "value": "{alias.color.background.feedback.primary.weak.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.background.feedback.secondary.weak.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.background.feedback.neutral.weak.value}"
+          },
+          "blendBase": {
+            "value": "{alias.color.background.feedback.blendBase.weak.value}"
+          },
+          "blendInverse": {
+            "value": "{alias.color.background.feedback.blendInverse.weak.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.weak.value}"
+          },
+          "success": {
+            "value": "{alias.color.background.feedback.success.weak.value}"
+          },
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.weak.value}"
+          },
+          "help": {
+            "value": "{alias.color.background.feedback.help.weak.value}"
+          },
+          "info": {
+            "value": "{alias.color.background.feedback.info.weak.value}"
+          },
+          "dataBlue": {
+            "value": "{alias.color.background.feedback.dataBlue.weak.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.background.feedback.dataBronze.weak.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.background.feedback.dataGreen.weak.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.background.feedback.dataTeal.weak.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.background.feedback.dataSky.weak.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.background.feedback.dataSlate.weak.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.background.feedback.dataIndigo.weak.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.background.feedback.dataDusk.weak.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.background.feedback.dataPurple.weak.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.background.feedback.dataMagenta.weak.value}"
+          },
+          "dataRed": {
+            "value": "{alias.color.background.feedback.dataRed.weak.value}"
+          }
+        },
+        "text": {
+          "primary": {
+            "value": "{alias.color.text.feedback.primary.base.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.text.feedback.secondary.base.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.text.feedback.neutral.base.value}"
+          },
+          "blendBase": {
+            "value": "{alias.color.text.feedback.blendBase.base.value}"
+          },
+          "blendInverse": {
+            "value": "{alias.color.text.feedback.blendInverse.base.value}"
+          },
+          "error": {
+            "value": "{alias.color.text.feedback.error.base.value}"
+          },
+          "success": {
+            "value": "{alias.color.text.feedback.success.base.value}"
+          },
+          "warning": {
+            "value": "{alias.color.text.feedback.warning.base.value}"
+          },
+          "help": {
+            "value": "{alias.color.text.feedback.help.base.value}"
+          },
+          "info": {
+            "value": "{alias.color.text.feedback.info.base.value}"
+          },
+          "dataBlue": {
+            "value": "{alias.color.text.feedback.dataBlue.base.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.text.feedback.dataBronze.base.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.text.feedback.dataGreen.base.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.text.feedback.dataTeal.base.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.text.feedback.dataSky.base.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.text.feedback.dataSlate.base.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.text.feedback.dataIndigo.base.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.text.feedback.dataDusk.base.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.text.feedback.dataPurple.base.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.text.feedback.dataMagenta.base.value}"
+          },
+          "dataRed": {
+            "value": "{alias.color.text.feedback.dataRed.base.value}"
+          }
+        },
+        "border": {
+          "value": "{alias.color.border.separator.base.strongest.value}"
+        }
+      },
+      "elevation": {
+        "boxShadow": {
+          "value": "{alias.elevation.boxShadow.depth.sticky.bottom.value}, inset 0 -{alias.shape.borderSize.separator.md.value} {alias.color.border.separator.base.weaker.value}"
+        }
+      },
+      "size": {
+        "square": {
+          "xxxs": {
+            "value": "{global.size.square.07.value}"
+          },
+          "xxs": {
+            "value": "{global.size.square.09.value}"
+          },
+          "xs": {
+            "value": "{global.size.square.10.value}"
+          },
+          "sm": {
+            "value": "{global.size.square.11.value}"
+          },
+          "md": {
+            "value": "{global.size.square.12.value}"
+          },
+          "lg": {
+            "value": "{global.size.square.13.value}"
+          },
+          "xl": {
+            "value": "{global.size.square.14.value}"
+          },
+          "xxl": {
+            "value": "{global.size.square.15.value}"
+          },
+          "xxxl": {
+            "value": "{global.size.square.16.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "circle": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          },
+          "rounded": {
+            "value": "{alias.shape.borderRadius.md.value}"
+          }
+        },
+        "opacity": {
+          "disabled": {
+            "value": "{alias.shape.opacity.disabled.value}"
+          }
+        },
+        "borderSize": {
+          "bordered": {
+            "xxxs": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            },
+            "xxs": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            },
+            "xs": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            },
+            "sm": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            },
+            "md": {
+              "value": "{alias.shape.borderSize.separator.lg.value}"
+            },
+            "lg": {
+              "value": "{alias.shape.borderSize.separator.lg.value}"
+            },
+            "xl": {
+              "value": "{alias.shape.borderSize.separator.xl.value}"
+            },
+            "xxl": {
+              "value": "{alias.shape.borderSize.separator.xl.value}"
+            },
+            "xxxl": {
+              "value": "{alias.shape.borderSize.separator.xl.value}"
+            }
+          }
+        }
+      },
+      "backdrop": {
+        "color": {
+          "text": {
+            "lightScheme": {
+              "value": "{alias.color.text.body.inverse.value}"
+            },
+            "darkScheme": {
+              "value": "{alias.color.text.body.strong.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.opacity.md.value}"
+          }
+        },
+        "typo": {
+          "fontSize": {
+            "value": "{alias.size.square.icon.base.lg.value}"
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.base.focused.value}"
+          }
+        }
+      }
+    }
+  }
+}

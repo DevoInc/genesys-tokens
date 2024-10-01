@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "selectControl": {
+      "menuWrapper": {
+        "space": {
+          "margin": {
+            "value": "{alias.menus.wrapper.space.margin.value}"
+          }
+        }
+      }
+    }
+  }
+}

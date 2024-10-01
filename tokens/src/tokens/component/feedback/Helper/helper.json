@@ -1,0 +1,43 @@
+{
+  "cmp": {
+    "helper": {
+      "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "error": {
+            "value": "{alias.color.text.feedback.error.base.value}"
+          }
+        }
+      },
+      "space": {
+        "marginTop": {
+          "base": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "forGroup": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        },
+        "gap": {
+          "xxs": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "xs": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "sm": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "md": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "lg": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

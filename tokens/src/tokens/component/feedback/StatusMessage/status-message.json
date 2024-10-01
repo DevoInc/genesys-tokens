@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "statusMessage": {
+      "shape": {
+        "borderSize": {
+          "value": "{alias.shape.borderSize.separator.md.value}"
+        },
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.elevated.value}"
+        }
+      },
+      "color": {
+        "border": {
+          "value": "{alias.color.border.feedback.base.base.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "selectControl": {
+      "multiValueDraggable": {
+        "color": {
+          "background": {
+            "hovered": {
+              "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+            }
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.base.focused.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.action.value}"
+          }
+        }
+      }
+    }
+  }
+}

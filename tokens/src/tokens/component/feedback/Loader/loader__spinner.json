@@ -41,6 +41,31 @@
               "value": "{brand.loader.spinnerCircle.color.background.info.value}"
             }
           }
+        },
+        "size": {
+          "square": {
+            "xxxs": {
+              "value": "{alias.size.square.icon.base.xxxs.value}"
+            },
+            "xxs": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "xs": {
+              "value": "{alias.size.square.icon.base.md.value}"
+            },
+            "sm": {
+              "value": "{alias.size.square.icon.base.lg.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xl.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.xxl.value}"
+            },
+            "xl": {
+              "value": "{alias.size.square.icon.base.xxxl.value}"
+            }
+          }
         }
       }
     }

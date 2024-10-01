@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "popover": {
+      "elevation": {
+        "zIndex": {
+          "base": {
+            "value": "{alias.elevation.zIndex.depth.activated.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{cmp.panel.shape.borderRadius.value}"
+        }
+      }
+    }
+  }
+}

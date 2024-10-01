@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "form": {
+      "legend": {
+        "size": {
+          "minHeight": {
+            "value": "{alias.typo.lineHeight.body.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

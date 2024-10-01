@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "editor": {
+      "ruler": {
+        "size": {
+          "width": {
+            "value": "{cmp.editor.scrollBar.size.square.value}"
+          }
+        },
+        "shape": {
+          "borderLeft": {
+            "hasMiniMap": {
+              "value": "solid {alias.shape.borderSize.separator.md.value} {alias.color.border.separator.base.weak.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

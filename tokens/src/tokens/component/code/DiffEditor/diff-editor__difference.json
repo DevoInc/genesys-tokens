@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "diffEditor": {
+      "difference": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.feedback.neutral.weaker.value}"
+          }
+        },
+        "shape": {
+          "borderLeft": {
+            "value": "solid {alias.fields.shape.borderSize.base.value} {alias.fields.color.border.base.enabled.value}"
+          }
+        }
+      }
+    }
+  }
+}

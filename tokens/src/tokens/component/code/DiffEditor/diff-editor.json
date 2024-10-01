@@ -1,0 +1,28 @@
+{
+  "cmp": {
+    "diffEditor": {
+      "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.stronger.value}"
+          }
+        },
+        "background": {
+          "base": {
+            "value": "{alias.fields.color.background.base.readonly.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "base": {
+            "value": "{alias.fields.shape.borderRadius.value}"
+          },
+          "inner": {
+            "value": "calc({cmp.diffEditor.shape.borderRadius.base.value} - 0.1rem)"
+          }
+        }
+      }
+    }
+  }
+}

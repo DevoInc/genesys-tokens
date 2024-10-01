@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "selectControl": {
+      "valueContainer": {
+        "space": {
+          "padding": {
+            "hor": {
+              "sm": {
+                "value": "{alias.fields.space.padding.hor.sm.value}"
+              },
+              "md": {
+                "value": "{alias.fields.space.padding.hor.md.value}"
+              },
+              "lg": {
+                "value": "{alias.fields.space.padding.hor.lg.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

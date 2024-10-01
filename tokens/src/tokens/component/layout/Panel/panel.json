@@ -4,11 +4,71 @@
       "color": {
         "background": {
           "value": "{alias.color.background.surface.base.base.value}"
+        },
+        "border": {
+          "ground": {
+            "value": "{alias.color.border.elevation.ground.value}"
+          },
+          "sticky": {
+            "bottom": {
+              "value": "{alias.color.border.elevation.sticky.bottom.value}"
+            },
+            "top": {
+              "value": "{alias.color.border.elevation.sticky.top.value}"
+            },
+            "right": {
+              "value": "{alias.color.border.elevation.sticky.right.value}"
+            },
+            "left": {
+              "value": "{alias.color.border.elevation.sticky.left.value}"
+            }
+          },
+          "activated": {
+            "value": "{alias.color.border.elevation.activated.value}"
+          },
+          "draggable": {
+            "value": "{alias.color.border.elevation.draggable.value}"
+          },
+          "overlay": {
+            "value": "{alias.color.border.elevation.overlay.value}"
+          },
+          "popOut": {
+            "value": "{alias.color.border.elevation.popOut.value}"
+          }
         }
       },
       "elevation": {
         "boxShadow": {
           "depth": {
+            "ground": {
+              "value": "{alias.elevation.boxShadow.depth.ground.value}"
+            },
+            "sticky": {
+              "bottom": {
+                "value": "{alias.elevation.boxShadow.depth.sticky.bottom.value}"
+              },
+              "top": {
+                "value": "{alias.elevation.boxShadow.depth.sticky.top.value}"
+              },
+              "right": {
+                "value": "{alias.elevation.boxShadow.depth.sticky.right.value}"
+              },
+              "left": {
+                "value": "{alias.elevation.boxShadow.depth.sticky.left.value}"
+              }
+            },
+            "activated": {
+              "value": "{alias.elevation.boxShadow.depth.activated.value}"
+            },
+            "draggable": {
+              "value": "{alias.elevation.boxShadow.depth.draggable.value}"
+            },
+            "overlay": {
+              "value": "{alias.elevation.boxShadow.depth.overlay.value}"
+            },
+            "popOut": {
+              "value": "{alias.elevation.boxShadow.depth.popOut.value}"
+            },
             "draggableOverlay": {
               "value": "0 0 1.6rem 0.4rem rgba({theme.color.shadow.base.enabled.rgbValues}, 0.35), 0 0 0.1rem 0 rgba({theme.color.shadow.base.enabled.rgbValues}, 0.31)"
             }
@@ -18,6 +78,9 @@
       "shape": {
         "borderRadius": {
           "value": "{alias.shape.borderRadius.lg.value}"
+        },
+        "borderSize": {
+          "value": "{alias.shape.borderSize.panel.base.value}"
         }
       }
     }

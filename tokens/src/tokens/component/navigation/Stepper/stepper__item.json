@@ -17,6 +17,15 @@
             "value": "{alias.space.cmp.xs.value}"
           }
         }
+      },
+      "itemIndicator": {
+        "shape": {
+          "opacity": {
+            "disabled": {
+              "value": "{alias.shape.opacity.disabled.value}"
+            }
+          }
+        }
       }
     }
   }

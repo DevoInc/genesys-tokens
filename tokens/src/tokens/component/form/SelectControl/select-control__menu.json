@@ -1,0 +1,40 @@
+{
+  "cmp": {
+    "selectControl": {
+      "menu": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.base.base.value}"
+            }
+          }
+        },
+        "space": {
+          "marginTop": {
+            "base": {
+              "value": "{alias.menus.space.marginTop.base.value}"
+            },
+            "isQuiet": {
+              "value": "{alias.menus.space.marginTop.isQuiet.value}"
+            },
+            "isGroundLevel": {
+              "value": "{alias.menus.space.marginTop.isGroundLevel.value}"
+            }
+          },
+          "marginBottom": {
+            "isQuiet": {
+              "value": "0"
+            }
+          },
+          "offset": {
+            "top": {
+              "isRelative": {
+                "value": "auto"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

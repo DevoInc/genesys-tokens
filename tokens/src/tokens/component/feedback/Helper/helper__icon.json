@@ -1,0 +1,46 @@
+{
+  "cmp": {
+    "helper": {
+      "icon": {
+        "size": {
+          "square": {
+            "xxs": {
+              "value": "{alias.size.square.icon.base.xxxxs.value}"
+            },
+            "xs": {
+              "value": "{alias.size.square.icon.base.xxxs.value}"
+            },
+            "sm": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            },
+            "md": {
+              "value": "{alias.size.square.icon.base.xs.value}"
+            },
+            "lg": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            }
+          }
+        },
+        "color": {
+          "fill": {
+            "error": {
+              "value": "{alias.color.background.feedback.error.stronger.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.stronger.value}"
+            },
+            "help": {
+              "value": "{alias.color.background.feedback.help.stronger.value}"
+            },
+            "info": {
+              "value": "{alias.color.background.feedback.info.stronger.value}"
+            },
+            "warning": {
+              "value": "{alias.color.background.feedback.warning.strong.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

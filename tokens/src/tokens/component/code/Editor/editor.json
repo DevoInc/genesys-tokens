@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "editor": {
+      "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.stronger.value}"
+          }
+        },
+        "background": {
+          "readOnly": {
+            "value": "{alias.fields.color.background.base.readonly.value}"
+          }
+        },
+        "border": {
+          "base": {
+            "value": "{alias.fields.color.border.base.enabled.value}"
+          },
+          "readOnly": {
+            "value": "{alias.fields.color.background.base.readonly.value}"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.fields.shape.borderRadius.value}"
+        },
+        "borderSize": {
+          "value": "{alias.fields.shape.borderSize.base.value}"
+        },
+        "borderStyle": {
+          "value": "solid"
+        }
+      }
+    }
+  }
+}

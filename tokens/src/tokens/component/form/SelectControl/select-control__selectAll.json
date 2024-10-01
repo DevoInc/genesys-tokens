@@ -1,0 +1,41 @@
+{
+  "cmp": {
+    "selectControl": {
+      "selectAll": {
+        "space": {
+          "padding": {
+            "base": {
+              "sm": {
+                "value": "calc({alias.space.cmp.xxs.value} / 2) 0 {alias.space.cmp.xxs.value} 0"
+              },
+              "md": {
+                "value": "{alias.space.cmp.xxs.value} 0 {alias.space.cmp.xs.value} 0"
+              },
+              "lg": {
+                "value": "{alias.space.cmp.xs.value} 0 {alias.space.cmp.sm.value} 0"
+              }
+            },
+            "isMultipleSubtle": {
+              "sm": {
+                "value": "calc({cmp.selectControl.menuWrapper.space.margin.value} * 2) {cmp.selectControl.menuWrapper.space.margin.value} {cmp.selectControl.menuWrapper.space.margin.value} calc({cmp.selectControl.valueContainer.space.padding.hor.sm.value} + {cmp.selectControl.menuWrapper.space.margin.value})"
+              },
+              "md": {
+                "value": "calc({cmp.selectControl.menuWrapper.space.margin.value} * 2) {cmp.selectControl.menuWrapper.space.margin.value} {cmp.selectControl.menuWrapper.space.margin.value} calc({cmp.selectControl.valueContainer.space.padding.hor.md.value} + {cmp.selectControl.menuWrapper.space.margin.value})"
+              },
+              "lg": {
+                "value": "calc({cmp.selectControl.menuWrapper.space.margin.value} * 2) {cmp.selectControl.menuWrapper.space.margin.value} {cmp.selectControl.menuWrapper.space.margin.value} calc({cmp.selectControl.valueContainer.space.padding.hor.lg.value} + {cmp.selectControl.menuWrapper.space.margin.value})"
+              }
+            }
+          }
+        },
+        "shape": {
+          "border": {
+            "bottom": {
+              "value": "solid {alias.shape.borderSize.separator.md.value} {alias.color.border.separator.base.weak.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

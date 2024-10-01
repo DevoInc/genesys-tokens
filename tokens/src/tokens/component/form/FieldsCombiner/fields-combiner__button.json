@@ -1,0 +1,60 @@
+{
+  "cmp": {
+    "fieldsCombiner": {
+      "button": {
+        "color": {
+          "border": {
+            "combinedButtons": {
+              "light": {
+                "value": "{alias.color.border.separator.blendInverse.strong.value}"
+              },
+              "dark": {
+                "value": "{alias.color.border.separator.blendBase.strong.value}"
+              }
+            },
+            "base": {
+              "value": "{alias.fields.color.border.base.enabled.value}"
+            },
+            "error": {
+              "value": "{alias.fields.color.border.error.enabled.value}"
+            },
+            "warning": {
+              "value": "{alias.fields.color.border.warning.enabled.value}"
+            },
+            "success": {
+              "value": "{alias.fields.color.border.success.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.base.hovered.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.button.mutation.transitionDuration.value}"
+          }
+        },
+        "shape": {
+          "borderSize": {
+            "base": {
+              "value": "{alias.fields.shape.borderSize.base.value}"
+            },
+            "combinedButtons": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            }
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "base": {
+              "value": 1
+            },
+            "focused": {
+              "value": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}

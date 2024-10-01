@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "fieldsCombiner": {
+      "select": {
+        "color": {
+          "border": {
+            "hovered": {
+              "value": "{alias.fields.color.border.base.hovered.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.button.mutation.transitionDuration.value}"
+          }
+        },
+        "elevation": {
+          "zIndex": {
+            "focused": {
+              "value": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}

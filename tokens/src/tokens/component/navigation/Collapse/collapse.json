@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "collapse": {
+      "color": {
+        "background": {
+          "base": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "expanded": {
+            "value": "{alias.color.background.surface.base.expanded.value}"
+          }
+        },
+        "border": {
+          "base": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "expanded": {
+            "value": "transparent"
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.mutation.transitionDuration.action.value}"
+        }
+      },
+      "shape": {
+        "borderSize": {
+          "value": "{alias.shape.borderSize.separator.md.value}"
+        }
+      },
+      "size": {
+        "minHeight": {
+          "value": "{alias.size.height.surface.xs.value}"
+        }
+      }
+    }
+  }
+}

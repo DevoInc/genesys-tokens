@@ -1,0 +1,489 @@
+{
+  "cmp": {
+    "checkboxControl": {
+      "color": {
+        "background": {
+          "base": {
+            "enabled": {
+              "value": "{alias.fields.color.background.base.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.background.base.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.background.base.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.background.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.background.base.focused.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.background.base.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.background.base.unchecked.value}"
+            }
+          },
+          "inverse": {
+            "enabled": {
+              "value": "{alias.fields.color.background.inverse.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.background.inverse.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.background.inverse.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.background.inverse.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.background.inverse.focused.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.background.inverse.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.background.inverse.unchecked.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{alias.fields.color.background.error.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.background.error.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.background.error.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.background.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.background.error.focused.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.background.error.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.background.error.unchecked.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{alias.fields.color.background.success.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.background.success.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.background.success.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.background.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.background.success.focused.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.background.success.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.background.success.unchecked.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{alias.fields.color.background.warning.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.background.warning.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.background.warning.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.background.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.background.warning.focused.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.background.warning.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.background.warning.unchecked.value}"
+            }
+          }
+        },
+        "border": {
+          "base": {
+            "enabled": {
+              "value": "{alias.fields.color.border.base.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.border.base.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.border.base.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.base.focused.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.border.base.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.border.base.weaker.value}"
+            },
+            "weakest": {
+              "value": "{alias.fields.color.border.base.weakest.value}"
+            }
+          },
+          "inverse": {
+            "enabled": {
+              "value": "{alias.fields.color.border.inverse.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.border.inverse.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.border.inverse.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.inverse.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.inverse.focused.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.border.inverse.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.border.inverse.weaker.value}"
+            },
+            "weakest": {
+              "value": "{alias.fields.color.border.inverse.weakest.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{alias.fields.color.border.error.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.border.error.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.border.error.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.error.focused.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.border.error.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.border.error.weaker.value}"
+            },
+            "weakest": {
+              "value": "{alias.fields.color.border.error.weakest.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{alias.fields.color.border.success.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.border.success.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.border.success.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.success.focused.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.border.success.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.border.success.weaker.value}"
+            },
+            "weakest": {
+              "value": "{alias.fields.color.border.success.weakest.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{alias.fields.color.border.warning.enabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.border.warning.readonly.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.border.warning.disabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.warning.focused.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.border.warning.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.border.warning.weaker.value}"
+            },
+            "weakest": {
+              "value": "{alias.fields.color.border.warning.weakest.value}"
+            }
+          }
+        },
+        "text": {
+          "base": {
+            "enabled": {
+              "value": "{alias.fields.color.text.base.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.base.focused.value}"
+            },
+            "placeholder": {
+              "value": "{alias.fields.color.text.base.placeholder.value}"
+            },
+            "filled": {
+              "value": "{alias.fields.color.text.base.filled.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.text.base.disabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.text.base.readonly.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.text.base.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.text.base.unchecked.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.text.base.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.text.base.weaker.value}"
+            }
+          },
+          "inverse": {
+            "enabled": {
+              "value": "{alias.fields.color.text.inverse.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.inverse.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.inverse.focused.value}"
+            },
+            "placeholder": {
+              "value": "{alias.fields.color.text.inverse.placeholder.value}"
+            },
+            "filled": {
+              "value": "{alias.fields.color.text.inverse.filled.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.text.inverse.disabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.text.inverse.readonly.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.text.inverse.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.text.inverse.unchecked.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.text.inverse.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.text.inverse.weaker.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{alias.fields.color.text.error.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.error.focused.value}"
+            },
+            "placeholder": {
+              "value": "{alias.fields.color.text.error.placeholder.value}"
+            },
+            "filled": {
+              "value": "{alias.fields.color.text.error.filled.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.text.error.disabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.text.error.readonly.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.text.error.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.text.error.unchecked.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.text.error.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.text.error.weaker.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{alias.fields.color.text.success.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.success.focused.value}"
+            },
+            "placeholder": {
+              "value": "{alias.fields.color.text.success.placeholder.value}"
+            },
+            "filled": {
+              "value": "{alias.fields.color.text.success.filled.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.text.success.disabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.text.success.readonly.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.text.success.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.text.success.unchecked.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.text.success.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.text.success.weaker.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{alias.fields.color.text.warning.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.warning.focused.value}"
+            },
+            "placeholder": {
+              "value": "{alias.fields.color.text.warning.placeholder.value}"
+            },
+            "filled": {
+              "value": "{alias.fields.color.text.warning.filled.value}"
+            },
+            "disabled": {
+              "value": "{alias.fields.color.text.warning.disabled.value}"
+            },
+            "readonly": {
+              "value": "{alias.fields.color.text.warning.readonly.value}"
+            },
+            "checked": {
+              "value": "{alias.fields.color.text.warning.checked.value}"
+            },
+            "unchecked": {
+              "value": "{alias.fields.color.text.warning.unchecked.value}"
+            },
+            "weak": {
+              "value": "{alias.fields.color.text.warning.weak.value}"
+            },
+            "weaker": {
+              "value": "{alias.fields.color.text.warning.weaker.value}"
+            }
+          }
+        }
+      },
+      "elevation": {
+        "boxShadow": {
+          "base": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.base.focused.value}"
+            }
+          },
+          "error": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.error.focused.value}"
+            }
+          },
+          "success": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.success.focused.value}"
+            }
+          },
+          "warning": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.warning.focused.value}"
+            }
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.fields.mutation.transitionDuration.value}"
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.md.value}"
+        },
+        "borderSize": {
+          "value": "{alias.fields.shape.borderSize.check.value}"
+        },
+        "opacity": {
+          "disabled": {
+            "value": "{alias.fields.shape.opacity.disabled.value}"
+          }
+        }
+      },
+      "size": {
+        "square": {
+          "sm": {
+            "value": "{alias.fields.size.square.sm.value}"
+          },
+          "md": {
+            "value": "{alias.fields.size.square.md.value}"
+          },
+          "lg": {
+            "value": "{alias.fields.size.square.lg.value}"
+          }
+        }
+      }
+    }
+  }
+}

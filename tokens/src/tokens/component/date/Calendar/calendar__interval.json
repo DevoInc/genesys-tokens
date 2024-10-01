@@ -1,0 +1,42 @@
+{
+  "cmp": {
+    "calendar": {
+      "interval": {
+        "color": {
+          "background": {
+            "selected": {
+              "value": "{alias.color.background.feedback.secondary.base.value}"
+            },
+            "activated": {
+              "value": "{alias.color.background.feedback.secondary.weak.value}"
+            },
+            "mixed": {
+              "value": "{alias.color.background.feedback.secondary.weak.value}"
+            }
+          },
+          "text": {
+            "selected": {
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
+            },
+            "activated": {
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
+            },
+            "mixed": {
+              "value": "{alias.color.text.feedback.secondary.strong.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.pill.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "value": "calc({cmp.calendar.day.size.square.value} - 0.6rem)"
+          }
+        }
+      }
+    }
+  }
+}

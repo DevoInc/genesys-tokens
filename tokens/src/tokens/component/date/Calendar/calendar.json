@@ -1,0 +1,11 @@
+{
+  "cmp": {
+    "calendar": {
+      "size": {
+        "minWidth": {
+          "value": "23rem"
+        }
+      }
+    }
+  }
+}

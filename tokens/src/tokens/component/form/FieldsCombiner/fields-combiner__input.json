@@ -1,0 +1,22 @@
+{
+  "cmp": {
+    "fieldsCombiner": {
+      "input": {
+        "elevation": {
+          "zIndex": {
+            "focused": {
+              "value": 3
+            }
+          }
+        },
+        "color": {
+          "border": {
+            "hovered": {
+              "value": "{alias.fields.color.border.base.hovered.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

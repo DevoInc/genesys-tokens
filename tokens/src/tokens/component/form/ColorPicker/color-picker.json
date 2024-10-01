@@ -1,0 +1,407 @@
+{
+  "cmp": {
+    "colorPicker": {
+      "color": {
+        "background": {
+          "base": {
+            "enabled": {
+              "value": "{theme.fields.color.background.base.enabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.base.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.background.base.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.background.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.background.base.focused.value}"
+            },
+            "checked": {
+              "value": "{brand.color.background.field.base.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.background.base.unchecked.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{theme.fields.color.background.error.enabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.error.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.background.error.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.background.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.background.error.focused.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.error.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.background.error.unchecked.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{theme.fields.color.background.success.enabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.success.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.background.success.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.background.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.background.success.focused.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.success.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.background.success.unchecked.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{theme.fields.color.background.warning.enabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.warning.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.background.warning.disabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.background.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.background.warning.focused.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.warning.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.background.warning.unchecked.value}"
+            }
+          }
+        },
+        "text": {
+          "base": {
+            "enabled": {
+              "value": "{theme.fields.color.text.base.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.text.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.text.base.focused.value}"
+            },
+            "placeholder": {
+              "value": "{theme.fields.color.text.base.placeholder.value}"
+            },
+            "filled": {
+              "value": "{theme.fields.color.text.base.filled.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.text.base.disabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.text.base.readonly.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.text.base.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.text.base.unchecked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.text.base.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.text.base.weaker.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{theme.fields.color.text.error.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.text.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.text.error.focused.value}"
+            },
+            "placeholder": {
+              "value": "{theme.fields.color.text.error.placeholder.value}"
+            },
+            "filled": {
+              "value": "{theme.fields.color.text.error.filled.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.text.error.disabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.text.error.readonly.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.text.error.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.text.error.unchecked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.text.error.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.text.error.weaker.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{theme.fields.color.text.success.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.text.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.text.success.focused.value}"
+            },
+            "placeholder": {
+              "value": "{theme.fields.color.text.success.placeholder.value}"
+            },
+            "filled": {
+              "value": "{theme.fields.color.text.success.filled.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.text.success.disabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.text.success.readonly.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.text.success.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.text.success.unchecked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.text.success.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.text.success.weaker.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{theme.fields.color.text.warning.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.text.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.text.warning.focused.value}"
+            },
+            "placeholder": {
+              "value": "{theme.fields.color.text.warning.placeholder.value}"
+            },
+            "filled": {
+              "value": "{theme.fields.color.text.warning.filled.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.text.warning.disabled.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.text.warning.readonly.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.text.warning.checked.value}"
+            },
+            "unchecked": {
+              "value": "{theme.fields.color.text.warning.unchecked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.text.warning.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.text.warning.weaker.value}"
+            }
+          }
+        },
+        "border": {
+          "base": {
+            "enabled": {
+              "value": "{theme.fields.color.border.base.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.border.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.border.base.focused.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.base.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.border.base.disabled.value}"
+            },
+            "checked": {
+              "value": "{brand.color.background.field.base.checked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.border.base.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.border.base.weaker.value}"
+            },
+            "weakest": {
+              "value": "{theme.fields.color.border.base.weakest.value}"
+            }
+          },
+          "error": {
+            "enabled": {
+              "value": "{theme.fields.color.border.error.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.border.error.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.border.error.focused.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.error.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.border.error.disabled.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.error.checked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.border.error.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.border.error.weaker.value}"
+            },
+            "weakest": {
+              "value": "{theme.fields.color.border.error.weakest.value}"
+            }
+          },
+          "success": {
+            "enabled": {
+              "value": "{theme.fields.color.border.success.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.border.success.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.border.success.focused.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.success.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.border.success.disabled.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.success.checked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.border.success.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.border.success.weaker.value}"
+            },
+            "weakest": {
+              "value": "{theme.fields.color.border.success.weakest.value}"
+            }
+          },
+          "warning": {
+            "enabled": {
+              "value": "{theme.fields.color.border.warning.enabled.value}"
+            },
+            "hovered": {
+              "value": "{theme.fields.color.border.warning.hovered.value}"
+            },
+            "focused": {
+              "value": "{theme.fields.color.border.warning.focused.value}"
+            },
+            "readonly": {
+              "value": "{theme.fields.color.background.warning.readonly.value}"
+            },
+            "disabled": {
+              "value": "{theme.fields.color.border.warning.disabled.value}"
+            },
+            "checked": {
+              "value": "{theme.fields.color.background.warning.checked.value}"
+            },
+            "weak": {
+              "value": "{theme.fields.color.border.warning.weak.value}"
+            },
+            "weaker": {
+              "value": "{theme.fields.color.border.warning.weaker.value}"
+            },
+            "weakest": {
+              "value": "{theme.fields.color.border.warning.weakest.value}"
+            }
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.fields.mutation.transitionDuration.value}"
+        }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.fields.size.height.xs.value}"
+          },
+          "md": {
+            "value": "{alias.fields.size.height.sm.value}"
+          },
+          "lg": {
+            "value": "{alias.fields.size.height.md.value}"
+          }
+        },
+        "width": {
+          "sm": {
+            "value": "calc({cmp.colorPicker.size.height.sm.value} * 2)"
+          },
+          "md": {
+            "value": "calc({cmp.colorPicker.size.height.md.value} * 2)"
+          },
+          "lg": {
+            "value": "calc({cmp.colorPicker.size.height.lg.value} * 2)"
+          }
+        }
+      },
+      "space": {
+        "value": "calc({alias.space.cmp.xxs.value} - 0.1rem)"
+      },
+      "shape": {
+        "borderSize": {
+          "value": "{alias.fields.shape.borderSize.base.value}"
+        },
+        "borderRadius": {
+          "base": {
+            "value": "{alias.fields.shape.borderRadius.value}"
+          },
+          "isCircle": {
+            "value": "{alias.shape.borderRadius.full.value}"
+          }
+        }
+      }
+    }
+  }
+}

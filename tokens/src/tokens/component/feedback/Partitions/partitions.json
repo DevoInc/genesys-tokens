@@ -1,0 +1,114 @@
+{
+  "cmp": {
+    "partitions": {
+      "color": {
+        "background": {
+          "primary": {
+            "value": "{alias.color.background.feedback.primary.strong.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.background.feedback.secondary.strong.value}"
+          },
+          "neutral": {
+            "value": "{alias.color.background.feedback.neutral.strong.value}"
+          },
+          "error": {
+            "value": "{alias.color.background.feedback.error.strong.value}"
+          },
+          "success": {
+            "value": "{alias.color.background.feedback.success.strong.value}"
+          },
+          "warning": {
+            "value": "{alias.color.background.feedback.warning.strong.value}"
+          },
+          "help": {
+            "value": "{alias.color.background.feedback.help.strong.value}"
+          },
+          "info": {
+            "value": "{alias.color.background.feedback.info.strong.value}"
+          },
+          "dataBlue": {
+            "value": "{alias.color.background.feedback.dataBlue.strong.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.background.feedback.dataBronze.strong.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.background.feedback.dataDusk.strong.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.background.feedback.dataGreen.strong.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.background.feedback.dataIndigo.strong.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.background.feedback.dataMagenta.strong.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.background.feedback.dataPurple.strong.value}"
+          },
+          "dataRed": {
+            "value": "{alias.color.background.feedback.dataRed.strong.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.background.feedback.dataSky.strong.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.background.feedback.dataSlate.strong.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.background.feedback.dataTeal.strong.value}"
+          },
+          "blendBase": {
+            "value": "{alias.color.background.feedback.blendBase.strong.value}"
+          },
+          "blendInverse": {
+            "value": "{alias.color.background.feedback.blendInverse.strong.value}"
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.size.height.track.xs.value}"
+          },
+          "md": {
+            "value": "calc({alias.size.height.track.sm.value} - 0.2rem)"
+          },
+          "lg": {
+            "value": "calc({alias.size.height.track.md.value} - 0.2rem)"
+          }
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.pill.value}"
+        },
+        "opacity": {
+          "base": {
+            "value": "1"
+          },
+          "hovered": {
+            "value": "{alias.shape.opacity.disabled.value}"
+          }
+        }
+      },
+      "space": {
+        "gap": {
+          "hasSeparators": {
+            "sm": {
+              "value": "calc({cmp.partitions.size.height.sm.value} / 2)"
+            },
+            "md": {
+              "value": "calc({cmp.partitions.size.height.md.value} / 2)"
+            },
+            "lg": {
+              "value": "calc({cmp.partitions.size.height.lg.value} / 2)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

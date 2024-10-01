@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "editor": {
+      "suggest": {
+        "elevation": {
+          "boxShadow": {
+            "base": {
+              "value": "{alias.elevation.boxShadow.depth.activated.value}"
+            }
+          },
+          "zIndex": {
+            "base": {
+              "value": "{alias.elevation.zIndex.depth.activated.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

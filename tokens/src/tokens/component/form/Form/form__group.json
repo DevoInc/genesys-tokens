@@ -1,0 +1,34 @@
+{
+  "cmp": {
+    "form": {
+      "group": {
+        "color": {
+          "border": {
+            "boxed": {
+              "value": "{alias.color.border.separator.base.base.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "boxed": {
+              "value": "{alias.shape.borderRadius.elevated.value}"
+            }
+          },
+          "borderSize": {
+            "boxed": {
+              "value": "{alias.shape.borderSize.separator.md.value}"
+            }
+          }
+        },
+        "space": {
+          "padding": {
+            "boxed": {
+              "value": "{alias.space.cmp.md.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

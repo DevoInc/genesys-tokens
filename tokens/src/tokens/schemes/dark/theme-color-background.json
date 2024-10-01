@@ -866,7 +866,7 @@
               "value": "{global.color.error.07.value}"
             },
             "activated": {
-              "value": "{global.color.error.08.value}"
+              "value": "{global.color.error.07.value}"
             }
           },
           "success": {

@@ -1,0 +1,46 @@
+{
+  "cmp": {
+    "checkboxControl": {
+      "marker": {
+        "size": {
+          "square": {
+            "sm": {
+              "value": "calc({alias.fields.size.square.sm.value} - 0.6rem)"
+            },
+            "md": {
+              "value": "calc({alias.fields.size.square.md.value} - 0.6rem)"
+            },
+            "lg": {
+              "value": "calc({alias.fields.size.square.lg.value} - 0.6rem)"
+            }
+          },
+          "width": {
+            "mixed": {
+              "sm": {
+                "value": "calc({cmp.checkboxControl.marker.size.square.sm.value} - 0.8rem)"
+              },
+              "md": {
+                "value": "calc({cmp.checkboxControl.marker.size.square.md.value} - 0.8rem)"
+              },
+              "lg": {
+                "value": "calc({cmp.checkboxControl.marker.size.square.lg.value} - 0.8rem)"
+              }
+            }
+          },
+          "height": {
+            "mixed": {
+              "value": "0.2rem"
+            }
+          }
+        }
+      },
+      "controlMarkerSVG": {
+        "size": {
+          "square": {
+            "value": "1.2rem"
+          }
+        }
+      }
+    }
+  }
+}

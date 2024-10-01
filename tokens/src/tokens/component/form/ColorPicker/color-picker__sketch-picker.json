@@ -1,0 +1,96 @@
+{
+  "cmp": {
+    "colorPicker": {
+      "sketchPicker": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          },
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "text": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.depth.activated.value}"
+          },
+          "zIndex": {
+            "value": "{alias.elevation.zIndex.depth.activated.value}"
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.fields.mutation.transitionDuration.value}"
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.elevated.value}"
+          }
+        }
+      },
+      "sketchPickerInput": {
+        "color": {
+          "background": {
+            "value": "{alias.fields.color.background.base.enabled.value}"
+          },
+          "border": {
+            "base": {
+              "value": "{alias.fields.color.border.base.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.border.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.border.base.focused.value}"
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.fields.color.text.base.enabled.value}"
+            },
+            "hovered": {
+              "value": "{alias.fields.color.text.base.hovered.value}"
+            },
+            "focused": {
+              "value": "{alias.fields.color.text.base.focused.value}"
+            }
+          }
+        },
+        "elevation": {
+          "boxShadow": {
+            "focused": {
+              "value": "{alias.fields.elevation.boxShadow.base.focused.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.fields.shape.borderRadius.value}"
+          },
+          "borderSize": {
+            "value": "{alias.fields.shape.borderSize.base.value}"
+          }
+        }
+      },
+      "sketchPickerHex": {
+        "maxWidth": {
+          "value": "4.5rem"
+        }
+      },
+      "sketchPickerThumbs": {
+        "space": {
+          "marginTop": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "paddingTop": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}
