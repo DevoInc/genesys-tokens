@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest';
+
 import { breakExpressions } from './split';
 
 describe('split', () => {

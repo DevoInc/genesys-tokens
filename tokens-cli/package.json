@@ -7,7 +7,6 @@
     "gyt": "build/cli.js"
   },
   "scripts": {
-    "lint": "eslint 'src/**/*.ts'",
     "build": "npx tsc && chmod u+rx build/cli.js",
     "dist": "rm -rf build && npm run build",
     "build:watch": "npx tsc --watch"

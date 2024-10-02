@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import type { TransformedToken } from 'style-dictionary';
 import { getPaths, parsePath } from './path';
 

@@ -11,6 +11,7 @@ const validate = async (brandPath: string) => {
   const { default: jsonTokens } = await import(jsonPath);
   const errors = validateJson(jsonTokens);
   if (errors.length) {
+    // eslint-disable-next-line
     console.error(
       chalk.red(
         `❌ Wrong tokens values in "${jsonPath}":\n${errors.join('\n')}`
@@ -18,6 +19,7 @@ const validate = async (brandPath: string) => {
     );
     process.exit(1);
   } else {
+    // eslint-disable-next-line
     console.log(chalk.green('✔️ Everything is ok!'));
   }
 };

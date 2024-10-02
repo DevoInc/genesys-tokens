@@ -1,17 +1,18 @@
 {
   "name": "@devoinc/genesys-tokens",
   "version": "6.5.0",
+  "type": "module",
   "author": "Devo Dev Team",
   "license": "MIT",
   "description": "Design tokens generator",
-  "main": "dist/index",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "clean": "rm -rf dist && rm -rf .cache",
     "build": "rollup -c rollup.config.ts --configPlugin typescript",
     "start": "npm run build",
     "dist": "npm run clean && npm run build",
-    "test": "jest --coverage --verbose",
-    "lint": "eslint 'src/**/*.ts'",
     "sonar-scanner": "sonar-scanner",
     "stryker": "stryker run"
   },

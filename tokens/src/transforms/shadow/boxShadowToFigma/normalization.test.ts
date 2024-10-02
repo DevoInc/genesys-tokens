@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest';
+
 import { unitToIntegerBase10 } from './normalization';
 
 describe('normalization', () => {

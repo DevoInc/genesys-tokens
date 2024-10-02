@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import type { TransformedTokens } from 'style-dictionary';
 
 import { evalNode, EvaluatedNode, Formatter } from './eval';

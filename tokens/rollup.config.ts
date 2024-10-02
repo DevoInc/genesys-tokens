@@ -1,26 +1,32 @@
 import typescript from '@rollup/plugin-typescript';
-import { terser } from 'rollup-plugin-terser';
-import copy from 'rollup-plugin-copy-assets';
+import terser from '@rollup/plugin-terser';
+import copy from 'rollup-plugin-copy';
 
 export default {
   input: 'src/index.ts',
   output: [
     {
-      file: 'dist/index.js',
+      file: 'dist/index.cjs',
       format: 'cjs',
       sourcemap: true,
+      plugins: [terser()],
     },
     {
-      file: 'dist/index.esm.js',
+      file: 'dist/index.js',
       format: 'es',
       sourcemap: true,
+      plugins: [terser()],
     },
   ],
   plugins: [
     typescript(),
-    terser(),
     copy({
-      assets: ['src/tokens'],
+      targets: [
+        {
+          src: 'src/tokens/**/*',
+          dest: 'dist/tokens',
+        },
+      ],
     }),
   ],
   external: ['style-dictionary', 'path', 'quicktype-core'],

@@ -1,4 +1,6 @@
+import { describe, it, expect } from 'vitest';
 import { TransformedToken } from 'style-dictionary';
+
 import { transformer, FigmaBoxShadow } from './transformer';
 
 describe('transformer', () => {

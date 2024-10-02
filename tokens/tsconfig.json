@@ -1,10 +1,25 @@
 {
-  "extends": "ts-node/node14/tsconfig.json",
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts"],
   "compilerOptions": {
-    "types": ["jest", "node"],
+    "lib": [
+      "es2020"
+    ],
+    "module": "esnext",
+    "target": "es2020",
+    "types": [
+      "node"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "declaration": true,
     "declarationDir": "dist"
-  }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ],
 }
