@@ -23,8 +23,8 @@ export default {
     copy({
       targets: [
         {
-          src: 'src/tokens/**/*',
-          dest: 'dist/tokens',
+          src: 'src/tokens',
+          dest: 'dist',
         },
       ],
     }),
