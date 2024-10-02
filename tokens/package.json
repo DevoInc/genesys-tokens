@@ -9,7 +9,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.js",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf .cache",
+    "clean": "rm -rf dist .cache",
     "build": "rollup -c rollup.config.ts --configPlugin typescript",
     "start": "npm run build",
     "dist": "npm run clean && npm run build",
