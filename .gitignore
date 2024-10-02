@@ -10,7 +10,6 @@ test-report.xml
 .stryker-tmp
 reports
 .DS_Store
-.npmrc
 
 # Include
 !tokens-types/dist/index.d.ts
