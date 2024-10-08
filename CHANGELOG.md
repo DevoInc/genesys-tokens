@@ -1,5 +1,34 @@
 # Changelog
 
+## [7.0.0](https://github.com/DevoInc/genesys-tokens/compare/v6.5.0...v7.0.0) (2024-10-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* modified names for form component tokens:
+- input -> inputControl
+- select -> selectControl
+- checkbox -> checkboxControl
+- radio -> radioControl
+- checkbox -> checkboxControl
+- textarea -> textareaControl
+
+### feature
+
+* New component tokens ([014453e](https://github.com/DevoInc/genesys-tokens/commit/014453e75677f673f1afac372a9209b7b743f1e5))
+
+
+### Bug Fixes
+
+* rollup package conflict ([4cd574b](https://github.com/DevoInc/genesys-tokens/commit/4cd574b9c3e5e2f52201b6da19f7dfeab3a96d7b))
+* Use 'monospace' as default for the 'Mono font' font family setup ([#54](https://github.com/DevoInc/genesys-tokens/issues/54)) ([28eab25](https://github.com/DevoInc/genesys-tokens/commit/28eab25ab103a3b96af26a9ce8f1cc7f0ddbca6f))
+
+
+### Vulnerabilities
+
+* **deps-dev:** bump braces from 3.0.2 to 3.0.3 ([61a554f](https://github.com/DevoInc/genesys-tokens/commit/61a554f32837333f44f718572f8db45cabeeaff7))
+* **deps-dev:** bump rollup from 2.79.1 to 3.29.5 ([8ecf67a](https://github.com/DevoInc/genesys-tokens/commit/8ecf67a759c1cd9a32aae9b9b3647964f8b452b2))
+
 ## [6.5.0](https://github.com/DevoInc/genesys-tokens/compare/v6.4.2...v6.5.0) (2024-04-24)
 
 
