@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.1.0](https://github.com/DevoInc/genesys-tokens/compare/v7.0.0...v7.1.0) (2024-10-10)
+
+
+### Features
+
+* new tokens for form components ([b5f10ff](https://github.com/DevoInc/genesys-tokens/commit/b5f10ff97318755bd23340c3bb20bc1d07a7f6e1))
+
 ## [7.0.0](https://github.com/DevoInc/genesys-tokens/compare/v6.5.0...v7.0.0) (2024-10-08)
 
 
