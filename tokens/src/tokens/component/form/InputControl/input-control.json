@@ -297,6 +297,28 @@
         }
       },
       "elevation": {
+        "boxShadow": {
+          "base": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.base.focused.value}"
+            }
+          },
+          "error": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.error.focused.value}"
+            }
+          },
+          "success": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.success.focused.value}"
+            }
+          },
+          "warning": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.warning.focused.value}"
+            }
+          }
+        },
         "zIndex": {
           "addonToRight": {
             "value": 1
