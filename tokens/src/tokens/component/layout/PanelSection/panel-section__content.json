@@ -1,13 +1,6 @@
 {
   "cmp": {
     "panelSection": {
-      "header": {
-        "space": {
-          "padding": {
-            "value": "{alias.space.cmp.md.value} {alias.space.cmp.lg.value}"
-          }
-        }
-      },
       "content": {
         "space": {
           "margin": {

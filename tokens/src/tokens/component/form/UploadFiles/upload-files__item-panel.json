@@ -6,6 +6,12 @@
           "background": {
             "base": {
               "value": "{alias.color.background.surface.inverse.base.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.weaker.value}"
+            },
+            "error": {
+              "value": "{alias.color.background.feedback.error.weaker.value}"
             }
           }
         }

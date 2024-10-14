@@ -593,13 +593,13 @@
               "value": "{alias.fields.color.text.base.placeholder.value}"
             },
             "error": {
-              "value": "{alias.fields.color.text.error.placeholder.value}"
+              "value": "{alias.fields.color.border.error.enabled.value}"
             },
             "success": {
-              "value": "{alias.fields.color.text.success.placeholder.value}"
+              "value": "{alias.fields.color.border.success.enabled.value}"
             },
             "warning": {
-              "value": "{alias.fields.color.text.warning.placeholder.value}"
+              "value": "{alias.fields.color.border.warning.enabled.value}"
             }
           }
         },

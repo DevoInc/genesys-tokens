@@ -1,0 +1,65 @@
+{
+  "cmp": {
+    "field": {
+      "addon": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "{alias.color.background.surface.base.raised.value}"
+            }
+          },
+          "border": {
+            "base": {
+              "value": "{alias.fields.color.border.base.enabled.value}"
+            }
+          },
+          "text": {
+            "base": {
+              "value": "{alias.fields.color.text.base.enabled.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "base": {
+              "value": "{alias.fields.shape.borderRadius.value}"
+            }
+          },
+          "borderSize": {
+            "base": {
+              "value": "{alias.fields.shape.borderSize.base.value}"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "sm": {
+              "value": "{alias.fields.size.height.sm.value}"
+            },
+            "md": {
+              "value": "{alias.fields.size.height.md.value}"
+            },
+            "lg": {
+              "value": "{alias.fields.size.height.lg.value}"
+            }
+          }
+        },
+        "space": {
+          "padding": {
+            "hor": {
+              "sm": {
+                "value": "{alias.fields.space.padding.hor.sm.value}"
+              },
+              "md": {
+                "value": "{alias.fields.space.padding.hor.md.value}"
+              },
+              "lg": {
+                "value": "{alias.fields.space.padding.hor.lg.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

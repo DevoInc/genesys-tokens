@@ -1,0 +1,35 @@
+{
+  "cmp": {
+    "field": {
+      "requiredMark": {
+        "space": {
+          "marginRight": {
+            "value": "{alias.space.cmp.xxs.value}"
+          }
+        },
+        "color": {
+          "text": {
+            "base": {
+              "value": "{cmp.label.marker.color.text.base.value}"
+            },
+            "help": {
+              "value": "{cmp.label.marker.color.text.help.value}"
+            },
+            "error": {
+              "value": "{cmp.label.marker.color.text.error.value}"
+            },
+            "success": {
+              "value": "{cmp.label.marker.color.text.success.value}"
+            },
+            "warning": {
+              "value": "{cmp.label.marker.color.text.warning.value}"
+            },
+            "info": {
+              "value": "{cmp.label.marker.color.text.info.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

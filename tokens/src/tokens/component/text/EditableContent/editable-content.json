@@ -1,0 +1,33 @@
+{
+  "cmp": {
+    "editableContent": {
+      "color": {
+        "background": {
+          "hovered": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "focused": {
+            "value": "transparent"
+          }
+        }
+      },
+      "elevation": {
+        "boxShadow": {
+          "focused": {
+            "value": "{alias.elevation.boxShadow.base.focused.value}"
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "value": "{alias.mutation.transitionDuration.opacity.sm.value}"
+        }
+      },
+      "shape": {
+        "borderRadius": {
+          "value": "{alias.shape.borderRadius.elevated.value}"
+        }
+      }
+    }
+  }
+}

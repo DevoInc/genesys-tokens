@@ -2,6 +2,22 @@
   "cmp": {
     "inputControl": {
       "icon": {
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.fields.icon.color.text.base.value}"
+            },
+            "error": {
+              "value": "{alias.fields.icon.color.text.error.value}"
+            },
+            "success": {
+              "value": "{alias.fields.icon.color.text.success.value}"
+            },
+            "warning": {
+              "value": "{alias.fields.icon.color.text.warning.value}"
+            }
+          }
+        },
         "mutation": {
           "transitionDuration": {
             "value": "{alias.mutation.transitionDuration.opacity.xxl.value}"

@@ -17,6 +17,11 @@
           },
           "border": {
             "value": "{alias.color.border.surface.base.weak.value}"
+          },
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.base.value}"
+            }
           }
         },
         "elevation": {

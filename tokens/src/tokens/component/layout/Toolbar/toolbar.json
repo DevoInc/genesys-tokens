@@ -7,6 +7,19 @@
             "value": "{alias.color.background.surface.base.base.value}"
           }
         }
+      },
+      "size": {
+        "height": {
+          "sm": {
+            "value": "{alias.size.height.surface.sm.value}"
+          },
+          "md": {
+            "value": "{alias.size.height.surface.md.value}"
+          },
+          "lg": {
+            "value": "{alias.size.height.surface.lg.value}"
+          }
+        }
       }
     }
   }

@@ -2,6 +2,11 @@
   "cmp": {
     "table": {
       "cellClickableWrapper": {
+        "elevation": {
+          "boxShadow": {
+            "value": "{alias.elevation.boxShadow.base.focused.value}"
+          }
+        },
         "color": {
           "background": {
             "hovered": {

@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "editableContent": {
+      "icon": {
+        "color": {
+          "fill": {
+            "base": {
+              "value": "{alias.color.text.body.weaker.value}"
+            }
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{cmp.editableContent.mutation.transitionDuration.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "base": {
+              "value": "{alias.typo.fontSize.icon.xxxs.value}"
+            }
+          }
+        },
+        "space": {
+          "offset": {
+            "top": {
+              "value": "calc({cmp.editableContent.icon.size.square.base.value} / 2 * -1)"
+            },
+            "right": {
+              "value": "calc({cmp.editableContent.icon.size.square.base.value} / 2 * -1)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

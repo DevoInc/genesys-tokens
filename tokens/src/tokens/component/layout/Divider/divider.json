@@ -24,116 +24,118 @@
         }
       },
       "color": {
-        "base": {
-          "value": "{alias.color.border.separator.base.base.value}"
-        },
-        "inverse": {
-          "value": "{alias.color.border.separator.inverse.base.value}"
-        },
-        "strong": {
-          "value": "{alias.color.border.separator.base.strong.value}"
-        },
-        "stronger": {
-          "value": "{alias.color.border.separator.base.stronger.value}"
-        },
-        "weak": {
-          "value": "{alias.color.border.separator.base.weak.value}"
-        },
-        "weaker": {
-          "value": "{alias.color.border.separator.base.weaker.value}"
-        },
-        "weakest": {
-          "value": "{alias.color.border.separator.base.weakest.value}"
-        },
-        "success": {
-          "value": "{alias.color.border.feedback.success.base.value}"
-        },
-        "successWeak": {
-          "value": "{alias.color.border.feedback.success.weak.value}"
-        },
-        "successStrong": {
-          "value": "{alias.color.border.feedback.success.strong.value}"
-        },
-        "error": {
-          "value": "{alias.color.border.feedback.error.base.value}"
-        },
-        "errorWeak": {
-          "value": "{alias.color.border.feedback.error.weak.value}"
-        },
-        "errorStrong": {
-          "value": "{alias.color.border.feedback.error.strong.value}"
-        },
-        "warning": {
-          "value": "{alias.color.border.feedback.warning.base.value}"
-        },
-        "warningWeak": {
-          "value": "{alias.color.border.feedback.warning.weak.value}"
-        },
-        "warningStrong": {
-          "value": "{alias.color.border.feedback.warning.strong.value}"
-        },
-        "info": {
-          "value": "{alias.color.border.feedback.info.base.value}"
-        },
-        "infoWeak": {
-          "value": "{alias.color.border.feedback.info.weak.value}"
-        },
-        "infoStrong": {
-          "value": "{alias.color.border.feedback.info.strong.value}"
-        },
-        "help": {
-          "value": "{alias.color.border.feedback.help.base.value}"
-        },
-        "helpWeak": {
-          "value": "{alias.color.border.feedback.help.weak.value}"
-        },
-        "helpStrong": {
-          "value": "{alias.color.border.feedback.help.strong.value}"
-        },
-        "primary": {
-          "value": "{alias.color.border.feedback.primary.base.value}"
-        },
-        "secondary": {
-          "value": "{alias.color.border.feedback.secondary.base.value}"
-        },
-        "blendBase": {
-          "value": "{alias.color.border.feedback.base.base.value}"
-        },
-        "blendInverse": {
-          "value": "{alias.color.border.feedback.inverse.base.value}"
-        },
-        "dataBlue": {
-          "value": "{alias.color.border.feedback.dataBlue.base.value}"
-        },
-        "dataBronze": {
-          "value": "{alias.color.border.feedback.dataBronze.base.value}"
-        },
-        "dataGreen": {
-          "value": "{alias.color.border.feedback.dataGreen.base.value}"
-        },
-        "dataTeal": {
-          "value": "{alias.color.border.feedback.dataTeal.base.value}"
-        },
-        "dataSky": {
-          "value": "{alias.color.border.feedback.dataSky.base.value}"
-        },
-        "dataSlate": {
-          "value": "{alias.color.border.feedback.dataSlate.base.value}"
-        },
-        "dataIndigo": {
-          "value": "{alias.color.border.feedback.dataIndigo.base.value}"
-        },
-        "dataDusk": {
-          "value": "{alias.color.border.feedback.dataDusk.base.value}"
-        },
-        "dataPurple": {
-          "value": "{alias.color.border.feedback.dataPurple.base.value}"
-        },
-        "dataMagenta": {
-          "value": "{alias.color.border.feedback.dataMagenta.base.value}"
-        },
-        "dataRed": {
-          "value": "{alias.color.border.feedback.dataRed.base.value}"
+        "fill": {
+          "base": {
+            "value": "{alias.color.border.separator.base.base.value}"
+          },
+          "inverse": {
+            "value": "{alias.color.border.separator.inverse.base.value}"
+          },
+          "strong": {
+            "value": "{alias.color.border.separator.base.strong.value}"
+          },
+          "stronger": {
+            "value": "{alias.color.border.separator.base.stronger.value}"
+          },
+          "weak": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "weaker": {
+            "value": "{alias.color.border.separator.base.weaker.value}"
+          },
+          "weakest": {
+            "value": "{alias.color.border.separator.base.weakest.value}"
+          },
+          "success": {
+            "value": "{alias.color.border.feedback.success.base.value}"
+          },
+          "successWeak": {
+            "value": "{alias.color.border.feedback.success.weak.value}"
+          },
+          "successStrong": {
+            "value": "{alias.color.border.feedback.success.strong.value}"
+          },
+          "error": {
+            "value": "{alias.color.border.feedback.error.base.value}"
+          },
+          "errorWeak": {
+            "value": "{alias.color.border.feedback.error.weak.value}"
+          },
+          "errorStrong": {
+            "value": "{alias.color.border.feedback.error.strong.value}"
+          },
+          "warning": {
+            "value": "{alias.color.border.feedback.warning.base.value}"
+          },
+          "warningWeak": {
+            "value": "{alias.color.border.feedback.warning.weak.value}"
+          },
+          "warningStrong": {
+            "value": "{alias.color.border.feedback.warning.strong.value}"
+          },
+          "info": {
+            "value": "{alias.color.border.feedback.info.base.value}"
+          },
+          "infoWeak": {
+            "value": "{alias.color.border.feedback.info.weak.value}"
+          },
+          "infoStrong": {
+            "value": "{alias.color.border.feedback.info.strong.value}"
+          },
+          "help": {
+            "value": "{alias.color.border.feedback.help.base.value}"
+          },
+          "helpWeak": {
+            "value": "{alias.color.border.feedback.help.weak.value}"
+          },
+          "helpStrong": {
+            "value": "{alias.color.border.feedback.help.strong.value}"
+          },
+          "primary": {
+            "value": "{alias.color.border.feedback.primary.base.value}"
+          },
+          "secondary": {
+            "value": "{alias.color.border.feedback.secondary.base.value}"
+          },
+          "blendBase": {
+            "value": "{alias.color.border.feedback.base.base.value}"
+          },
+          "blendInverse": {
+            "value": "{alias.color.border.feedback.inverse.base.value}"
+          },
+          "dataBlue": {
+            "value": "{alias.color.border.feedback.dataBlue.base.value}"
+          },
+          "dataBronze": {
+            "value": "{alias.color.border.feedback.dataBronze.base.value}"
+          },
+          "dataGreen": {
+            "value": "{alias.color.border.feedback.dataGreen.base.value}"
+          },
+          "dataTeal": {
+            "value": "{alias.color.border.feedback.dataTeal.base.value}"
+          },
+          "dataSky": {
+            "value": "{alias.color.border.feedback.dataSky.base.value}"
+          },
+          "dataSlate": {
+            "value": "{alias.color.border.feedback.dataSlate.base.value}"
+          },
+          "dataIndigo": {
+            "value": "{alias.color.border.feedback.dataIndigo.base.value}"
+          },
+          "dataDusk": {
+            "value": "{alias.color.border.feedback.dataDusk.base.value}"
+          },
+          "dataPurple": {
+            "value": "{alias.color.border.feedback.dataPurple.base.value}"
+          },
+          "dataMagenta": {
+            "value": "{alias.color.border.feedback.dataMagenta.base.value}"
+          },
+          "dataRed": {
+            "value": "{alias.color.border.feedback.dataRed.base.value}"
+          }
         }
       }
     }

@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "keyValue": {
+      "visual": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

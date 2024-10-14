@@ -2,6 +2,11 @@
   "cmp": {
     "splitLayout": {
       "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        },
         "background": {
           "base": {
             "value": "{alias.color.background.surface.base.raised.value}"

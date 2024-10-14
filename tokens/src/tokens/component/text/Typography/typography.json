@@ -56,6 +56,25 @@
         }
       }
     },
+    "blockQuote": {
+      "color": {
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.weakest.value}"
+          }
+        }
+      },
+      "space": {
+        "padding": {
+          "alignLeft": {
+            "value": "0 0 0 {alias.space.cmp.xxl.value}"
+          },
+          "alignRight": {
+            "value": "0 {alias.space.cmp.xxl.value} 0 0"
+          }
+        }
+      }
+    },
     "body": {
       "typo": {
         "fontSize": {
@@ -112,7 +131,35 @@
         }
       }
     },
+    "codeBlock": {
+      "color": {
+        "background": {
+          "base": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          }
+        }
+      },
+      "space": {
+        "padding": {
+          "base": {
+            "value": "{alias.space.cmp.sm.value} {alias.space.cmp.md.value}"
+          }
+        }
+      }
+    },
     "codeInline": {
+      "typo": {
+        "fontFamily": {
+          "value": "{alias.typographies.typo.fontFamily.mono.fontFaceName.value}"
+        }
+      },
+      "space": {
+        "padding": {
+          "base": {
+            "value": "0 {alias.space.cmp.xxs.value}"
+          }
+        }
+      },
       "shape": {
         "borderRadius": {
           "value": "{alias.shape.borderRadius.sm.value}"
@@ -266,6 +313,20 @@
         },
         "textTransform": {
           "value": "{alias.typo.textTransform.lead.value}"
+        }
+      }
+    },
+    "list": {
+      "space": {
+        "paddingLeft": {
+          "value": "{alias.space.cmp.md.value}"
+        }
+      }
+    },
+    "listItem": {
+      "space": {
+        "marginTop": {
+          "value": "{alias.space.cmp.xxs.value}"
         }
       }
     },

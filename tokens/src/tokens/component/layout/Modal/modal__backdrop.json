@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "modal": {
+      "backdrop": {
+        "elevation": {
+          "zIndex": {
+            "base": {
+              "value": "{alias.elevation.zIndex.depth.overlay.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

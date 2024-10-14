@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "toast": {
+      "badge": {
+        "elevation": {
+          "zIndex": {
+            "value": "calc({alias.elevation.zIndex.depth.popOut.value} + 1)"
+          }
+        }
+      }
+    }
+  }
+}

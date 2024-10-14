@@ -123,6 +123,63 @@
           }
         }
       },
+      "realTimeIcon": {
+        "typo": {
+          "xxs": {
+            "value": "{alias.typo.fontSize.icon.xxxxs.value}"
+          },
+          "xs": {
+            "value": "{alias.typo.fontSize.icon.xxxs.value}"
+          },
+          "sm": {
+            "value": "{alias.typo.fontSize.icon.xxs.value}"
+          },
+          "md": {
+            "value": "{alias.typo.fontSize.icon.xs.value}"
+          },
+          "lg": {
+            "value": "{alias.typo.fontSize.icon.sm.value}"
+          }
+        },
+        "color": {
+          "background": {
+            "active": {
+              "base": {
+                "value": "{alias.color.background.action.accentHigh.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.color.background.action.accentHigh.selected.value}"
+              }
+            },
+            "base": {
+              "base": {
+                "value": "{alias.color.background.action.blendBase.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.color.background.action.blendBase.hovered.value}"
+              }
+            }
+          },
+          "text": {
+            "active": {
+              "base": {
+                "value": "{alias.color.text.action.accentHigh.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.color.text.action.accentHigh.selected.value}"
+              }
+            },
+            "base": {
+              "base": {
+                "value": "{alias.color.text.action.blendBase.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.color.text.action.blendBase.hovered.value}"
+              }
+            }
+          }
+        }
+      },
       "realTimeLoader": {
         "color": {
           "fill": {

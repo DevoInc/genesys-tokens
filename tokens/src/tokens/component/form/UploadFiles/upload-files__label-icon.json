@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "labelIcon": {
+        "color": {
+          "fill": {
+            "base": {
+              "value": "{alias.color.text.body.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

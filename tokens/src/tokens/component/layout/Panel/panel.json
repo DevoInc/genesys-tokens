@@ -9,19 +9,17 @@
           "ground": {
             "value": "{alias.color.border.elevation.ground.value}"
           },
-          "sticky": {
-            "bottom": {
-              "value": "{alias.color.border.elevation.sticky.bottom.value}"
-            },
-            "top": {
-              "value": "{alias.color.border.elevation.sticky.top.value}"
-            },
-            "right": {
-              "value": "{alias.color.border.elevation.sticky.right.value}"
-            },
-            "left": {
-              "value": "{alias.color.border.elevation.sticky.left.value}"
-            }
+          "stickyBottom": {
+            "value": "{alias.color.border.elevation.sticky.bottom.value}"
+          },
+          "stickyTop": {
+            "value": "{alias.color.border.elevation.sticky.top.value}"
+          },
+          "stickyRight": {
+            "value": "{alias.color.border.elevation.sticky.right.value}"
+          },
+          "stickyLeft": {
+            "value": "{alias.color.border.elevation.sticky.left.value}"
           },
           "activated": {
             "value": "{alias.color.border.elevation.activated.value}"

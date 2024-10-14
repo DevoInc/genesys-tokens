@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "panelSection": {
+      "footer": {
+        "space": {
+          "padding": {
+            "value": "{alias.space.cmp.md.value} {alias.space.cmp.lg.value}"
+          }
+        }
+      }
+    }
+  }
+}

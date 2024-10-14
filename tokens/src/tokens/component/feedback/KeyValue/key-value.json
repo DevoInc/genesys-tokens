@@ -1,0 +1,24 @@
+{
+  "cmp": {
+    "keyValue": {
+      "color": {
+        "text": {
+          "value": "{alias.color.text.body.base.value}"
+        }
+      },
+      "typo": {
+        "lineHeight": {
+          "xs": {
+            "value": "{alias.typo.lineHeight.body.xs.value}"
+          },
+          "sm": {
+            "value": "{alias.typo.lineHeight.body.sm.value}"
+          },
+          "md": {
+            "value": "{alias.typo.lineHeight.body.md.value}"
+          }
+        }
+      }
+    }
+  }
+}

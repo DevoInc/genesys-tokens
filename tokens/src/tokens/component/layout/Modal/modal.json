@@ -6,6 +6,13 @@
           "value": "{alias.color.background.surface.base.base.value}"
         }
       },
+      "elevation": {
+        "zIndex": {
+          "base": {
+            "value": "{alias.elevation.zIndex.depth.popOut.value}"
+          }
+        }
+      },
       "space": {
         "padding": {
           "value": "{alias.space.layout.xs.value}"

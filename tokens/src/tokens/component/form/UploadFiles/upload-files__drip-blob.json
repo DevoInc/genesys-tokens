@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "dripBlob": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.feedback.primary.base.value};"
+          }
+        }
+      }
+    }
+  }
+}

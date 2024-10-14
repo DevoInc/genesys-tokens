@@ -12,6 +12,11 @@
             }
           }
         },
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.translation.hor.sm.value}"
+          }
+        },
         "size": {
           "height": {
             "value": "{alias.shape.borderSize.separator.lg.value}"

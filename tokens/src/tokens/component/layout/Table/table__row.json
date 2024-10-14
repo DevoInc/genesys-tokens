@@ -11,6 +11,12 @@
               "base": {
                 "value": "{alias.color.background.surface.backdrop.base.weaker.value}"
               },
+              "created": {
+                "value": "{alias.color.background.surface.base.created.value}"
+              },
+              "deleted": {
+                "value": "{alias.color.background.surface.base.deleted.value}"
+              },
               "afterRow": {
                 "value": "{alias.color.background.surface.base.base.value}"
               },
@@ -27,6 +33,12 @@
             "odd": {
               "base": {
                 "value": "{alias.color.background.surface.base.base.value}"
+              },
+              "created": {
+                "value": "{alias.color.background.surface.base.created.value}"
+              },
+              "deleted": {
+                "value": "{alias.color.background.surface.base.deleted.value}"
               },
               "afterRow": {
                 "value": "{alias.color.background.surface.base.base.value}"
@@ -47,6 +59,11 @@
           }
         },
         "elevation": {
+          "boxShadow": {
+            "isDragging": {
+              "value": "{alias.elevation.boxShadow.depth.draggable.value}"
+            }
+          },
           "zIndex": {
             "isAfterRow": {
               "value": "1"

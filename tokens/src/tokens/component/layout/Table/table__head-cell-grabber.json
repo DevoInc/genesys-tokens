@@ -2,6 +2,11 @@
   "cmp": {
     "table": {
       "headCellGrabber": {
+        "elevation": {
+          "zIndex": {
+            "value": "{alias.elevation.zIndex.depth.overlay.value}"
+          }
+        },
         "color": {
           "background": {
             "after": {

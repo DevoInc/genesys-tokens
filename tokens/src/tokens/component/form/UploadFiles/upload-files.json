@@ -21,6 +21,18 @@
         "border": {
           "value": "{alias.color.border.separator.base.weak.value}"
         }
+      },
+      "typo": {
+        "fontSize": {
+          "base": {
+            "value": "{alias.typo.fontSize.body.md.value}"
+          }
+        },
+        "lineHeight": {
+          "base": {
+            "value": "{alias.typo.lineHeight.body.md.value}"
+          }
+        }
       }
     }
   }

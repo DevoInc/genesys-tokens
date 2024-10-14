@@ -1,0 +1,23 @@
+{
+  "cmp": {
+    "table": {
+      "cellBoolean": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.base.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "true": {
+              "value": "calc({alias.size.square.icon.base.lg.value}) - 0.2rem"
+            },
+            "false": {
+              "value": "{alias.size.square.icon.base.sm.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

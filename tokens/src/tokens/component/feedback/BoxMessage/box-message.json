@@ -3,22 +3,40 @@
     "boxMessage": {
       "shape": {
         "borderSize": {
-          "value": "{alias.shape.borderSize.panel.base.value}"
+          "base": {
+            "value": "{alias.shape.borderSize.panel.base.value}"
+          },
+          "subtle": {
+            "value": "0"
+          }
         },
         "borderRadius": {
           "value": "{alias.shape.borderRadius.md.value}"
         }
       },
       "space": {
-        "padding": {
-          "value": "{alias.space.cmp.sm.value}"
-        },
         "gap": {
-          "value": "{alias.space.cmp.sm.value}"
+          "base": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "subtle": {
+            "value": "{alias.space.cmp.xs.value}"
+          }
+        },
+        "padding": {
+          "base": {
+            "value": "{alias.space.cmp.sm.value}"
+          },
+          "subtle": {
+            "value": "{alias.space.cmp.xxs.value} {alias.space.cmp.xs.value}"
+          }
         }
       },
       "color": {
         "background": {
+          "subtle": {
+            "value": "{alias.color.background.surface.base.featured.value}"
+          },
           "success": {
             "value": "{brand.boxMessage.color.background.success.value}"
           },

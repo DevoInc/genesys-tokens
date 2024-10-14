@@ -44,7 +44,12 @@
         },
         "shape": {
           "borderRadius": {
-            "value": "{alias.shape.borderRadius.full.value}"
+            "base": {
+              "value": "{alias.shape.borderRadius.full.value}"
+            },
+            "corners": {
+              "value": "{alias.shape.borderRadius.full.value}"
+            }
           },
           "opacity": {
             "disabled": {

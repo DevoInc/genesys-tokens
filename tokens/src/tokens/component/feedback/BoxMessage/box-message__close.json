@@ -5,10 +5,10 @@
         "space": {
           "offset": {
             "top": {
-              "value": "calc({cmp.boxMessage.space.padding.value} - 0.2rem)"
+              "value": "calc({cmp.boxMessage.space.padding.base.value} - 0.2rem)"
             },
             "right": {
-              "value": "{cmp.boxMessage.space.padding.value}"
+              "value": "{cmp.boxMessage.space.padding.base.value}"
             }
           }
         }
