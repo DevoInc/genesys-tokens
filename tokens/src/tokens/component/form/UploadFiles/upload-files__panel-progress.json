@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "panelProgress": {
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.body.inverse.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

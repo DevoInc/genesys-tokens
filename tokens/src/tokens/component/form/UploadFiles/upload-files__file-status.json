@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "fileStatus": {
+        "color": {
+          "text": {
+            "base": {
+              "main": {
+                "value": "{alias.color.text.heading.base.value}"
+              },
+              "sub": {
+                "value": "{alias.color.text.body.base.value}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

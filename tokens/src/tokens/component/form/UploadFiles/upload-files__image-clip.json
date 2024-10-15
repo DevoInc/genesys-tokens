@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "imageClip": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

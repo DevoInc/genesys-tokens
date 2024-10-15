@@ -4,6 +4,14 @@
       "fileInfo": {
         "color": {
           "text": {
+            "base": {
+              "main": {
+                "value": "{alias.color.text.heading.base.value}"
+              },
+              "sub": {
+                "value": "{alias.color.text.body.base.value}"
+              }
+            },
             "success": {
               "main": {
                 "value": "{alias.color.text.feedback.success.strong.value}"

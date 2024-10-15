@@ -1,0 +1,27 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "imagePreview": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          },
+          "text": {
+            "dark": {
+              "value": "{alias.color.background.surface.blend.dark.stronger.value}"
+            },
+            "light": {
+              "value": "{alias.color.background.surface.blend.light.strongest.value}"
+            },
+            "error": {
+              "value": "{alias.color.background.feedback.error.weak.value}"
+            },
+            "success": {
+              "value": "{alias.color.background.feedback.success.stronger.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

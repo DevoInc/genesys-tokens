@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "drop": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.base.value};"
+          }
+        }
+      }
+    }
+  }
+}

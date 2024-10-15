@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "uploadFiles": {
+      "fileProgress": {
+        "color": {
+          "text": {
+            "base": {
+              "value": "{alias.color.text.feedback.secondary.base.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

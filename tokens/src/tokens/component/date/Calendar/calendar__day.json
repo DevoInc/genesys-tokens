@@ -48,7 +48,7 @@
               "value": "{alias.shape.borderRadius.full.value}"
             },
             "corners": {
-              "value": "{alias.shape.borderRadius.full.value}"
+              "value": "{alias.shape.borderRadius.pill.value}"
             }
           },
           "opacity": {
