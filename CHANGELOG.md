@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.2.0](https://github.com/DevoInc/genesys-tokens/compare/v7.1.0...v7.2.0) (2024-10-14)
+
+
+### Features
+
+* new component tokens ([0a1fb75](https://github.com/DevoInc/genesys-tokens/commit/0a1fb753df3990d88d8f5f291ff247c4529e8580))
+
 ## [7.1.0](https://github.com/DevoInc/genesys-tokens/compare/v7.0.0...v7.1.0) (2024-10-10)
 
 
