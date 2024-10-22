@@ -161,7 +161,7 @@
                 "value": "{alias.color.text.feedback.dataMagenta.base.value}"
               }
             },
-            "value": {
+            "valueBlock": {
               "base": {
                 "value": "{alias.color.text.feedback.dataGreen.base.value}"
               }
