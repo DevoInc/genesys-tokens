@@ -1,0 +1,15 @@
+{
+  "cmp": {
+    "selectControl": {
+      "clearIndicator": {
+        "size": {
+          "square": {
+            "base": {
+              "value": "{alias.size.square.icon.base.xxs.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

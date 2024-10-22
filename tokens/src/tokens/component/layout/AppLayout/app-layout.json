@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "appLayout": {
+      "color": {
+        "background": {
+          "value": "{alias.color.background.app.value}"
+        }
+      },
+      "size": {
+        "height": {
+          "value": "100vh"
+        },
+        "width": {
+          "value": "100%"
+        }
+      }
+    }
+  }
+}

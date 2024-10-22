@@ -2,14 +2,94 @@
   "cmp": {
     "diffEditor": {
       "color": {
-        "text": {
-          "base": {
-            "value": "{alias.color.text.body.stronger.value}"
-          }
-        },
         "background": {
           "base": {
             "value": "{alias.fields.color.background.base.readonly.value}"
+          },
+          "editor": {
+            "value": "{alias.fields.color.background.base.enabled.value}"
+          },
+          "editorIndentGuide": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          },
+          "editorSuggestWidgetSelected": {
+            "value": "{alias.color.background.surface.base.activated.value}"
+          },
+          "editorOverviewRuler": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "inactiveSelection": {
+            "value": "{alias.color.background.feedback.secondary.weak.value}"
+          },
+          "lineHighlight": {
+            "value": "{alias.color.background.feedback.neutral.weaker.value}"
+          },
+          "selectionHighlight": {
+            "value": "{alias.color.background.feedback.secondary.base.value}"
+          },
+          "selection": {
+            "value": "{alias.color.background.feedback.secondary.weak.value}"
+          },
+          "wordHighlight": {
+            "value": "{alias.color.background.feedback.secondary.weak.value}"
+          },
+          "listHovered": {
+            "value": "{alias.color.background.surface.backdrop.base.hovered.value}"
+          },
+          "miniMap": {
+            "value": "{alias.color.background.surface.base.raised.value}"
+          },
+          "miniMapSelectionHighlighted": {
+            "value": "{alias.color.background.feedback.secondary.base.value}"
+          },
+          "miniMapSlider": {
+            "value": "{alias.color.background.surface.backdrop.base.weak.value}"
+          },
+          "miniMapSliderHovered": {
+            "value": "{alias.color.background.surface.backdrop.base.base.value}"
+          },
+          "miniMapSliderActive": {
+            "value": "{alias.color.background.surface.backdrop.base.strong.value}"
+          },
+          "removedText": {
+            "value": "{alias.color.background.surface.blend.error.base.value}"
+          },
+          "insertedText": {
+            "value": "{alias.color.background.surface.blend.success.base.value}"
+          }
+        },
+        "border": {
+          "editorSuggestWidget": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "text": {
+          "base": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "editor": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "editorCursor": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "editorSuggestWidget": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "editorSuggestWidgetHighlighted": {
+            "value": "{alias.color.text.feedback.secondary.strong.value}"
+          },
+          "active": {
+            "value": "{alias.color.text.body.stronger.value}"
+          },
+          "editorLineNumber": {
+            "value": "{alias.color.text.body.weak.value}"
+          },
+          "editorWhitespace": {
+            "value": "{alias.color.text.body.base.value}"
+          },
+          "listHovered": {
+            "value": "{alias.color.text.action.neutral.hovered.value}"
           }
         }
       },
@@ -20,6 +100,72 @@
           },
           "inner": {
             "value": "calc({cmp.diffEditor.shape.borderRadius.base.value} - 0.1rem)"
+          }
+        }
+      },
+      "rules": {
+        "color": {
+          "text": {
+            "boolean": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataGreen.base.value}"
+              }
+            },
+            "comment": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataBronze.base.value}"
+              }
+            },
+            "default": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataPurple.base.value}"
+              }
+            },
+            "delimiter": {
+              "base": {
+                "value": "{alias.color.text.body.strong.value}"
+              }
+            },
+            "digit": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataGreen.base.value}"
+              }
+            },
+            "interpolation": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataPurple.base.value}"
+              }
+            },
+            "keyword": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataBlue.base.value}"
+              }
+            },
+            "operator": {
+              "base": {
+                "value": "{alias.color.text.body.stronger.value}"
+              }
+            },
+            "string": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataGreen.base.value}"
+              }
+            },
+            "symbol": {
+              "base": {
+                "value": "{alias.color.text.body.strong.value}"
+              }
+            },
+            "time": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataMagenta.base.value}"
+              }
+            },
+            "value": {
+              "base": {
+                "value": "{alias.color.text.feedback.dataGreen.base.value}"
+              }
+            }
           }
         }
       }

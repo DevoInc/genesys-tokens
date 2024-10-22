@@ -10,9 +10,19 @@
           }
         },
         "space": {
+          "gap": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
           "margin": {
             "chip": {
               "value": "calc({alias.space.cmp.xxs.value} / 2) {alias.space.cmp.xxs.value} calc({alias.space.cmp.xxs.value} / 2) 0"
+            }
+          },
+          "padding": {
+            "hor": {
+              "isSubtle": {
+                "value": "{alias.space.cmp.xxs.value}"
+              }
             }
           },
           "paddingRight": {

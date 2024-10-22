@@ -28,7 +28,12 @@
         "elevation": {
           "boxShadow": {
             "thumb": {
-              "value": "{alias.handlers.elevation.boxShadow.enabled.value}"
+              "base": {
+                "value": "{alias.handlers.elevation.boxShadow.enabled.value}"
+              },
+              "hovered": {
+                "value": "{alias.handlers.elevation.boxShadow.hovered.value}"
+              }
             }
           }
         },

@@ -1,0 +1,25 @@
+{
+  "cmp": {
+    "buttonGroup": {
+      "space": {
+        "gap": {
+          "xxs": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "xs": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "sm": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "md": {
+            "value": "{alias.space.cmp.xs.value}"
+          },
+          "lg": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        }
+      }
+    }
+  }
+}

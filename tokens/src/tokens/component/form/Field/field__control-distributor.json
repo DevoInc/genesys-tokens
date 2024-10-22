@@ -1,0 +1,21 @@
+{
+  "cmp": {
+    "field": {
+      "controlDistributor": {
+        "size": {
+          "minHeight": {
+            "sm": {
+              "value": "{alias.typo.lineHeight.body.sm.value}"
+            },
+            "md": {
+              "value": "{alias.typo.lineHeight.body.md.value}"
+            },
+            "lg": {
+              "value": "{alias.typo.lineHeight.body.lg.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

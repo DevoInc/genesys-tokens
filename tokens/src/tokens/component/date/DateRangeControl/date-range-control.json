@@ -11,6 +11,30 @@
           }
         }
       },
+      "elevation": {
+        "boxShadow": {
+          "base": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.base.focused.value}"
+            }
+          },
+          "error": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.error.focused.value}"
+            }
+          },
+          "success": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.success.focused.value}"
+            }
+          },
+          "warning": {
+            "focused": {
+              "value": "{alias.elevation.boxShadow.warning.focused.value}"
+            }
+          }
+        }
+      },
       "shape": {
         "borderRadius": {
           "value": "{alias.fields.shape.borderRadius.value}"
@@ -35,7 +59,7 @@
       "space": {
         "padding": {
           "sm": {
-            "value": "0 calc({alias.fields.space.padding.hor.sm.value} - 0.2rem)"
+            "value": "0 calc({alias.fields.space.padding.hor.sm.value} - 0.6rem)"
           },
           "md": {
             "value": "0 calc({alias.fields.space.padding.hor.md.value} - 0.2rem)"
@@ -46,7 +70,7 @@
         },
         "gap": {
           "sm": {
-            "value": "{alias.space.cmp.xxs.value}"
+            "value": "0"
           },
           "md": {
             "value": "{alias.space.cmp.xxs.value}"

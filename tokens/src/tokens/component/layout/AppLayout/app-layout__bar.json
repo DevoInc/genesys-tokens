@@ -1,0 +1,13 @@
+{
+  "cmp": {
+    "appLayout": {
+      "bar": {
+        "elevation": {
+          "zIndex": {
+            "value": "{alias.elevation.zIndex.depth.stickyTop.value}"
+          }
+        }
+      }
+    }
+  }
+}

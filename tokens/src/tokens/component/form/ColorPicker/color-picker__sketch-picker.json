@@ -81,6 +81,19 @@
           "value": "4.5rem"
         }
       },
+      "sketchPickerFlexBoxFix": {
+        "space": {
+          "marginTop": {
+            "value": "{alias.space.cmp.xxs.value}"
+          },
+          "paddingTop": {
+            "value": "{alias.space.cmp.sm.value}"
+          }
+        },
+        "maxWidth": {
+          "value": "4.5rem"
+        }
+      },
       "sketchPickerThumbs": {
         "space": {
           "marginTop": {

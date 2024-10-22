@@ -21,6 +21,13 @@
             "value": "{alias.mutation.transitionDuration.action.value}"
           }
         }
+      },
+      "multiValueDraggableIcon": {
+        "mutation": {
+          "transitionDuration": {
+            "value": "{alias.mutation.transitionDuration.opacity.md.value}"
+          }
+        }
       }
     }
   }
