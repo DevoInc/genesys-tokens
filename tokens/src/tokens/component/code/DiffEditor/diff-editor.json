@@ -12,6 +12,12 @@
           "editorIndentGuide": {
             "value": "{alias.color.border.separator.base.weak.value}"
           },
+          "editorIndentGuideActive": {
+            "value": "{alias.color.border.separator.base.strongest.value}"
+          },
+          "editorSuggestWidget": {
+            "value": "{alias.color.background.surface.base.base.value}"
+          },
           "editorSuggestWidgetSelected": {
             "value": "{alias.color.background.surface.base.activated.value}"
           },
@@ -84,6 +90,9 @@
           },
           "editorLineNumber": {
             "value": "{alias.color.text.body.weak.value}"
+          },
+          "editorLineNumberActive": {
+            "value": "{alias.color.text.body.stronger.value}"
           },
           "editorWhitespace": {
             "value": "{alias.color.text.body.base.value}"
