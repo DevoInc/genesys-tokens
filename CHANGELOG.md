@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.4.1](https://github.com/DevoInc/genesys-tokens/compare/v7.4.0...v7.4.1) (2024-10-22)
+
+
+### Bug Fixes
+
+* not valid name for no last node ([9993861](https://github.com/DevoInc/genesys-tokens/commit/99938619fcea30fc431f58edaddfeb76f707a0ab))
+
 ## [7.4.0](https://github.com/DevoInc/genesys-tokens/compare/v7.3.0...v7.4.0) (2024-10-22)
 
 
