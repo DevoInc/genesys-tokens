@@ -10,7 +10,7 @@
         "size": {
           "square": {
             "true": {
-              "value": "calc({alias.size.square.icon.base.lg.value}) - 0.2rem"
+              "value": "calc({alias.size.square.icon.base.lg.value} - 0.2rem)"
             },
             "false": {
               "value": "{alias.size.square.icon.base.sm.value}"
