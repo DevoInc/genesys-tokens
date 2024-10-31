@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.5.1](https://github.com/DevoInc/genesys-tokens/compare/v7.5.0...v7.5.1) (2024-10-31)
+
+
+### Bug Fixes
+
+* fixed wrong format for css calc() ([ef7d5bd](https://github.com/DevoInc/genesys-tokens/commit/ef7d5bd1182f36c168541ebf6a06e948efa27ab3))
+
 ## [7.5.0](https://github.com/DevoInc/genesys-tokens/compare/v7.4.1...v7.5.0) (2024-10-23)
 
 
