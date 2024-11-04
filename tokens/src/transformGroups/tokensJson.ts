@@ -1,4 +1,3 @@
-// Stryker disable all
 export const tokensJson = {
   name: 'tokens-json',
   transforms: [

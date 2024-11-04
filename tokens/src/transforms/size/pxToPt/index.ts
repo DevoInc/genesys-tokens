@@ -1,12 +1,11 @@
-// Stryker disable all
-import type { Named, Transform } from 'style-dictionary';
+import type { Transform } from 'style-dictionary/types';
 
-import { matchPx } from '../matcher';
-import { transformer } from './transformer';
+import { filterPx } from '../filter';
+import { transform } from './transform';
 
-export const pxToPt: Named<Transform> = {
+export const pxToPt: Transform = {
   name: 'size/pxToPt',
   type: 'value',
-  matcher: matchPx,
-  transformer,
+  filter: filterPx,
+  transform,
 };

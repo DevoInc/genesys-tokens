@@ -1,4 +1,4 @@
-import type { TransformedToken } from 'style-dictionary';
+import type { TransformedToken } from 'style-dictionary/types';
 
 export const stringify = (prefix: string) => (token: TransformedToken) =>
   `${prefix}${token.name}: ${
@@ -11,6 +11,8 @@ export const addComment =
   (commentStyle: 'short' | 'normal') => (comment: string) =>
     comment
       ? comment.concat(
-          commentStyle === 'short' ? ' // ' + comment : ' /* ' + comment + ' */'
+          commentStyle === 'short'
+            ? ' // ' + comment
+            : ' /* ' + comment + ' */',
         )
       : comment;

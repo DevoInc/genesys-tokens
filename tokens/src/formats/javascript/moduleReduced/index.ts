@@ -1,9 +1,8 @@
-// Stryker disable all
-import type { Format, Named } from 'style-dictionary';
+import type { Format } from 'style-dictionary/types';
 
-import { formatter } from './formatter';
+import { format } from './format';
 
-export const moduleReduced: Named<Format> = {
+export const moduleReduced: Format = {
   name: 'javascript/module-reduced',
-  formatter,
+  format,
 };

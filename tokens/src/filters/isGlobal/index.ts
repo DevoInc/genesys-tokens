@@ -1,9 +1,8 @@
-// Stryker disable all
-import type { Filter, Named } from 'style-dictionary';
+import type { Filter } from 'style-dictionary/types';
 
-import { matcher } from './matcher';
+import { filter } from './filter';
 
-export const isGlobal: Named<Filter> = {
+export const isGlobal: Filter = {
   name: 'isGlobal',
-  matcher,
+  filter,
 };

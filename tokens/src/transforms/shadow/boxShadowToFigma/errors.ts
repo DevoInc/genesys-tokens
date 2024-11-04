@@ -1,4 +1,4 @@
-import type { TransformedToken } from 'style-dictionary';
+import type { TransformedToken } from 'style-dictionary/types';
 
 export const getValidFormatMessage = (token: TransformedToken) => `
 There is an error on the next boxShadow format:

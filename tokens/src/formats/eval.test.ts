@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { TransformedTokens } from 'style-dictionary';
+import type { TransformedTokens } from 'style-dictionary/types';
 
 import { evalNode, EvaluatedNode, Formatter } from './eval';
 
@@ -10,7 +10,7 @@ describe('formats', () => {
         string,
         TransformedTokens,
         Formatter<string>,
-        EvaluatedNode<string>
+        EvaluatedNode<string>,
       ][] = [
         [
           'simple case',

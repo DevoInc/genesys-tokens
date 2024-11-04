@@ -1,4 +1,3 @@
-// Stryker disable all
 import StyleDictionary from 'style-dictionary';
 
 import { Scheme } from './Scheme';
@@ -15,8 +14,6 @@ StyleDictionary.registerFormat(formats.text.flat);
 StyleDictionary.registerFormat(formats.javascript.moduleReduced);
 StyleDictionary.registerFormat(formats.javascript.moduleReducedMin);
 StyleDictionary.registerFormat(formats.javascript.esmReducedMin);
-StyleDictionary.registerFormat(formats.scss.variablesMin);
-StyleDictionary.registerFormat(formats.css.variablesMin);
 StyleDictionary.registerFormat(formats.typescript.moduleReducedDeclarations);
 
 StyleDictionary.registerTransform(transforms.size.pxToPt);
@@ -59,36 +56,36 @@ export interface GenerateTypesParams {
   output: string;
 }
 
-export const generate: (params: GenerateParams) => boolean = ({
+export async function generate({
   scheme = Scheme.Light,
   menuScheme = Scheme.Light,
   source,
   output,
-}) => {
+}: GenerateParams) {
   const config = getStyleDictionaryConfig(scheme, menuScheme, source, output);
-  const styleDictionary = StyleDictionary.extend(config);
+  const sd = new StyleDictionary(config);
+  await sd.hasInitialized;
 
-  styleDictionary.buildPlatform('web/js');
-  styleDictionary.buildPlatform('web/json');
-  styleDictionary.buildPlatform('web/scss');
-  styleDictionary.buildPlatform('web/css');
-  styleDictionary.buildPlatform('figma');
+  sd.buildPlatform('web/js');
+  sd.buildPlatform('web/json');
+  sd.buildPlatform('web/scss');
+  sd.buildPlatform('web/css');
+  sd.buildPlatform('figma');
 
   return true;
-};
+}
 
-export const generateTypes: (params: GenerateTypesParams) => boolean = ({
-  output,
-}) => {
+export async function generateTypes({ output }: GenerateTypesParams) {
   const config = getStyleDictionaryConfig(
     Scheme.Light,
     Scheme.Light,
     null,
-    output
+    output,
   );
-  const styleDictionary = StyleDictionary.extend(config);
+  const sd = new StyleDictionary(config);
+  await sd.hasInitialized;
 
-  styleDictionary.buildPlatform('web/ts');
+  sd.buildPlatform('web/ts');
 
   return true;
-};
+}

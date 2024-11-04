@@ -1,4 +1,4 @@
-import type { TransformedToken } from 'style-dictionary';
+import type { TransformedToken } from 'style-dictionary/types';
 
 import { FIGMA_TOKENS_CAT, TOKENS_TIER, TOKENS_CAT_PROP } from './constants';
 

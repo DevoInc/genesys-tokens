@@ -1,4 +1,3 @@
-// Stryker disable all
 export const tokensAndroid = {
   name: 'tokens-android',
   // to see the pre-defined "android" transformation use:

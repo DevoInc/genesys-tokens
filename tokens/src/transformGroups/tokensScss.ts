@@ -1,4 +1,3 @@
-// Stryker disable all
 export const tokensScss = {
   name: 'tokens-scss',
   // to see the pre-defined "scss" transformation use:

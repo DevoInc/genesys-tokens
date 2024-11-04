@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { TransformedToken } from 'style-dictionary';
+import type { TransformedToken } from 'style-dictionary/types';
 
 import { getValidFormatMessage } from './errors';
 

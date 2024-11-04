@@ -1,12 +1,11 @@
-// Stryker disable all
-export enum TOKENS_TIER {
-  ALIAS = 'alias',
-  BRAND = 'brand',
-  CMP = 'cmp',
-  FIGMA = 'figma',
-  GLOBAL = 'global',
-  META = 'meta',
-}
+export const TOKENS_TIER = {
+  ALIAS: 'alias',
+  BRAND: 'brand',
+  CMP: 'cmp',
+  FIGMA: 'figma',
+  GLOBAL: 'global',
+  META: 'meta',
+};
 
 export enum TOKENS_CAT {
   BREAKPOINTS = 'breakpoints',

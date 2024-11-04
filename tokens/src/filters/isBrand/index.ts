@@ -1,9 +1,8 @@
-// Stryker disable all
-import type { Filter, Named } from 'style-dictionary';
+import type { Filter } from 'style-dictionary/types';
 
-import { TOKENS_TIER } from '../../constants';
+import { filter } from './filter';
 
-export const isBrand: Named<Filter> = {
+export const isBrand: Filter = {
   name: 'isBrand',
-  matcher: (token) => token?.attributes?.tier === TOKENS_TIER.BRAND,
+  filter,
 };

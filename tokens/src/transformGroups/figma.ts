@@ -1,4 +1,3 @@
-// Stryker disable all
 export const figma = {
   name: 'figma-alias',
   transforms: [

@@ -1,10 +1,9 @@
-// Stryker disable all
-import { Named, Transform } from 'style-dictionary';
+import type { Transform } from 'style-dictionary/types';
 
-import { transformer } from './transformer';
+import { transform } from './transform';
 
-export const jsonComponent: Named<Transform> = {
+export const jsonComponent: Transform = {
   name: 'name/token-json-component',
   type: 'name',
-  transformer,
+  transform,
 };

@@ -1,4 +1,3 @@
-// Stryker disable all
 export * from './figma';
 export * from './styleguide';
 export * from './styleguidejs';

@@ -2,7 +2,7 @@
   "name": "@devoinc/genesys-tokens",
   "version": "7.5.1",
   "type": "module",
-  "author": "Devo Dev Team",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "license": "MIT",
   "description": "Design tokens generator",
   "main": "dist/index.cjs",
@@ -13,7 +13,6 @@
     "build": "rollup -c rollup.config.ts --configPlugin typescript",
     "start": "npm run build",
     "dist": "npm run clean && npm run build",
-    "sonar-scanner": "sonar-scanner",
     "stryker": "stryker run"
   },
   "files": [
@@ -29,8 +28,8 @@
     "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
   "dependencies": {
-    "quicktype-core": "6.0.62",
-    "style-dictionary": "^3.7.1"
+    "quicktype-core": "^23.0.170",
+    "style-dictionary": "^4.1.4"
   },
   "publishConfig": {
     "access": "public"

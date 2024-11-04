@@ -1,9 +1,8 @@
-// Stryker disable all
-import type { Filter, Named } from 'style-dictionary';
+import type { Filter } from 'style-dictionary';
 
-import { matcher } from './matcher';
+import { filter } from './filter';
 
-export const isNotFigma: Named<Filter> = {
+export const isNotFigma: Filter = {
   name: 'isNotFigma',
-  matcher,
+  filter,
 };

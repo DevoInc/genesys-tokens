@@ -1,4 +1,7 @@
-import type { TransformedToken, TransformedTokens } from 'style-dictionary';
+import type {
+  TransformedToken,
+  TransformedTokens,
+} from 'style-dictionary/types';
 
 export type Formatter<S> = (token: TransformedToken) => S;
 
@@ -13,7 +16,7 @@ export type EvaluatedNode<T> =
  */
 export const evalNode = <T>(
   token: TransformedTokens,
-  formatter: Formatter<T>
+  formatter: Formatter<T>,
 ): EvaluatedNode<T> =>
   token.hasOwnProperty('value')
     ? formatter(token as TransformedToken)

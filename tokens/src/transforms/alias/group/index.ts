@@ -1,10 +1,9 @@
-// Stryker disable all
-import type { Named, Transform } from 'style-dictionary';
+import type { Transform } from 'style-dictionary/types';
 
-import { transformer } from './transformer';
+import { transform } from './transform';
 
-export const group: Named<Transform> = {
+export const group: Transform = {
   name: 'name/token-group',
   type: 'name',
-  transformer,
+  transform,
 };

@@ -1,4 +1,3 @@
-// Stryker disable all
 export * from './isAlias';
 export * from './isBrand';
 export * from './isCmp';

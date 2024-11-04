@@ -1,4 +1,3 @@
-// Stryker disable all
 import { pxToDp } from './pxToDp';
 import { pxToPt } from './pxToPt';
 import { remToPxBase10 } from './remToPxBase10';

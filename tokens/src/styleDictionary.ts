@@ -1,4 +1,3 @@
-// Stryker disable all
 import path from 'path';
 import type { Scheme } from './Scheme';
 
