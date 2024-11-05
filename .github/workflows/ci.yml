@@ -14,7 +14,7 @@ permissions:
   pages: write
 
 jobs:
-  dist:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -27,6 +27,7 @@ jobs:
         run: npm run dist
 
   lint:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -39,6 +40,7 @@ jobs:
         run: npm run lint
 
   test:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -51,6 +53,7 @@ jobs:
         run: npm run test
 
   mutation-testing:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
