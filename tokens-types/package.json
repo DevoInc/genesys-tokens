@@ -2,10 +2,10 @@
   "name": "@devoinc/genesys-tokens-types",
   "version": "7.5.1",
   "description": "Type declarations for @devoinc/genesys-tokens",
-  "types": "dist/index.d",
+  "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist/brand.d.ts",
-    "build": "gyt types -o dist/",
+    "build": "npx @devoinc/genesys-tokens-cli types -o dist/",
     "dist": "npm run clean && npm run build"
   },
   "engines": {

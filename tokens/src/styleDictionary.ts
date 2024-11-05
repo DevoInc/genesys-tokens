@@ -1,13 +1,15 @@
-import path from 'path';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { Scheme } from './Scheme';
 
-const tokensPath = path.resolve(__dirname, 'tokens');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const tokensPath = resolve(__dirname, 'tokens');
 
 export const getStyleDictionaryConfig = (
   scheme: Scheme,
   menuScheme: Scheme,
   source: string | null,
-  output: string
+  output: string,
 ) => {
   return {
     source: [

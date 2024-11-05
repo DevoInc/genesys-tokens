@@ -2,7 +2,7 @@ export const figma = {
   name: 'figma-alias',
   transforms: [
     'alias-cti',
-    'name/cti/kebab',
+    'name/kebab',
     'time/seconds',
     'color/css',
     'size/remToIntegerBase10',

@@ -7,6 +7,6 @@ export const tokensScss = {
     //'name/token-group',
     'time/seconds',
     'color/css',
-    'name/cti/kebab',
+    'name/kebab',
   ],
 };

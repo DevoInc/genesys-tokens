@@ -56,12 +56,12 @@ export interface GenerateTypesParams {
   output: string;
 }
 
-export async function generate({
+export const generate = async ({
   scheme = Scheme.Light,
   menuScheme = Scheme.Light,
   source,
   output,
-}: GenerateParams) {
+}: GenerateParams) => {
   const config = getStyleDictionaryConfig(scheme, menuScheme, source, output);
   const sd = new StyleDictionary(config);
   await sd.hasInitialized;
@@ -73,9 +73,9 @@ export async function generate({
   sd.buildPlatform('figma');
 
   return true;
-}
+};
 
-export async function generateTypes({ output }: GenerateTypesParams) {
+export const generateTypes = async ({ output }: GenerateTypesParams) => {
   const config = getStyleDictionaryConfig(
     Scheme.Light,
     Scheme.Light,
@@ -88,4 +88,4 @@ export async function generateTypes({ output }: GenerateTypesParams) {
   sd.buildPlatform('web/ts');
 
   return true;
-}
+};

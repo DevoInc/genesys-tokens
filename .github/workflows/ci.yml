@@ -1,10 +1,4 @@
 name: ci
-
-permissions:
-  contents: read
-  id-token: write
-  pages: write
-
 on:
   pull_request:
     branches:
@@ -12,147 +6,59 @@ on:
   push:
     branches:
       - master
-
-  # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-env:
-  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+permissions:
+  contents: read
+  id-token: write
+  pages: write
 
 jobs:
-  # --------------PREPARE REPOSITORY--------------
-  prepare:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Cache node modules
-        id: cache-npm
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-            **/build
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
-
-      - name: Set Node v20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install dependencies
-        run: npm ci
-
-  # --------------BUILD DIST--------------
   dist:
-    needs: [prepare]
-
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Use node modules cache
-        id: cache-npm
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-            **/build
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
 
       - name: Generate dist files
-        run: |
-          npm run dist -w @devoinc/genesys-tokens
-          npm run dist -w @devoinc/genesys-tokens-cli
-          cd tokens-cli && npm link && cd ..
-          npm run dist -w @devoinc/genesys-tokens-types
+        run: npm run dist
 
-  # --------------RUN LINTER--------------
   lint:
-    needs: [prepare]
-
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Use node modules cache
-        id: cache-npm
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-            **/build
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
 
       - name: Run linter
         run: npm run lint
 
-  # --------------RUN UNIT TESTS--------------
-  unit-test:
-    needs: [prepare]
+  test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Use node modules cache
-        id: cache-npm
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-            **/build
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
 
-      - name: Run Jest
+      - name: Run test
         run: npm run test
 
-  # --------------RUN MUTATION TESTS--------------
-  mutation-test:
+  mutation-testing:
     needs: [unit-test]
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Use node modules cache
-        id: cache-npm
-        uses: actions/cache@v4
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: |
-            **/node_modules
-            ~/.npm
-            **/dist
-            **/build
-          key: ${{ runner.os }}-prepare-${{ env.cache-name }}-${{ github.sha }}
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
 
       - name: Setup results folder
         run: mkdir mutation-test-results

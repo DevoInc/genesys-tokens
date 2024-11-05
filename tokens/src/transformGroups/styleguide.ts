@@ -1,4 +1,4 @@
 export const styleguide = {
   name: 'styleguide',
-  transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
+  transforms: ['attribute/cti', 'name/kebab', 'color/css'],
 };
