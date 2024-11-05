@@ -33,9 +33,7 @@ export const format: FormatFn = ({ dictionary }) => {
   const resMap = quicktypeJSON(
     'typescript',
     'Brand',
-    JSON.stringify(
-      evalNode<string>(dictionary.tokens, (token) => token.value),
-    ),
+    JSON.stringify(evalNode<string>(dictionary.tokens, (token) => token.value)),
   );
   const declarationsLines = resMap.get('stdout')?.lines || [];
   const declarations = JSON.parse(JSON.stringify(declarationsLines.join('\n')));

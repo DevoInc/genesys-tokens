@@ -59,13 +59,10 @@ const validate = async (brandPath) => {
 const output = `${path.normalize(path.format(path.parse(values?.output ?? 'dist/')))}/`;
 
 if (positionals[0] === 'build') {
-  const scheme = values.scheme === 'light' ? Scheme.Light : Scheme.Light;
-  const menuScheme =
-    values.menuScheme === 'light' ? Scheme.Light : Scheme.Light;
   await generate({
     source: String(values.input),
-    scheme,
-    menuScheme,
+    scheme: values.scheme === 'light' ? Scheme.Light : Scheme.Dark,
+    menuScheme: values.menuScheme === 'light' ? Scheme.Light : Scheme.Dark,
     output,
   });
 } else if (positionals[0] === 'types') {

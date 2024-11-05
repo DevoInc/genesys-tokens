@@ -66,11 +66,11 @@ export const generate = async ({
   const sd = new StyleDictionary(config);
   await sd.hasInitialized;
 
-  sd.buildPlatform('web/js');
-  sd.buildPlatform('web/json');
-  sd.buildPlatform('web/scss');
-  sd.buildPlatform('web/css');
-  sd.buildPlatform('figma');
+  await sd.buildPlatform('web/js');
+  await sd.buildPlatform('web/json');
+  await sd.buildPlatform('web/scss');
+  await sd.buildPlatform('web/css');
+  await sd.buildPlatform('figma');
 
   return true;
 };
@@ -85,7 +85,7 @@ export const generateTypes = async ({ output }: GenerateTypesParams) => {
   const sd = new StyleDictionary(config);
   await sd.hasInitialized;
 
-  sd.buildPlatform('web/ts');
+  await sd.buildPlatform('web/ts');
 
   return true;
 };

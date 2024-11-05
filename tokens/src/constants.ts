@@ -7,16 +7,16 @@ export const TOKENS_TIER = {
   META: 'meta',
 };
 
-export enum TOKENS_CAT {
-  BREAKPOINTS = 'breakpoints',
-  COLOR = 'color',
-  ELEVATION = 'elevation',
-  MUTATION = 'mutation',
-  SHAPE = 'shape',
-  SIZE = 'size',
-  SPACE = 'space',
-  TYPO = 'typo',
-}
+export const TOKENS_CAT = {
+  BREAKPOINTS: 'breakpoints',
+  COLOR: 'color',
+  ELEVATION: 'elevation',
+  MUTATION: 'mutation',
+  SHAPE: 'shape',
+  SIZE: 'size',
+  SPACE: 'space',
+  TYPO: 'typo',
+};
 
 // export const TOKENS_CAT_VALUES = Object.values(TOKENS_CAT);[
 export const TOKENS_CAT_VALUES = [
@@ -128,20 +128,20 @@ export const TOKENS_CAT_PROP = {
   },
 };
 
-export enum FIGMA_TOKENS_CAT {
-  COLOR = 'color',
-  BORDER_RADIUS = 'borderRadius',
-  SIZE = 'sizing',
-  SPACE = 'spacing',
-  BORDER_SIZE = 'borderWidth',
-  BOX_SHADOW = 'boxShadow',
-  OPACITY = 'opacity',
-  TYPO = 'typography',
-  FONT_SIZE = 'fontSizes',
-  FONT_WEIGHT = 'fontWeights',
-  FONT_FAMILY = 'fontFamilies',
-  LINE_HEIGHT = 'lineHeights',
-  LETTER_SPACING = 'letterSpacing',
-  TEXT_TRANSFORM = 'case',
-  OTHER = 'other',
-}
+export const FIGMA_TOKENS_CAT = {
+  COLOR: 'color',
+  BORDER_RADIUS: 'borderRadius',
+  SIZE: 'sizing',
+  SPACE: 'spacing',
+  BORDER_SIZE: 'borderWidth',
+  BOX_SHADOW: 'boxShadow',
+  OPACITY: 'opacity',
+  TYPO: 'typography',
+  FONT_SIZE: 'fontSizes',
+  FONT_WEIGHT: 'fontWeights',
+  FONT_FAMILY: 'fontFamilies',
+  LINE_HEIGHT: 'lineHeights',
+  LETTER_SPACING: 'letterSpacing',
+  TEXT_TRANSFORM: 'case',
+  OTHER: 'other',
+};
