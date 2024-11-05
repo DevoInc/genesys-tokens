@@ -14,7 +14,7 @@ export default defineConfig({
     },
     sourcemap: true,
     rollupOptions: {
-      external: ['node:path', 'node:url'],
+      external: ['node:path', 'node:url', 'style-dictionary', 'quicktype-core'],
     },
   },
   plugins: [

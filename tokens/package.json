@@ -27,7 +27,7 @@
     "type": "git",
     "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
-  "dependencies": {
+  "peerDependencies": {
     "quicktype-core": "^23.0.170",
     "style-dictionary": "^4.1.4"
   },
