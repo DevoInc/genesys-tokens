@@ -12,6 +12,7 @@
     "importHelpers": false
   },
   "include": [
-    "src/**/*.ts"
-, "src/cli.mjs"  ]
+    "src/**/*.ts",
+    "src/cli.mjs"
+  ]
 }

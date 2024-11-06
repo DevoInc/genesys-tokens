@@ -1,8 +1,9 @@
 {
   "name": "genesys-tokens",
   "version": "7.5.1",
-  "author": "Devo Dev Team",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "license": "MIT",
+  "type": "module",
   "private": true,
   "description": "Design tokens monorepo",
   "workspaces": [
