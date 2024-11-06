@@ -23,5 +23,7 @@
   "github": {
     "release": true
   },
-  "npm": false
+  "npm": {
+    "skipChecks": true
+  }
 }

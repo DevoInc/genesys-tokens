@@ -34,8 +34,5 @@
   "engine": {
     "node": ">=18",
     "npm": ">=8"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
