@@ -7,42 +7,15 @@
       "preset": {
         "name": "conventionalcommits",
         "types": [
-          {
-            "type": "feat",
-            "section": "Features"
-          },
-          {
-            "type": "fix",
-            "section": "Bug Fixes"
-          },
-          {
-            "type": "vuln",
-            "section": "Vulnerabilities"
-          },
-          {
-            "type": "chore",
-            "hidden": true
-          },
-          {
-            "type": "docs",
-            "hidden": true
-          },
-          {
-            "type": "style",
-            "hidden": true
-          },
-          {
-            "type": "refactor",
-            "hidden": true
-          },
-          {
-            "type": "perf",
-            "hidden": true
-          },
-          {
-            "type": "test",
-            "hidden": true
-          }
+          { "type": "feat", "section": "Features" },
+          { "type": "fix", "section": "Bug Fixes" },
+          { "type": "vuln", "section": "Vulnerabilities" },
+          { "type": "chore", "hidden": true },
+          { "type": "docs", "hidden": true },
+          { "type": "style", "hidden": true },
+          { "type": "refactor", "hidden": true },
+          { "type": "perf", "hidden": true },
+          { "type": "test", "hidden": true }
         ]
       }
     }
@@ -51,9 +24,9 @@
     "release": true
   },
   "git": {
-    "tagName": "v${version}",
-    "tagAnnotation": "Release v${version}",
-    "commitMessage": "Release: v${version}"
+    "tagName": "${version}",
+    "tagAnnotation": "Release ${version}",
+    "commitMessage": "Release: ${version}"
   },
   "npm": {
     "allowSameVersion": true
