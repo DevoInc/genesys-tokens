@@ -23,12 +23,5 @@
   "github": {
     "release": true
   },
-  "git": {
-    "tagName": "${version}",
-    "tagAnnotation": "Release ${version}",
-    "commitMessage": "Release: ${version}"
-  },
-  "npm": {
-    "allowSameVersion": true
-  }
+  "npm": false
 }
