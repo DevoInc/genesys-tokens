@@ -10,13 +10,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:DevoInc/genesys-tokens.git"
+    "url": "git+ssh://git@github.com/DevoInc/genesys-tokens.git"
   },
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
   "bin": {
-    "gyt": "./gyt.mjs"
+    "gyt": "gyt.mjs"
   },
   "dependencies": {
     "@devoinc/genesys-tokens": "^7.5.2",
