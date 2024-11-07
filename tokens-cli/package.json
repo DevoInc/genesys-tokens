@@ -2,25 +2,25 @@
   "name": "@devoinc/genesys-tokens-cli",
   "version": "7.5.1",
   "description": "A CLI to generate Genesys tokens",
-  "type": "module",
-  "bin": {
-    "gyt": "./gyt.mjs"
-  },
   "keywords": [
     "cli",
     "genesys",
     "design",
     "tokens"
   ],
-  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
-  "license": "MIT",
-  "dependencies": {
-    "@devoinc/genesys-tokens": "^7.5.1",
-    "chalk": "^5.3.0"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:DevoInc/genesys-tokens.git"
+  },
+  "license": "MIT",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
+  "type": "module",
+  "bin": {
+    "gyt": "./gyt.mjs"
+  },
+  "dependencies": {
+    "@devoinc/genesys-tokens": "^7.5.1",
+    "chalk": "^5.3.0"
   },
   "engines": {
     "node": ">=18",

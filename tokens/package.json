@@ -1,23 +1,7 @@
 {
   "name": "@devoinc/genesys-tokens",
   "version": "7.5.1",
-  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
-  "license": "MIT",
   "description": "Design tokens generator",
-  "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.js",
-  "scripts": {
-    "clean": "rm -rf dist .cache",
-    "build": "vite build",
-    "start": "npm run build",
-    "dist": "npm run clean && npm run build",
-    "stryker": "stryker run"
-  },
-  "files": [
-    "dist"
-  ],
   "keywords": [
     "genesys",
     "design",
@@ -27,9 +11,25 @@
     "type": "git",
     "url": "git@github.com:DevoInc/genesys-tokens.git"
   },
+  "license": "MIT",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf dist .cache",
+    "dist": "npm run clean && npm run build",
+    "start": "npm run build",
+    "stryker": "stryker run"
+  },
   "peerDependencies": {
-    "quicktype-core": "^23.0.170",
-    "style-dictionary": "^4.1.4"
+    "quicktype-core": "23.x.x",
+    "style-dictionary": "4.x.x"
   },
   "engine": {
     "node": ">=18",

@@ -2,15 +2,6 @@
   "name": "@devoinc/genesys-tokens-types",
   "version": "7.5.1",
   "description": "Type declarations for @devoinc/genesys-tokens",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "clean": "rm -rf dist/brand.d.ts",
-    "build": "npx @devoinc/genesys-tokens-cli types -o dist/",
-    "dist": "npm run clean && npm run build"
-  },
-  "files": [
-    "dist"
-  ],
   "keywords": [
     "genesys",
     "design",
@@ -18,14 +9,23 @@
     "typescript",
     "types"
   ],
-  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
-  "license": "MIT",
-  "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^7.5.1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:DevoInc/genesys-tokens.git"
+  },
+  "license": "MIT",
+  "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx @devoinc/genesys-tokens-cli types -o dist/",
+    "clean": "rm -rf dist/brand.d.ts",
+    "dist": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "@devoinc/genesys-tokens-cli": "^7.5.1"
   },
   "engines": {
     "node": ">=18",
