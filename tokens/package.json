@@ -34,5 +34,8 @@
   "engine": {
     "node": ">=18",
     "npm": ">=8"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
