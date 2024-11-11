@@ -27,7 +27,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -41,7 +40,6 @@ jobs:
   lint:
     needs: [build]
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -55,7 +53,6 @@ jobs:
   test:
     needs: [build]
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -78,13 +75,13 @@ jobs:
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
 
-      - name: Generate dist
-        run: npm run dist
-
       - name: Setup Git config
         run: |
           git config --global user.name 'Devo GitHub Action'
           git config --global user.email 'desa@devo.com'
+
+      - name: Generate dist
+        run: npm run dist
 
       - name: Publish ${{ github.event.inputs.version }}${{ github.event.inputs.dry == 'true' && ' (--dry-run)' || '' }}
         run: npm run release:ci -- ${{ github.event.inputs.version != 'auto' && github.event.inputs.version || '' }}${{ github.event.inputs.dry == 'true' && ' --dry-run' || '' }}

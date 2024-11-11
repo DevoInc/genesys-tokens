@@ -5,7 +5,6 @@
   "description": "Design tokens monorepo",
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
-  "type": "module",
   "workspaces": [
     "tokens",
     "tokens-cli",
@@ -18,11 +17,9 @@
     "lint": "oxlint -c oxlintrc.json",
     "release": "release-it --dry-run",
     "release:ci": "release-it --ci",
-    "sonar-scanner": "npm run sonar-scanner -ws --if-present",
     "start": "npm run build -ws --if-present",
     "stryker": "npm run stryker -ws --if-present",
-    "test": "vitest",
-    "validate": "npm run validate -ws --if-present"
+    "test": "vitest"
   },
   "devDependencies": {
     "@release-it-plugins/workspaces": "^4.2.0",
@@ -44,5 +41,8 @@
   "engines": {
     "node": ">=18",
     "npm": ">=8"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
