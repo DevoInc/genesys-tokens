@@ -14,14 +14,22 @@
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./tokens/**": "./tokens/**"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
+    "prebuild": "npm run clean",
+    "build": "tsup src/index.ts --dts --sourcemap --format esm,cjs",
+    "postbuild": "cp -R src/tokens dist/",
     "clean": "rm -rf dist .cache",
     "dist": "npm run clean && npm run build",
     "start": "npm run build",

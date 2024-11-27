@@ -1,9 +1,7 @@
 import { Config } from 'style-dictionary/types';
-import { resolve, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
 import type { Scheme } from './Scheme';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
 const tokensPath = resolve(__dirname, 'tokens');
 
 export const getStyleDictionaryConfig = (
