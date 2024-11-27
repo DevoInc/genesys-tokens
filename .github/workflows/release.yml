@@ -1,5 +1,4 @@
 name: release
-
 on:
   workflow_dispatch:
     inputs:
@@ -15,6 +14,7 @@ on:
           - major
           - minor
           - patch
+          - prerelease
           - auto
         default: auto
         required: true
@@ -34,15 +34,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set node v20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "npm"
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
+        uses: ./.github/workflows/setup-node
 
       - name: Run tests
         run: npm run test
