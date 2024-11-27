@@ -21,8 +21,8 @@ jobs:
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
 
-      - name: Generate dist files
-        run: npm run dist
+      - name: Build
+        run: npm run build
 
   lint:
     needs: [build]

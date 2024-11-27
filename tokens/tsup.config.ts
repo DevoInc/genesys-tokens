@@ -7,4 +7,5 @@ export default defineConfig({
   dts: true,
   format: ['esm', 'cjs'],
   shims: true,
+  publicDir: true,
 });
