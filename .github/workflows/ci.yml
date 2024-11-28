@@ -60,19 +60,11 @@ jobs:
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
 
-      - name: Setup results folder
-        run: mkdir mutation-test-results
-
       - name: Execute Stryker
         run: npm run stryker
 
-      - name: Post Stryker
-        run: |
-          cd mutation-test-results
-          cp /home/runner/work/genesys-tokens/genesys-tokens/tokens/reports/mutation/mutation.html stryker-report.html
-          cd ..
       - name: Upload artifact with results
         uses: actions/upload-artifact@v4
         with:
           name: mutation-test-results
-          path: mutation-test-results
+          path: tokens/reports/mutation/mutation.html

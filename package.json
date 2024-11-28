@@ -14,8 +14,7 @@
     "build": "npm run build -ws --if-present",
     "clean": "npm run clean -ws --if-present",
     "lint": "oxlint -c oxlintrc.json",
-    "release": "release-it --dry-run",
-    "release:ci": "release-it --ci",
+    "release": "release-it",
     "start": "npm run build -ws --if-present",
     "stryker": "npm run stryker -ws --if-present",
     "test": "vitest"
