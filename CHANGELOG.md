@@ -1,5 +1,7 @@
 # Changelog
 
+## [7.5.4](https://github.com/DevoInc/genesys-tokens/compare/v7.5.3...v7.5.4) (2024-11-28)
+
 ## [7.5.3](https://github.com/DevoInc/genesys-tokens/compare/v7.5.2...v7.5.3) (2024-11-28)
 
 ## [7.5.2](https://github.com/DevoInc/genesys-tokens/compare/v7.5.1...v7.5.2) (2024-11-07)
