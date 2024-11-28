@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.5.5](https://github.com/DevoInc/genesys-tokens/compare/v7.5.4...v7.5.5) (2024-11-28)
+
+### Bug Fixes
+
+* import json with type json ([908c289](https://github.com/DevoInc/genesys-tokens/commit/908c2898e96aa9e398bc8bc0fac6e883c59d4a87))
+
 ## [7.5.4](https://github.com/DevoInc/genesys-tokens/compare/v7.5.3...v7.5.4) (2024-11-28)
 
 ## [7.5.3](https://github.com/DevoInc/genesys-tokens/compare/v7.5.2...v7.5.3) (2024-11-28)
