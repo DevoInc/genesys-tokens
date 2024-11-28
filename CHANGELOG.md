@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.5.6](https://github.com/DevoInc/genesys-tokens/compare/v7.5.5...v7.5.6) (2024-11-28)
+
+### Bug Fixes
+
+* cli target to node22 ([d2a1eb2](https://github.com/DevoInc/genesys-tokens/commit/d2a1eb266eaf9aa94e437d35b46a9f855ccc31d9))
+
 ## [7.5.5](https://github.com/DevoInc/genesys-tokens/compare/v7.5.4...v7.5.5) (2024-11-28)
 
 ### Bug Fixes

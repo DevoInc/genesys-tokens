@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-tokens",
-  "version": "7.5.5",
+  "version": "7.5.6",
   "description": "Design tokens generator",
   "keywords": [
     "genesys",
