@@ -38,7 +38,7 @@
     "access": "public"
   },
   "engine": {
-    "node": ">=18",
-    "npm": ">=8"
+    "node": ">=22",
+    "npm": ">=10"
   }
 }
