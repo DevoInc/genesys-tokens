@@ -38,7 +38,9 @@ const { positionals, values } = parseArgs({
 
 const validate = async (brandPath: string) => {
   const jsonPath = path.resolve(brandPath, 'json', 'tokens.json.all.json');
-  const { default: jsonTokens } = await import(jsonPath);
+  const { default: jsonTokens } = await import(jsonPath, {
+    with: { type: 'json' },
+  });
   const errors = validateJson(jsonTokens);
   if (errors.length) {
     // eslint-disable-next-line no-console
