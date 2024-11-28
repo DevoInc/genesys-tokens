@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com/DevoInc/genesys-tokens.git"
+    "url": "git+ssh://git@github.com/DevoInc/genesys-tokens.git"
   },
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",

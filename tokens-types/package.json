@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com/DevoInc/genesys-tokens.git"
+    "url": "git+ssh://git@github.com/DevoInc/genesys-tokens.git"
   },
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
@@ -21,8 +21,8 @@
     "dist"
   ],
   "scripts": {
-    "clean": "rm -rf dist/brand.d.ts",
-    "build": "npm run clean && npx @devoinc/genesys-tokens-cli types -o dist/"
+    "build": "npm run clean && npx @devoinc/genesys-tokens-cli types -o dist/",
+    "clean": "rm -rf dist/brand.d.ts"
   },
   "devDependencies": {
     "@devoinc/genesys-tokens-cli": "^7.5.3"

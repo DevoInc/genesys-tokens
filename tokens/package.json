@@ -9,20 +9,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com/DevoInc/genesys-tokens.git"
+    "url": "git+ssh://git@github.com/DevoInc/genesys-tokens.git"
   },
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
-  "main": "dist/index.cjs",
-  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./tokens/**": "./tokens/**"
+    }
   },
+  "main": "dist/index.cjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -35,11 +34,11 @@
     "quicktype-core": "23.x.x",
     "style-dictionary": "4.x.x"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "engine": {
     "node": ">=18",
     "npm": ">=8"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
