@@ -21,7 +21,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run clean && npm exec genesys-tokens-cli types -o dist/",
+    "prebuild": "npm run clean",
+    "build": "genesys-tokens-cli types -o dist/",
     "clean": "rm -rf dist/brand.d.ts"
   },
   "devDependencies": {
