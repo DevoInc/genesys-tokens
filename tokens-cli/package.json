@@ -15,8 +15,9 @@
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
-  "bin": {
-    "gyt": "gyt.mjs"
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "tsup"
   },
   "dependencies": {
     "@devoinc/genesys-tokens": "^7.5.3",

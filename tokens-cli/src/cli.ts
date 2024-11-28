@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-// @ts-check
 
 import chalk from 'chalk';
 import { parseArgs } from 'node:util';
@@ -37,10 +36,7 @@ const { positionals, values } = parseArgs({
   allowPositionals: true,
 });
 
-/**
- * @param {string} brandPath
- */
-const validate = async (brandPath) => {
+const validate = async (brandPath: string) => {
   const jsonPath = path.resolve(brandPath, 'json', 'tokens.json.all.json');
   const { default: jsonTokens } = await import(jsonPath);
   const errors = validateJson(jsonTokens);
