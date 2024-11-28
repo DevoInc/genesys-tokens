@@ -16,6 +16,9 @@
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
   "bin": "dist/cli.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup"
   },
