@@ -15,7 +15,9 @@
   "license": "MIT",
   "author": "Devo, Inc. Quvis Team (https://github.com/orgs/DevoInc/teams/quvis)",
   "type": "module",
-  "bin": "dist/cli.js",
+  "bin": {
+    "genesys-tokens-cli": "dist/cli.js"
+  },
   "files": [
     "dist"
   ],
