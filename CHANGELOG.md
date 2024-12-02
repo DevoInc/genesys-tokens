@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.7.0](https://github.com/DevoInc/genesys-tokens/compare/v7.6.0...v7.7.0) (2024-12-02)
+
+### Features
+
+* new sizes for badge component (in cmp tokens) ([415556f](https://github.com/DevoInc/genesys-tokens/commit/415556f3ea33a4e1df9324c902ee35e5cb8d502c))
+
 ## [7.6.0](https://github.com/DevoInc/genesys-tokens/compare/v7.5.6...v7.6.0) (2024-12-02)
 
 ### Features
