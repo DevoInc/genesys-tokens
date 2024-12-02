@@ -9,6 +9,12 @@
       "size": {
         "square": {
           "hasContent": {
+            "xxs": {
+              "value": "{alias.size.square.badge.hasContent.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.size.square.badge.hasContent.xs.value}"
+            },
             "sm": {
               "value": "{alias.size.square.badge.hasContent.sm.value}"
             },
@@ -20,6 +26,12 @@
             }
           },
           "isEmpty": {
+            "xxs": {
+              "value": "{alias.size.square.badge.empty.xxs.value}"
+            },
+            "xs": {
+              "value": "{alias.size.square.badge.empty.xs.value}"
+            },
             "sm": {
               "value": "{alias.size.square.badge.empty.sm.value}"
             },
