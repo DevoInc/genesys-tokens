@@ -1,5 +1,7 @@
 # Changelog
 
+## [7.7.1](https://github.com/DevoInc/genesys-tokens/compare/v7.7.0...v7.7.1) (2024-12-02)
+
 ## [7.7.0](https://github.com/DevoInc/genesys-tokens/compare/v7.6.0...v7.7.0) (2024-12-02)
 
 ### Features
