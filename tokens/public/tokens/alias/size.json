@@ -248,6 +248,12 @@
         },
         "badge": {
           "hasContent": {
+            "xxs": {
+              "value": "{global.size.square.03.value}"
+            },
+            "xs": {
+              "value": "{global.size.square.04.value}"
+            },
             "sm": {
               "value": "{global.size.square.05.value}"
             },
@@ -259,6 +265,12 @@
             }
           },
           "empty": {
+            "xxs": {
+              "value": "{global.size.square.00.value}"
+            },
+            "xs": {
+              "value": "{global.size.square.01.value}"
+            },
             "sm": {
               "value": "{global.size.square.02.value}"
             },

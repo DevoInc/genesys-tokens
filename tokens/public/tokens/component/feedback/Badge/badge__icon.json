@@ -4,6 +4,12 @@
       "icon": {
         "size": {
           "square": {
+            "xxs": {
+              "value": "calc({cmp.badge.icon.size.square.xs.value} - 0.2rem)"
+            },
+            "xs": {
+              "value": "{alias.size.square.icon.base.xxxxs.value}"
+            },
             "sm": {
               "value": "{alias.size.square.icon.base.xxxxs.value}"
             },

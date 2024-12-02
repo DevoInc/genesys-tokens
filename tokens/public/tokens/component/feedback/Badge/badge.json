@@ -41,6 +41,12 @@
       },
       "typo": {
         "fontSize": {
+          "xxs": {
+            "value": "{alias.typo.fontSize.body.xxs.value}"
+          },
+          "xs": {
+            "value": "{alias.typo.fontSize.body.xxs.value}"
+          },
           "sm": {
             "value": "{alias.typo.fontSize.body.xxs.value}"
           },
