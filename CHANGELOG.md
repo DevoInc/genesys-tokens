@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.6.0](https://github.com/DevoInc/genesys-tokens/compare/v7.5.6...v7.6.0) (2024-12-02)
+
+### Features
+
+* new sizes for badge component ([0f4fc5e](https://github.com/DevoInc/genesys-tokens/commit/0f4fc5e9ce54f1274c0c9ee5ac84da56062dccc7))
+
 ## [7.5.6](https://github.com/DevoInc/genesys-tokens/compare/v7.5.5...v7.5.6) (2024-11-28)
 
 ### Bug Fixes
