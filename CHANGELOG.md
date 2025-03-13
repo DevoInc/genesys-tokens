@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.8.0](https://github.com/DevoInc/genesys-tokens/compare/v7.7.1...v7.8.0) (2025-03-13)
+
+### Features
+
+* focused box shadow modified to inset ([71fb065](https://github.com/DevoInc/genesys-tokens/commit/71fb065ccde3dbf7fce7e3cad63d02e0ff23fe2f))
+
 ## [7.7.1](https://github.com/DevoInc/genesys-tokens/compare/v7.7.0...v7.7.1) (2024-12-02)
 
 ## [7.7.0](https://github.com/DevoInc/genesys-tokens/compare/v7.6.0...v7.7.0) (2024-12-02)
