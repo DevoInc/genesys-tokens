@@ -38,32 +38,32 @@
         },
         "base": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.base.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.base.focused.value}"
           }
         },
         "error": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.error.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.error.focused.value}"
           }
         },
         "success": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.success.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.success.focused.value}"
           }
         },
         "warning": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.warning.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.warning.focused.value}"
           }
         },
         "info": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.info.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.info.focused.value}"
           }
         },
         "help": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.help.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.help.focused.value}"
           }
         },
         "handler": {
