@@ -38,7 +38,7 @@
         },
         "base": {
           "focused": {
-            "value": "0 0 0 0.2rem inset {theme.color.shadow.base.focused.value}"
+            "value": "inset 0 0 0 0.2rem {theme.color.shadow.base.focused.value}"
           }
         },
         "error": {
