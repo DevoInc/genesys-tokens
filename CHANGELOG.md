@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.8.1](https://github.com/DevoInc/genesys-tokens/compare/v7.8.0...v7.8.1) (2025-03-14)
+
+### Bug Fixes
+
+* Correct location for inset value in box shadow tokens because of Figma transformation. ([b53d3cf](https://github.com/DevoInc/genesys-tokens/commit/b53d3cf526a00a388d17d240defc9c18e94c6434))
+
 ## [7.8.0](https://github.com/DevoInc/genesys-tokens/compare/v7.7.1...v7.8.0) (2025-03-13)
 
 ### Features
