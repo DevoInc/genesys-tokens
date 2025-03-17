@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.8.2](https://github.com/DevoInc/genesys-tokens/compare/v7.8.1...v7.8.2) (2025-03-14)
+
+### Bug Fixes
+
+* minor change ([b9f3c6b](https://github.com/DevoInc/genesys-tokens/commit/b9f3c6b30cb317157ebd4c00678f7304d13e58dd))
+
 ## [7.8.1](https://github.com/DevoInc/genesys-tokens/compare/v7.8.0...v7.8.1) (2025-03-14)
 
 ### Bug Fixes
