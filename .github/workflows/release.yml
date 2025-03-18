@@ -62,7 +62,9 @@ jobs:
         uses: ./.github/workflows/setup-node
 
       - name: Run test
-        run: npm run test -- --coverage
+        run: |
+          npm run test -- --coverage
+          npm run test:tokens
 
   release:
     needs: [lint, test]

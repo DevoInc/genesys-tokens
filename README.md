@@ -36,6 +36,13 @@ npm ci
 ## Generate the lib and the cli
 npm run dist
 ```
+## Tests
+
+- `npm t` for main testing framework
+- `npm run test:tokens` for test the process of tokens generation
+- `npm run lint` for linter
+
+All tests run in the main pipeline.
 
 ## Documentation
 

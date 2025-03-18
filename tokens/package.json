@@ -28,6 +28,7 @@
   "scripts": {
     "build": "tsup",
     "start": "npm run build",
+    "test": "node brand-test/generate.js",
     "stryker": "stryker run"
   },
   "peerDependencies": {
