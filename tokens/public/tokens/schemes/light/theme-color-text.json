@@ -84,7 +84,7 @@
               "value": "{global.color.error.09.value}"
             },
             "placeholder": {
-              "value": "{global.color.error.04.value}"
+              "value": "{global.color.neutral.06.value}"
             },
             "filled": {
               "value": "{global.color.error.08.value}"
