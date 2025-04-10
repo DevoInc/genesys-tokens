@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.10.0](https://github.com/DevoInc/genesys-tokens/compare/v7.9.0...v7.10.0) (2025-04-10)
+
+### Features
+
+* Same color for form control placeholders in any status. ([dac07f9](https://github.com/DevoInc/genesys-tokens/commit/dac07f91196207769ef02f62c7dae443b588293e))
+
 ## [7.9.0](https://github.com/DevoInc/genesys-tokens/compare/v7.8.2...v7.9.0) (2025-03-17)
 
 ### Features
