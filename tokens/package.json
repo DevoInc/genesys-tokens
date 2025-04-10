@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-tokens",
-  "version": "7.8.2",
+  "version": "7.9.0",
   "description": "Design tokens generator",
   "keywords": [
     "genesys",
@@ -28,6 +28,7 @@
   "scripts": {
     "build": "tsup",
     "start": "npm run build",
+    "test": "node brand-test/generate.js",
     "stryker": "stryker run"
   },
   "peerDependencies": {

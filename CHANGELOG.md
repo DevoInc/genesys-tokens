@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.9.0](https://github.com/DevoInc/genesys-tokens/compare/v7.8.2...v7.9.0) (2025-03-17)
+
+### Features
+
+* **Avatar:** Modified the text color tokens to stronger ones, because they didn't have enough contrast. ([80d19d2](https://github.com/DevoInc/genesys-tokens/commit/80d19d2a768424632877a916ac892a939b079fc0))
+
 ## [7.8.2](https://github.com/DevoInc/genesys-tokens/compare/v7.8.1...v7.8.2) (2025-03-14)
 
 ### Bug Fixes

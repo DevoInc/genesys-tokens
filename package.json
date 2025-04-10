@@ -1,6 +1,6 @@
 {
   "name": "genesys-tokens",
-  "version": "7.8.2",
+  "version": "7.9.0",
   "private": true,
   "description": "Design tokens monorepo",
   "license": "MIT",
@@ -17,7 +17,8 @@
     "release": "release-it",
     "start": "npm run build -ws --if-present",
     "stryker": "npm run stryker -ws --if-present",
-    "test": "vitest"
+    "test": "vitest",
+    "test:tokens": "npm run test -w @devoinc/genesys-tokens"
   },
   "devDependencies": {
     "@release-it-plugins/workspaces": "^4.2.0",
@@ -31,6 +32,7 @@
     "release-it": "^17.10.0",
     "stryker-cli": "^1.0.2",
     "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
     "typescript": "^5.8",
     "vitest": "^3.0.8"
   },
