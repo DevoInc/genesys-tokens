@@ -39,31 +39,49 @@
         "base": {
           "focused": {
             "value": "{theme.elevation.boxShadow.base.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.base.focusedExt.value}"
           }
         },
         "error": {
           "focused": {
             "value": "{theme.elevation.boxShadow.error.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.error.focusedExt.value}"
           }
         },
         "success": {
           "focused": {
             "value": "{theme.elevation.boxShadow.success.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.success.focusedExt.value}"
           }
         },
         "warning": {
           "focused": {
             "value": "{theme.elevation.boxShadow.warning.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.warning.focusedExt.value}"
           }
         },
         "info": {
           "focused": {
             "value": "{theme.elevation.boxShadow.info.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.info.focusedExt.value}"
           }
         },
         "help": {
           "focused": {
             "value": "{theme.elevation.boxShadow.help.focused.value}"
+          },
+          "focusedExt": {
+            "value": "{theme.elevation.boxShadow.help.focusedExt.value}"
           }
         },
         "handler": {

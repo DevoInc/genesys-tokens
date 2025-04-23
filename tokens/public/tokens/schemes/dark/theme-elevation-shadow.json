@@ -39,31 +39,49 @@
         "base": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.base.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.base.focused.value}"
           }
         },
         "error": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.error.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.error.focused.value}"
           }
         },
         "success": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.success.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.success.focused.value}"
           }
         },
         "warning": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.warning.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.warning.focused.value}"
           }
         },
         "info": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.info.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.info.focused.value}"
           }
         },
         "help": {
           "focused": {
             "value": "inset 0 0 0 0.2rem {theme.color.shadow.help.focused.value}"
+          },
+          "focusedExt": {
+            "value": "0 0 0 0.2rem {theme.color.shadow.help.focused.value}"
           }
         },
         "handler": {
