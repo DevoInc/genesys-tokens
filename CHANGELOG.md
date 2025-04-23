@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.11.0](https://github.com/DevoInc/genesys-tokens/compare/v7.10.0...v7.11.0) (2025-04-23)
+
+### Features
+
+* **tokens:** Added new box-shadow tokens with no inset variant. ([8e4bc9e](https://github.com/DevoInc/genesys-tokens/commit/8e4bc9e27e4b4bcedc77fa9ad3d3b55bd95008e7))
+
 ## [7.10.0](https://github.com/DevoInc/genesys-tokens/compare/v7.9.0...v7.10.0) (2025-04-10)
 
 ### Features
