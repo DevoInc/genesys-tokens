@@ -12,13 +12,13 @@
       "size": {
         "height": {
           "sm": {
-            "value": "calc({cmp.button.size.height.xs.value} + {alias.space.cmp.xs.value})"
+            "value": "{cmp.button.size.height.sm.value}"
           },
           "md": {
-            "value": "calc({cmp.button.size.height.sm.value} + {alias.space.cmp.xs.value})"
+            "value": "{cmp.button.size.height.md.value}"
           },
           "lg": {
-            "value": "calc({cmp.button.size.height.md.value} + {alias.space.cmp.xs.value})"
+            "value": "{cmp.button.size.height.lg.value}"
           }
         }
       },
