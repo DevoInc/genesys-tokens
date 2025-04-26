@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.12.0](https://github.com/DevoInc/genesys-tokens/compare/v7.11.0...v7.12.0) (2025-04-26)
+
+### Features
+
+* **ContentSwitcher:** adjusted height to the same size of the button component. ([3921794](https://github.com/DevoInc/genesys-tokens/commit/39217944a5f8bdfbfecaa96aabb0f72f3698270d))
+* Modified one step to lower values the SwitchControl component size tokens and defined the size values for new 'xs' variant on Tag component. ([e11d296](https://github.com/DevoInc/genesys-tokens/commit/e11d296141c275b99fddfae58142229f8b0acd41))
+
 ## [7.11.0](https://github.com/DevoInc/genesys-tokens/compare/v7.10.0...v7.11.0) (2025-04-23)
 
 ### Features
