@@ -8,6 +8,9 @@
       },
       "size": {
         "height": {
+          "xs": {
+            "value": "{alias.size.height.tag.xs.value}"
+          },
           "sm": {
             "value": "{alias.size.height.tag.sm.value}"
           },
@@ -22,6 +25,9 @@
       "space": {
         "padding": {
           "hor": {
+            "xs": {
+              "value": "{alias.space.cmp.xxs.value}"
+            },
             "sm": {
               "value": "{alias.space.cmp.xxs.value}"
             },

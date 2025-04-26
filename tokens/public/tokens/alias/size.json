@@ -124,6 +124,9 @@
           }
         },
         "tag": {
+          "xs": {
+            "value": "{global.size.height.04.value}"
+          },
           "sm": {
             "value": "{global.size.height.05.value}"
           },
@@ -151,6 +154,9 @@
       },
       "square": {
         "handler": {
+          "xs": {
+            "value": "{global.size.square.03.value}"
+          },
           "sm": {
             "value": "{global.size.square.05.value}"
           },

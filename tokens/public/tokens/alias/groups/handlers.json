@@ -16,6 +16,9 @@
       },
       "size": {
         "square": {
+          "xs": {
+            "value": "{alias.size.square.handler.xs.value}"
+          },
           "sm": {
             "value": "{alias.size.square.handler.sm.value}"
           },

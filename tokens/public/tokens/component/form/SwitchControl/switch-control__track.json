@@ -12,24 +12,24 @@
         "size": {
           "height": {
             "sm": {
-              "value": "{alias.fields.size.height.sm.value}"
+              "value": "{alias.fields.size.height.xs.value}"
             },
             "md": {
-              "value": "{alias.fields.size.height.md.value}"
+              "value": "{alias.fields.size.height.sm.value}"
             },
             "lg": {
-              "value": "{alias.fields.size.height.lg.value}"
+              "value": "{alias.fields.size.height.md.value}"
             }
           },
           "width": {
             "sm": {
-              "value": "4.4rem"
+              "value": "3.6rem"
             },
             "md": {
-              "value": "5.2rem"
+              "value": "4.4rem"
             },
             "lg": {
-              "value": "6rem"
+              "value": "5.2rem"
             }
           }
         },
