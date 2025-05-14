@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.12.1](https://github.com/DevoInc/genesys-tokens/compare/v7.12.0...v7.12.1) (2025-05-14)
+
+### Bug Fixes
+
+* Fixed the background color for UploadFiles item panel. ([50b79fe](https://github.com/DevoInc/genesys-tokens/commit/50b79fe77476c8d33ec172a14699dcf24291f858))
+
 ## [7.12.0](https://github.com/DevoInc/genesys-tokens/compare/v7.11.0...v7.12.0) (2025-04-26)
 
 ### Features
