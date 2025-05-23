@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.13.0](https://github.com/DevoInc/genesys-tokens/compare/v7.12.1...v7.13.0) (2025-05-23)
+
+### Features
+
+* New tokens for AppMenu component. ([7adf596](https://github.com/DevoInc/genesys-tokens/commit/7adf596f53fd0fc1f84b2442502792a4b5770689))
+
 ## [7.12.1](https://github.com/DevoInc/genesys-tokens/compare/v7.12.0...v7.12.1) (2025-05-14)
 
 ### Bug Fixes
