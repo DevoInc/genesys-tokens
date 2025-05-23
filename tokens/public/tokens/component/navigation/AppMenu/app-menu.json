@@ -1,6 +1,11 @@
 {
   "cmp": {
     "appMenu": {
+      "color": {
+        "background": {
+          "value": "{alias.color.background.surface.base.base.value}"
+        }
+      },
       "size": {
         "width": {
           "base": {
@@ -15,10 +20,8 @@
         }
       },
       "shape": {
-        "width": {
-          "borderRight": {
-            "value": "solid 0.1rem {alias.color.border.separator.base.weak.value}"
-          }
+        "borderRight": {
+          "value": "solid 0.1rem {alias.color.border.separator.base.weak.value}"
         }
       },
       "mutation": {
