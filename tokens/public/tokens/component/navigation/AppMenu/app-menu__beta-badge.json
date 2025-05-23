@@ -1,0 +1,16 @@
+{
+  "cmp": {
+    "appMenu": {
+      "betaBadge": {
+        "color": {
+          "background": {
+            "value": "{alias.color.background.surface.inverse.base.value}"
+          },
+          "text": {
+            "value": "{alias.color.text.body.inverse.value}"
+          }
+        }
+      }
+    }
+  }
+}

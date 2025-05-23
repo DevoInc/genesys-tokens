@@ -1,0 +1,18 @@
+{
+  "cmp": {
+    "appMenu": {
+      "tooltip": {
+        "space": {
+          "offset": {
+            "horizontal": {
+              "value": "calc({cmp.appMenu.item.space.paddingRight.base.value} + {cmp.appMenu.item.space.offset.left.value})"
+            },
+            "vertical": {
+              "value": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

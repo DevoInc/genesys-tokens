@@ -1,0 +1,43 @@
+{
+  "cmp": {
+    "appMenu": {
+      "separator": {
+        "color": {
+          "border": {
+            "value": "{alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "left": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            },
+            "width": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            }
+          }
+        },
+        "size": {
+          "width": {
+            "base": {
+              "value": "100%"
+            },
+            "collapsed": {
+              "value": "calc(100% - {cmp.appMenu.item.space.offset.left.value} * 4)"
+            }
+          }
+        },
+        "space": {
+          "offset": {
+            "base": {
+              "value": "0"
+            },
+            "collapsed": {
+              "value": "calc({cmp.appMenu.item.space.offset.left.value} * 2)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

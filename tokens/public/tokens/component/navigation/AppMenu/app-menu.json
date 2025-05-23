@@ -1,0 +1,39 @@
+{
+  "cmp": {
+    "appMenu": {
+      "size": {
+        "width": {
+          "base": {
+            "value": "26.4rem"
+          },
+          "collapsed": {
+            "value": "7.2rem"
+          }
+        },
+        "height": {
+          "value": "100%"
+        }
+      },
+      "shape": {
+        "width": {
+          "borderRight": {
+            "value": "solid 0.1rem {alias.color.border.separator.base.weak.value}"
+          }
+        }
+      },
+      "mutation": {
+        "transitionDuration": {
+          "opacity": {
+            "value": "{alias.mutation.transitionDuration.opacity.xl.value}"
+          },
+          "padding": {
+            "value": "{alias.mutation.transitionDuration.opacity.xl.value}"
+          },
+          "width": {
+            "value": "{alias.mutation.transitionDuration.opacity.xxl.value}"
+          }
+        }
+      }
+    }
+  }
+}

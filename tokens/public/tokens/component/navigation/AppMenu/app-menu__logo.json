@@ -1,0 +1,26 @@
+{
+  "cmp": {
+    "appMenu": {
+      "logo": {
+        "mutation": {
+          "transitionDuration": {
+            "left": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            },
+            "opacity": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.padding.value}"
+            },
+            "width": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            }
+          }
+        },
+        "size": {
+          "maxHeight": {
+            "value": "2rem"
+          }
+        }
+      }
+    }
+  }
+}

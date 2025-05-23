@@ -1,0 +1,63 @@
+{
+  "cmp": {
+    "appMenu": {
+      "heading": {
+        "color": {
+          "text": {
+            "value": "{alias.color.text.body.weak.value}"
+          }
+        },
+        "mutation": {
+          "transitionDuration": {
+            "left": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.padding.value}"
+            },
+            "leftDelay": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            },
+            "padding": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.width.value}"
+            },
+            "transform": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.padding.value}"
+            },
+            "transformDelay": {
+              "value": "0.3s"
+            }
+          }
+        },
+        "space": {
+          "offset": {
+            "base": {
+              "value": "{cmp.appMenu.item.space.offset.toIcon.value}"
+            },
+            "collapsed": {
+              "value": "50%"
+            }
+          },
+          "paddingLeft": {
+            "base": {
+              "value": "{cmp.appMenu.heading.space.offset.base.value}"
+            },
+            "collapsed": {
+              "value": "0"
+            }
+          },
+          "paddingRight": {
+            "base": {
+              "value": "{cmp.appMenu.item.space.paddingRight.base.value}"
+            },
+            "collapsed": {
+              "value": "0"
+            }
+          }
+        },
+        "size": {
+          "height": {
+            "value": "2.8rem"
+          }
+        }
+      }
+    }
+  }
+}

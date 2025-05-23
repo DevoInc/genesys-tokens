@@ -1,0 +1,49 @@
+{
+  "cmp": {
+    "appMenu": {
+      "header": {
+        "elevation": {
+          "boxShadow": {
+            "hasScroll": {
+              "value": "{alias.elevation.boxShadow.depth.sticky.bottom.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderBottom": {
+            "value": "solid 0.1rem {alias.color.border.separator.base.weak.value}"
+          }
+        },
+        "size": {
+          "height": {
+            "value": "{alias.size.height.surface.md.value}"
+          }
+        },
+        "space": {
+          "paddingTop": {
+            "value": "0"
+          },
+          "paddingRight": {
+            "base": {
+              "value": "{cmp.menu.item.space.paddingHor.value}"
+            },
+            "collapsed": {
+              "value": "0"
+            }
+          },
+          "paddingBottom": {
+            "value": "0"
+          },
+          "paddingLeft": {
+            "base": {
+              "value": "calc({cmp.appMenu.item.space.offset.base.value} + {cmp.appMenu.item.space.offset.left.value})"
+            },
+            "collapsed": {
+              "value": "0"
+            }
+          }
+        }
+      }
+    }
+  }
+}

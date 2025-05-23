@@ -1,0 +1,37 @@
+{
+  "cmp": {
+    "appMenu": {
+      "popoverItemIcon": {
+        "color": {
+          "background": {
+            "base": {
+              "value": "transparent"
+            },
+            "featured": {
+              "value": "{alias.color.background.surface.base.featured.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderRadius": {
+            "value": "{alias.shape.borderRadius.elevated.value}"
+          }
+        },
+        "size": {
+          "square": {
+            "value": "{alias.size.square.icon.base.xxl.value}"
+          }
+        }
+      },
+      "popoverItemActions": {
+        "mutation": {
+          "transitionDuration": {
+            "opacity": {
+              "value": "{cmp.appMenu.mutation.transitionDuration.opacity.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

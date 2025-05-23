@@ -1,0 +1,20 @@
+{
+  "cmp": {
+    "appMenu": {
+      "footer": {
+        "elevation": {
+          "boxShadow": {
+            "hasScroll": {
+              "value": "{alias.elevation.boxShadow.depth.sticky.top.value}"
+            }
+          }
+        },
+        "shape": {
+          "borderTop": {
+            "value": "solid 0.1rem {alias.color.border.separator.base.weak.value}"
+          }
+        }
+      }
+    }
+  }
+}
