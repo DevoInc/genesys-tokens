@@ -260,10 +260,10 @@
         "action": {
           "neutral": {
             "enabled": {
-              "value": "{global.color.neutral.04.value}"
+              "value": "{global.color.neutral.02.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.04.value}"
+              "value": "{global.color.neutral.02.value}"
             },
             "hovered": {
               "value": "{global.color.neutral.01.value}"
@@ -280,10 +280,10 @@
           },
           "quiet": {
             "enabled": {
-              "value": "{global.color.neutral.04.value}"
+              "value": "{global.color.neutral.02.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.04.value}"
+              "value": "{global.color.neutral.02.value}"
             },
             "hovered": {
               "value": "{global.color.neutral.01.value}"

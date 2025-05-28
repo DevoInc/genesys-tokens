@@ -260,48 +260,48 @@
         "action": {
           "neutral": {
             "enabled": {
-              "value": "{global.color.neutral.12.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.12.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "pressed": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "expanded": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             }
           },
           "quiet": {
             "enabled": {
-              "value": "{global.color.neutral.12.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "disabled": {
-              "value": "{global.color.neutral.12.value}"
+              "value": "{global.color.neutral.15.value}"
             },
             "hovered": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "focused": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "pressed": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "expanded": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "selected": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             },
             "activated": {
-              "value": "{global.color.neutral.15.value}"
+              "value": "{global.color.neutral.16.value}"
             }
           },
           "error": {
