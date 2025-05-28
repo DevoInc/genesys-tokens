@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.13.1](https://github.com/DevoInc/genesys-tokens/compare/v7.13.0...v7.13.1) (2025-05-23)
+
+### Bug Fixes
+
+* **AppMenu:** Fixed token for border-right and added color background. ([1322f1b](https://github.com/DevoInc/genesys-tokens/commit/1322f1bca7637e99a31f4bf12d0354cb72394917))
+
 ## [7.13.0](https://github.com/DevoInc/genesys-tokens/compare/v7.12.1...v7.13.0) (2025-05-23)
 
 ### Features
