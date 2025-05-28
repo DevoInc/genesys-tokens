@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.14.0](https://github.com/DevoInc/genesys-tokens/compare/v7.13.1...v7.14.0) (2025-05-28)
+
+### Features
+
+* Darker text color for neutral and quiet actions. ([6154418](https://github.com/DevoInc/genesys-tokens/commit/61544187141b318a2fba2249ce58ba1eaff5fe21))
+
 ## [7.13.1](https://github.com/DevoInc/genesys-tokens/compare/v7.13.0...v7.13.1) (2025-05-23)
 
 ### Bug Fixes
