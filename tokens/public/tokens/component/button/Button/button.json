@@ -459,6 +459,41 @@
               "value": "{alias.color.background.action.quiet.selected.value}"
             }
           },
+          "quietBlend": {
+            "activated": {
+              "value": "{alias.color.background.action.quiet.activated.value}"
+            },
+            "enabled": {
+              "value": "{alias.color.background.action.quiet.enabled.value}"
+            },
+            "expanded": {
+              "value": "{cmp.button.color.background.blendBase.enabled.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.background.action.quiet.disabled.value}"
+            },
+            "focused": {
+              "value": "{cmp.button.color.background.blendBase.enabled.value}"
+            },
+            "hovered": {
+              "value": "{cmp.button.color.background.blendBase.enabled.value}"
+            },
+            "loading": {
+              "value": "{alias.color.background.action.quiet.enabled.value}"
+            },
+            "loadingError": {
+              "value": "{alias.color.background.action.quiet.enabled.value}"
+            },
+            "loadingSuccess": {
+              "value": "{alias.color.background.action.quiet.enabled.value}"
+            },
+            "pressed": {
+              "value": "{cmp.button.color.background.blendBase.enabled.value}"
+            },
+            "selected": {
+              "value": "{alias.color.background.action.quiet.selected.value}"
+            }
+          },
           "success": {
             "activated": {
               "value": "{alias.color.background.action.success.activated.value}"
@@ -942,6 +977,41 @@
             }
           },
           "quiet": {
+            "activated": {
+              "value": "{alias.color.text.action.quiet.activated.value}"
+            },
+            "enabled": {
+              "value": "{alias.color.text.action.quiet.enabled.value}"
+            },
+            "expanded": {
+              "value": "{alias.color.text.action.quiet.expanded.value}"
+            },
+            "disabled": {
+              "value": "{alias.color.text.action.quiet.disabled.value}"
+            },
+            "focused": {
+              "value": "{alias.color.text.action.quiet.focused.value}"
+            },
+            "hovered": {
+              "value": "{alias.color.text.action.quiet.hovered.value}"
+            },
+            "loading": {
+              "value": "{alias.color.text.action.quiet.enabled.value}"
+            },
+            "loadingError": {
+              "value": "{alias.color.text.action.quiet.enabled.value}"
+            },
+            "loadingSuccess": {
+              "value": "{alias.color.text.action.quiet.enabled.value}"
+            },
+            "pressed": {
+              "value": "{alias.color.text.action.quiet.pressed.value}"
+            },
+            "selected": {
+              "value": "{alias.color.text.action.quiet.selected.value}"
+            }
+          },
+          "quietBlend": {
             "activated": {
               "value": "{alias.color.text.action.quiet.activated.value}"
             },
