@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.15.0](https://github.com/DevoInc/genesys-tokens/compare/v7.14.0...v7.15.0) (2025-05-30)
+
+### Features
+
+* Added new 'quietBlend' button color scheme. ([ea95051](https://github.com/DevoInc/genesys-tokens/commit/ea95051451aa388d96ce80a0d76267e2a89f8ea6))
+
 ## [7.14.0](https://github.com/DevoInc/genesys-tokens/compare/v7.13.1...v7.14.0) (2025-05-28)
 
 ### Features

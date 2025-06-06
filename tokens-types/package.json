@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-tokens-types",
-  "version": "7.14.0",
+  "version": "7.15.0",
   "description": "Type declarations for @devoinc/genesys-tokens",
   "keywords": [
     "genesys",
@@ -26,7 +26,7 @@
     "clean": "rm -rf dist/brand.d.ts"
   },
   "devDependencies": {
-    "@devoinc/genesys-tokens-cli": "^7.14.0"
+    "@devoinc/genesys-tokens-cli": "^7.15.0"
   },
   "engines": {
     "node": ">=22",
