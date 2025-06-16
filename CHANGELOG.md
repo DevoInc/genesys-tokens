@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.16.0](https://github.com/DevoInc/genesys-tokens/compare/v7.15.0...v7.16.0) (2025-06-06)
+
+### Features
+
+* Modified the error global color to be AA accessible in dark theme. ([c530bea](https://github.com/DevoInc/genesys-tokens/commit/c530beaf5e06526c29793c6e131d7d7bd55fd7ad))
+
 ## [7.15.0](https://github.com/DevoInc/genesys-tokens/compare/v7.14.0...v7.15.0) (2025-05-30)
 
 ### Features
