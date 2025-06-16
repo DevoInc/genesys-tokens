@@ -22,16 +22,16 @@
           "offset": {
             "enabled": {
               "xxs": {
-                "value": "-0.2rem"
+                "value": "-0.15rem"
               },
               "xs": {
-                "value": "-0.1rem"
+                "value": "-0.15rem"
               },
               "sm": {
-                "value": "0"
+                "value": "-0.15rem"
               },
               "md": {
-                "value": "0"
+                "value": "-0.15rem"
               }
             },
             "hovered": {
@@ -42,10 +42,10 @@
                 "value": "-0.3rem"
               },
               "sm": {
-                "value": "-0.1rem"
+                "value": "-0.3rem"
               },
               "md": {
-                "value": "-0.1rem"
+                "value": "-0.3rem"
               }
             }
           }
