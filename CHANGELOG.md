@@ -1,5 +1,12 @@
 # Changelog
 
+## [7.17.0](https://github.com/DevoInc/genesys-tokens/compare/v7.16.0...v7.17.0) (2025-06-17)
+
+### Features
+
+* Added hovered variant to the TabsItem component color text tokens. ([86545c8](https://github.com/DevoInc/genesys-tokens/commit/86545c8a5b5cd9662d32cc312f81563f29ec6b8c))
+* New IconButtonGoToDocs offset marker values. ([1f5fc08](https://github.com/DevoInc/genesys-tokens/commit/1f5fc082dafe7b4b34b2895a428f8fa1d1f50538))
+
 ## [7.16.0](https://github.com/DevoInc/genesys-tokens/compare/v7.15.0...v7.16.0) (2025-06-06)
 
 ### Features
