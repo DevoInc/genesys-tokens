@@ -12,6 +12,9 @@
             "enabled": {
               "value": "{alias.color.text.body.weak.value}"
             },
+            "hovered": {
+              "value": "{alias.color.text.action.quiet.enabled.value}"
+            },
             "selected": {
               "value": "{alias.color.text.action.quiet.activated.value}"
             },
