@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.18.0](https://github.com/DevoInc/genesys-tokens/compare/v7.17.0...v7.18.0) (2025-06-17)
+
+### Features
+
+* New color for surface created color background with less contrast to be more similar to the light scheme one. ([4f7d15d](https://github.com/DevoInc/genesys-tokens/commit/4f7d15d4b482f618e43062762d229562f533abee))
+
 ## [7.17.0](https://github.com/DevoInc/genesys-tokens/compare/v7.16.0...v7.17.0) (2025-06-17)
 
 ### Features

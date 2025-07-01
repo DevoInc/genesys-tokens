@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-tokens-cli",
-  "version": "7.17.0",
+  "version": "7.18.0",
   "description": "A CLI to generate Genesys tokens",
   "keywords": [
     "cli",
@@ -26,7 +26,7 @@
     "postbuild": "ln -sf '../@devoinc/genesys-tokens-cli/dist/cli.js' ../node_modules/.bin/genesys-tokens-cli"
   },
   "dependencies": {
-    "@devoinc/genesys-tokens": "^7.17.0",
+    "@devoinc/genesys-tokens": "^7.18.0",
     "chalk": "^5.4.1"
   },
   "engines": {
