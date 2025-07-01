@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.18.1](https://github.com/DevoInc/genesys-tokens/compare/v7.18.0...v7.18.1) (2025-07-01)
+
+### Bug Fixes
+
+* Fixed unclosed calc(). ([190da7b](https://github.com/DevoInc/genesys-tokens/commit/190da7b7d5ebe45096e2ea2c07c02820a4799824))
+
 ## [7.18.0](https://github.com/DevoInc/genesys-tokens/compare/v7.17.0...v7.18.0) (2025-06-17)
 
 ### Features
