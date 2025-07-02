@@ -31,6 +31,9 @@
         "background": {
           "base": {
             "value": "{alias.color.background.track.base.value}"
+          },
+          "blend": {
+            "value": "{alias.color.background.action.blendBase.enabled.value}"
           }
         }
       }
