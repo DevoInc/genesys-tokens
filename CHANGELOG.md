@@ -1,5 +1,11 @@
 # Changelog
 
+## [7.19.0](https://github.com/DevoInc/genesys-tokens/compare/v7.18.1...v7.19.0) (2025-07-02)
+
+### Features
+
+* Added new bg mode to ContentSwitcher. ([731174f](https://github.com/DevoInc/genesys-tokens/commit/731174fbe41ce8b983b42e705e65da32c7f3dddf))
+
 ## [7.18.1](https://github.com/DevoInc/genesys-tokens/compare/v7.18.0...v7.18.1) (2025-07-01)
 
 ### Bug Fixes
